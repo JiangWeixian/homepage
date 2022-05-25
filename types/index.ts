@@ -8,6 +8,8 @@ export type Issue = {
   url: string
   state: 'open' | 'state'
   labels: Label[]
+  // inject on getStaticProps
+  source: any
 }
 
 export type Label = {
