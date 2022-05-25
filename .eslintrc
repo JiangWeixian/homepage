@@ -1,0 +1,3 @@
+{
+  "extends": ["@aiou", "next", "next/core-web-vitals"]
+}
