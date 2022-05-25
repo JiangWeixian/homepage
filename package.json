@@ -33,6 +33,7 @@
     "ci:prerelease": "pnpm run build && pnpx changeset publish --tag beta"
   },
   "dependencies": {
+    "@octokit/graphql": "^4.8.0",
     "mayumi": "0.0.0-beta-20220508051204",
     "next": "12.1.6",
     "react": "18.1.0",
