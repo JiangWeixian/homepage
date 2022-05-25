@@ -45,7 +45,7 @@ type PageProps = {
 const Page: NextPage<PageProps> = ({ issue }) => {
   console.log(issue)
   return (
-    <div className='prose dark:prose-invert'>
+    <div className="prose dark:prose-invert">
       <MDXRemote {...issue.source} />
     </div>
   )
