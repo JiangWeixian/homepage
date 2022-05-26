@@ -17,7 +17,7 @@ const define = () => {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  swcMinify: true,
+  swcMinify: false,
   reactStrictMode: true,
   webpack(config, context) {
     config.plugins.push(new context.webpack.DefinePlugin(define()))
