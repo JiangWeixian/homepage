@@ -108,3 +108,15 @@ export const createGithubAPIClient = () => {
       return response.repository.issue
   }
 }}
+
+export const fetchAllIssues = async (client: ReturnType<typeof createGithubAPIClient>) => {
+  let { issues, pageInfo } = await client.issues()
+  let after
+  for (; ; after = pageInfo.endCursor) {
+    ;({ issues, pageInfo } = await client.issues(after))
+    if (!pageInfo.hasNextPage) {
+      break
+    }
+  }
+  return issues
+}

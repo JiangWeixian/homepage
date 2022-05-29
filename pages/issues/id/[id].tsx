@@ -8,13 +8,14 @@ import dayjs from 'dayjs'
 
 import { Issue } from '~/types'
 import { Layout } from '~/components/Layout'
-import { createGithubAPIClient } from '~/lib/github'
+import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 
-// TODO: get issues list with github api
 export async function getStaticPaths() {
   console.log('[Next.js] Running getStaticPaths for issue page')
+  const client = createGithubAPIClient()
+  const issues = await fetchAllIssues(client)
   return {
-    paths: [{ params: { id: '1' } }, { params: { id: '2' } }],
+    paths: issues.map((item) => ({ params: { id: item.number.toString() } })),
     fallback: 'blocking',
   }
 }

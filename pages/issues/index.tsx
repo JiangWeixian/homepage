@@ -5,19 +5,7 @@ import { Menu } from 'mayumi/menu'
 
 import { Issue } from '~/types'
 import { Layout } from '~/components/Layout'
-import { createGithubAPIClient } from '~/lib/github'
-
-const fetchAllIssues = async (client: ReturnType<typeof createGithubAPIClient>) => {
-  let { issues, pageInfo } = await client.issues()
-  let after
-  for (; ; after = pageInfo.endCursor) {
-    ;({ issues, pageInfo } = await client.issues(after))
-    if (!pageInfo.hasNextPage) {
-      break
-    }
-  }
-  return issues
-}
+import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 
 export const getStaticProps: GetStaticProps = async () => {
   console.log(`[Next.js] Running getStaticProps for issue list`)
