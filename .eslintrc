@@ -1,6 +1,7 @@
 {
   "extends": ["@aiou", "next", "next/core-web-vitals"],
   "rules": {
+    // console is ok, used in getStatic*
     "no-console": "off"
   }
 }

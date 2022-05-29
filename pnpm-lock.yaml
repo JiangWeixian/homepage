@@ -8,11 +8,12 @@ specifiers:
   '@stitches/react': 1.2.8
   '@tailwindcss/typography': ^0.5.2
   '@types/node': 17.0.35
+  '@types/nprogress': ^0.2.0
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.4
   autoprefixer: 10.4.0
   cz-emoji: 1.3.1
-  dayjs: ^1.11.2
+  dayjs: 1.11.2
   eslint: 8.16.0
   eslint-config-next: 12.1.6
   husky: 8.0.0
@@ -20,6 +21,7 @@ specifiers:
   mayumi: 0.0.0-beta-20220526134501
   next: 12.1.6
   next-mdx-remote: 4.0.3
+  nprogress: 0.2.0
   postcss: 8.4.5
   prettier: 2.6.2
   react: 18.1.0
@@ -37,6 +39,7 @@ dependencies:
   mayumi: 0.0.0-beta-20220526134501_ef5jwxihqo6n7gxfmzogljlgcm
   next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
   next-mdx-remote: 4.0.3_ef5jwxihqo6n7gxfmzogljlgcm
+  nprogress: 0.2.0
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   rehype-autolink-headings: 6.1.1
@@ -47,6 +50,7 @@ devDependencies:
   '@changesets/cli': 2.22.0
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.7
   '@types/node': 17.0.35
+  '@types/nprogress': 0.2.0
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.4
   autoprefixer: 10.4.0_postcss@8.4.5
@@ -795,6 +799,10 @@ packages:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
 
+  /@types/nprogress/0.2.0:
+    resolution: {integrity: sha512-1cYJrqq9GezNFPsWTZpFut/d4CjpZqA0vhqDUPFWYKF1oIyBz5qnoYMzR+0C/T96t3ebLAC1SSnwrVOm5/j74A==}
+    dev: true
+
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: true
@@ -1455,7 +1463,7 @@ packages:
     dev: true
 
   /cross-spawn/5.1.0:
-    resolution: {integrity: sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk=}
+    resolution: {integrity: sha512-pTgQJ5KC0d2hcY8eyL1IzlBPYjTkyH72XRZPnLyKus2mBfNjQs3klqbJU2VILqZryAZUt9JOb3h/mWMy23/f5A==}
     dependencies:
       lru-cache: 4.1.5
       shebang-command: 1.2.0
@@ -1577,7 +1585,7 @@ packages:
     dev: true
 
   /decamelize-keys/1.1.0:
-    resolution: {integrity: sha1-0XGoeTMlKAfrPLYdwcFEXQeN8tk=}
+    resolution: {integrity: sha512-ocLWuYzRPoS9bfiSdDd3cxvrzovVMZnRDVEzAs+hWIVXGDbHxWMECij2OBuyB/An0FFW/nLuq6Kv1i/YC5Qfzg==}
     engines: {node: '>=0.10.0'}
     dependencies:
       decamelize: 1.2.0
@@ -1585,7 +1593,7 @@ packages:
     dev: true
 
   /decamelize/1.2.0:
-    resolution: {integrity: sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=}
+    resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -3912,6 +3920,10 @@ packages:
     dependencies:
       path-key: 3.1.1
     dev: true
+
+  /nprogress/0.2.0:
+    resolution: {integrity: sha1-y480xTIT2JVyP8urkH6UIq28r7E=}
+    dev: false
 
   /object-assign/4.1.1:
     resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}

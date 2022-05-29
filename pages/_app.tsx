@@ -1,7 +1,14 @@
 import '../styles/globals.css'
+import '~/styles/nprogress.css'
+import Router from 'next/router'
+import Progress from 'nprogress'
 import App from 'next/app'
 import React from 'react'
 import { ThemeProvider } from 'mayumi/theme'
+
+Router.events.on('routeChangeStart', () => Progress.start())
+Router.events.on('routeChangeComplete', () => Progress.done())
+Router.events.on('routeChangeError', () => Progress.done())
 
 class MyApp extends App {
   render() {
