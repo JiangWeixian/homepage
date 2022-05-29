@@ -40,7 +40,9 @@ const Page: NextPage<PageProps> = ({ issues }) => {
   return (
     <Layout>
       <nav className="blog-nav">
-        <Text p={true} weight="bold">J WX&apos;s</Text>
+        <Text p={true} weight="bold">
+          J WX&apos;s
+        </Text>
       </nav>
       <div className="container max-w-screen-xl">
         <div className="pt-24 mx-36 h-full">
