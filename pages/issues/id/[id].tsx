@@ -1,14 +1,14 @@
 import type { GetStaticProps, NextPage } from 'next'
-import { createGithubAPIClient } from '~/lib/github'
 import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
 import rehypeSlug from 'rehype-slug'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
-import { styled } from 'mayumi/theme'
 import { Text } from 'mayumi/text'
 import dayjs from 'dayjs'
 
 import { Issue } from '~/types'
+import { Layout } from '~/components/Layout'
+import { createGithubAPIClient } from '~/lib/github'
 
 // TODO: get issues list with github api
 export async function getStaticPaths() {
@@ -41,37 +41,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   }
 }
 
-const StyeldLayout = styled('div', {
-  display: 'flex',
-  alignItems: 'center',
-  flexDirection: 'column',
-  '.issue-nav': {
-    position: 'sticky',
-    top: '0',
-    glass: '8px',
-    zIndex: '$20',
-    py: '$4',
-    px: '$6',
-    w: '$full',
-    fontWeight: '$semibold',
-    borderBottom: '1px solid $quaternaryLabelColor',
-  },
-  '.issue-content': {
-    maxWidth: '$screenXL',
-  },
-})
-
-const Layout = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <StyeldLayout>
-      <nav className="issue-nav">
-        <Text h4={true}>JiangWeixian&apos;s</Text>
-      </nav>
-      {children}
-    </StyeldLayout>
-  )
-}
-
 type PageProps = {
   issue: Issue
 }
@@ -79,8 +48,11 @@ type PageProps = {
 const Page: NextPage<PageProps> = ({ issue }) => {
   return (
     <Layout>
-      <div className="container max-w-screen-xl h-screen">
-        <div className="mx-36 py-4">
+      <nav className="blog-nav">
+        <Text p={true} weight="bold">J WX&apos;s</Text>
+      </nav>
+      <div className="container max-w-screen-xl">
+        <div className="mx-36">
           <Text className="pt-24 pb-2" h2={true}>
             {issue.title}
           </Text>
