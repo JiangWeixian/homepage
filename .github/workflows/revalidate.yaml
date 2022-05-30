@@ -29,7 +29,6 @@ jobs:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         with:
           script: |
-            // TODO: use real revalidate api, auth with github token
             // revalidate `/issues` page
             const { $fetch } = require('ohmyfetch')
             $fetch('https://jwx.vercel.app/api/revalidate', { headers: { 'x-auth-token': process.env.AUTH_TOKEN } })

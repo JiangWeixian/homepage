@@ -10,7 +10,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     const issueNumber = req.query.issue_number
 
     // issue opened or edited
-    // TODO: event should controled by github workflows
     console.log('[Next.js] Revalidating /issues')
     await res.unstable_revalidate('/issues')
     if (issueNumber) {
