@@ -1,8 +1,23 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import '~/styles/nprogress.css'
+import Router from 'next/router'
+import Progress from 'nprogress'
+import App from 'next/app'
+import React from 'react'
+import { ThemeProvider } from 'mayumi/theme'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+Router.events.on('routeChangeStart', () => Progress.start())
+Router.events.on('routeChangeComplete', () => Progress.done())
+Router.events.on('routeChangeError', () => Progress.done())
+
+class MyApp extends App {
+  render() {
+    const { Component, pageProps } = this.props
+    return (
+      <ThemeProvider>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    )
+  }
 }
-
 export default MyApp
