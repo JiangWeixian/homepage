@@ -7,7 +7,7 @@ on:
 env:
   CI: true
 jobs:
-  version:
+  Revalidate:
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
@@ -25,21 +25,21 @@ jobs:
         run: pnpm install --frozen-lockfile=false
       - name: revalidate
         uses: actions/github-script@v6
+        env:
+          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         with:
           script: |
             // TODO: use real revalidate api, auth with github token
             // revalidate `/issues` page
             const { $fetch } = require('ohmyfetch')
-            $fetch('https://jsonplaceholder.typicode.com/todos/1')
+            $fetch('https://jwx.vercel.app/api/revalidate', { headers: { 'x-auth-token': process.env.AUTH_TOKEN } })
               .then(res => {
                 console.log(res)
               })
-            // TODO: revalidate `/issues/id/[number]` page
             if (context.issue.number) {
-              $fetch('https://jsonplaceholder.typicode.com/todos/2')
+              $fetch(`https://jwx.vercel.app/api/revalidate?issue_number=${context.issue.number}`, { headers: { 'x-auth-token': process.env.AUTH_TOKEN } })
                 .then(res => {
                   console.log(res)
                 })
             }
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
