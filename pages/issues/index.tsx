@@ -2,6 +2,7 @@ import type { GetStaticProps, NextPage } from 'next'
 import Link from 'next/link'
 import { Text } from 'mayumi/text'
 import { Menu } from 'mayumi/menu'
+import Head from 'next/head'
 
 import { Issue } from '~/types'
 import { Layout } from '~/components/Layout'
@@ -27,6 +28,9 @@ type PageProps = {
 const Page: NextPage<PageProps> = ({ issues }) => {
   return (
     <Layout>
+      <Head>
+        <title>JiangWeixian</title>
+      </Head>
       <nav className="blog-nav">
         <Text p={true} weight="bold">
           J WX&apos;s
