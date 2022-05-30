@@ -5,6 +5,7 @@ import rehypeSlug from 'rehype-slug'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import { Text } from 'mayumi/text'
 import dayjs from 'dayjs'
+import Head from 'next/head'
 
 import { Issue } from '~/types'
 import { Layout } from '~/components/Layout'
@@ -49,6 +50,9 @@ type PageProps = {
 const Page: NextPage<PageProps> = ({ issue }) => {
   return (
     <Layout>
+      <Head>
+        <title>{issue.title}</title>
+      </Head>
       <nav className="blog-nav">
         <Text p={true} weight="bold">
           J WX&apos;s
