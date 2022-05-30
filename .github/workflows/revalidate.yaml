@@ -1,0 +1,42 @@
+name: Revalidate
+on:
+  issues:
+    types: ["opened", "edited", "labeled", "deleted", "closed", "reopened"]
+env:
+  CI: true
+jobs:
+  version:
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: setup node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: install pnpm
+        run: npm i pnpm@latest -g
+      - name: install dependencies
+        run: pnpm install --frozen-lockfile=false
+      - name: revalidate
+        uses: actions/github-script@v6
+        with:
+          script: |
+            // TODO: use real revalidate api, auth with github token
+            // revalidate `/issues`` page
+            fetch('https://jsonplaceholder.typicode.com/todos/1')
+              .then(async res => {
+                console.log(await res.json())
+              })
+            // TODO: revalidate `/issues/id/[number]` page
+            if (context.issue.number) {
+              fetch('https://jsonplaceholder.typicode.com/todos/2')
+                .then(async res => {
+                  console.log(await res.json())
+                })
+            }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
