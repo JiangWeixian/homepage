@@ -19,6 +19,9 @@ const define = () => {
 const nextConfig = {
   swcMinify: false,
   reactStrictMode: true,
+  images: {
+    domains: ['images.unsplash.com'],
+  },
   webpack(config, context) {
     config.plugins.push(new context.webpack.DefinePlugin(define()))
     return config

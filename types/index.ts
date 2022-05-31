@@ -21,3 +21,17 @@ export type Label = {
   createdAt: string
   updatedAt: string
 }
+
+/**
+ * ---
+ * description: string
+ * conver: string
+ * ---
+ * content
+ */
+export type IssueMeta = {
+  // issue short description
+  description: string
+  // issue cover image
+  cover: string
+}

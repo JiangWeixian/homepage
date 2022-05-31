@@ -1,4 +1,5 @@
 import type { GetStaticProps, NextPage } from 'next'
+import Image from 'next/image'
 import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
 import rehypeSlug from 'rehype-slug'
@@ -7,9 +8,10 @@ import { Text } from 'mayumi/text'
 import dayjs from 'dayjs'
 import Head from 'next/head'
 
-import { Issue } from '~/types'
+import { Issue, IssueMeta } from '~/types'
 import { Layout } from '~/components/Layout'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
+import matter from 'gray-matter'
 
 export async function getStaticPaths() {
   console.log('[Next.js] Running getStaticPaths for issue page')
@@ -27,7 +29,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const client = createGithubAPIClient()
   const issue = await client.issue(Number(id))
 
-  const mdxSource = await serialize(issue.body, {
+  const meta = matter(issue.body, { delimiters: ['<!--', '-->'] })
+
+  const mdxSource = await serialize(meta.content, {
     mdxOptions: {
       remarkPlugins: [rehypeAutolinkHeadings, rehypeSlug],
     },
@@ -35,6 +39,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   return {
     props: {
+      meta: meta.data as IssueMeta,
       issue: {
         ...issue,
         source: mdxSource,
@@ -45,9 +50,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 type PageProps = {
   issue: Issue
+  meta: IssueMeta
 }
 
-const Page: NextPage<PageProps> = ({ issue }) => {
+const Page: NextPage<PageProps> = ({ issue, meta }) => {
   return (
     <Layout>
       <Head>
@@ -66,6 +72,15 @@ const Page: NextPage<PageProps> = ({ issue }) => {
           <Text className="pb-16" type="quaternary" p={true}>
             <time>{dayjs(issue.createdAt).format('YYYY-MM-DD')}</time>
           </Text>
+          <div className="block">
+            <Image
+              src={meta.cover}
+              alt={issue.title}
+              width={500}
+              height={500}
+              layout="responsive"
+            />
+          </div>
           <div className="max-w-7xl prose dark:prose-invert">
             <MDXRemote {...issue.source} />
           </div>
