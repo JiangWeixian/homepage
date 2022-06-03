@@ -1,5 +1,7 @@
-import '../styles/globals.css'
+import '~/styles/globals.css'
 import '~/styles/nprogress.css'
+import '~/styles/prose-style.css'
+
 import Router from 'next/router'
 import Progress from 'nprogress'
 import App from 'next/app'

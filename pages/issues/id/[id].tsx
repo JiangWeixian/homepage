@@ -12,6 +12,7 @@ import { Issue, IssueMeta } from '~/types'
 import { Layout } from '~/components/Layout'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 import matter from 'gray-matter'
+import { styled } from 'mayumi/theme'
 
 export async function getStaticPaths() {
   console.log('[Next.js] Running getStaticPaths for issue page')
@@ -53,6 +54,15 @@ type PageProps = {
   meta: IssueMeta
 }
 
+const ImageContainer = styled('div', {
+  '&.blog-cover': {
+    img: {
+      rounded: '$lg',
+      boxShadow: '$lg',
+    },
+  },
+})
+
 const Page: NextPage<PageProps> = ({ issue, meta }) => {
   return (
     <Layout>
@@ -72,15 +82,9 @@ const Page: NextPage<PageProps> = ({ issue, meta }) => {
           <Text className="pb-16" type="quaternary" p={true}>
             <time>{dayjs(issue.createdAt).format('YYYY-MM-DD')}</time>
           </Text>
-          <div className="block">
-            <Image
-              src={meta.cover}
-              alt={issue.title}
-              width={500}
-              height={500}
-              layout="responsive"
-            />
-          </div>
+          <ImageContainer className="blog-cover my-8 relative w-full block aspect-video">
+            <Image src={meta.cover} alt={issue.title} objectFit="cover" layout="fill" />
+          </ImageContainer>
           <div className="max-w-7xl prose dark:prose-invert">
             <MDXRemote {...issue.source} />
           </div>
