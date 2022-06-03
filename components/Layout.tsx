@@ -3,6 +3,7 @@ import { Layout as MayumiLayout } from 'mayumi/layout'
 import { Text } from 'mayumi/text'
 import { Separator } from 'mayumi/separator'
 import { Icon } from 'mayumi/icons'
+import Image from 'next/image'
 
 import Twitter from '~/components/Icons/Twitter.svg'
 import Github from '~/components/Icons/Github.svg'
@@ -12,6 +13,7 @@ export const Layout = styled(MayumiLayout.Main, {
   padding: '$0',
   alignItems: 'center',
   backgroundColor: '$black',
+  overflow: 'visible',
   '.blog-nav': {
     position: 'sticky',
     top: '0',
@@ -31,10 +33,9 @@ export const Layout = styled(MayumiLayout.Main, {
 
 export const Nav = () => {
   return (
-    <nav className="blog-nav">
-      <Text p={true} weight="bold">
-        J WX&apos;s
-      </Text>
+    <nav className="blog-nav flex items-center gap-2">
+      <Image src="/avatar.png" width="24" height="24" alt="JiangWeixian" />
+      <Text h6={true}>JiangWeixian</Text>
     </nav>
   )
 }
