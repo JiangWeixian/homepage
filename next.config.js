@@ -24,6 +24,10 @@ const nextConfig = {
   },
   webpack(config, context) {
     config.plugins.push(new context.webpack.DefinePlugin(define()))
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    })
     return config
   },
 }

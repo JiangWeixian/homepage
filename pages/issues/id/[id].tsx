@@ -10,9 +10,12 @@ import Head from 'next/head'
 
 import { Issue, IssueMeta } from '~/types'
 import { Layout } from '~/components/Layout'
+import ArrowLeft from '~/components/Icons/ArrowLeft.svg'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 import matter from 'gray-matter'
 import { styled } from 'mayumi/theme'
+import { Link } from 'mayumi/link'
+import { useRouter } from 'next/router'
 
 export async function getStaticPaths() {
   console.log('[Next.js] Running getStaticPaths for issue page')
@@ -64,6 +67,7 @@ const ImageContainer = styled('div', {
 })
 
 const Page: NextPage<PageProps> = ({ issue, meta }) => {
+  const router = useRouter()
   return (
     <Layout>
       <Head>
@@ -74,19 +78,29 @@ const Page: NextPage<PageProps> = ({ issue, meta }) => {
           J WX&apos;s
         </Text>
       </nav>
-      <div className="container max-w-screen-xl">
-        <div className="mx-36">
-          <Text className="pt-24 pb-2" h2={true}>
-            {issue.title}
-          </Text>
-          <Text className="pb-16" type="quaternary" p={true}>
-            <time>{dayjs(issue.createdAt).format('YYYY-MM-DD')}</time>
-          </Text>
-          <ImageContainer className="blog-cover my-8 relative w-full block aspect-video">
-            <Image src={meta.cover} alt={issue.title} objectFit="cover" layout="fill" />
-          </ImageContainer>
-          <div className="max-w-7xl prose dark:prose-invert">
-            <MDXRemote {...issue.source} />
+      <div className="flex items-start">
+        <Link
+          animation="reverse"
+          onClick={() => router.back()}
+          className="pt-24 mt-1 flex justify-start items-center gap-1"
+        >
+          <ArrowLeft />
+          <span>Back</span>
+        </Link>
+        <div className="container max-w-screen-lg">
+          <div className="mx-36">
+            <Text className="pt-24 pb-2" h2={true}>
+              {issue.title}
+            </Text>
+            <Text size="sm" className="pb-16" type="quaternary" p={true}>
+              <time>{dayjs(issue.createdAt).format('YYYY-MM-DD')}</time>
+            </Text>
+            <ImageContainer className="blog-cover my-8 relative w-full block aspect-video">
+              <Image src={meta.cover} alt={issue.title} objectFit="cover" layout="fill" />
+            </ImageContainer>
+            <div className="max-w-7xl prose dark:prose-invert">
+              <MDXRemote {...issue.source} />
+            </div>
           </div>
         </div>
       </div>

@@ -1,4 +1,6 @@
-/* overwrite default styles */
+/* overwrite default styles
+refs: https://github.com/brianlovin/briOS/blob/main/src/styles/prose-styles.css  */
+
 .prose blockquote {
   @apply font-normal border-l-2 border-gray-200 dark:border-gray-800 dark:text-gray-400;
 }
