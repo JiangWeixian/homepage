@@ -5,17 +5,17 @@ import { serialize } from 'next-mdx-remote/serialize'
 import rehypeSlug from 'rehype-slug'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import { Text } from 'mayumi/text'
-import dayjs from 'dayjs'
 import Head from 'next/head'
+import { Link } from 'mayumi/link'
+import { useRouter } from 'next/router'
 
 import { Issue, IssueMeta } from '~/types'
 import { Layout } from '~/components/Layout'
+import { ImageContainer } from '~/components/ImageContainer'
 import ArrowLeft from '~/components/Icons/ArrowLeft.svg'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
-import matter from 'gray-matter'
-import { styled } from 'mayumi/theme'
-import { Link } from 'mayumi/link'
-import { useRouter } from 'next/router'
+import { parseMeta } from '~/lib/matter'
+import { format } from '~/lib/time'
 
 export async function getStaticPaths() {
   console.log('[Next.js] Running getStaticPaths for issue page')
@@ -33,7 +33,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const client = createGithubAPIClient()
   const issue = await client.issue(Number(id))
 
-  const meta = matter(issue.body, { delimiters: ['<!--', '-->'] })
+  const meta = parseMeta(issue.body)
 
   const mdxSource = await serialize(meta.content, {
     mdxOptions: {
@@ -56,15 +56,6 @@ type PageProps = {
   issue: Issue
   meta: IssueMeta
 }
-
-const ImageContainer = styled('div', {
-  '&.blog-cover': {
-    img: {
-      rounded: '$lg',
-      boxShadow: '$lg',
-    },
-  },
-})
 
 const Page: NextPage<PageProps> = ({ issue, meta }) => {
   const router = useRouter()
@@ -93,7 +84,7 @@ const Page: NextPage<PageProps> = ({ issue, meta }) => {
               {issue.title}
             </Text>
             <Text size="sm" className="pb-16" type="quaternary" p={true}>
-              <time>{dayjs(issue.createdAt).format('YYYY-MM-DD')}</time>
+              <time>{format(issue.createdAt)}</time>
             </Text>
             <ImageContainer className="blog-cover my-8 relative w-full block aspect-video">
               <Image src={meta.cover} alt={issue.title} objectFit="cover" layout="fill" />
