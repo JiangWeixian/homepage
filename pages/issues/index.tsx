@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 import { Issue, IssueMeta } from '~/types'
-import { Layout } from '~/components/Layout'
+import { Layout, Footer, Nav } from '~/components/Layout'
 import { ImageContainer } from '~/components/ImageContainer'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 import { parseMeta } from '~/lib/matter'
@@ -55,13 +55,13 @@ const Card = (props: CardProps) => {
           layout="fill"
         />
       </ImageContainer>
-      <Text className="my-2" h3={true}>
+      <Text className="my-4" h3={true}>
         {props.issue.issue.title}
       </Text>
       <Text className="my-2" p={true}>
         {props.issue.meta.description}
       </Text>
-      <Text type="quaternary">
+      <Text size="sm" type="quaternary">
         <time>{format(props.issue.issue.createdAt)}</time>
       </Text>
     </div>
@@ -74,12 +74,8 @@ const Page: NextPage<PageProps> = ({ issues }) => {
       <Head>
         <title>JiangWeixian</title>
       </Head>
-      <nav className="blog-nav">
-        <Text p={true} weight="bold">
-          J WX&apos;s
-        </Text>
-      </nav>
-      <div className="container max-w-screen-xl">
+      <Nav />
+      <div className="container max-w-screen-xl h-screen">
         <div className="pt-8 mx-36 h-full">
           <div className="flex items-center mb-8">
             <Text h4={true} size="sm" weight="bold">
@@ -97,6 +93,7 @@ const Page: NextPage<PageProps> = ({ issues }) => {
           </div>
         </div>
       </div>
+      <Footer />
     </Layout>
   )
 }

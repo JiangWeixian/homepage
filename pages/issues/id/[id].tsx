@@ -10,7 +10,7 @@ import { Link } from 'mayumi/link'
 import { useRouter } from 'next/router'
 
 import { Issue, IssueMeta } from '~/types'
-import { Layout } from '~/components/Layout'
+import { Layout, Footer, Nav } from '~/components/Layout'
 import { ImageContainer } from '~/components/ImageContainer'
 import ArrowLeft from '~/components/Icons/ArrowLeft.svg'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
@@ -64,11 +64,7 @@ const Page: NextPage<PageProps> = ({ issue, meta }) => {
       <Head>
         <title>{issue.title}</title>
       </Head>
-      <nav className="blog-nav">
-        <Text p={true} weight="bold">
-          J WX&apos;s
-        </Text>
-      </nav>
+      <Nav />
       <div className="flex items-start">
         <Link
           animation="reverse"
@@ -79,8 +75,8 @@ const Page: NextPage<PageProps> = ({ issue, meta }) => {
           <span>Back</span>
         </Link>
         <div className="container max-w-screen-lg">
-          <div className="mx-36">
-            <Text className="pt-24 pb-2" h2={true}>
+          <div className="mx-36 pt-24 pb-8">
+            <Text className="pb-2" h2={true}>
               {issue.title}
             </Text>
             <Text size="sm" className="pb-16" type="quaternary" p={true}>
@@ -95,6 +91,7 @@ const Page: NextPage<PageProps> = ({ issue, meta }) => {
           </div>
         </div>
       </div>
+      <Footer />
     </Layout>
   )
 }
