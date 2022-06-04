@@ -20,7 +20,7 @@ specifiers:
   gray-matter: 4.0.3
   husky: 8.0.0
   lint-staged: 12.4.1
-  mayumi: 0.0.1
+  mayumi: 0.0.2
   next: 12.1.6
   next-mdx-remote: 4.0.3
   nprogress: 0.2.0
@@ -40,7 +40,7 @@ dependencies:
   '@stitches/react': 1.2.8_react@18.1.0
   dayjs: 1.11.2
   gray-matter: 4.0.3
-  mayumi: 0.0.1_ef5jwxihqo6n7gxfmzogljlgcm
+  mayumi: 0.0.2_ef5jwxihqo6n7gxfmzogljlgcm
   next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
   next-mdx-remote: 4.0.3_ef5jwxihqo6n7gxfmzogljlgcm
   nprogress: 0.2.0
@@ -4916,8 +4916,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /mayumi/0.0.1_ef5jwxihqo6n7gxfmzogljlgcm:
-    resolution: {integrity: sha512-XESNpLRehW5938XPO2CuI7dbMqoiR62JWe7j/3vfrtX2D64fePX2TsXmLqI4joroIesY44eXyOsORCQ3bhmvKg==}
+  /mayumi/0.0.2_ef5jwxihqo6n7gxfmzogljlgcm:
+    resolution: {integrity: sha512-IDes46KXzh82beGrXiQgPvECsOFBZcwB+wybuRj35giTv8EPpCyRkA/Rd9h9p26W+l5GKQMOL5yJ9GAMSliZjw==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=17'
