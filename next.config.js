@@ -1,3 +1,5 @@
+const path = require('path')
+
 const define = () => {
   // TODO: netlify
   if (process.env.VERCEL) {
@@ -19,8 +21,18 @@ const define = () => {
 const nextConfig = {
   swcMinify: false,
   reactStrictMode: true,
+  images: {
+    domains: ['images.unsplash.com'],
+  },
   webpack(config, context) {
+    if (process.env.NODE_ENV === 'development') {
+      config.resolve.alias.react = path.resolve(__dirname, './node_modules/react')
+    }
     config.plugins.push(new context.webpack.DefinePlugin(define()))
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    })
     return config
   },
 }

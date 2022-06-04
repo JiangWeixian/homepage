@@ -1,12 +1,16 @@
 import type { GetStaticProps, NextPage } from 'next'
-import Link from 'next/link'
 import { Text } from 'mayumi/text'
-import { Menu } from 'mayumi/menu'
+import { Separator } from 'mayumi/separator'
 import Head from 'next/head'
+import Image from 'next/image'
+import { useRouter } from 'next/router'
 
-import { Issue } from '~/types'
-import { Layout } from '~/components/Layout'
+import { Issue, IssueMeta } from '~/types'
+import { Layout, Footer, Nav } from '~/components/Layout'
+import { ImageContainer } from '~/components/ImageContainer'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
+import { parseMeta } from '~/lib/matter'
+import { format } from '~/lib/time'
 
 export const getStaticProps: GetStaticProps = async () => {
   console.log(`[Next.js] Running getStaticProps for issue list`)
@@ -16,13 +20,52 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      issues,
+      issues: issues.map((issue) => {
+        return {
+          meta: parseMeta(issue.body).data,
+          issue,
+        }
+      }),
     },
   }
 }
 
+type ListItem = { issue: Issue; meta: IssueMeta }
+
 type PageProps = {
-  issues: Issue[]
+  issues: ListItem[]
+}
+
+type CardProps = {
+  issue: ListItem
+}
+
+const Card = (props: CardProps) => {
+  const router = useRouter()
+  return (
+    <div
+      className="cursor-pointer"
+      onClick={() => router.push('/issues/id/[id]', `/issues/id/${props.issue.issue.number}`)}
+    >
+      <ImageContainer>
+        <Image
+          src={props.issue.meta.cover}
+          alt={props.issue.issue.title}
+          objectFit="cover"
+          layout="fill"
+        />
+      </ImageContainer>
+      <Text className="my-4" h3={true}>
+        {props.issue.issue.title}
+      </Text>
+      <Text className="my-2" p={true}>
+        {props.issue.meta.description}
+      </Text>
+      <Text size="sm" type="quaternary">
+        <time>{format(props.issue.issue.createdAt)}</time>
+      </Text>
+    </div>
+  )
 }
 
 const Page: NextPage<PageProps> = ({ issues }) => {
@@ -31,37 +74,26 @@ const Page: NextPage<PageProps> = ({ issues }) => {
       <Head>
         <title>JiangWeixian</title>
       </Head>
-      <nav className="blog-nav">
-        <Text p={true} weight="bold">
-          J WX&apos;s
-        </Text>
-      </nav>
-      <div className="container max-w-screen-xl">
-        <div className="pt-24 mx-36 h-full">
-          <Text css={{ px: '$7' }} h4={true} weight="bold">
-            issues
-          </Text>
-          <Menu ghost={true} size="lg" css={{ w: '$full' }}>
-            {issues?.map((v) => {
-              return (
-                <Menu.Item key={v.number}>
-                  <Link href="/issues/id/[id]" as={`/issues/id/${v.number}`} passHref={true}>
-                    <div>
-                      <Text p={true} size="sm" weight="bold">
-                        {v.title}
-                      </Text>
-                      {/* TODO: how to display issue short description */}
-                      <Text p={true} size="sm" type="secondary">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </Text>
-                    </div>
-                  </Link>
-                </Menu.Item>
-              )
-            }) || <></>}
-          </Menu>
+      <Nav />
+      <div className="container max-w-screen-xl h-screen">
+        <div className="pt-8 mx-36 h-full">
+          <div className="flex items-center mb-8">
+            <Text h4={true} size="sm" weight="bold">
+              Issues
+            </Text>
+            <Separator css={{ h: '$4' }} type="vertical" />
+            <Text p={true} size="sm" type="quaternary">
+              Create something with love ♥️
+            </Text>
+          </div>
+          <div className="grid grid-cols-2">
+            {issues.map((issue) => {
+              return <Card issue={issue} key={issue.issue.number} />
+            })}
+          </div>
         </div>
       </div>
+      <Footer />
     </Layout>
   )
 }
