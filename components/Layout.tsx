@@ -1,9 +1,7 @@
 import { styled } from 'mayumi/theme'
 import { Layout as MayumiLayout } from 'mayumi/layout'
 import { Text } from 'mayumi/text'
-import { Separator } from 'mayumi/separator'
 import { Icon } from 'mayumi/icons'
-import Image from 'next/image'
 
 import Twitter from '~/components/Icons/Twitter.svg'
 import Github from '~/components/Icons/Github.svg'
@@ -34,8 +32,10 @@ export const Layout = styled(MayumiLayout.Main, {
 export const Nav = () => {
   return (
     <nav className="blog-nav flex items-center gap-2">
-      <Image src="/avatar.png" width="24" height="24" alt="JiangWeixian" />
-      <Text h6={true}>JiangWeixian</Text>
+      {/* <Image src="/avatar.png" width="24" height="24" alt="JiangWeixian" /> */}
+      <Text className="signature" h6={true}>
+        JiangWeixian
+      </Text>
     </nav>
   )
 }
@@ -55,11 +55,12 @@ export const Footer = () => {
     <StyledFooter>
       <div className="grid grid-cols-4">
         <div className="flex flex-col gap-12">
-          <div className="flex items-center">
-            <Text h6={true}>JiangWeixian</Text>
-            <Separator css={{ h: '$4' }} type="vertical" />
-            <Text p={true} type="tertiary">
-              A Frontend Developer
+          <div className="flex items-center relative">
+            <Text className="signature font-thin" h6={true}>
+              JiangWeixian
+            </Text>
+            <Text className="relative" css={{ top: '2.5px' }} p={true} type="tertiary">
+              &nbsp;•&nbsp;A Frontend Developer
             </Text>
           </div>
           <div className="flex gap-4">

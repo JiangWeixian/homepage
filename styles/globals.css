@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.signature {
+  font-weight: lighter;
+  font-family: 'Beth Ellen', cursive;
+}
+
 html,
 body {
   padding: 0;
