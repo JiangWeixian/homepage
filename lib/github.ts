@@ -14,6 +14,7 @@ export const createGithubAPIClient = () => {
   return {
     issues: async (
       after?: string,
+      labels?: string[]
     ): Promise<{
       issues: Issue[]
       pageInfo: {
@@ -23,9 +24,9 @@ export const createGithubAPIClient = () => {
     }> => {
       const response: any = await client(
         gql`
-          query Issues($owner: String!, $name: String!, $after: String) {
+          query Issues($owner: String!, $name: String!, $after: String, $labels: [String!]) {
             repository(owner: $owner, name: $name) {
-              issues(first: 10, after: $after, states: OPEN) {
+              issues(first: 10, after: $after, states: OPEN, filterBy: {labels: $labels}) {
                 edges {
                   node {
                     id
@@ -61,6 +62,7 @@ export const createGithubAPIClient = () => {
           owner,
           name,
           after,
+          labels,
         },
       )
       const issues = response.repository.issues.edges
@@ -110,10 +112,13 @@ export const createGithubAPIClient = () => {
 }}
 
 export const fetchAllIssues = async (client: ReturnType<typeof createGithubAPIClient>) => {
+  // only issue with label `issues` is a valid blog
+  // label `issues` is top level category of issues
+  const ISSUE_LABELS = ['issues']
   let { issues, pageInfo } = await client.issues()
   let after
   for (; ; after = pageInfo.endCursor) {
-    ;({ issues, pageInfo } = await client.issues(after))
+    ;({ issues, pageInfo } = await client.issues(after, ISSUE_LABELS))
     if (!pageInfo.hasNextPage) {
       break
     }
