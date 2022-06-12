@@ -86,7 +86,7 @@ const Page: NextPage<PageProps> = ({ issues }) => {
               Create something with love ♥️
             </Text>
           </div>
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 gap-6">
             {issues.map((issue) => {
               return <Card issue={issue} key={issue.issue.number} />
             })}

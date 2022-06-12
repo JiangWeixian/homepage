@@ -4,6 +4,7 @@ on:
     types: ["opened", "edited", "labeled", "deleted", "closed", "reopened"]
   push:
     branches: ["main", "master"]
+  label:
 env:
   CI: true
 jobs:

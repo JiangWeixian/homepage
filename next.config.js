@@ -8,12 +8,14 @@ const define = () => {
     const env = {
       'process.env.REPO_OWNER': JSON.stringify(process.env.NEXT_PUBLIC_VERCEL_GIT_REPO_OWNER),
       'process.env.REPO_NAME': JSON.stringify(process.env.NEXT_PUBLIC_VERCEL_GIT_REPO_SLUG),
+      'process.env.__DEV__': JSON.stringify(process.env.NODE_ENV === 'development'),
     }
     return env
   }
   return {
     'process.env.REPO_OWNER': JSON.stringify('JiangWeixian'),
     'process.env.REPO_NAME': JSON.stringify('homepage'),
+    'process.env.__DEV__': JSON.stringify(process.env.NODE_ENV === 'development'),
   }
 }
 
