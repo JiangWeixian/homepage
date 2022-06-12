@@ -10,7 +10,10 @@ declare global {
       REPO_OWNER: string
       // Github repo name, in Vercel, defined in env.NEXT_PUBLIC_VERCEL_GIT_REPO_SLUG
       REPO_NAME: string
+      // production, preview, development
+      NEXT_PUBLIC_VERCEL_ENV: string
       NODE_ENV: string
+      // NODE_ENV === 'development'
       __DEV__: boolean
     }
   }
