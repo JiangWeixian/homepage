@@ -114,7 +114,10 @@ export const createGithubAPIClient = () => {
 export const fetchAllIssues = async (client: ReturnType<typeof createGithubAPIClient>) => {
   // only issue with label `issues` is a valid blog
   // label `issues` is top level category of issues
-  const ISSUE_LABELS = ['issues']
+  let ISSUE_LABELS = ['issues']
+  if (process.env.__DEV__) {
+    ISSUE_LABELS.push('issues-dev')
+  }
   let { issues, pageInfo } = await client.issues()
   let after
   for (; ; after = pageInfo.endCursor) {
