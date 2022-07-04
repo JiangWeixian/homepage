@@ -24,7 +24,7 @@ const nextConfig = {
   swcMinify: false,
   reactStrictMode: true,
   images: {
-    domains: ['images.unsplash.com'],
+    domains: ['images.unsplash.com', 'user-images.githubusercontent.com'],
   },
   webpack(config, context) {
     if (process.env.NODE_ENV === 'development') {
