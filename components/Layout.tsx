@@ -53,7 +53,7 @@ const StyledFooter = styled('footer', {
 export const Footer = () => {
   return (
     <StyledFooter>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-1 xl:grid-cols-4">
         <div className="flex flex-col gap-12">
           <div className="flex items-center relative">
             <Text className="signature font-thin" h6={true}>
