@@ -75,7 +75,7 @@ const Page: NextPage<PageProps> = ({ issues }) => {
         <title>JiangWeixian</title>
       </Head>
       <Nav />
-      <div className="container max-w-screen-xl h-screen">
+      <div className="container max-w-screen-xl min-h-screen h-fit">
         <div className="pt-8 mx-36 h-full">
           <div className="flex items-center mb-8">
             <Text h4={true} size="sm" weight="bold">

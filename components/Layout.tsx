@@ -8,10 +8,9 @@ import Github from '~/components/Icons/Github.svg'
 import Link from 'next/link'
 
 export const Layout = styled(MayumiLayout.Main, {
-  padding: '$0',
+  p: '$0',
   alignItems: 'center',
   backgroundColor: '$black',
-  overflow: 'visible',
   '.blog-nav': {
     position: 'sticky',
     top: '0',
@@ -42,12 +41,15 @@ export const Nav = () => {
 
 const StyledFooter = styled('footer', {
   w: '$full',
+  mt: '$8',
   py: '$8',
   px: '$36',
   background: '$gridColor',
   borderStyle: 'solid',
   borderColor: '$quaternaryLabelColor',
   borderTopWidth: '$px',
+  position: 'relative',
+  zIndex: 1,
 })
 
 export const Footer = () => {
