@@ -34,7 +34,8 @@ jobs:
             const { $fetch } = require('ohmyfetch')
             // vercel.app -> revalidate on preview/test host
             // jwx.ink -> revalidate on production with custom host
-            ['jwx.vercel.app', 'jwx.ink'].map(host => {
+            const hosts = ['jwx.vercel.app', 'jwx.ink']
+            hosts.map(host => {
               console.log(`revalidate ${host}`)
               $fetch(`https://${host}/api/revalidate`, { headers: { 'x-auth-token': process.env.AUTH_TOKEN } })
                 .then(res => {
