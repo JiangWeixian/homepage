@@ -32,14 +32,19 @@ jobs:
           script: |
             // revalidate `/issues` page
             const { $fetch } = require('ohmyfetch')
-            $fetch('https://jwx.vercel.app/api/revalidate', { headers: { 'x-auth-token': process.env.AUTH_TOKEN } })
-              .then(res => {
-                console.log(res)
-              })
-            if (context.issue.number) {
-              $fetch(`https://jwx.vercel.app/api/revalidate?issue_number=${context.issue.number}`, { headers: { 'x-auth-token': process.env.AUTH_TOKEN } })
+            // vercel.app -> revalidate on preview/test host
+            // jwx.ink -> revalidate on production with custom host
+            ['jwx.vercel.app', 'jwx.ink'].map(host => {
+              console.log(`revalidate ${host}`)
+              $fetch(`https://${host}/api/revalidate`, { headers: { 'x-auth-token': process.env.AUTH_TOKEN } })
                 .then(res => {
                   console.log(res)
                 })
-            }
+              if (context.issue.number) {
+                $fetch(`https://${host}/api/revalidate?issue_number=${context.issue.number}`, { headers: { 'x-auth-token': process.env.AUTH_TOKEN } })
+                  .then(res => {
+                    console.log(res)
+                  })
+              }
+            })
         
