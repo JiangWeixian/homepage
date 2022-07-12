@@ -11,6 +11,7 @@ export const Layout = styled(MayumiLayout.Main, {
   p: '$0',
   alignItems: 'center',
   backgroundColor: '$black',
+  overflow: 'visible',
   '.blog-nav': {
     position: 'sticky',
     top: '0',
