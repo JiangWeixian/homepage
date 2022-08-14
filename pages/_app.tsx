@@ -1,6 +1,7 @@
 import '~/styles/globals.css'
 import '~/styles/nprogress.css'
 import '~/styles/prose-style.css'
+import '~/styles/atropos.css'
 
 import Router from 'next/router'
 import Progress from 'nprogress'

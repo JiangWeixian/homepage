@@ -1,11 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next'
 import Image from 'next/image'
 import { Text } from 'mayumi/text'
 import { Link } from 'mayumi/link'
 import { styled } from 'mayumi/theme'
+import { Atropos } from 'atropos/react'
+import 'atropos/css'
 
 import { Layout, Footer, Nav } from '~/components/Layout'
-import { ImageContainer } from '~/components/ImageContainer'
 
 const social = {
   github: 'https://github.com/JiangWeixian',
@@ -22,22 +24,30 @@ const SelfIntroduction = styled('section', {
   },
 })
 
+const Hacking = () => {
+  return (
+    <Atropos
+      className="atropos atropos-banner h-full"
+      rotateXMax={5}
+      rotateYMax={20}
+      highlight={false}
+      onEnter={() => console.log('enter')}
+    >
+      <div className="atropos-banner-spacer w-full h-full" />
+      <img data-atropos-offset="-0.5" src="/atrops/hacking-room.png" alt="hacking-room" />
+      <img data-atropos-offset="0" src="/atrops/tube.png" alt="hacking-tube" />
+    </Atropos>
+  )
+}
+
 const Home: NextPage = () => {
   return (
     <Layout>
       <Nav displayTabs={true} ghost={true} />
       {/* set negative margin top: fit height of nav in layout */}
       <div className="grid grid-cols-12 gap-4 w-screen h-screen -mt-12">
-        <div className="left col-start-1 col-end-7 h-full flex items-center">
-          <div className="w-full">
-            <ImageContainer
-              css={{
-                aspectRatio: '1 / 1',
-              }}
-            >
-              <Image src="/hacking-room.png" alt="hacking-room" objectFit="cover" layout="fill" />
-            </ImageContainer>
-          </div>
+        <div className="left col-start-2 col-end-7 h-full flex items-center">
+          <Hacking />
         </div>
         {/* description */}
         <SelfIntroduction className="right col-start-7 col-end-12 h-full flex items-center">
