@@ -33,6 +33,7 @@
     "@mdx-js/react": "2.1.1",
     "@octokit/graphql": "4.8.0",
     "@stitches/react": "1.2.8",
+    "clsx": "1.2.1",
     "dayjs": "1.11.2",
     "gray-matter": "4.0.3",
     "mayumi": "0.0.2",

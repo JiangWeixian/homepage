@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
-import { Layout } from '~/components/Layout'
+import { Layout, Footer, Nav } from '~/components/Layout'
 import { ImageContainer } from '~/components/ImageContainer'
 import { Text } from 'mayumi/text'
 import { Link } from 'mayumi/link'
@@ -24,8 +24,9 @@ const SelfIntroduction = styled('section', {
 const Home: NextPage = () => {
   return (
     <Layout>
+      <Nav displayTabs={true} ghost={true} />
       <div className="grid grid-cols-12 gap-4 w-screen h-screen">
-        <div className="left col-start-2 col-end-8 h-full flex items-center">
+        <div className="left col-start-1 col-end-7 h-full flex items-center">
           <div className="w-full">
             <ImageContainer
               css={{
@@ -37,7 +38,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         {/* description */}
-        <SelfIntroduction className="right col-start-8 col-end-12 h-full flex items-center">
+        <SelfIntroduction className="right col-start-7 col-end-12 h-full flex items-center">
           <div>
             <div className="flex items-center gap-4 mb-4">
               <Image src="/avatar.png" width="36" height="36" alt="JiangWeixian" />
@@ -74,11 +75,13 @@ const Home: NextPage = () => {
                 <Link href={social.sponsor} title="sponsor">
                   Github Sponsor
                 </Link>
+                .
               </Text>
             </div>
           </div>
         </SelfIntroduction>
       </div>
+      <Footer />
     </Layout>
   )
 }
