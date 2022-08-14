@@ -67,7 +67,7 @@ export const Nav = (props: NavProps) => {
     >
       {/* <Image src="/avatar.png" width="24" height="24" alt="JiangWeixian" /> */}
       <Text className="signature" h6={true}>
-        JiangWeixian
+        <Link href="/">JiangWeixian</Link>
       </Text>
       {props.displayTabs && (
         <Link href="/issues">
