@@ -69,9 +69,11 @@ export const Nav = (props: NavProps) => {
       <Text className="signature" h6={true}>
         JiangWeixian
       </Text>
-      {props.displayTabs && <Link href="/issues">
-        <MayumiLink>Issues</MayumiLink>
-      </Link>}
+      {props.displayTabs && (
+        <Link href="/issues">
+          <MayumiLink>Issues</MayumiLink>
+        </Link>
+      )}
     </StyledNav>
   )
 }
