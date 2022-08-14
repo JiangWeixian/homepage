@@ -2,6 +2,7 @@ import { styled } from 'mayumi/theme'
 import { Layout as MayumiLayout } from 'mayumi/layout'
 import { Text } from 'mayumi/text'
 import { Icon } from 'mayumi/icons'
+import { Link as MayumiLink } from 'mayumi/link'
 
 import Twitter from '~/components/Icons/Twitter.svg'
 import Github from '~/components/Icons/Github.svg'
@@ -22,21 +23,58 @@ export const Layout = styled(MayumiLayout.Main, {
     w: '$full',
     fontWeight: '$semibold',
     backgroundColor: 'rgba(6, 6, 6, 0.6)',
-    borderBottom: '1px solid $quaternaryLabelColor',
+  },
+  '.mayumi-link': {
+    fontWeight: '$normal',
   },
   '.issue-content': {
     maxWidth: '$screenXL',
   },
 })
 
-export const Nav = () => {
+type NavProps = {
+  displayTabs?: boolean
+  ghost?: boolean
+}
+
+const StyledNav = styled('nav', {
+  variants: {
+    ghost: {
+      true: {
+        borderBottom: 'none',
+      },
+      false: {
+        borderBottom: '1px solid $quaternaryLabelColor',
+      },
+    },
+    displayTabs: {
+      true: {
+        justifyContent: 'end',
+        '.signature': {
+          display: 'none',
+        },
+      },
+    },
+  },
+})
+
+export const Nav = (props: NavProps) => {
   return (
-    <nav className="blog-nav flex items-center gap-2">
+    <StyledNav
+      className="blog-nav flex items-center gap-2"
+      ghost={props.ghost}
+      displayTabs={props.displayTabs}
+    >
       {/* <Image src="/avatar.png" width="24" height="24" alt="JiangWeixian" /> */}
       <Text className="signature" h6={true}>
-        JiangWeixian
+        <Link href="/">JiangWeixian</Link>
       </Text>
-    </nav>
+      {props.displayTabs && (
+        <Link href="/issues">
+          <MayumiLink>Issues</MayumiLink>
+        </Link>
+      )}
+    </StyledNav>
   )
 }
 
