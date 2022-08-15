@@ -1,10 +1,10 @@
 import type { GetStaticProps, NextPage } from 'next'
 import { Text } from 'mayumi/text'
 import { Separator } from 'mayumi/separator'
-import Head from 'next/head'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 
+import { SEO } from '~/components/SEO'
 import { Issue, IssueMeta } from '~/types'
 import { Layout, Footer, Nav } from '~/components/Layout'
 import { ImageContainer } from '~/components/ImageContainer'
@@ -71,9 +71,8 @@ const Card = (props: CardProps) => {
 const Page: NextPage<PageProps> = ({ issues }) => {
   return (
     <Layout>
-      <Head>
-        <title>JiangWeixian</title>
-      </Head>
+      {/* TODO: add subscribe */}
+      <SEO title="JiangWeixian's issues" />
       <Nav />
       <div className="container max-w-screen-xl min-h-screen h-fit">
         <div className="pt-8 mx-36 h-full">

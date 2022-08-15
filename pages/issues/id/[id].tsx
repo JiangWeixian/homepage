@@ -5,7 +5,6 @@ import { serialize } from 'next-mdx-remote/serialize'
 import rehypeSlug from 'rehype-slug'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import { Text } from 'mayumi/text'
-import Head from 'next/head'
 import { Link } from 'mayumi/link'
 import { useRouter } from 'next/router'
 
@@ -13,6 +12,7 @@ import { Issue, IssueMeta } from '~/types'
 import { Layout, Footer, Nav } from '~/components/Layout'
 import { ImageContainer } from '~/components/ImageContainer'
 import ArrowLeft from '~/components/Icons/ArrowLeft.svg'
+import { SEO } from '~/components/SEO'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 import { parseMeta } from '~/lib/matter'
 import { format } from '~/lib/time'
@@ -61,9 +61,12 @@ const Page: NextPage<PageProps> = ({ issue, meta }) => {
   const router = useRouter()
   return (
     <Layout>
-      <Head>
-        <title>{issue.title}</title>
-      </Head>
+      <SEO
+        title={issue.title}
+        description={meta.description}
+        image={meta.cover}
+        alt={meta.description}
+      />
       <Nav />
       <div className="flex items-start">
         <Link
