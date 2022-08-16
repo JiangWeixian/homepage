@@ -8,6 +8,7 @@ import { Atropos } from 'atropos/react'
 import 'atropos/css'
 
 import { Layout, Footer, Nav } from '~/components/Layout'
+import { SEO } from '~/components/SEO'
 
 const social = {
   github: 'https://github.com/JiangWeixian',
@@ -43,6 +44,7 @@ const Hacking = () => {
 const Home: NextPage = () => {
   return (
     <Layout>
+      <SEO />
       <Nav displayTabs={true} ghost={true} />
       {/* set negative margin top: fit height of nav in layout */}
       <div className="grid grid-cols-12 gap-4 w-screen h-screen -mt-12">
