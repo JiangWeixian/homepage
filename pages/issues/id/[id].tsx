@@ -51,8 +51,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     },
   })
 
-  console.log(headings)
-
   return {
     props: {
       meta: meta.data as IssueMeta,
