@@ -8,6 +8,7 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import { Text } from 'mayumi/text'
 import { Link } from 'mayumi/link'
 import { useRouter } from 'next/router'
+import { TOC } from '@mayumi-org/toc'
 
 import { Issue, IssueMeta } from '~/types'
 import { Layout, Footer, Nav } from '~/components/Layout'
@@ -17,6 +18,7 @@ import { SEO } from '~/components/SEO'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 import { parseMeta } from '~/lib/matter'
 import { format } from '~/lib/time'
+import { rehypePluginHeadings, Headings } from '~/lib/rehype-plugin-headings'
 
 export async function getStaticPaths() {
   console.log('[Next.js] Running getStaticPaths for issue page')
@@ -36,9 +38,15 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   const meta = parseMeta(issue.body)
 
+  const headings: Headings = []
+
   const mdxSource = await serialize(meta.content, {
     mdxOptions: {
-      rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
+      rehypePlugins: [
+        rehypeSlug,
+        rehypeAutolinkHeadings,
+        [rehypePluginHeadings, { rank: 2, headings }],
+      ],
       remarkPlugins: [remarkGFM],
     },
   })
@@ -46,6 +54,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       meta: meta.data as IssueMeta,
+      headings,
       issue: {
         ...issue,
         source: mdxSource,
@@ -57,9 +66,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 type PageProps = {
   issue: Issue
   meta: IssueMeta
+  headings: Headings
 }
 
-const Page: NextPage<PageProps> = ({ issue, meta }) => {
+const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
   const router = useRouter()
   return (
     <Layout>
@@ -94,6 +104,9 @@ const Page: NextPage<PageProps> = ({ issue, meta }) => {
               <MDXRemote {...issue.source} />
             </div>
           </div>
+        </div>
+        <div className="pt-24 mt-1 sticky top-0">
+          <TOC type="dot" headings={headings} />
         </div>
       </div>
       <Footer />
