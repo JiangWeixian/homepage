@@ -1,5 +1,11 @@
 # homepage
 
+## 0.4.0
+
+### Minor Changes
+
+- add toc
+
 ## 0.3.0
 
 ### Minor Changes
