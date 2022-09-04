@@ -5,6 +5,7 @@ import { serialize } from 'next-mdx-remote/serialize'
 import rehypeSlug from 'rehype-slug'
 import remarkGFM from 'remark-gfm'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
+import { remarkRefinedGithub } from 'remark-plugin-refined-github'
 import { Text } from 'mayumi/text'
 import { Link } from 'mayumi/link'
 import { useRouter } from 'next/router'
@@ -47,7 +48,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         rehypeAutolinkHeadings,
         [rehypePluginHeadings, { rank: 2, headings }],
       ],
-      remarkPlugins: [remarkGFM],
+      remarkPlugins: [remarkGFM, remarkRefinedGithub],
     },
   })
 
