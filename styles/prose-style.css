@@ -159,7 +159,8 @@ refs: https://github.com/brianlovin/briOS/blob/main/src/styles/prose-styles.css 
 }
 
 .prose pre > code {
-  @apply text-gray-200 bg-gray-800;
+  /* inherit color from shiki */
+  @apply text-inherit bg-inherit p-0;
 }
 
 .prose pre {

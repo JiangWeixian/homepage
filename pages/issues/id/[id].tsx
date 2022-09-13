@@ -5,6 +5,8 @@ import { serialize } from 'next-mdx-remote/serialize'
 import rehypeSlug from 'rehype-slug'
 import remarkGFM from 'remark-gfm'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
+import rehypeShiki from '@stefanprobst/rehype-shiki'
+import { getHighlighter } from 'shiki'
 import { remarkRefinedGithub } from 'remark-plugin-refined-github'
 import { Text } from 'mayumi/text'
 import { Link } from 'mayumi/link'
@@ -38,6 +40,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const issue = await client.issue(Number(id))
 
   const meta = parseMeta(issue.body)
+  const highlighter = await getHighlighter({ theme: 'github-dark' })
 
   const headings: Headings = []
 
@@ -47,6 +50,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         rehypeSlug,
         rehypeAutolinkHeadings,
         [rehypePluginHeadings, { rank: 2, headings }],
+        [rehypeShiki, { highlighter }],
       ],
       remarkPlugins: [remarkGFM, remarkRefinedGithub],
     },
