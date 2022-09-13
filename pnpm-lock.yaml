@@ -6,6 +6,7 @@ specifiers:
   '@mayumi-org/toc': ^0.0.1
   '@mdx-js/react': 2.1.1
   '@octokit/graphql': 4.8.0
+  '@stefanprobst/rehype-shiki': ^2.2.0
   '@stitches/react': 1.2.8
   '@svgr/webpack': 6.2.1
   '@tailwindcss/typography': ^0.5.2
@@ -41,6 +42,7 @@ specifiers:
   rehype-slug: 5.0.1
   remark-gfm: ^3.0.1
   remark-plugin-refined-github: ^0.0.1
+  shiki: ^0.11.1
   tailwindcss: 3.0.7
   typescript: 4.4.3
   unist-util-visit: ^4.1.1
@@ -49,6 +51,7 @@ dependencies:
   '@mayumi-org/toc': 0.0.1_mayumi@0.0.3
   '@mdx-js/react': 2.1.1_react@18.1.0
   '@octokit/graphql': 4.8.0
+  '@stefanprobst/rehype-shiki': 2.2.0_shiki@0.11.1
   '@stitches/react': 1.2.8_react@18.1.0
   atropos: 1.0.2
   clsx: 1.2.1
@@ -69,6 +72,7 @@ dependencies:
   rehype-slug: 5.0.1
   remark-gfm: 3.0.1
   remark-plugin-refined-github: 0.0.1
+  shiki: 0.11.1
   unist-util-visit: 4.1.1
 
 devDependencies:
@@ -1999,6 +2003,25 @@ packages:
   /@rushstack/eslint-patch/1.1.3:
     resolution: {integrity: sha512-WiBSI6JBIhC6LRIsB2Kwh8DsGTlbBU+mLRxJmAe3LjHTdkDpwIbEOZgoXBbZilk/vlfjK8i6nKRAvIRn1XaIMw==}
     dev: true
+
+  /@stefanprobst/rehype-shiki/2.2.0_shiki@0.11.1:
+    resolution: {integrity: sha512-X/m9hUMifZYJk77pc9dTl8Q5DLWdXegzmHhPZ5yraFpQXG9n/m2jKMLvIR7F6gI8l5plj6aNx/qcMCMnfBwBOA==}
+    engines: {node: '>=14.17', yarn: 1.x}
+    peerDependencies:
+      shiki: ^0.10.0
+    dependencies:
+      hast-util-to-string: 2.0.0
+      json5: 2.2.1
+      parse-numeric-range: 1.3.0
+      remark-parse: 10.0.1
+      remark-rehype: 10.1.0
+      shiki: 0.11.1
+      shiki-renderer-hast: 1.1.5_shiki@0.11.1
+      unified: 10.1.2
+      unist-util-visit: 4.1.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
 
   /@stitches/react/1.2.8_react@18.1.0:
     resolution: {integrity: sha512-9g9dWI4gsSVe8bNLlb+lMkBYsnIKCZTmvqvDG+Avnn69XfmHZKiaMrx7cgTaddq7aTPPmXiTsbFcUy0xgI4+wA==}
@@ -4305,6 +4328,12 @@ packages:
       '@types/unist': 2.0.6
     dev: false
 
+  /hast-util-parse-selector/3.1.0:
+    resolution: {integrity: sha512-AyjlI2pTAZEOeu7GeBPZhROx0RHBnydkQIXlhnFzDi0qfXTmGUWoCYZtomHbrdrheV4VFUlPcfJ6LMF5T6sQzg==}
+    dependencies:
+      '@types/hast': 2.3.4
+    dev: false
+
   /hast-util-to-estree/2.0.2:
     resolution: {integrity: sha512-UQrZVeBj6A9od0lpFvqHKNSH9zvDrNoyWKbveu1a2oSCXEDUI+3bnd6BoiQLPnLrcXXn/jzJ6y9hmJTTlvf8lQ==}
     dependencies:
@@ -4334,6 +4363,16 @@ packages:
 
   /hast-util-whitespace/2.0.0:
     resolution: {integrity: sha512-Pkw+xBHuV6xFeJprJe2BBEoDV+AvQySaz3pPDRUs5PNZEMQjpXJJueqrpcHIXxnWTcAGi/UOCgVShlkY6kLoqg==}
+    dev: false
+
+  /hastscript/7.0.2:
+    resolution: {integrity: sha512-uA8ooUY4ipaBvKcMuPehTAB/YfFLSSzCwFSwT6ltJbocFUKH/GDHLN+tflq7lSRf9H86uOuxOFkh1KgIy3Gg2g==}
+    dependencies:
+      '@types/hast': 2.3.4
+      comma-separated-tokens: 2.0.2
+      hast-util-parse-selector: 3.1.0
+      property-information: 6.1.1
+      space-separated-tokens: 2.0.1
     dev: false
 
   /homedir/0.6.0:
@@ -4741,7 +4780,6 @@ packages:
     resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
     engines: {node: '>=6'}
     hasBin: true
-    dev: true
 
   /jsonc-eslint-parser/2.1.0:
     resolution: {integrity: sha512-qCRJWlbP2v6HbmKW7R3lFbeiVWHo+oMJ0j+MizwvauqnCV/EvtAeEeuCgoc/ErtsuoKgYB8U4Ih8AxJbXoE6/g==}
@@ -4752,6 +4790,10 @@ packages:
       espree: 9.3.2
       semver: 7.3.7
     dev: true
+
+  /jsonc-parser/3.2.0:
+    resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
+    dev: false
 
   /jsonfile/4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
@@ -5938,6 +5980,10 @@ packages:
       lines-and-columns: 1.2.4
     dev: true
 
+  /parse-numeric-range/1.3.0:
+    resolution: {integrity: sha512-twN+njEipszzlMJd4ONUYgSfZPDxgHhT9Ahed5uTigpQn90FggW4SA/AIPq/6a149fTbE9qBEcSwE3FAEp6wQQ==}
+    dev: false
+
   /path-exists/3.0.0:
     resolution: {integrity: sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=}
     engines: {node: '>=4'}
@@ -6575,6 +6621,23 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
     dev: true
+
+  /shiki-renderer-hast/1.1.5_shiki@0.11.1:
+    resolution: {integrity: sha512-XOHX0/mIRJZnqPNGoyyJ9bUrqUwj/tLUJQ5SuU/UkQLTiSJjiHaCP17HRB7/VSQoor4+WJF3QkT8BXbipyJN0Q==}
+    peerDependencies:
+      shiki: ^0.9 || ^0.10.0
+    dependencies:
+      hastscript: 7.0.2
+      shiki: 0.11.1
+    dev: false
+
+  /shiki/0.11.1:
+    resolution: {integrity: sha512-EugY9VASFuDqOexOgXR18ZV+TbFrQHeCpEYaXamO+SZlsnT/2LxuLBX25GGtIrwaEVFXUAbUQ601SWE2rMwWHA==}
+    dependencies:
+      jsonc-parser: 3.2.0
+      vscode-oniguruma: 1.6.2
+      vscode-textmate: 6.0.0
+    dev: false
 
   /shorten-repo-url/2.3.0:
     resolution: {integrity: sha512-n9iDxMHcYTbjRNtIgdpL3wFCWByD6ZtDrqt1jAam6AR7/AVXiJDJ0255x7EKGDgd7Dol+93m8+XZgErZnq9Pug==}
@@ -7242,6 +7305,14 @@ packages:
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.2
       vfile-message: 3.1.2
+    dev: false
+
+  /vscode-oniguruma/1.6.2:
+    resolution: {integrity: sha512-KH8+KKov5eS/9WhofZR8M8dMHWN2gTxjMsG4jd04YhpbPR91fUj7rYQ2/XjeHCJWbg7X++ApRIU9NUwM2vTvLA==}
+    dev: false
+
+  /vscode-textmate/6.0.0:
+    resolution: {integrity: sha512-gu73tuZfJgu+mvCSy4UZwd2JXykjK9zAZsfmDeut5dx/1a7FeTk0XwJsSuqQn+cuMCGVbIBfl+s53X4T19DnzQ==}
     dev: false
 
   /warning/4.0.3:
