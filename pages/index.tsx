@@ -35,8 +35,8 @@ const Hacking = () => {
       onEnter={() => console.log('enter')}
     >
       <div className="atropos-banner-spacer w-full h-full" />
-      <img data-atropos-offset="-0.5" src="/atrops/hacking-room.png" alt="hacking-room" />
-      <img data-atropos-offset="0" src="/atrops/tube.png" alt="hacking-tube" />
+      <img data-atropos-offset="-0.5" src="/atrops/2x/hacking-room.png" alt="hacking-room" />
+      <img data-atropos-offset="0" src="/atrops/2x/tube.png" alt="hacking-tube" />
     </Atropos>
   )
 }
