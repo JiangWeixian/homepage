@@ -18,8 +18,6 @@ export const Layout = styled(MayumiLayout.Main, {
     top: '0',
     glass: '8px',
     zIndex: '$20',
-    py: '$4',
-    px: '$36',
     w: '$full',
     fontWeight: '$semibold',
     backgroundColor: 'rgba(6, 6, 6, 0.6)',
@@ -47,6 +45,7 @@ const StyledNav = styled('nav', {
         borderBottom: '1px solid $quaternaryLabelColor',
       },
     },
+    // display issue tabs
     displayTabs: {
       true: {
         justifyContent: 'end',
@@ -56,12 +55,15 @@ const StyledNav = styled('nav', {
       },
     },
   },
+  defaultVariants: {
+    ghost: false,
+  },
 })
 
 export const Nav = (props: NavProps) => {
   return (
     <StyledNav
-      className="blog-nav flex items-center gap-2"
+      className="blog-nav flex gap-2 items-center py-4 px-8 md:px-36"
       ghost={props.ghost}
       displayTabs={props.displayTabs}
     >
@@ -81,8 +83,6 @@ export const Nav = (props: NavProps) => {
 const StyledFooter = styled('footer', {
   w: '$full',
   mt: '$8',
-  py: '$8',
-  px: '$36',
   background: '$gridColor',
   borderStyle: 'solid',
   borderColor: '$quaternaryLabelColor',
@@ -93,15 +93,18 @@ const StyledFooter = styled('footer', {
 
 export const Footer = () => {
   return (
-    <StyledFooter>
+    <StyledFooter className="p-8 md:py-8 md:px-36">
       <div className="grid grid-cols-1 2xl:grid-cols-4">
         <div className="flex flex-col gap-12">
-          <div className="flex items-center relative">
+          <div className="flex flex-col items-start relative md:flex-row md:items-center">
             <Text className="signature font-thin" h6={true}>
               JiangWeixian
             </Text>
-            <Text className="relative" css={{ top: '2.5px' }} p={true} type="tertiary">
-              &nbsp;•&nbsp;A Frontend Developer
+            <Text className="relative italic top-1 hidden md:block" p={true} type="tertiary">
+              &nbsp;•&nbsp;
+            </Text>
+            <Text className="relative italic top-1" p={true} type="tertiary">
+              A Frontend Developer
             </Text>
           </div>
           <div className="flex gap-4">

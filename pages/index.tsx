@@ -45,7 +45,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <SEO />
-      <Nav displayTabs={true} ghost={true} />
+      <Nav displayTabs={true} />
       {/* set negative margin top: fit height of nav in layout */}
       <div className="grid grid-cols-12 gap-4 w-screen h-screen -mt-12">
         <div className="left col-start-2 col-end-7 h-full flex items-center">
