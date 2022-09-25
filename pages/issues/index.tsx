@@ -75,7 +75,7 @@ const Page: NextPage<PageProps> = ({ issues }) => {
       <SEO title="JiangWeixian's issues" />
       <Nav />
       <div className="container max-w-screen-xl min-h-screen h-fit">
-        <div className="pt-8 mx-36 h-full">
+        <div className="pt-8 px-8 h-full md:px-36">
           <div className="flex items-center mb-8">
             <Text h4={true} size="sm" weight="bold">
               Issues
@@ -85,7 +85,7 @@ const Page: NextPage<PageProps> = ({ issues }) => {
               Create something with love ♥️
             </Text>
           </div>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid gap-6 md:grid-cols-2">
             {issues.map((issue) => {
               return <Card issue={issue} key={issue.issue.number} />
             })}
