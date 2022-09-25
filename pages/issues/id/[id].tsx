@@ -85,17 +85,21 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
         alt={meta.description}
       />
       <Nav />
-      <div className="flex items-start">
-        <Link
-          animation="reverse"
-          onClick={() => router.back()}
-          className="pt-24 mt-1 flex justify-start items-center gap-1"
-        >
-          <ArrowLeft />
-          <span>Back</span>
-        </Link>
-        <div className="container max-w-screen-lg">
-          <div className="mx-36 pt-24 pb-8">
+      <div className="grid grid-cols-12 gap-8">
+        {/* back */}
+        <div className="col-start-2 col-end-3 flex items-start justify-end">
+          <Link
+            animation="reverse"
+            onClick={() => router.back()}
+            className="pt-24 mt-1 flex justify-start items-center gap-1"
+          >
+            <ArrowLeft />
+            <span>Back</span>
+          </Link>
+        </div>
+        {/* main */}
+        <div className="col-start-4 col-end-10">
+          <div className="pt-24 pb-8">
             <Text className="pb-2" h2={true}>
               {issue.title}
             </Text>
@@ -110,8 +114,9 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
             </div>
           </div>
         </div>
-        <div className="pt-24 mt-1 sticky top-0">
-          <TOC type="dot" headings={headings} />
+        {/* toc */}
+        <div className="col-start-10 col-end-13 pt-24 mt-1">
+          <TOC type="dot" className="sticky top-20" headings={headings} />
         </div>
       </div>
       <Footer />
