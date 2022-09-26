@@ -115,7 +115,7 @@ export const fetchAllIssues = async (client: ReturnType<typeof createGithubAPICl
   // only issue with label `issues` is a valid blog
   // label `issues` is top level category of issues
   let ISSUE_LABELS = ['issues']
-  if (process.env.__DEV__ || process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview') {
+  if (process.env.__DEV__ || process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview' || process.env.NEXT_PUBLIC_VERCEL_ENV === 'development') {
     ISSUE_LABELS.push('issues-dev')
   }
   let { issues, pageInfo } = await client.issues()
