@@ -1,5 +1,17 @@
 # homepage
 
+## 0.7.1
+
+### Patch Changes
+
+- strict-peer-dependencies=false
+
+## 0.7.0
+
+### Minor Changes
+
+- responsive design
+
 ## 0.6.0
 
 ### Minor Changes
