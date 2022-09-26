@@ -1,5 +1,11 @@
 # homepage
 
+## 0.7.2
+
+### Patch Changes
+
+- enable featch all issues in dev mode
+
 ## 0.7.1
 
 ### Patch Changes
