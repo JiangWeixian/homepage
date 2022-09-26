@@ -45,14 +45,14 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <SEO />
-      <Nav displayTabs={true} ghost={true} />
+      <Nav displayTabs={true} />
       {/* set negative margin top: fit height of nav in layout */}
-      <div className="grid grid-cols-12 gap-4 w-screen h-screen -mt-12">
-        <div className="left col-start-2 col-end-7 h-full flex items-center">
+      <div className="grid w-screen h-screen md:h-screen md:-mt-12 md:p-0 md:gap-4 md:grid-cols-12">
+        <div className="flex w-9/12 m-auto aspect-square items-center md:w-full md:left md:col-start-2 md:col-end-7 md:h-full">
           <Hacking />
         </div>
         {/* description */}
-        <SelfIntroduction className="right col-start-7 col-end-12 h-full flex items-center">
+        <SelfIntroduction className="flex px-8 md:p-0 h-fit md:right md:col-start-7 md:col-end-12 md:h-full md:items-center">
           <div>
             <div className="flex items-center gap-4 mb-8">
               <Image src="/avatar.png" width="36" height="36" alt="JiangWeixian" />
