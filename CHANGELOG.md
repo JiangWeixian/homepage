@@ -1,5 +1,12 @@
 # homepage
 
+## 0.7.3
+
+### Patch Changes
+
+- fix load theme
+- fee4321: add error log
+
 ## 0.7.2
 
 ### Patch Changes
