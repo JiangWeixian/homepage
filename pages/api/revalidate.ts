@@ -22,6 +22,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     }
   } catch (e) {
     console.error('Internal Error', e)
-    return res.status(500).send('Forbidden')
+    return res.status(500).send(e as unknown as string)
   }
 }
