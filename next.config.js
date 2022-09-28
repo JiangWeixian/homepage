@@ -26,6 +26,11 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com', 'user-images.githubusercontent.com'],
   },
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
   webpack(config, context) {
     if (process.env.NODE_ENV === 'development') {
       config.resolve.alias.react = path.resolve(__dirname, './node_modules/react')

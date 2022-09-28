@@ -32,6 +32,11 @@ export async function getStaticPaths() {
   }
 }
 
+const getHighlighter = async () => {
+  const shiki = await import('shiki')
+  return shiki.getHighlighter({ theme: 'github-dark' })
+}
+
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   console.log(`[Next.js] Running getStaticProps for /${params!.id}`)
   const id = params!.id as string
@@ -39,8 +44,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const issue = await client.issue(Number(id))
 
   const meta = parseMeta(issue.body)
-  const shiki = await import('shiki')
-  const highlighter = await shiki.getHighlighter({ theme: 'github-dark' })
 
   const headings: Headings = []
 
@@ -50,7 +53,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         rehypeSlug,
         rehypeAutolinkHeadings,
         [rehypePluginHeadings, { rank: 2, headings }],
-        [rehypeShiki, { highlighter }],
+        [rehypeShiki, { highlighter: await getHighlighter() }],
       ],
       remarkPlugins: [remarkGFM, remarkRefinedGithub],
     },
