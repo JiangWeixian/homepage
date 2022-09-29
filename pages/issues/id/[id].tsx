@@ -127,4 +127,8 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
   )
 }
 
+export const config = {
+  unstable_includeFiles: ['node_modules/shiki/**/*.+(js|json)'],
+}
+
 export default Page
