@@ -6,8 +6,6 @@ import rehypeSlug from 'rehype-slug'
 import remarkGFM from 'remark-gfm'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeShiki from '@stefanprobst/rehype-shiki'
-import { getHighlighter } from 'shiki'
-import githubDark from 'shiki/themes/github-dark.json'
 import { remarkRefinedGithub } from 'remark-plugin-refined-github'
 import { Text } from 'mayumi/text'
 import { Link } from 'mayumi/link'
@@ -34,6 +32,11 @@ export async function getStaticPaths() {
   }
 }
 
+const getHighlighter = async () => {
+  const shiki = await import('shiki')
+  return shiki.getHighlighter({ theme: 'github-dark' })
+}
+
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   console.log(`[Next.js] Running getStaticProps for /${params!.id}`)
   const id = params!.id as string
@@ -41,7 +44,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const issue = await client.issue(Number(id))
 
   const meta = parseMeta(issue.body)
-  const highlighter = await getHighlighter({ theme: githubDark as never })
 
   const headings: Headings = []
 
@@ -51,7 +53,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         rehypeSlug,
         rehypeAutolinkHeadings,
         [rehypePluginHeadings, { rank: 2, headings }],
-        [rehypeShiki, { highlighter }],
+        [rehypeShiki, { highlighter: await getHighlighter() }],
       ],
       remarkPlugins: [remarkGFM, remarkRefinedGithub],
     },
@@ -123,6 +125,11 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
       <Footer />
     </Layout>
   )
+}
+
+// refs: https://github.com/vercel/next.js/issues/34246
+export const config = {
+  unstable_includeFiles: ['node_modules/shiki/**/*.+(js|json)'],
 }
 
 export default Page

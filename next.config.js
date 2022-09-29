@@ -27,6 +27,7 @@ const nextConfig = {
     domains: ['images.unsplash.com', 'user-images.githubusercontent.com'],
   },
   webpack(config, context) {
+    config.resolve.symlinks = false
     if (process.env.NODE_ENV === 'development') {
       config.resolve.alias.react = path.resolve(__dirname, './node_modules/react')
     }
