@@ -127,6 +127,7 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
   )
 }
 
+// refs: https://github.com/vercel/next.js/issues/34246
 export const config = {
   unstable_includeFiles: ['node_modules/shiki/**/*.+(js|json)'],
 }

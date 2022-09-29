@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import Head from 'next/head'
 
 const intro = `
