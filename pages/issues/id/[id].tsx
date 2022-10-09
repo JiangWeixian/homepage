@@ -1,6 +1,6 @@
 import type { GetStaticProps, NextPage } from 'next'
 import Image from 'next/image'
-import { MDXRemote } from 'next-mdx-remote'
+import { MDXRemote, MDXRemoteProps } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
 import rehypeSlug from 'rehype-slug'
 import remarkGFM from 'remark-gfm'
@@ -49,6 +49,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   const mdxSource = await serialize(meta.content, {
     mdxOptions: {
+      format: 'mdx',
       rehypePlugins: [
         rehypeSlug,
         rehypeAutolinkHeadings,
@@ -71,6 +72,26 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   }
 }
 
+type StackblitzProps = {
+  src: string
+}
+
+const components: MDXRemoteProps['components'] = {
+  Stackblitz(props: StackblitzProps) {
+    return (
+      <iframe
+        data-testid="stackblitz"
+        height={500}
+        width="100%"
+        scrolling="no"
+        src={props.src}
+        frameBorder="no"
+        allowFullScreen={true}
+      />
+    )
+  },
+}
+
 type PageProps = {
   issue: Issue
   meta: IssueMeta
@@ -88,7 +109,7 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
         alt={meta.description}
       />
       <Nav />
-      <div className="grid p-8 md:p-0 md:gap-8 md:grid-cols-12">
+      <div className="grid w-full p-8 md:p-0 md:gap-8 md:grid-cols-12">
         {/* back */}
         <div className="flex items-start md:col-start-2 md:col-end-3 md:justify-end">
           <Link
@@ -113,7 +134,7 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
               <Image src={meta.cover} alt={issue.title} objectFit="cover" layout="fill" />
             </ImageContainer>
             <div className="max-w-7xl prose dark:prose-invert">
-              <MDXRemote {...issue.source} />
+              <MDXRemote {...issue.source} components={components} />
             </div>
           </div>
         </div>
