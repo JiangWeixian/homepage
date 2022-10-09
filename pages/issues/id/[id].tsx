@@ -72,8 +72,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   }
 }
 
+type StackblitzProps = {
+  src: string
+}
+
 const components: MDXRemoteProps['components'] = {
-  Stackblitz(props) {
+  Stackblitz(props: StackblitzProps) {
     return (
       <iframe
         data-testid="stackblitz"
