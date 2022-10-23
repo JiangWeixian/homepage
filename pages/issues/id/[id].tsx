@@ -86,7 +86,6 @@ const components: MDXRemoteProps['components'] = {
         scrolling="no"
         src={props.src}
         frameBorder="no"
-        allowFullScreen={true}
       />
     )
   },
