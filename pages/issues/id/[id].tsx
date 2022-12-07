@@ -130,7 +130,7 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
               <time>{format(issue.createdAt)}</time>
             </Text>
             <ImageContainer className="blog-cover my-8 relative w-full block aspect-video">
-              <Image src={meta.cover} alt={issue.title} objectFit="cover" layout="fill" />
+              { !meta.cover.includes('realme-ten.vercel.app') ? <Image src={meta.cover} alt={issue.title} objectFit="cover" layout="fill" /> : <img src={meta.cover} alt={issue.title} /> }
             </ImageContainer>
             <div className="max-w-7xl prose dark:prose-invert">
               <MDXRemote {...issue.source} components={components} />

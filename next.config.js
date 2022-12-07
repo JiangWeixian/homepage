@@ -24,7 +24,10 @@ const nextConfig = {
   swcMinify: false,
   reactStrictMode: true,
   images: {
-    domains: ['images.unsplash.com', 'user-images.githubusercontent.com'],
+    // realme-ten.vercel.app is website provide svg images build with svg foreignObject 
+    domains: ['images.unsplash.com', 'user-images.githubusercontent.com', 'realme-ten.vercel.app'],
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   webpack(config, context) {
     config.resolve.symlinks = false
