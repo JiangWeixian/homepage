@@ -9,7 +9,7 @@ Hi, I'am JiangWeixian, a front-end developer, on the road to be a full-time open
 const meta = {
   url: 'https://jwx.ink',
   title: "JiangWeixian's blog",
-  image: '/hacking-room.png',
+  image: 'https://jwx.ink/hacking-room.png',
   // A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters.
   alt: "Display 80's hacking room, contains loved Macintosh, Arcade etc...Everything is artwork, I hope I can create tools with love like that.",
   description: intro,
