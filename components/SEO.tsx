@@ -31,7 +31,7 @@ export const SEO = (props: SEOProps = meta) => {
       <meta property="og:image:alt" content={p.alt} />
       <meta property="og:description" content={p.description} />
       {/* twitter */}
-      <meta name="twitter:card" content={p.description} />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={p.twitter} />
       <meta name="twitter:url" content={p.url} />
       <meta name="twitter:title" content={p.title} />
