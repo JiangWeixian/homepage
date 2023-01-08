@@ -48,7 +48,7 @@ const Card = (props: CardProps) => {
       onClick={() => router.push('/issues/id/[id]', `/issues/id/${props.issue.issue.number}`)}
     >
       <ImageContainer>
-        {!props.issue.meta.cover.includes('realme-ten.vercel.app') ? (
+        {!props.issue.meta.cover.includes('https://realme') ? (
           <Image
             src={props.issue.meta.cover}
             alt={props.issue.issue.title}
