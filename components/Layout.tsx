@@ -72,9 +72,14 @@ export const Nav = (props: NavProps) => {
         <Link href="/">JiangWeixian</Link>
       </Text>
       {props.displayTabs && (
-        <Link href="/issues">
-          <MayumiLink>Issues</MayumiLink>
-        </Link>
+        <>
+          <Link href="/issues">
+            <MayumiLink>Issues</MayumiLink>
+          </Link>
+          <Link href="/porjects">
+            <MayumiLink>Projects</MayumiLink>
+          </Link>
+        </>
       )}
     </StyledNav>
   )
