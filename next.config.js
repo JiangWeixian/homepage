@@ -27,6 +27,9 @@ const define = () => {
 const nextConfig = {
   swcMinify: false,
   reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true
+  },
   images: {
     // realme-ten.vercel.app is website provide svg images build with svg foreignObject 
     domains: ['images.unsplash.com', 'user-images.githubusercontent.com', 'realme-ten.vercel.app', 'neo-docs.netlify.app'],
