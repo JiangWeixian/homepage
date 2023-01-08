@@ -63,7 +63,7 @@ const StyledNav = styled('nav', {
 export const Nav = (props: NavProps) => {
   return (
     <StyledNav
-      className="blog-nav flex gap-2 items-center py-4 px-8 md:px-36"
+      className="blog-nav flex gap-8 items-center py-4 px-8 md:px-36"
       ghost={props.ghost}
       displayTabs={props.displayTabs}
     >
@@ -74,10 +74,14 @@ export const Nav = (props: NavProps) => {
       {props.displayTabs && (
         <>
           <Link href="/issues">
-            <MayumiLink>Issues</MayumiLink>
+            <MayumiLink>
+              <Text weight="semibold" type="quaternary">Issues</Text>
+            </MayumiLink>
           </Link>
-          <Link href="/porjects">
-            <MayumiLink>Projects</MayumiLink>
+          <Link href="/projects">
+            <MayumiLink>
+              <Text weight="semibold" type="quaternary">Projects</Text>
+            </MayumiLink>
           </Link>
         </>
       )}

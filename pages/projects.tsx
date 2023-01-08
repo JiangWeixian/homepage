@@ -100,8 +100,8 @@ const Pins = ({ items }: { items: Item[] }) => {
   }))
   return (
     // TODO: w, h for debug
-    <div className="px-8 md:px-36 mt-12 w-full flex items-center justify-center h-80">
-      <div className="relative w-full h-full rounded-lg shadow">
+    <div className="hidden md:flex mt-12 items-center justify-center w-full h-80">
+      <div className="relative container mx-auto h-full rounded-lg shadow">
         {pins.map(({ x, y, rot, scale, opacity }, i) => (
           <a.div className="absolute will-change-transform flex items-center justify-center w-[400px]" key={i} style={{ x, y, opacity }}>
             {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
@@ -135,9 +135,9 @@ const Section = ({ year, items }: SectionProps) => {
     }
   }, [inView, year])
   return (
-    <a.div style={styles} className="flex justify-between relative" ref={ref}>
-      <Text className="font-eb" type="secondary" h2={true} size="lg">{year}</Text>
-      <div className="flex flex-col gap-4 w-[600px] md:w-[800px]">
+    <a.div style={styles} className="flex flex-col md:grid md:grid-cols-12 justify-between relative" ref={ref}>
+      <Text className="font-eb md:col-start-1 md:col-end-3" type="secondary" h2={true} size="lg">{year}</Text>
+      <div className="flex flex-col gap-4 md:col-start-6 md:col-end-13">
         {items.filter(v => v.type === 'major').map(v => {
           return (
             <div key={v.name}>
@@ -148,7 +148,7 @@ const Section = ({ year, items }: SectionProps) => {
                 {v.description}
               </Text>
               {v.image && (
-                <ImageContainer className="rounded-md shadow overflow-hidden w-full min-h-[400px]">
+                <ImageContainer className="rounded-md shadow overflow-hidden w-full">
                   <Image alt={v.name} src={v.image} objectFit="cover" layout="fill" />
                 </ImageContainer>
               )}
@@ -156,7 +156,7 @@ const Section = ({ year, items }: SectionProps) => {
           )
         })}
         {items.filter(v => v.type === 'tiny').length !== 0 && <Text type="quaternary" h3={true} weight="semibold" size="sm">Tiny Projects</Text>}
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {items.filter(v => v.type === 'tiny').map(v => {
             return (
               <div key={v.name} className="inline-flex items-center gap-8 cursor-pointer rounded p-2 opacity-60 hover:opacity-90" onClick={() => window.open(v.url)}>
@@ -193,7 +193,7 @@ const Page: NextPage<Props> = (props: Props) => {
       <SEO title="JiangWeixian's Projects" />
       <Nav />
       <Pins items={props.pins} />
-      <div className="flex flex-col gap-4 px-8 md:px-36 mt-24 w-full relative">
+      <div className="flex flex-col gap-4 px-8 w-full md:container mt-24 relative">
         {Object.entries(props.projects).map(([year, items]) => {
           return (
             <Section key={year} year={year} items={items} />

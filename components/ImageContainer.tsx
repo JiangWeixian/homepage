@@ -21,7 +21,7 @@ export const Image = (props: ImageProps) => {
       {typeof props.src === 'string' && !props.src.includes('realme-ten.vercel.app') ? (
         <NextImage src={props.src} alt={props.alt} objectFit="cover" layout="fill" />
       ) : (
-        <img src={props.src as string} alt={props.alt} />
+        <img src={props.src as string} alt={props.alt} className="object-fill w-full" />
       )}
     </>
   )
