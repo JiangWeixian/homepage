@@ -130,7 +130,7 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
               <time>{format(issue.createdAt)}</time>
             </Text>
             <ImageContainer className="blog-cover my-8 relative w-full block aspect-video">
-              {!meta.cover.includes('realme-ten.vercel.app') ? (
+              {!meta.cover.includes('https://realme') ? (
                 <Image src={meta.cover} alt={issue.title} objectFit="cover" layout="fill" />
               ) : (
                 <img src={meta.cover} alt={issue.title} />
