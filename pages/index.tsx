@@ -11,9 +11,6 @@ import { Layout, Footer, Nav } from '~/components/Layout'
 import { SEO } from '~/components/SEO'
 import { social } from '~/utils/constants'
 
-// TODO: replace with project url in site
-const project = 'https://github.com/JiangWeixian'
-
 const SelfIntroduction = styled('section', {
   '.mayumi-text:not(.signature)': {
     mb: '$4',
@@ -62,7 +59,7 @@ const Home: NextPage = () => {
               </Text>
               <Text p={true}>
                 Execting to make my ideas come true, You can found my projects list{' '}
-                <Link href={project} title="project">
+                <Link href="/projects" title="project">
                   here
                 </Link>
                 . Glad to hear these tools to improve your develop experience and make your life
