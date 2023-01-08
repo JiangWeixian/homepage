@@ -3,7 +3,8 @@ import { Text } from 'mayumi/text'
 import { useSpring, useSprings, a, config, to as interpolate } from '@react-spring/web'
 import { useInView } from 'react-intersection-observer'
 import { Icon } from 'mayumi/icons'
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
+import { Box as MayumiBox } from 'mayumi/box'
 
 import { Image, ImageContainer } from '~/components/ImageContainer'
 import { SEO } from "~/components/SEO"
@@ -15,6 +16,8 @@ import Rollup from '~/components/Icons/Rollup.svg'
 import Babel from '~/components/Icons/Babel.svg'
 import VSCode from '~/components/Icons/VSCode.svg'
 import Typescript from '~/components/Icons/Typescript.svg'
+
+const Box = a(MayumiBox)
 
 type Item = {
   name: string
@@ -72,27 +75,44 @@ const from = (i: number) => {
 const trans = (r: number, s: number) =>
   `perspective(1500px) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
 
+const Card = ({ item }: { item: Item }) => {
+  const [isHover, hover] = useState(false)
+  const { ty } = useSpring({
+    ty: isHover ? '0%' : '100%'
+  })
+  return (
+    <div
+      onMouseEnter={() => hover(true)}
+      onMouseLeave={() => hover(false)}
+    >
+      <img alt={item.name} src={item.image!} />
+      <Box bordered={false} css={{ glass: '$4' }} style={{ transform: ty.to(v => `translateY(${v})`) }} className="absolute bottom-0 left-0 w-full rounded-none">
+        <Text p={true} weight="bold" type="secondary" size="xs" className="line-clamp-2">{item.description}</Text>
+      </Box>
+    </div>
+  )
+}
+
 const Pins = ({ items }: { items: Item[] }) => {
-  const [pins, api] = useSprings(items.length, i => ({
+  const [pins] = useSprings(items.length, i => ({
     ...to(i),
     from: from(i),
   }))
   return (
     // TODO: w, h for debug
-    // TODO: glass?
     <div className="px-8 md:px-36 mt-12 w-full flex items-center justify-center h-80">
       <div className="relative w-full h-full rounded-lg shadow">
         {pins.map(({ x, y, rot, scale, opacity }, i) => (
           <a.div className="absolute will-change-transform flex items-center justify-center w-[400px]" key={i} style={{ x, y, opacity }}>
             {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
             <a.div
-              className="rounded-lg shadow-lg overflow-hidden w-full cursor-pointer hover:shadow-2xl"
+              className="rounded-lg shadow-lg relative overflow-hidden w-full h-full cursor-pointer hover:shadow-2xl"
               style={{
                 transform: interpolate([rot, scale], trans),
               }}
               onClick={() => window.open(items[i].url)}
             >
-              <img alt={items[i].name} src={items[i].image!} />
+              <Card item={items[i]} />
             </a.div>
           </a.div>
         ))}
@@ -128,7 +148,6 @@ const Section = ({ year, items }: SectionProps) => {
                 {v.description}
               </Text>
               {v.image && (
-                // TODO: add fallback image
                 <ImageContainer className="rounded-md shadow overflow-hidden w-full min-h-[400px]">
                   <Image alt={v.name} src={v.image} objectFit="cover" layout="fill" />
                 </ImageContainer>

@@ -12,6 +12,10 @@
   font-family: 'EB Garamond', serif;
 }
 
+.bg-sensi {
+  background: linear-gradient(180deg,#232c3d,#0b1016);
+}
+
 html,
 body {
   padding: 0;
