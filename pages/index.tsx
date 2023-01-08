@@ -9,12 +9,7 @@ import 'atropos/css'
 
 import { Layout, Footer, Nav } from '~/components/Layout'
 import { SEO } from '~/components/SEO'
-
-const social = {
-  github: 'https://github.com/JiangWeixian',
-  jike: 'https://web.okjike.com/me',
-  sponsor: 'https://github.com/sponsors/JiangWeixian',
-}
+import { social } from '~/utils/constants'
 
 // TODO: replace with project url in site
 const project = 'https://github.com/JiangWeixian'
@@ -85,7 +80,7 @@ const Home: NextPage = () => {
                 .
               </Text>
               <Text p={true}>
-                If you like my works, consider sponsoring me on{' '}
+                If you like my works, consider 💖 sponsoring me on{' '}
                 <Link href={social.sponsor} title="sponsor">
                   Github Sponsor
                 </Link>
