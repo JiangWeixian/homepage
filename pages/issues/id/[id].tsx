@@ -1,5 +1,4 @@
 import type { GetStaticProps, NextPage } from 'next'
-import Image from 'next/image'
 import { MDXRemote, MDXRemoteProps } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
 import rehypeSlug from 'rehype-slug'
@@ -14,7 +13,7 @@ import { TOC } from '@mayumi-org/toc'
 
 import { Issue, IssueMeta } from '~/types'
 import { Layout, Footer, Nav } from '~/components/Layout'
-import { ImageContainer } from '~/components/ImageContainer'
+import { ImageContainer, Image } from '~/components/ImageContainer'
 import ArrowLeft from '~/components/Icons/ArrowLeft.svg'
 import { SEO } from '~/components/SEO'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
@@ -89,6 +88,10 @@ const components: MDXRemoteProps['components'] = {
       />
     )
   },
+  img(props) {
+    // next/image src staticimport not compatiable
+    return <Image {...(props as any)} fallbackImgElement="raw" />
+  },
 }
 
 type PageProps = {
@@ -130,11 +133,7 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
               <time>{format(issue.createdAt)}</time>
             </Text>
             <ImageContainer className="blog-cover my-8 relative w-full block aspect-video">
-              {!meta.cover.includes('https://realme') ? (
-                <Image src={meta.cover} alt={issue.title} objectFit="cover" layout="fill" />
-              ) : (
-                <img src={meta.cover} alt={issue.title} />
-              )}
+              <Image src={meta.cover} alt={issue.title} />
             </ImageContainer>
             <div className="max-w-7xl prose dark:prose-invert">
               <MDXRemote {...issue.source} components={components} />

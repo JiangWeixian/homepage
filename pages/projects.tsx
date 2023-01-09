@@ -1,15 +1,15 @@
-import type { NextPage } from "next"
+import type { NextPage } from 'next'
 import { Text } from 'mayumi/text'
 import { useSpring, useSprings, a, config, to as interpolate } from '@react-spring/web'
 import { useInView } from 'react-intersection-observer'
 import { Icon } from 'mayumi/icons'
-import { useEffect, useState } from "react"
+import { useEffect, useState } from 'react'
 import { Box as MayumiBox } from 'mayumi/box'
 import { Link } from 'mayumi/link'
 
 import { Image, ImageContainer } from '~/components/ImageContainer'
-import { SEO } from "~/components/SEO"
-import { Nav, Layout, Footer } from "~/components/Layout"
+import { SEO } from '~/components/SEO'
+import { Nav, Layout, Footer } from '~/components/Layout'
 import Vite from '~/components/Icons/Vite.svg'
 import Webpack from '~/components/Icons/Webpack.svg'
 import Node from '~/components/Icons/Node.svg'
@@ -18,7 +18,6 @@ import Babel from '~/components/Icons/Babel.svg'
 import VSCode from '~/components/Icons/VSCode.svg'
 import Typescript from '~/components/Icons/Typescript.svg'
 import { social } from '~/utils/constants'
-
 
 const Box = a(MayumiBox)
 
@@ -39,19 +38,22 @@ const icons = {
   rollup: Rollup,
   typescript: Typescript,
   babel: Babel,
-  vscode: VSCode
+  vscode: VSCode,
 }
 
 export const getStaticProps = async () => {
-  const projects = await import('~/assets/projects.json').then(res => res.default) as Record<string, Item[]>
+  const projects = (await import('~/assets/projects.json').then((res) => res.default)) as Record<
+    string,
+    Item[]
+  >
   const pins = Object.values(projects).reduce((acc, cur) => {
-    return acc.concat(cur.filter(v => v.pin))
+    return acc.concat(cur.filter((v) => v.pin))
   }, [])
   return {
     props: {
       projects,
-      pins
-    }
+      pins,
+    },
   }
 }
 
@@ -62,7 +64,7 @@ const to = (i: number) => ({
   scale: 1,
   rot: (5 + Math.random() * 10) * (i % 2 === 0 ? -1 : 1),
   delay: i * 100,
-  opacity: 1
+  opacity: 1,
 })
 const from = (i: number) => {
   const initials = [
@@ -71,7 +73,7 @@ const from = (i: number) => {
     // from left
     { x: '-100%', rot: 0, scale: 1.5, y: 0, opacity: 0 },
     // from bottom
-    { x: `${10 + i * 40}%`, rot: 0, scale: 1.5, y: 1000, opacity: 0 }
+    { x: `${10 + i * 40}%`, rot: 0, scale: 1.5, y: 1000, opacity: 0 },
   ]
   return initials[i % initials.length]
 }
@@ -81,23 +83,27 @@ const trans = (r: number, s: number) =>
 const Card = ({ item }: { item: Item }) => {
   const [isHover, hover] = useState(false)
   const { ty } = useSpring({
-    ty: isHover ? '0%' : '100%'
+    ty: isHover ? '0%' : '100%',
   })
   return (
-    <div
-      onMouseEnter={() => hover(true)}
-      onMouseLeave={() => hover(false)}
-    >
+    <div onMouseEnter={() => hover(true)} onMouseLeave={() => hover(false)}>
       <img alt={item.name} src={item.image!} />
-      <Box bordered={false} css={{ glass: '$4' }} style={{ transform: ty.to(v => `translateY(${v})`) }} className="absolute bottom-0 left-0 w-full rounded-none">
-        <Text p={true} weight="bold" type="secondary" size="xs" className="line-clamp-2">{item.description}</Text>
+      <Box
+        bordered={false}
+        css={{ glass: '$4' }}
+        style={{ transform: ty.to((v) => `translateY(${v})`) }}
+        className="absolute bottom-0 left-0 w-full rounded-none"
+      >
+        <Text p={true} weight="bold" type="secondary" size="xs" className="line-clamp-2">
+          {item.description}
+        </Text>
       </Box>
     </div>
   )
 }
 
 const Pins = ({ items }: { items: Item[] }) => {
-  const [pins] = useSprings(items.length, i => ({
+  const [pins] = useSprings(items.length, (i) => ({
     ...to(i),
     from: from(i),
   }))
@@ -106,7 +112,11 @@ const Pins = ({ items }: { items: Item[] }) => {
     <div className="hidden md:flex mt-12 items-center justify-center w-full h-80">
       <div className="relative container mx-auto h-full rounded-lg shadow">
         {pins.map(({ x, y, rot, scale, opacity }, i) => (
-          <a.div className="absolute will-change-transform flex items-center justify-center w-[400px]" key={i} style={{ x, y, opacity }}>
+          <a.div
+            className="absolute will-change-transform flex items-center justify-center w-[400px]"
+            key={i}
+            style={{ x, y, opacity }}
+          >
             {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
             <a.div
               className="rounded-lg shadow-lg relative overflow-hidden w-full h-full cursor-pointer hover:shadow-2xl"
@@ -138,47 +148,78 @@ const Section = ({ year, items }: SectionProps) => {
     }
   }, [inView, year])
   return (
-    <a.div style={styles} className="flex flex-col md:grid md:grid-cols-12 justify-between relative" ref={ref}>
-      <Text className="font-eb md:col-start-1 md:col-end-3" type="secondary" h2={true} size="lg">{year}</Text>
+    <a.div
+      style={styles}
+      className="flex flex-col md:grid md:grid-cols-12 justify-between relative"
+      ref={ref}
+    >
+      <Text className="font-eb md:col-start-1 md:col-end-3" type="secondary" h2={true} size="lg">
+        {year}
+      </Text>
       <div className="flex flex-col gap-4 md:col-start-6 md:col-end-13">
-        {items.filter(v => v.type === 'major').map(v => {
-          return (
-            <div key={v.name}>
-              <Text p={true} weight="medium" className="my-3 text-gray-900 dark:text-gray-100">
-                <Text span={true} type="quaternary" weight="semibold" className="inline-block cursor-pointer uppercase" onClick={() => window.open(v.url)}>
-                  {v.name}&nbsp;&nbsp; - &nbsp;&nbsp;
-                </Text>
-                {v.description}
-              </Text>
-              {v.image && (
-                <ImageContainer className="rounded-md shadow overflow-hidden w-full">
-                  <Image alt={v.name} src={v.image} objectFit="cover" layout="fill" />
-                </ImageContainer>
-              )}
-            </div>
-          )
-        })}
-        {items.filter(v => v.type === 'tiny').length !== 0 && <Text type="quaternary" h3={true} weight="semibold" size="sm">Tiny Projects</Text>}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {items.filter(v => v.type === 'tiny').map(v => {
+        {items
+          .filter((v) => v.type === 'major')
+          .map((v) => {
             return (
-              <div key={v.name} className="inline-flex items-center gap-8 cursor-pointer rounded p-2 opacity-60 hover:opacity-90" onClick={() => window.open(v.url)}>
-                {v.icon && (
-                  <Icon className="flex-0" css={{ w: '$8', h: '$8', fill: '$secondaryLabelColor', cursor: 'pointer' }}>
-                    {icons[v.icon as keyof typeof icons]()}
-                  </Icon>
+              <div key={v.name}>
+                <Text p={true} weight="medium" className="my-3 text-gray-900 dark:text-gray-100">
+                  <Text
+                    span={true}
+                    type="quaternary"
+                    weight="semibold"
+                    className="inline-block cursor-pointer uppercase"
+                    onClick={() => window.open(v.url)}
+                  >
+                    {v.name}&nbsp;&nbsp; - &nbsp;&nbsp;
+                  </Text>
+                  {v.description}
+                </Text>
+                {v.image && (
+                  <ImageContainer className="rounded-md shadow overflow-hidden w-full">
+                    <Image alt={v.name} src={v.image} objectFit="cover" layout="fill" />
+                  </ImageContainer>
                 )}
-                <div className="flex-1 basis-0 w-0">
-                  <Text p={true} type="quaternary" weight="semibold">
-                    {v.name}
-                  </Text>
-                  <Text p={true} weight="medium" className="w-full my-3 text-gray-900 dark:text-gray-100 line-clamp-2">
-                    {v.description}
-                  </Text>
-                </div>
               </div>
             )
           })}
+        {items.filter((v) => v.type === 'tiny').length !== 0 && (
+          <Text type="quaternary" h3={true} weight="semibold" size="sm">
+            Tiny Projects
+          </Text>
+        )}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {items
+            .filter((v) => v.type === 'tiny')
+            .map((v) => {
+              return (
+                <div
+                  key={v.name}
+                  className="inline-flex items-center gap-8 cursor-pointer rounded p-2 opacity-60 hover:opacity-90"
+                  onClick={() => window.open(v.url)}
+                >
+                  {v.icon && (
+                    <Icon
+                      className="flex-0"
+                      css={{ w: '$8', h: '$8', fill: '$secondaryLabelColor', cursor: 'pointer' }}
+                    >
+                      {icons[v.icon as keyof typeof icons]()}
+                    </Icon>
+                  )}
+                  <div className="flex-1 basis-0 w-0">
+                    <Text p={true} type="quaternary" weight="semibold">
+                      {v.name}
+                    </Text>
+                    <Text
+                      p={true}
+                      weight="medium"
+                      className="w-full my-3 text-gray-900 dark:text-gray-100 line-clamp-2"
+                    >
+                      {v.description}
+                    </Text>
+                  </div>
+                </div>
+              )
+            })}
         </div>
       </div>
     </a.div>
@@ -197,7 +238,12 @@ const Page: NextPage<Props> = (props: Props) => {
       <Nav />
       <Pins items={props.pins} />
       <div className="w-full md:container my-6 px-8 md:my-12">
-        <Text p={true} type="quaternary" size="sm" className="w-fit underline decoration-dotted underline-offset-4">
+        <Text
+          p={true}
+          type="quaternary"
+          size="sm"
+          className="w-fit underline decoration-dotted underline-offset-4"
+        >
           💖 Sponsoring me on{' '}
           <Text weight="semibold" span={true}>
             <Link href={social.sponsor} title="sponsor">
@@ -209,9 +255,7 @@ const Page: NextPage<Props> = (props: Props) => {
       </div>
       <div className="flex flex-col gap-4 px-8 w-full md:container relative">
         {Object.entries(props.projects).map(([year, items]) => {
-          return (
-            <Section key={year} year={year} items={items} />
-          )
+          return <Section key={year} year={year} items={items} />
         })}
       </div>
       <Footer />

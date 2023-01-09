@@ -75,12 +75,16 @@ export const Nav = (props: NavProps) => {
         <>
           <Link href="/issues">
             <MayumiLink>
-              <Text weight="semibold" type="quaternary">Issues</Text>
+              <Text weight="semibold" type="quaternary">
+                Issues
+              </Text>
             </MayumiLink>
           </Link>
           <Link href="/projects">
             <MayumiLink>
-              <Text weight="semibold" type="quaternary">Projects</Text>
+              <Text weight="semibold" type="quaternary">
+                Projects
+              </Text>
             </MayumiLink>
           </Link>
         </>

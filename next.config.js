@@ -32,7 +32,12 @@ const nextConfig = {
   },
   images: {
     // realme-ten.vercel.app is website provide svg images build with svg foreignObject 
-    domains: ['images.unsplash.com', 'user-images.githubusercontent.com', 'realme-ten.vercel.app', 'neo-docs.netlify.app'],
+    domains: [
+      'images.unsplash.com',
+      'user-images.githubusercontent.com',
+      'realme-ten.vercel.app',
+      'neo-docs.netlify.app',
+    ],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
