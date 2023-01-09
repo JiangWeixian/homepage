@@ -39,13 +39,13 @@ const RealmeSvgImage = (props: React.ImgHTMLAttributes<HTMLImageElement>) => {
 }
 
 export const Image = (
-  props: ImageProps &
+  { fallbackImgElement = 'next', ...props }: ImageProps &
     React.ImgHTMLAttributes<HTMLImageElement> & { fallbackImgElement?: 'next' | 'raw' },
 ) => {
   return (
     <>
       {typeof props.src === 'string' && !props.src.includes('https://realme') ? (
-        props.fallbackImgElement === 'next' ? (
+        fallbackImgElement === 'next' ? (
           <NextImage src={props.src} alt={props.alt} objectFit="cover" layout="fill" />
         ) : (
           <img {...props} />
