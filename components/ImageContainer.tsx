@@ -26,7 +26,7 @@ const styles: React.CSSProperties = {
 const RealmeSvgImage = (props: React.ImgHTMLAttributes<HTMLImageElement>) => {
   const [ref, bounds] = useMeasure()
   return (
-    <div ref={ref} style={styles}>
+    <div ref={ref} style={{ ...styles, ...props.style }}>
       <img
         {...props}
         src={withQuery(props.src as string, {
@@ -51,7 +51,7 @@ export const Image = (
           <img {...props} />
         )
       ) : (
-        <RealmeSvgImage src={props.src as string} alt={props.alt} className="object-fill w-full" />
+        <RealmeSvgImage {...props} src={props.src as string} alt={props.alt} className="object-fill w-full" />
       )}
     </>
   )

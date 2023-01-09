@@ -86,8 +86,8 @@ const Card = ({ item }: { item: Item }) => {
     ty: isHover ? '0%' : '100%',
   })
   return (
-    <div onMouseEnter={() => hover(true)} onMouseLeave={() => hover(false)}>
-      <img alt={item.name} src={item.image!} />
+    <div className="aspect-square" onMouseEnter={() => hover(true)} onMouseLeave={() => hover(false)}>
+      <Image alt={item.name} src={item.image!} style={{ aspectRatio: '1/1' }} />
       <Box
         bordered={false}
         css={{ glass: '$4' }}
@@ -109,11 +109,11 @@ const Pins = ({ items }: { items: Item[] }) => {
   }))
   return (
     // TODO: w, h for debug
-    <div className="hidden md:flex mt-12 items-center justify-center w-full h-80">
+    <div className="flex px-4 md:mt-12 items-center justify-center w-full h-40 md:h-80">
       <div className="relative container mx-auto h-full rounded-lg shadow">
         {pins.map(({ x, y, rot, scale, opacity }, i) => (
           <a.div
-            className="absolute will-change-transform flex items-center justify-center w-[400px]"
+            className="absolute will-change-transform flex items-center justify-center w-[100px] md:w-[200px]"
             key={i}
             style={{ x, y, opacity }}
           >
@@ -176,7 +176,7 @@ const Section = ({ year, items }: SectionProps) => {
                 </Text>
                 {v.image && (
                   <ImageContainer className="rounded-md shadow overflow-hidden w-full">
-                    <Image alt={v.name} src={v.image} objectFit="cover" layout="fill" />
+                    <Image alt={v.name} src={v.image} />
                   </ImageContainer>
                 )}
               </div>
