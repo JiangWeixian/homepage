@@ -86,7 +86,7 @@ const Card = ({ item }: { item: Item }) => {
     ty: isHover ? '0%' : '100%',
   })
   return (
-    <div className="aspect-square" onMouseEnter={() => hover(true)} onMouseLeave={() => hover(false)}>
+    <div className="aspect-square bg-slate-900" onMouseEnter={() => hover(true)} onMouseLeave={() => hover(false)}>
       <Image alt={item.name} src={item.image!} style={{ aspectRatio: '1/1' }} />
       <Box
         bordered={false}

@@ -47,6 +47,14 @@
       "image": "https://realme-ten.vercel.app/api/v1/webgradients.svg?desc=Create%20beautiful%20hero%20images.&radialgradiets=true&subtitle=indiehackers&title=REALME&webgradientsName=NearMoon"
     },
     {
+      "name": "#whatiread",
+      "description": "These are what I read during 2022",
+      "type": "major",
+      "url": "https://whatiread2022.vercel.app/",
+      "pin": true,
+      "image": "https://user-images.githubusercontent.com/6839576/211563559-cb84d996-7b23-4c37-a46e-ce895118cf34.png"
+    },
+    {
       "name": "neo",
       "type": "major",
       "url": "https://neo-docs.netlify.app/",
