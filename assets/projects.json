@@ -1,0 +1,116 @@
+{
+  "2020 - 2021": [
+    {
+      "name": "小川",
+      "type": "major",
+      "url": "https://chrome.google.com/webstore/detail/%E5%B0%8F%E5%B7%9D/gckdnedgcldldbdajllnmbmfhacalini",
+      "image": "https://user-images.githubusercontent.com/6839576/82881937-f0026b80-9f72-11ea-9cf2-fe2dd3f06937.gif",
+      "description": "诗词遇上天气，根据地理位置，显示天气和诗词，并切换对应背景",
+      "pin": true
+    },
+    {
+      "name": "vite-plugin-styled-windicss",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/vite-plugin-styled-windicss",
+      "description": "styled-components with windicss in vite",
+      "icon": "vite"
+    },
+    {
+      "name": "functional-md",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/functional-md",
+      "description": "render markdown functional",
+      "icon": "node"
+    },
+    {
+      "name": "babel-plugin-styled-windicss",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/babel-plugin-styled-windicss",
+      "description": "translate windicss @apply in style-components",
+      "icon": "babel"
+    },
+    {
+      "name": "vscode-github-md-like-notion",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/vscode-github-md-like-notion",
+      "description": "write github readme like notion",
+      "icon": "vscode"
+    }
+  ],
+  "2022": [
+    {
+      "name": "realme",
+      "description": "Severless(?) components api endpoint designed for indiehackers, create beautiful hero image for your products or tiny side-projects",
+      "type": "major",
+      "url": "https://realme-ten.vercel.app",
+      "pin": true,
+      "image": "https://realme-ten.vercel.app/api/v1/webgradients.svg?desc=Create%20beautiful%20hero%20images.&radialgradiets=true&subtitle=indiehackers&title=REALME&webgradientsName=NearMoon"
+    },
+    {
+      "name": "#whatiread",
+      "description": "These are what I read during 2022",
+      "type": "major",
+      "url": "https://whatiread2022.vercel.app/",
+      "pin": true,
+      "image": "https://user-images.githubusercontent.com/6839576/211563559-cb84d996-7b23-4c37-a46e-ce895118cf34.png"
+    },
+    {
+      "name": "neo",
+      "type": "major",
+      "url": "https://neo-docs.netlify.app/",
+      "pin": true,
+      "image": "https://neo-docs.netlify.app/banner.png",
+      "description": "Local based template manager, create hack project as quick as possible."
+    },
+    {
+      "name": "omcs",
+      "type": "major",
+      "url": "https://omcs.netlify.app/",
+      "pin": true,
+      "image": "https://user-images.githubusercontent.com/6839576/211151372-00dca91f-e828-4b3d-9f5e-dac61e895e5a.png",
+      "description": "A cheatsheets app based on github"
+    },
+    {
+      "name": "vite-plugin-document",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/vite-plugin-document",
+      "description": "use Document.tsx as html template",
+      "icon": "vite"
+    },
+    {
+      "name": "webpack-plugin-react-pages",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/webpack-plugin-react-pages",
+      "description": "Webpack plugin for providing virtual file-system based routes",
+      "icon": "webpack"
+    },
+    {
+      "name": "rollup-plugin-condition-exports",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/rollup-plugin-condition-exports",
+      "description": "filesystem based api exports like https://nodejs.org/api/packages.html#exports-sugar",
+      "icon": "rollup"
+    },
+    {
+      "name": "remark-plugin-refined-github",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/remark-plugin-refined-github",
+      "description": "Shorten url like refined-github.",
+      "icon": "node"
+    },
+    {
+      "name": "tsc-progress",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/tsc-progress",
+      "description": "display progressbar when `ttsc`",
+      "icon": "typescript"
+    },
+    {
+      "name": "publish-police",
+      "type": "tiny",
+      "url": "https://github.com/JiangWeixian/publish-police",
+      "description": "check dist exit before publish",
+      "icon": "node"
+    }
+  ]
+}

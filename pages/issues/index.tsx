@@ -1,13 +1,12 @@
 import type { GetStaticProps, NextPage } from 'next'
 import { Text } from 'mayumi/text'
 import { Separator } from 'mayumi/separator'
-import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 import { SEO } from '~/components/SEO'
 import { Issue, IssueMeta } from '~/types'
 import { Layout, Footer, Nav } from '~/components/Layout'
-import { ImageContainer } from '~/components/ImageContainer'
+import { ImageContainer, Image } from '~/components/ImageContainer'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 import { parseMeta } from '~/lib/matter'
 import { format } from '~/lib/time'
@@ -48,16 +47,7 @@ const Card = (props: CardProps) => {
       onClick={() => router.push('/issues/id/[id]', `/issues/id/${props.issue.issue.number}`)}
     >
       <ImageContainer>
-        {!props.issue.meta.cover.includes('https://realme') ? (
-          <Image
-            src={props.issue.meta.cover}
-            alt={props.issue.issue.title}
-            objectFit="cover"
-            layout="fill"
-          />
-        ) : (
-          <img src={props.issue.meta.cover} alt={props.issue.issue.title} />
-        )}
+        <Image src={props.issue.meta.cover} alt={props.issue.issue.title} />
       </ImageContainer>
       <Text className="my-4" h3={true}>
         {props.issue.issue.title}
