@@ -66,7 +66,7 @@ const Page: NextPage<PageProps> = ({ issues }) => {
   return (
     <Layout>
       {/* TODO: add subscribe */}
-      <SEO title="JiangWeixian's issues" />
+      <SEO title="JiangWeixian's Blog" />
       <Nav />
       <div className="container max-w-screen-xl min-h-screen h-fit">
         <div className="pt-8 px-8 h-full md:px-36">
