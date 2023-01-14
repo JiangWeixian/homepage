@@ -31,18 +31,27 @@ const Hacking = () => {
   useEffect(() => {
     const hacking = new Image()
     const tube = new Image()
+    // @ts-ignore
+    hacking.fetchPriority = 'high'
     hacking.src = hackingRoomSrc
+    // @ts-ignore
+    tube.fetchPriority = 'high'
     tube.src = tubeSrc
     hacking.onload = function (this) {
       load((state) => ({ ...state, hacking: true }))
-      hackingRef.current!.src = hackingRoomSrc
     }
     tube.onload = function () {
       load((state) => ({ ...state, tube: true }))
-      tubeRef.current!.src = tubeSrc
     }
-  }, [hackingRef, tubeRef])
+  }, [])
   const completed = status.hacking && status.tube
+  useEffect(() => {
+    if (!completed) {
+      return
+    }
+    hackingRef.current!.src = hackingRoomSrc
+    tubeRef.current!.src = tubeSrc
+  }, [completed])
   return (
     <Atropos
       className="atropos atropos-banner h-full"
