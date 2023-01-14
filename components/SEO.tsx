@@ -22,7 +22,7 @@ export const SEO = (props: SEOProps = meta) => {
   const p = { ...meta, ...props }
   return (
     <Head>
-      <title>{props.title}</title>
+      <title>{p.title}</title>
       {/* fackbook */}
       <meta property="og:url" content={p.url} />
       <meta property="og:type" content="website" />
