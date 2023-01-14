@@ -7,6 +7,7 @@ import { Link } from 'mayumi/link'
 import { styled } from 'mayumi/theme'
 import { Atropos } from 'atropos/react'
 import cx from 'clsx'
+import Head from 'next/head'
 import 'atropos/css'
 
 import { Layout, Footer, Nav } from '~/components/Layout'
@@ -87,6 +88,10 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <SEO />
+      <Head>
+        <link rel="preload" href={hackingRoomSrc} as="image" />
+        <link rel="preload" href={tubeSrc} as="image" />
+      </Head>
       <Nav displayTabs={true} />
       {/* set negative margin top: fit height of nav in layout */}
       <div className="grid w-full h-screen md:-mt-12 md:p-0 md:gap-4 md:grid-cols-12">
