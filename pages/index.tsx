@@ -59,6 +59,8 @@ const Hacking = () => {
         )}
       >
         <img
+          // @ts-ignore - https://addyosmani.com/blog/fetch-priority/
+          fetchpriority="high"
           data-atropos-offset="-0.5"
           data-src={hackingRoomSrc}
           src={hackingBase64}
@@ -73,6 +75,8 @@ const Hacking = () => {
         )}
       >
         <img
+          // @ts-ignore - https://addyosmani.com/blog/fetch-priority/
+          fetchpriority="high"
           data-atropos-offset="0"
           data-src={tubeSrc}
           src={hackingBase64}
