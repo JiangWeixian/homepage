@@ -1,5 +1,16 @@
 # homepage
 
+## 0.9.0
+
+### Minor Changes
+
+- b721ab7: projects
+
+### Patch Changes
+
+- 93df2ca: skip optimize images on realme domain
+- 8215355: add blur animation and minize lcp image
+
 ## 0.8.1
 
 ### Patch Changes

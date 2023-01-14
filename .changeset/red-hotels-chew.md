@@ -1,5 +1,0 @@
----
-"homepage": minor
----
-
-projects
