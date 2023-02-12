@@ -6,7 +6,7 @@ on:
       - "edited"
 
 jobs:
-  debug:
+  article-helper:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
@@ -15,7 +15,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 16
-    - name: debug actions
+    - name: article helper
       uses: jiangweixian/actions-article-helper@v1
       with:
         delimiters: "[\"<!--\", \"-->\"]"
