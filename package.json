@@ -36,6 +36,7 @@
     "@react-spring/web": "9.6.1",
     "@stefanprobst/rehype-shiki": "^2.2.0",
     "@stitches/react": "1.2.8",
+    "@vercel/analytics": "^0.1.10",
     "atropos": "1.0.2",
     "clsx": "1.2.1",
     "dayjs": "1.11.2",

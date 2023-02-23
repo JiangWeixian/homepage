@@ -8,6 +8,7 @@ import Progress from 'nprogress'
 import App from 'next/app'
 import React from 'react'
 import { ThemeProvider } from 'mayumi/theme'
+import { Analytics } from '@vercel/analytics/react'
 
 Router.events.on('routeChangeStart', () => Progress.start())
 Router.events.on('routeChangeComplete', () => Progress.done())
@@ -19,6 +20,7 @@ class MyApp extends App {
     return (
       <ThemeProvider>
         <Component {...pageProps} />
+        <Analytics />
       </ThemeProvider>
     )
   }
