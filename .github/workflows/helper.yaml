@@ -19,6 +19,7 @@ jobs:
       uses: jiangweixian/actions-article-helper@v1
       with:
         delimiters: "[\"<!--\", \"-->\"]"
+        removeCodeblocks: true
       env:
         DEBUG: neo:article-helper
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
