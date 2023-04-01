@@ -21,18 +21,21 @@
     "email": "jiangweixian1994@gmail.com",
     "url": "https://twitter.com/jiangweixian"
   },
+  "//": "https://github.com/prisma/prisma/discussions/12501",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "prepare": "husky install"
+    "prepare": "husky install && pnpm exec prisma migrate dev --name init"
   },
   "dependencies": {
+    ".prisma/client": "link:prisma/prisma-client",
     "@mayumi-org/toc": "^0.0.1",
     "@mdx-js/react": "2.1.1",
     "@octokit/graphql": "4.8.0",
+    "@prisma/client": "4.12.0",
     "@react-spring/web": "9.6.1",
     "@stefanprobst/rehype-shiki": "^2.2.0",
     "@stitches/react": "1.2.8",
@@ -63,7 +66,7 @@
     "unist-util-visit": "^4.1.1"
   },
   "devDependencies": {
-    "@aiou/eslint-config": "latest",
+    "@aiou/eslint-config": "0.8.0",
     "@changesets/cli": "latest",
     "@svgr/webpack": "6.2.1",
     "@tailwindcss/line-clamp": "^0.4.2",
@@ -82,12 +85,17 @@
     "lint-staged": "12.4.1",
     "postcss": "8.4.5",
     "prettier": "2.6.2",
+    "prisma": "4.12.0",
     "tailwindcss": "3.0.7",
+    "tsx": "^3.12.6",
     "typescript": "4.4.3"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-emoji"
     }
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   }
 }

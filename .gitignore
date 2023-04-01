@@ -33,3 +33,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# prisma
+prisma/migrations
+prisma/dev.db
