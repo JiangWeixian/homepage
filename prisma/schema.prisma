@@ -1,5 +1,7 @@
 generator client {
   provider = "prisma-client-js"
+  // https://github.com/prisma/prisma/issues/13893
+  output   = "../node_modules/.prisma/client"
 }
 
 datasource db {
@@ -7,21 +9,12 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
-  posts Post[]
-}
-
-model Post {
+model Article {
   id        Int      @id @default(autoincrement())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   title     String
-  content   String?
-  published Boolean  @default(false)
+  url       String
+  description   String?
   viewCount Int      @default(0)
-  author    User?    @relation(fields: [authorId], references: [id])
-  authorId  Int?
 }

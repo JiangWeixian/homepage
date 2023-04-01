@@ -9,6 +9,6 @@ export default async function handle(
   res: NextApiResponse,
 ) {
   const { title, content, authorEmail } = req.body
-  const result = await prisma.post.findMany()
+  const result = await prisma.article.findMany()
   return res.status(201).json(result)
 }

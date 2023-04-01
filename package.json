@@ -21,17 +21,18 @@
     "email": "jiangweixian1994@gmail.com",
     "url": "https://twitter.com/jiangweixian"
   },
-  "//": "https://github.com/prisma/prisma/discussions/12501",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "prepare": "husky install && pnpm exec prisma migrate dev --name init"
+    "prisma:studio": "dotenv -e .env.local -- pnpm exec prisma studio",
+    "prisma:seed": "dotenv -e .env.local -- pnpm exec prisma db seed",
+    "prisma:migrate:dev": "dotenv -e .env.local -- pnpm exec prisma migrate dev --name init",
+    "prepare": "husky install"
   },
   "dependencies": {
-    ".prisma/client": "link:prisma/prisma-client",
     "@mayumi-org/toc": "^0.0.1",
     "@mdx-js/react": "2.1.1",
     "@octokit/graphql": "4.8.0",
@@ -49,7 +50,7 @@
     "hast-util-to-string": "^2.0.0",
     "lodash": "^4.17.21",
     "mayumi": "0.0.4",
-    "next": "12.1.6",
+    "next": "12.3.4",
     "next-mdx-remote": "4.0.3",
     "nprogress": "0.2.0",
     "ohmyfetch": "^0.4.18",
@@ -62,6 +63,7 @@
     "remark-gfm": "^3.0.1",
     "remark-plugin-refined-github": "^0.0.2",
     "shiki": "^0.11.1",
+    "superjson": "1.12.2",
     "ufo": "^1.0.1",
     "unist-util-visit": "^4.1.1"
   },
@@ -79,10 +81,12 @@
     "address": "^1.2.2",
     "autoprefixer": "10.4.0",
     "cz-emoji": "1.3.1",
+    "dotenv": "16.0.3",
+    "dotenv-cli": "7.1.0",
     "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6",
     "husky": "8.0.0",
     "lint-staged": "12.4.1",
+    "next-superjson": "^0.0.4",
     "postcss": "8.4.5",
     "prettier": "2.6.2",
     "prisma": "4.12.0",

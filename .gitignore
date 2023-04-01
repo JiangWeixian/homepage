@@ -36,4 +36,6 @@ yarn-error.log*
 
 # prisma
 prisma/migrations
-prisma/dev.db
+prisma/dev.db*
+# https://github.com/prisma/prisma/discussions/12501
+prisma/prisma-client

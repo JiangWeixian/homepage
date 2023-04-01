@@ -1,4 +1,6 @@
 const path = require('path')
+// servalize date from prisma
+const { withSuperjson } = require('next-superjson')
 
 if (process.env.NODE_ENV === 'development') {
   console.log('info  - lanUrl:', `http://${require('address').ip()}:3000`)
@@ -24,7 +26,7 @@ const define = () => {
 }
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig = withSuperjson()({
   swcMinify: false,
   reactStrictMode: true,
   eslint: {
@@ -53,6 +55,6 @@ const nextConfig = {
     })
     return config
   },
-}
+})
 
 module.exports = nextConfig
