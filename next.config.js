@@ -44,7 +44,8 @@ const nextConfig = withSuperjson()({
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   webpack(config, context) {
-    config.resolve.symlinks = false
+    config.resolve.symlinks = true
+    config.resolve.mainFields = ['module', 'main']
     if (process.env.NODE_ENV === 'development') {
       config.resolve.alias.react = path.resolve(__dirname, './node_modules/react')
     }
