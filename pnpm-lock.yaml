@@ -38,6 +38,7 @@ specifiers:
   next: 12.3.4
   next-mdx-remote: 4.0.3
   next-superjson: ^0.0.4
+  next-transpile-modules: ^10.0.0
   nprogress: 0.2.0
   ohmyfetch: ^0.4.18
   postcss: 8.4.5
@@ -113,6 +114,7 @@ devDependencies:
   husky: 8.0.0
   lint-staged: 12.4.1
   next-superjson: 0.0.4_2g25tsvl5mbyc2cddlhk3fsxn4
+  next-transpile-modules: 10.0.0
   postcss: 8.4.5
   prettier: 2.6.2
   prisma: 4.12.0
@@ -4135,6 +4137,14 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /enhanced-resolve/5.12.0:
+    resolution: {integrity: sha512-QHTXI/sZQmko1cbDoNAa3mJ5qhWUUNAq3vR0/YiD379fWQrcfuoX1+HW2S0MTt7XmoPLapdaDKUtelUSPic7hQ==}
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      graceful-fs: 4.2.10
+      tapable: 2.2.1
+    dev: true
+
   /enquirer/2.3.6:
     resolution: {integrity: sha512-yjNnPr315/FjS4zIsUxYguYUPP2e1NK4d7E7ZOLiyYCcbFBiTMyID+2wvm2w6+pZ/odMA7cRkjhsPbltwBOrLg==}
     engines: {node: '>=8.6'}
@@ -6556,6 +6566,13 @@ packages:
       - webpack
     dev: true
 
+  /next-transpile-modules/10.0.0:
+    resolution: {integrity: sha512-FyeJ++Lm2Fq31gbThiRCrJlYpIY9QaI7A3TjuhQLzOix8ChQrvn5ny4MhfIthS5cy6+uK1AhDRvxVdW17y3Xdw==}
+    deprecated: All features of next-transpile-modules are now natively built-in Next.js 13.1. Please use Next's transpilePackages option :)
+    dependencies:
+      enhanced-resolve: 5.12.0
+    dev: true
+
   /next/12.3.4_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-VcyMJUtLZBGzLKo3oMxrEF0stxh8HwuW976pAzlHhI3t8qJ4SROjCrSh1T24bhrbjw55wfZXAbXPGwPt5FLRfQ==}
     engines: {node: '>=12.22.0'}
@@ -8062,6 +8079,11 @@ packages:
       sucrase: 3.31.0
     transitivePeerDependencies:
       - ts-node
+
+  /tapable/2.2.1:
+    resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
+    engines: {node: '>=6'}
+    dev: true
 
   /term-size/2.2.1:
     resolution: {integrity: sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==}
