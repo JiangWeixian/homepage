@@ -11,10 +11,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
       const issueNumber = req.query.issue_number
       // issue opened or edited
       console.log('[Next.js] Revalidating /issues')
-      await res.unstable_revalidate('/issues')
+      await res.revalidate('/issues')
       if (issueNumber) {
         console.log(`[Next.js] Revalidating /issues/id/${issueNumber}`)
-        await res.unstable_revalidate(`/issues/id/${issueNumber}`)
+        await res.revalidate(`/issues/id/${issueNumber}`)
       }
       return res.status(200).send('Success!')
     } else {
