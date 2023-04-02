@@ -1,8 +1,13 @@
-import { PrismaClient, Prisma } from '@prisma/client'
+import type { Prisma } from '@prisma/client'
+import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
 const articles: Prisma.ArticleCreateInput[] = [
+  {
+    title: 'Join the Prisma Slack',
+    url: 'https://github.com',
+  },
   {
     title: 'Join the Prisma Slack',
     url: 'https://slack.prisma.io',
@@ -18,14 +23,14 @@ const articles: Prisma.ArticleCreateInput[] = [
 ]
 
 async function main() {
-  console.log(`Start seeding ...`)
+  console.log('Start seeding ...')
   for (const u of articles) {
     const article = await prisma.article.create({
       data: u,
     })
     console.log(`Created article with id: ${article.id}`)
   }
-  console.log(`Seeding finished.`)
+  console.log('Seeding finished.')
 }
 
 main()

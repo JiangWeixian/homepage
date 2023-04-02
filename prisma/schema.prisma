@@ -17,4 +17,5 @@ model Article {
   url       String
   description   String?
   viewCount Int      @default(0)
+  @@unique([url])
 }

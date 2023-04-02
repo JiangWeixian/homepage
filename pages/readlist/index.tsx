@@ -5,7 +5,7 @@ import dayjs from 'dayjs'
 import advancedFormat from 'dayjs/plugin/advancedFormat'
 import clsx from 'clsx'
 
-import { Nav, Layout, Footer } from '~/components/Layout'
+import { Footer, Layout, Nav } from '~/components/Layout'
 import { SponsorLink } from '~/components/Sponsor'
 
 dayjs.extend(advancedFormat)
@@ -19,11 +19,10 @@ export const getStaticProps = async () => {
   const articles = await prisma.article.findMany({
     orderBy: [
       {
-        createdAt: 'desc'
+        createdAt: 'desc',
       },
     ],
   })
-  console.log(articles)
   return { props: { articles } }
 }
 
@@ -32,29 +31,27 @@ const ReadList: NextPage<ReadListProps> = (props) => {
     <Layout>
       <Nav />
       {/* descriptions */}
-      <div className="px-8 md:px-48 md:container">
-        <Text p={true} className="text-xl mt-16 mb-8">
+      <div className="px-8 md:container md:px-48">
+        <Text p={true} className="mb-8 mt-16 text-xl">
           Personal reading list of articles, podcast, and other things from the internet. Keep track of what I read and what I think about it. Hope this page will be useful for me and others.
         </Text>
         <SponsorLink />
       </div>
-      <div className="grid auto-rows-max w-full min-h-screen gap-4 px-8 mt-8 md:px-48 md:container">
-        {props.articles.map((article, index) => {
+      <div className="mt-8 grid min-h-screen w-full auto-rows-max gap-4 px-8 md:container md:px-48">
+        {props.articles.map((article) => {
           return (
-            <div key={article.url} className="cursor-pointer relative w-full pr-12 md:pr-16">
-              <div className="flex text-left justify-between items-center relative w-full box-border">
-                <div className="absolute bg-mayumi-gray-900 w-full h-[1px] top-1/2 translate-y-1/2 box-border z-0"></div>
-                <Text className="bg-black truncate leading-8 max-w-[80%] transition-colors relative z-10 pr-2 text-mayumi-gray-1100 hover:text-mayumi-gray-1200">
+            // yyyy-mm
+            <div key={article.url} className={clsx('relative w-full cursor-pointer pr-12 md:pr-16', `year-${dayjs(article.createdAt).format('YYYY-MMMM').toLowerCase()}`)}>
+              <div className="relative box-border flex w-full items-center justify-between text-left">
+                <div className="absolute top-1/2 z-0 box-border h-[1px] w-full translate-y-1/2 bg-mayumi-gray-900"></div>
+                <Text className="relative z-10 max-w-[80%] truncate bg-black pr-2 leading-8 text-mayumi-gray-1100 transition-colors hover:text-mayumi-gray-1200">
                   <a href={article.url}>{article.title}</a>
                 </Text>
-                <Text span={true} suppressHydrationWarning={true} className="bg-black relative z-10 pl-2 text-mayumi-gray-900">{dayjs(article.createdAt).format('Do')}</Text>
+                <Text span={true} suppressHydrationWarning={true} className="relative z-10 bg-black pl-2 text-mayumi-gray-900">{dayjs(article.createdAt).format('Do')}</Text>
               </div>
-              {/* TODO: should display month on first element */}
+              {/* Only first element will be display, css wroten in globals.css */}
               <div className={clsx(
-                "absolute h-full -right-4 top-2 z-10 text-mayumi-gray-1100 rotate-90 origin-top-left",
-                {
-                  "hidden": index !== 0,
-                },
+                'month absolute -right-4 top-2 z-10 hidden h-full origin-top-left rotate-90 text-mayumi-gray-1100',
               )}>{dayjs(article.createdAt).format('MMMM')}</div>
             </div>
           )

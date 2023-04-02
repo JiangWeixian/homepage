@@ -16,6 +16,11 @@
   background: linear-gradient(180deg,#232c3d,#0b1016);
 }
 
+/* TODO: auto generate in stiches css */
+.year-2023-april:first-of-type .month {
+  display: block;
+}
+
 html,
 body {
   padding: 0;
