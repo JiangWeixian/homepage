@@ -9,7 +9,9 @@ export default async function handle(
   res: NextApiResponse,
 ) {
   const { title, url, description } = req.body
-  if (req.method === 'POST') {
+  const secret = process.env.GITHUB_TOKEN
+  const authtoken = req.headers['x-auth-token']
+  if (req.method === 'POST' && authtoken === secret) {
     const result = await prisma.article.create({
       data: {
         title,
