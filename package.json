@@ -1,12 +1,12 @@
 {
   "name": "homepage",
   "version": "0.9.0",
-  "license": "MIT",
   "description": "JiangWeixian's homepage",
   "keywords": [
     "nextjs",
     "tailwind"
   ],
+  "license": "MIT",
   "homepage": "https://github.com/JiangWeixian/homepage#readme",
   "repository": {
     "type": "git",
@@ -25,8 +25,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix",
+    "lint": "eslint lint",
+    "lint:fix": "eslint lint --fix",
     "prisma:studio": "dotenv -e .env.local -- pnpm exec prisma studio",
     "prisma:seed": "dotenv -e .env.local -- pnpm exec prisma db seed",
     "prisma:migrate:dev": "dotenv -e .env.local -- pnpm exec prisma migrate dev --name init",
