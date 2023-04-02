@@ -21,5 +21,13 @@ export default async function handle(
     })
     return res.status(200).json(result)
   }
+  if (req.method === 'GET') {
+    const result = await prisma.article.findMany({
+      orderBy: [{
+        createdAt: 'desc',
+      }],
+    })
+    return res.status(200).json(result)
+  }
   return res.status(405).end('Method Not Allowed')
 }
