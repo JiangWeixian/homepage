@@ -19,6 +19,7 @@ export default async function handle(
         description,
       },
     })
+    await res.revalidate('/readlist')
     return res.status(200).json(result)
   }
   if (req.method === 'GET') {
