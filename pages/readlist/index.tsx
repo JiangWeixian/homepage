@@ -7,6 +7,7 @@ import clsx from 'clsx'
 
 import { Footer, Layout, Nav } from '~/components/Layout'
 import { SponsorLink } from '~/components/Sponsor'
+import { SEO } from '~/components/SEO'
 
 dayjs.extend(advancedFormat)
 
@@ -30,6 +31,11 @@ const ReadList: NextPage<ReadListProps> = (props) => {
   return (
     <Layout>
       <Nav />
+      <SEO
+        url="https://jwx.ink/readlist"
+        title={`Readlist - ${props.articles[0].title}`}
+        description={props.articles[0].description ?? ''}
+      />
       {/* descriptions */}
       <div className="px-8 md:container md:px-48">
         <Text p={true} className="mb-8 mt-16 text-xl">
