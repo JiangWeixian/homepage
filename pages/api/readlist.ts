@@ -3,7 +3,6 @@ import prisma from 'lib/prisma'
 
 // POST /api/readlists create record in schema articles
 // Required fields in body: title, url, description
-// TODO: require auth in api/readlists
 export default async function handle(
   req: NextApiRequest,
   res: NextApiResponse,
@@ -11,12 +10,24 @@ export default async function handle(
   const { title, url, description } = req.body
   const secret = process.env.GITHUB_TOKEN
   const authtoken = req.headers['x-auth-token']
-  if (req.method === 'POST' && authtoken === secret) {
-    const result = await prisma.article.create({
-      data: {
+  if (authtoken !== secret) {
+    return res.status(403).end('x-auth-token required')
+  }
+  if (req.method === 'POST') {
+    // create or update exit one
+    const result = await prisma.article.upsert({
+      update: {
         title,
         url,
         description,
+      },
+      create: {
+        title,
+        url,
+        description,
+      },
+      where: {
+        url,
       },
     })
     await res.revalidate('/readlist')
