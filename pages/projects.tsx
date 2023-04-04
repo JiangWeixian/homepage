@@ -5,7 +5,6 @@ import { useInView } from 'react-intersection-observer'
 import { Icon } from 'mayumi/icons'
 import { useEffect, useState } from 'react'
 import { Box as MayumiBox } from 'mayumi/box'
-import { Link } from 'mayumi/link'
 
 import { Image, ImageContainer } from '~/components/ImageContainer'
 import { SEO } from '~/components/SEO'
@@ -17,7 +16,7 @@ import Rollup from '~/components/Icons/Rollup.svg'
 import Babel from '~/components/Icons/Babel.svg'
 import VSCode from '~/components/Icons/VSCode.svg'
 import Typescript from '~/components/Icons/Typescript.svg'
-import { social } from '~/utils/constants'
+import { SponsorLink } from '~/components/Sponsor'
 
 const Box = a(MayumiBox)
 
@@ -238,20 +237,7 @@ const Page: NextPage<Props> = (props: Props) => {
       <Nav />
       <Pins items={props.pins} />
       <div className="w-full md:container my-6 px-8 md:my-12">
-        <Text
-          p={true}
-          type="quaternary"
-          size="sm"
-          className="w-fit underline decoration-dotted underline-offset-4"
-        >
-          💖 Sponsoring me on{' '}
-          <Text weight="semibold" span={true}>
-            <Link href={social.sponsor} title="sponsor">
-              Github Sponsor
-            </Link>
-          </Text>
-          .
-        </Text>
+        <SponsorLink />
       </div>
       <div className="flex flex-col gap-4 px-8 w-full md:container relative">
         {Object.entries(props.projects).map(([year, items]) => {

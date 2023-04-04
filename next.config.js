@@ -1,4 +1,9 @@
 const path = require('path')
+// servalize date from prisma
+const { withSuperjson } = require('next-superjson')
+// mayumi depend on @radix-ui/* elements, not provide valid esm exports in package.json
+// issue: https://github.com/radix-ui/primitives/issues/1848
+const withTM = require('next-transpile-modules')(['mayumi'])
 
 if (process.env.NODE_ENV === 'development') {
   console.log('info  - lanUrl:', `http://${require('address').ip()}:3000`)
@@ -24,14 +29,14 @@ const define = () => {
 }
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig = withTM(withSuperjson()({
   swcMinify: false,
   reactStrictMode: true,
   eslint: {
-    ignoreDuringBuilds: true
+    ignoreDuringBuilds: true,
   },
   images: {
-    // realme-ten.vercel.app is website provide svg images build with svg foreignObject 
+    // realme-ten.vercel.app is website provide svg images build with svg foreignObject
     domains: [
       'images.unsplash.com',
       'user-images.githubusercontent.com',
@@ -39,10 +44,10 @@ const nextConfig = {
       'neo-docs.netlify.app',
     ],
     dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    contentSecurityPolicy: 'default-src \'self\'; script-src \'none\'; sandbox;',
   },
   webpack(config, context) {
-    config.resolve.symlinks = false
+    config.resolve.symlinks = true
     if (process.env.NODE_ENV === 'development') {
       config.resolve.alias.react = path.resolve(__dirname, './node_modules/react')
     }
@@ -53,6 +58,6 @@ const nextConfig = {
     })
     return config
   },
-}
+}))
 
 module.exports = nextConfig
