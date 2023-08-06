@@ -1,8 +1,12 @@
 import matter from 'gray-matter'
-import { IssueMeta } from '~/types'
+import { isEmpty } from 'lodash'
+import type { IssueMeta } from '~/types'
 
 export const parseMeta = (body: string) => {
-  const meta = matter(body, { delimiters: ['<!--', '-->'] })
+  let meta = matter(body, { delimiters: ['<!--', '-->'] })
+  if (!meta.data || isEmpty(meta.data)) {
+    meta = matter(body)
+  }
   return {
     ...meta,
     data: meta.data as IssueMeta
