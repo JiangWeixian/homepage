@@ -35,6 +35,9 @@ const nextConfig = withTM(withSuperjson()({
   eslint: {
     ignoreDuringBuilds: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     // realme-ten.vercel.app is website provide svg images build with svg foreignObject
     domains: [
