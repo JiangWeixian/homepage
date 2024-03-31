@@ -39,3 +39,37 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.issue {
+  view-transition-name: issue;
+}
+
+/* Enter */
+::view-transition-new(issue) {
+  animation: 300ms ease both fade-in;
+}
+
+/* Exit */
+::view-transition-old(issue){
+  animation: 150ms ease both fade-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}

@@ -47,7 +47,7 @@ const Card = (props: CardProps) => {
       onClick={() => router.push('/issues/id/[id]', `/issues/id/${props.issue.issue.number}`)}
     >
       <ImageContainer>
-        <Image src={props.issue.meta.cover} alt={props.issue.issue.title} />
+        <Image number={props.issue.issue.number} src={props.issue.meta.cover} alt={props.issue.issue.title} />
       </ImageContainer>
       <Text className="my-4" h3={true}>
         {props.issue.issue.title}

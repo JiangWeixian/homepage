@@ -31,7 +31,7 @@ const define = () => {
 /** @type {import('next').NextConfig} */
 const nextConfig = withTM(withSuperjson()({
   swcMinify: false,
-  reactStrictMode: true,
+  reactStrictMode: false,
   eslint: {
     ignoreDuringBuilds: true,
   },

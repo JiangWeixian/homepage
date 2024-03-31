@@ -1,5 +1,12 @@
 # homepage
 
+## 0.9.2
+
+### Patch Changes
+
+- add view-transitions
+- aefe389: support common gratter syntax
+
 ## 0.9.1
 
 ### Patch Changes

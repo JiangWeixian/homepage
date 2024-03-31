@@ -9,6 +9,7 @@ import App from 'next/app'
 import React from 'react'
 import { ThemeProvider } from 'mayumi/theme'
 import { Analytics } from '@vercel/analytics/react'
+import { ViewTransition } from '~/components/ViewTransition'
 
 Router.events.on('routeChangeStart', () => Progress.start())
 Router.events.on('routeChangeComplete', () => Progress.done())
@@ -19,7 +20,9 @@ class MyApp extends App {
     const { Component, pageProps } = this.props
     return (
       <ThemeProvider>
-        <Component {...pageProps} />
+        <ViewTransition>
+          <Component {...pageProps} />
+        </ViewTransition>
         <Analytics />
       </ThemeProvider>
     )
