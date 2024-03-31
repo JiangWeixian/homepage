@@ -39,19 +39,23 @@ const RealmeSvgImage = (props: React.ImgHTMLAttributes<HTMLImageElement>) => {
 }
 
 export const Image = (
-  { fallbackImgElement = 'next', ...props }: ImageProps &
-    React.ImgHTMLAttributes<HTMLImageElement> & { fallbackImgElement?: 'next' | 'raw' },
+  { fallbackImgElement = 'next', number, ...props }: ImageProps &
+    React.ImgHTMLAttributes<HTMLImageElement> & { fallbackImgElement?: 'next' | 'raw'; number: number | string },
 ) => {
+  const useViewTransition = typeof number !== 'undefined'
+  const style = useViewTransition 
+    ? { viewTransitionName: `cover-${number}`, contain: 'layout' } as any
+    : {}
   return (
     <>
       {typeof props.src === 'string' && !props.src.includes('https://realme') ? (
         fallbackImgElement === 'next' ? (
-          <NextImage src={props.src} alt={props.alt} objectFit="cover" layout="fill" />
+          <NextImage style={style} src={props.src} alt={props.alt} objectFit="cover" layout="fill" />
         ) : (
-          <img {...props} />
+          <img {...props} style={style} />
         )
       ) : (
-        <RealmeSvgImage {...props} src={props.src as string} alt={props.alt} className="object-fill w-full" />
+        <RealmeSvgImage {...props} src={props.src as string} alt={props.alt} style={style} className="object-fill w-full" />
       )}
     </>
   )
