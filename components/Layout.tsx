@@ -30,7 +30,7 @@ export const Layout = styled(MayumiLayout.Main, {
   },
 })
 
-type NavProps = {
+interface NavProps {
   displayTabs?: boolean
   ghost?: boolean
 }
@@ -63,7 +63,7 @@ const StyledNav = styled('nav', {
 export const Nav = (props: NavProps) => {
   return (
     <StyledNav
-      className="blog-nav flex gap-8 items-center py-4 px-8 md:px-36"
+      className="blog-nav flex items-center gap-8 px-8 py-4 md:px-36"
       ghost={props.ghost}
       displayTabs={props.displayTabs}
     >
@@ -87,6 +87,13 @@ export const Nav = (props: NavProps) => {
               </Text>
             </MayumiLink>
           </Link>
+          <Link href="/readlist">
+            <MayumiLink>
+              <Text weight="semibold" type="quaternary">
+                Readlist
+              </Text>
+            </MayumiLink>
+          </Link>
         </>
       )}
     </StyledNav>
@@ -106,17 +113,17 @@ const StyledFooter = styled('footer', {
 
 export const Footer = () => {
   return (
-    <StyledFooter className="p-8 md:py-8 md:px-36">
+    <StyledFooter className="p-8 md:px-36 md:py-8">
       <div className="grid grid-cols-1 2xl:grid-cols-4">
         <div className="flex flex-col gap-12">
-          <div className="flex flex-col items-start relative md:flex-row md:items-center">
+          <div className="relative flex flex-col items-start md:flex-row md:items-center">
             <Text className="signature font-thin" h6={true}>
               JiangWeixian
             </Text>
-            <Text className="relative italic top-1 hidden md:block" p={true} type="tertiary">
+            <Text className="relative top-1 hidden italic md:block" p={true} type="tertiary">
               &nbsp;•&nbsp;
             </Text>
-            <Text className="relative italic top-1" p={true} type="tertiary">
+            <Text className="relative top-1 italic" p={true} type="tertiary">
               A Frontend Developer
             </Text>
           </div>
