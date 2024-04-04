@@ -39,3 +39,6 @@ prisma/migrations
 prisma/dev.db*
 # https://github.com/prisma/prisma/discussions/12501
 prisma/prisma-client
+
+# scripts
+scripts

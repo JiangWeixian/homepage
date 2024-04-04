@@ -1,0 +1,1811 @@
+[
+  {
+    "id": "657d739e-0a07-44e6-be05-12dd5b0b1bc1",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.mymap.ai/ 比较有趣的是之前会问 [[ai]] 如果我要做 xx 需要怎么做，这个工具似乎把中间的解释过程省略了，直接告诉步骤通过思维导图方式告诉你。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f4f4-fe4a-4cf4-9045-e870acd63d7e",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "https://www.mymap.ai/",
+      "desc": "https://www.mymap.ai/",
+      "url": "https://www.mymap.ai/"
+    }
+  },
+  {
+    "id": "654f91f4-8e8c-49ad-aa69-6af3cbba7006",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://hu.ma.ne/aipin #ai 这个产品太令人期待了，想象中未来电话的样子。不知道续航如何，如果现实生活中有这个助理的话真是很棒了。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f4f4-fe4a-4cf4-9045-e870acd63d7e",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "Ai Pin Overview",
+      "desc": "Ai Pin Overview",
+      "url": "https://hu.ma.ne/aipin"
+    }
+  },
+  {
+    "id": "657d2fd7-75ac-47e7-aa10-beced2c308c9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://calendar.perfplanet.com/2023/who-stole-my-largest-contentful-paint/ 优化 LCP 的经验，能看到的部分： #perf/LCP",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f429-32cb-45b2-90c4-5543ba18a69c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "Who stole my Largest Contentful Paint?",
+      "desc": "According to Shopify data, Largest Contentful Paint is the most impactful performance metric on conversion and bounce rate. And yet, according to the technology report data from November, LCP has the lowest pass rate out of all Core Web Vitals. That's even including the new Interaction to Next Paint",
+      "url": "https://calendar.perfplanet.com/2023/who-stole-my-largest-contentful-paint/"
+    }
+  },
+  {
+    "id": "657d96a0-77a9-4965-8cf4-3887077ed403",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://million.dev/blog/million-3 看了一下文档上面的实现，通过找 jsx 中是否有 `{}` 占位符来判断这个元素是否需要被渲染，比 react 的虚拟 dom 比较更加有效一点，一个常见的 react 渲染的例子，如果父 state 变化会导致父组件全部刷新，即使这个 state 只是被其中一个子组件消费。思路和 [[solidjs]] 类似，但是采用了不同的实现方式。理论上它可以和任何 react 框架进行替换，替换其中的虚拟 dom 部分。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f429-32cb-45b2-90c4-5543ba18a69c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "Announcing Million 3 | Million.js",
+      "desc": "Compiler overhaul, stability improvements, and the road ahead.",
+      "url": "https://million.dev/blog/million-3"
+    }
+  },
+  {
+    "id": "657da3df-4262-4cc4-ae0c-becec4437db0",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://talks.antfu.me/2023/vuefesjapan/24 antfu 认为的如何为你找到你的开源用户，然后选择你的下一个目标。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f429-32cb-45b2-90c4-5543ba18a69c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "https://talks.antfu.me/2023/vuefesjapan/24",
+      "desc": "https://talks.antfu.me/2023/vuefesjapan/24",
+      "url": "https://talks.antfu.me/2023/vuefesjapan/24"
+    }
+  },
+  {
+    "id": "65586adb-4904-4e98-a3a0-ecde27398e6e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.vramana.com/posts/barrel_files_slow_build/ barrel 的优化方案对于 vite 来说也是必须的 #perf",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f429-32cb-45b2-90c4-5543ba18a69c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "https://blog.vramana.com/posts/barrel_files_slow_build/",
+      "desc": "https://blog.vramana.com/posts/barrel_files_slow_build/",
+      "url": "https://blog.vramana.com/posts/barrel_files_slow_build/"
+    }
+  },
+  {
+    "id": "65880d68-085f-4fc2-a3cc-de676650a798",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://alan.norbauer.com/articles/browser-debugging-tricks 一些非常有用的页面调试的技巧 #developers",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f429-32cb-45b2-90c4-5543ba18a69c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "67 Weird Debugging Tricks Your Browser Doesn't Want You to Know",
+      "desc": "Advanced browser parlor tricks",
+      "url": "https://alan.norbauer.com/articles/browser-debugging-tricks"
+    }
+  },
+  {
+    "id": "657d8df0-78ea-4395-9fb8-690932cdf1ae",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://corecursive.com/software-world-tour-with-son-luong-ngoc/#double-eleven-day 视角来自一个外国人在中国阿里工作，比较有趣。因为我十分在意没有 996 文化的人对于国内公司文化的看法。结果确实没有意外，他认可阿里的技术，但是更愿意有更多的生活。 #articles",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f4df-3088-47f2-9e3a-c72295f7cd2a",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "Software World Tour - CoRecursive Podcast",
+      "desc": "Today's story is from Son Luong Ngoc, who shares what it was like for him to work and live in many different countries around the world, including working for Alibaba at the Xixi campus in Hangzhou, China ([Son's photos of the Alibaba campus](#bonus-content-from-son)). It's a story of a software developer finding a place that fits them, a place that suits... […]",
+      "url": "https://corecursive.com/software-world-tour-with-son-luong-ngoc/#double-eleven-day"
+    }
+  },
+  {
+    "id": "657d9062-b8a3-4c0a-aef8-5e2607040d93",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "http://www.ruanyifeng.com/blog/2023/12/weekly-issue-282.html 具有讽刺意味的是，忠诚的员工更可能被选为企业的剥削目标。企业会假设，忠诚的员工更愿意为企业做出个人牺牲",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f4df-3088-47f2-9e3a-c72295f7cd2a",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "http://www.ruanyifeng.com/blog/2023/12/weekly-issue-282.html",
+      "desc": "http://www.ruanyifeng.com/blog/2023/12/weekly-issue-282.html",
+      "url": "http://www.ruanyifeng.com/blog/2023/12/weekly-issue-282.html"
+    }
+  },
+  {
+    "id": "65676041-23d0-4626-9315-e7ab6275ee15",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://limboy.me/posts/grateful-practice/ 感恩练习可以帮助自己欲望没有那么强烈。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f4df-3088-47f2-9e3a-c72295f7cd2a",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "感恩练习",
+      "desc": "感恩练习",
+      "url": "https://limboy.me/posts/grateful-practice/"
+    }
+  },
+  {
+    "id": "656896ff-b4dc-4230-8d39-a0e818b50f8d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.teamtreehouse.com/the-pros-and-cons-of-freelance-coding",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f4df-3088-47f2-9e3a-c72295f7cd2a",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "The Pros and Cons of Freelance Coding [Article] | Treehouse Blog",
+      "desc": "In this blog post, we'll explore the pros and cons of freelance coding, and offer practical tips for success.",
+      "url": "https://blog.teamtreehouse.com/the-pros-and-cons-of-freelance-coding"
+    }
+  },
+  {
+    "id": "655867f5-a373-4297-8d3e-a3112a52d8df",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.ixiqin.com/2023/11/15/strive-for-miracles-but-not-all-in/ 之前好像听过类似的说法，大力出奇迹更像是讲一件事全力以赴一心一意做，而不是不顾后果的 all in。 #3thoughts",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f4df-3088-47f2-9e3a-c72295f7cd2a",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "大力出奇迹，但不是 All in - 白宦成",
+      "desc": "不少人对于大力出奇迹有一个错误的认知 —— 认为大力出奇迹便是 ALL In。但其实并不是，大力出奇迹更像共产 […]",
+      "url": "https://www.ixiqin.com/2023/11/15/strive-for-miracles-but-not-all-in/"
+    }
+  },
+  {
+    "id": "65880b5b-6bdd-487d-a5bb-3a6403fcc0d4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://resobscura.substack.com/p/historical-maps-probably-helped-cause 比较有趣的发现，chai 和 tea 都是来自于中国的茶叶，前者是因为茶叶陆路运输，靠近北方，后者是海运，靠近南方。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f4df-3088-47f2-9e3a-c72295f7cd2a",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "Historical maps probably helped cause World War I",
+      "desc": "On cartography as historical argument",
+      "url": "https://resobscura.substack.com/p/historical-maps-probably-helped-cause"
+    }
+  },
+  {
+    "id": "65880de9-ca3c-4b82-9b6b-efc60ec1b199",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://ahelwer.ca/post/2018-02-13-z3-firewall/",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f4df-3088-47f2-9e3a-c72295f7cd2a",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "Checking Firewall Equivalence with Z3",
+      "desc": "Lessons I’ve learned from software engineering are uniformly cynical:\nAbstraction almost always fails; you can’t build something on top of a system without understanding how that system works. Bleeding-edge methods are a recipe for disaster Everything good is hype and you’ll only ever get a small fraction of the utility being promised. Imagine my surprise, then, when the Z3 constraint solver from Microsoft Research effortlessly dispatched the thorniest technical problem I’ve been given in my short professional career.",
+      "url": "https://ahelwer.ca/post/2018-02-13-z3-firewall/"
+    }
+  },
+  {
+    "id": "65861d1d-d07c-427f-a368-4a0c82355de3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://tsdocs.dev 一个可以浏览 npm 包类型的网站 #ts",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f572-ef90-43ef-a599-77727e602898",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "TS Docs | Reference docs for npm packages",
+      "desc": "Generate type documentation for npm libraries",
+      "url": "https://tsdocs.dev"
+    }
+  },
+  {
+    "id": "6562261b-6221-4a4a-94d7-2700851722cc",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://vuejsdevelopers.com/2023/11/24/top-black-friday-offers-for-vuejs-developers/ 如果一个库十分流行，那么教育也是一种收入来源之一了。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f62e-cb44-4564-9be2-45cc07a8299c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "Top Black Friday Offers For Vue.js Developers",
+      "desc": "This article contains a curated list of top Black Friday offers for Vue.js Developers in 2023.",
+      "url": "https://vuejsdevelopers.com/2023/11/24/top-black-friday-offers-for-vuejs-developers/"
+    }
+  },
+  {
+    "id": "6562c8d5-9440-4972-8d13-a5d873edc9ca",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.v2ex.com/t/993910 周末去了一家咖啡店喝咖啡，真的很贵，但是如果是很火的咖啡店，靠咖啡作为副业是真的可以赚钱的。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f62e-cb44-4564-9be2-45cc07a8299c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "关于离职去寻找自身更多的可能性 ，比如做自媒体、电商、AI 工具等等；抛弃现在的几十万年薪，目的就是更深入发掘自己的潜能，大家怎么看？ - V2EX",
+      "desc": "职场话题 - @xujy1108 - OP 自身无车房贷，无孩子，已婚，目前互联网程序员年薪 50w 左右，已经干了 5 年多了，每天除了重复的工作，就是执行一些看起来毫无前途的 OKR （上级给的），挺痛苦的。毕业到现在一直在这",
+      "url": "https://www.v2ex.com/t/993910"
+    }
+  },
+  {
+    "id": "65586829-8cec-4abc-affe-aa1412bbef0a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://daily.dev/blog/moving-back-to-react 有人从 preact 迁移到了 react， [[dx]] 是歉意的主要原因，另外一方面，next.js 和 react 绑定关系越来越紧密了。线上的运行性能对他们来说好像是可以接受裂化的。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f62e-cb44-4564-9be2-45cc07a8299c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "Moving back to React",
+      "desc": "Discover the story behind daily.dev's transition from Preact to React for frontend development. This post explores the challenges, solutions, and benefits of migrating to React, enhancing our web app's performance and development experience.",
+      "url": "https://daily.dev/blog/moving-back-to-react"
+    }
+  },
+  {
+    "id": "654f98fa-c4e6-478a-90c3-63ab13c39060",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sspai.com/post/84216 看火箭发射是一个好的旅游思路。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f62e-cb44-4564-9be2-45cc07a8299c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "追火箭之旅——文昌篇 - 少数派",
+      "desc": "拍火箭是个花钱的技术活，但是真的充满乐趣。",
+      "url": "https://sspai.com/post/84216"
+    }
+  },
+  {
+    "id": "65586c5a-abd0-457d-ba3a-ec460170c926",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/nodejs/node/pull/50672 最近 eslint 把其中 stylish 的规则迁移出来并且废弃。毕竟大家都认为 eslint 该专注于哪些会导致 bug 的 lint 规则，而对于代码格式化应该交给 prettier 来做。我之前也做过 eslint + prettier 的方案。但是后来全部迁移为了 eslint 的方案，因为 eslint 太多和 prettier 冲突的规则了。",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f62e-cb44-4564-9be2-45cc07a8299c",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "build: use biome as formatter by anonrig · Pull Request #50672 · nodejs/node",
+      "desc": "Since ESLint is deprecating formatter rules, I propose using Biome as the formatter.\nThis is pretty much in progress. I'm not sure if Biome supports all existing rules.\nFixes #50449\nTodos\n\n Add Bio...",
+      "url": "https://github.com/nodejs/node/pull/50672"
+    }
+  },
+  {
+    "id": "657d8f4e-4ea7-46d1-9746-16516148bf2c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://practicalbetterments.com/create-a-shortcut-for-even-lower-phone-brightness/ 确实有用，可以在调低屏幕亮度基础上再一次变低 #iphone",
+    "page-name": "Dec 24th, 2023",
+    "parentId": "6587f6dd-2d16-4e68-bc77-32016fa3ae37",
+    "timestamp": 1703347200000,
+    "meta": {
+      "title": "https://practicalbetterments.com/create-a-shortcut-for-even-lower-phone-brightness/",
+      "desc": "https://practicalbetterments.com/create-a-shortcut-for-even-lower-phone-brightness/",
+      "url": "https://practicalbetterments.com/create-a-shortcut-for-even-lower-phone-brightness/"
+    }
+  },
+  {
+    "id": "653e58c1-ff74-47b8-ade0-52b4f866e576",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://animatedai.github.io/ 神经网络的演示动画",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ecaa-c7ca-45c3-a61f-3ab3376f7d42",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "https://animatedai.github.io/",
+      "desc": "https://animatedai.github.io/",
+      "url": "https://animatedai.github.io/"
+    }
+  },
+  {
+    "id": "653d45be-85e5-427a-8a39-8254646efab7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "{{twitter https://twitter.com/reactjs/status/1716573234160967762}} 我一直觉得 Server Actions 这个东西过于复杂。没想到官方也要采用这个方案了。我希望他能够将 Signal 的方案考虑一下。",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ec4b-6809-47bc-9438-e2e3e90e6466",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "React (@reactjs) on X",
+      "desc": "Server Actions are now in React Canary, ready for frameworks and libraries to adopt! Server Actions are functions created alongside your components that run on the server for tasks like data mutations",
+      "url": "https://twitter.com/reactjs/status/1716573234160967762"
+    }
+  },
+  {
+    "id": "653e39e7-e7f3-4a69-bc00-8a4125c37105",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://ntietz.com/blog/write-more-useless-software/ 是否应该写无用的代码 [[side-project]] ，无用的代码的价值在于你可以探索这个世界的一种方式，比如学习 [[rust]] 如何使用的，或者是工作之外的一种方式。我也会有写很多这种代码，有趣的和解决自己的代码一半一半吧。",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ec4b-6809-47bc-9438-e2e3e90e6466",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "https://ntietz.com/blog/write-more-useless-software/",
+      "desc": "https://ntietz.com/blog/write-more-useless-software/",
+      "url": "https://ntietz.com/blog/write-more-useless-software/"
+    }
+  },
+  {
+    "id": "653379e3-886c-45e4-8935-e0482515e773",
+    "content": "https://www.huy.rocks/everyday/02-24-2022-typescript-enums-at-runtime-and-tree-shaking enum 对于 tree-shaking 来说并不友好，所以才会有 const enum 这种东西 #developers",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ec4b-6809-47bc-9438-e2e3e90e6466",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "02.24.2022 - TypeScript/Enums at runtime and tree-shaking",
+      "desc": "<div class=\"desc text-stone-500 font-mono text-sm\">Posted On 02.24.2022</div> In TypeScript, an enum can be defined in various ways: a numeric enum, a string...",
+      "url": "https://www.huy.rocks/everyday/02-24-2022-typescript-enums-at-runtime-and-tree-shaking"
+    }
+  },
+  {
+    "id": "653beb1b-d039-41a8-ac1f-6a99588107fa",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://ncjamieson.com/dont-export-const-enums/ [[ts]] 关于 enum 的另外一个不要使用的理由。",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ed24-458d-455d-80ef-bbd96a4e838f",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "TypeScript: Don’t Export const enums",
+      "desc": "Exporting const enums from libraries will break some users",
+      "url": "https://ncjamieson.com/dont-export-const-enums/"
+    }
+  },
+  {
+    "id": "653e55cd-bfb3-4497-8c13-c6d15fd02628",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/dnakov/little-rat 监控其他浏览器是否在偷偷上网 #product-hunt",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ec7b-f789-4339-8217-ee95766410e0",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "GitHub - dnakov/little-rat: 🐀 Small chrome extension to monitor (and optionally block) other extensions' network calls",
+      "desc": "🐀 Small chrome extension to monitor (and optionally block) other extensions' network calls - dnakov/little-rat",
+      "url": "https://github.com/dnakov/little-rat"
+    }
+  },
+  {
+    "id": "653e5a69-6d28-46f7-8c74-0aa54e149938",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.figma.com/community/file/1296192470925545513/curriculum-vitae 偏暗黑风格的简历，很适合放在博客里面。 #blog #design",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ecf3-f5a4-4046-8e8c-26f3b40fe837",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "Curriculum Vitae | Figma",
+      "desc": "A tasty and gorgeous resume template. Just copy to your drafts, change the data, export via .PDF and enjoy!\n\nRequired fonts:\nSatoshi: https://www.fontshare.com/fonts/satoshi.Inter: https://rsms.me/inter/.\nAvailable in Light Mode and Dark Mode 🌓\nWishing you the best of luck in your job search! 🔥\n",
+      "url": "https://www.figma.com/community/file/1296192470925545513/curriculum-vitae"
+    }
+  },
+  {
+    "id": "653e5b59-27e9-4d56-a7ad-388ede7e7e76",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://css-text-portrait-builder.vercel.app/ 使用 [[css]] 和渐变颜色画肖像，效果还不错。",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ecf3-f5a4-4046-8e8c-26f3b40fe837",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "https://css-text-portrait-builder.vercel.app/",
+      "desc": "https://css-text-portrait-builder.vercel.app/",
+      "url": "https://css-text-portrait-builder.vercel.app/"
+    }
+  },
+  {
+    "id": "6533732d-6882-4447-beaa-5530b893e5d9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "http://mercurychong.blogspot.com/2023/10/blog-post_15.html 人际关系 #articles",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ede2-3da7-4150-96bd-a1c8d615cdd6",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "伴侶的錢",
+      "desc": " 《奇葩説》其中一集的辯題：“伴侶的錢是不是我的錢？” 就像金星說的，世上大部分人不會輕易把錢交給別人，哪怕你是法律上的合法伴侶，如果有人願意交給你，那就是你額外得到的禮物，不足以當成一般的樣本來做典範。 對於多數人而言，應該都是從一開始的經濟獨立，而後過渡到財產共用，但水星熊反...",
+      "url": "http://mercurychong.blogspot.com/2023/10/blog-post_15.html"
+    }
+  },
+  {
+    "id": "65337a10-1468-4c8b-9f39-53e5cdd73519",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://paulstamatiou.com/stocketa/#stocketa-sell-shares 是 rewind 作者的之前的一个作品，从文章里面的截图和演示可以看出，其实功能是十分完整的，但是最后作者并没有推出这个作品，从这个作品的出发点来看，从自己的需求出发也十分合理。最后导致难产的原因就是这个产品的市场实在是不太容易让一个独立开发者介入，面向的是股票等市场，想要做的事查看数据的的产品。数据对于独立开发者来说一般都很贵，依赖别人的 API 的大多数情况下都是非常有风险的。最后还是难产了。另外说一句，博客内的动画交互什么的都太好看了。",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ede2-3da7-4150-96bd-a1c8d615cdd6",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "Stocketa",
+      "desc": "A dive into the app I designed, built and never launched. Stocketa was a personal project developed to serve as a simple stock portfolio tracker for casual investors. ...",
+      "url": "https://paulstamatiou.com/stocketa/#stocketa-sell-shares"
+    }
+  },
+  {
+    "id": "653e52fe-0165-49aa-b9b1-3911c44476de",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://hiwannz.com/archives/824.html 线上办公和线下办公到底那个比较好？作者说明了在线上办公的工作状态和运作方式，大多数是使用了一些线上办公软件的企业版本，或者自建一些云，线上办公对人的自觉要求很高；虽然他们最后转为了线下，导致之前没有通勤时间的优势全部没有了，同时也表达了线下办公也带来了之前作为创业公司的公司文化也渐渐消失，但是不好说明是线下导致的，但是先是消失然后导致了线下？",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ede2-3da7-4150-96bd-a1c8d615cdd6",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "远程办公三年后感",
+      "desc": "这是一篇远程办公 3 年后的总结。一句话总结的话，还行，但也不见得那么好。",
+      "url": "https://hiwannz.com/archives/824.html"
+    }
+  },
+  {
+    "id": "653e5a38-4822-4144-92b2-69702d9d78a9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://addyosmani.com/blog/collect-experience/ 如何让你成为一个更好的工程师 #developers",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ef34-5bbf-4726-a3c8-203bf3fc2d9b",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "Becoming a good engineer is about collecting experience.",
+      "desc": "Becoming a good engineer is about collecting experience. Each project, even small ones, is a chance to add new techniques and tools to your toolbox. Where th...",
+      "url": "https://addyosmani.com/blog/collect-experience/"
+    }
+  },
+  {
+    "id": "6533788a-3783-444c-8772-edebed062771",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sspai.com/post/83231 #life #articles",
+    "page-name": "Nov 4th, 2023",
+    "parentId": "6545ef34-5bbf-4726-a3c8-203bf3fc2d9b",
+    "timestamp": 1699027200000,
+    "meta": {
+      "title": "学海无涯但不用苦做舟：打造我的学习能力与通路系统 - 少数派",
+      "desc": "我们已经习惯性地依赖碎片化的知识和海量的信息涌入我们的大脑，除了写需求文档似乎再难静下心来完成另外一件事情。当有一天回过头，发现这危险的事态越来越严重时，就必要开始有所改变。",
+      "url": "https://sspai.com/post/83231"
+    }
+  },
+  {
+    "id": "652153bc-0770-42b9-b750-3095846eed91",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sugar-high.vercel.app/ 对于高亮组件来说，体积非常小了 #fe",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225dcc-15d7-401d-890d-98f2958629ee",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "Sugar High",
+      "desc": "Super lightweight JSX syntax highlighter, around 1KB after minified and gzipped",
+      "url": "https://sugar-high.vercel.app/"
+    }
+  },
+  {
+    "id": "65215d07-5f9e-4ad5-9c2f-1f14026f4e67",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://tonsky.me/ unicode 科普文章 #articles",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225dcc-15d7-401d-890d-98f2958629ee",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "https://tonsky.me/",
+      "desc": "https://tonsky.me/",
+      "url": "https://tonsky.me/"
+    }
+  },
+  {
+    "id": "652164f4-1874-4bf3-a828-0cdeccdcc43d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/lrusso/VirtualXP 在浏览器中运行 XP 虚拟机。虚拟机的好处是可以进行一些页面的兼容性测试 #developers",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225dcc-15d7-401d-890d-98f2958629ee",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "GitHub - lrusso/VirtualXP: Virtual Machine running in a Web browser",
+      "desc": "Virtual Machine running in a Web browser. Contribute to lrusso/VirtualXP development by creating an account on GitHub.",
+      "url": "https://github.com/lrusso/VirtualXP"
+    }
+  },
+  {
+    "id": "650dbf33-5f4c-447c-9662-6a8b73fe8106",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Trailer 花了快 2 个小时研究了一下文档，主要目的是为了在发送完 headers 之后再一次发送 headers，主要是为了在流式渲染中发送 Server-Timing，在前端统计服务器的一些耗时。但是死活在 Chrome 浏览器不生效，Firefox 生效。发现 Firefox 会自动在请求头加上 TE 字段，这正是 Trailer 文档中需要的\n> **Note:** The [`TE`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/TE) request header needs to be set to \"trailers\" to allow trailer fields.",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225dcc-15d7-401d-890d-98f2958629ee",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "Trailer - HTTP | MDN",
+      "desc": "The Trailer response header allows the sender to include additional\n  fields at the end of chunked messages in order to supply metadata that might be\n  dynamically generated while the message body is sent, such as a message integrity check,\n  digital signature, or post-processing status.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Trailer"
+    }
+  },
+  {
+    "id": "652161da-d08f-41d5-ba53-bb9832d941d7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://prateeksurana.me/blog/nextjs-13-vs-remix-an-in-depth-case-study/ 对比了 [[remix]] 和 [[nextjs]] 各个功能，十分详细。 #fe",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225dcc-15d7-401d-890d-98f2958629ee",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "Next.js 13 vs Remix: An In-depth case study",
+      "desc": "A detailed comparison of the features Next.js 13 and Remix Run by building a Twitter Clone app in both frameworks.",
+      "url": "https://prateeksurana.me/blog/nextjs-13-vs-remix-an-in-depth-case-study/"
+    }
+  },
+  {
+    "id": "650868d9-1616-4a5c-b756-0423e58927c6",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://elanmed.dev/blog/suspense-in-different-architectures 对于 [[suspense]] 在客户端，服务端和流失渲染中到底是如何起作用的，讲的很清楚。但是我还是不理解是里面对于选择性水合的部分，难道这指的是流式渲染发送一部分之后执行的 JS 代码？",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225dcc-15d7-401d-890d-98f2958629ee",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "elanmed.dev | React Suspense in three different architectures",
+      "desc": "Unpacking React's most versatile API",
+      "url": "https://elanmed.dev/blog/suspense-in-different-architectures"
+    }
+  },
+  {
+    "id": "65215d37-7c0c-432d-9811-be9592ba8d5f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.macin.org/2023/10/02/e-mei-chong-dian/ 工作经常让我电量耗尽，文中是旅行一次可以充电一个月。我倒是没有统计过这个，下次做了想做的事情之后可以简单计算下再次 [[burnout]] 是什么时候 #life",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225ec1-a46b-4d52-82c4-7b411671f65c",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "峨眉七日：道行尚浅 归山充电",
+      "desc": "毫无杂念的旅行1次可以充电1月余，见1次揆违久矣的老友可以充电半个月，徒步1次可以充电1个星期，喝1杯不踩雷的奶茶新品可以充电半天。这些日子，充电速度俨然已经赶不上耗电的速度，每天一醒来都似乎可以听到身体在发出电量不足的警告。 在结束了一段高速耗能的工作后，总算决定要进山一趟，进行一次持久的充电。 地处山城，成渝之间，最不缺的就是山，挑一个能待7天的，目的就实现了。一开始犹豫去青城山问道还是峨眉山",
+      "url": "https://www.macin.org/2023/10/02/e-mei-chong-dian/"
+    }
+  },
+  {
+    "id": "650fa8ea-5bb2-411d-8e93-edea9f53f843",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.japantimes.co.jp/business/2023/09/21/companies/nippon-tv-ghibli-acquisition/ 如果宫崎骏总有离开的一天，吉卜力工作室还能叫做工作室吗？",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225ec1-a46b-4d52-82c4-7b411671f65c",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "Studio Ghibli set to become subsidiary of Nippon TV",
+      "desc": "Studio Ghibli President Toshio Suzuki will assume the position of chairman while Hayao Miyazaki will be its honorary chairman.",
+      "url": "https://www.japantimes.co.jp/business/2023/09/21/companies/nippon-tv-ghibli-acquisition/"
+    }
+  },
+  {
+    "id": "6520d4ec-6f14-462d-b8bf-5d5e2616ffac",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sspai.com/post/83228 [[macos]] 的桌面对于我来说真的没啥作用，打开的机会很低。现在增加了小组件的功能，添加了 TODO，播客等应用，看看之后的使用频率。",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225ee7-fab0-4fcb-831d-9d16e28d1fc6",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "被实力吸引， 被乐趣圈粉：macOS Sonoma 中值得关注的新特性 - 少数派",
+      "desc": "macOS Sonoma 为我们带来了新的锁屏界面，改善了小组件、Safari 浏览器等一种内置应用，还为游戏打下了基础。",
+      "url": "https://sspai.com/post/83228"
+    }
+  },
+  {
+    "id": "65215846-628b-4670-abe8-fee1796139ef",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.wsj.com/lifestyle/careers/how-a-4-day-workweek-actually-works-from-the-companies-pulling-it-off-1a5c0e2a 如果尝试每周只工作四天，是否变得更有效率？文中举例很多情况表明更少的工作时间更有效率，但是需要做到 #life",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225ee7-fab0-4fcb-831d-9d16e28d1fc6",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "https://www.wsj.com/lifestyle/careers/how-a-4-day-workweek-actually-works-from-the-companies-pulling-it-off-1a5c0e2a",
+      "desc": "https://www.wsj.com/lifestyle/careers/how-a-4-day-workweek-actually-works-from-the-companies-pulling-it-off-1a5c0e2a",
+      "url": "https://www.wsj.com/lifestyle/careers/how-a-4-day-workweek-actually-works-from-the-companies-pulling-it-off-1a5c0e2a"
+    }
+  },
+  {
+    "id": "650863c4-cea6-4870-a2b5-bc1dd3210c69",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://replicate.com/fofr/sdxl-emoji 根据 [[ai]] 生成 [[emoji]] 的工具，很适合生成头像。",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225f10-be61-48f1-86d0-7e37e0b39eab",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "fofr/sdxl-emoji – Run with an API on Replicate",
+      "desc": "An SDXL fine-tune based on Apple Emojis",
+      "url": "https://replicate.com/fofr/sdxl-emoji"
+    }
+  },
+  {
+    "id": "65075c14-c61f-4a88-a47a-2dcc1e0ea962",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://dailyremix.framer.website/ 设计师分享了很多小设计，有 [[linear]] 和 [[mac]] 的风格。 #design",
+    "page-name": "Oct 8th, 2023",
+    "parentId": "65225f81-73e0-485a-9341-be7f0e857e45",
+    "timestamp": 1696694400000,
+    "meta": {
+      "title": "Daily Remix - Your daily dose of Framer things",
+      "desc": "Say hallo to #dailyremix of Framer fun builds, components, and templates that you can use for free. 🫶",
+      "url": "https://dailyremix.framer.website/"
+    }
+  },
+  {
+    "id": "64ff0f5a-eff2-4c16-aa31-8b4714aaacde",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://wallstreetcn.com/articles/3696704 真的十分好奇华为是如何做到拿到 5nm 的芯片的",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "6500763a-dff8-4f9d-9645-ba8223b10605",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "华为扔下一枚重磅炸弹",
+      "desc": "对于最新开售的Mate 60 Pro机型，华为实现了真正的“黑科技”——让手机通过卫星直连的方式实现接听电话。",
+      "url": "https://wallstreetcn.com/articles/3696704"
+    }
+  },
+  {
+    "id": "64ff1276-d737-4581-bbe1-480d88eff8e7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://en.wikipedia.org/wiki/Vendor_lock-in 学到一个新的单词，No vendor lock-in。但是不太理解的是，开源代码会有 lock-in 的问题吗？按我的理解，比如某个 monorepo 实现有 lock-in 问题，是否意味着它必须限制了其中子 package 的写法。比如文件夹的约定什么的",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "6500763a-dff8-4f9d-9645-ba8223b10605",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "Vendor lock-in - Wikipedia",
+      "desc": "Vendor lock-in - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vendor_lock-in"
+    }
+  },
+  {
+    "id": "64d89e62-4916-489e-b75d-402f4bb2fc94",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.macin.org/2023/08/08/zi-gong/ 很喜欢里面的一句话",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "6500763a-dff8-4f9d-9645-ba8223b10605",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "自贡：盐的另一页",
+      "desc": "当游玩过恐龙博物馆，当参观过大燊井，当夜游过灯会，自贡给了我不一样的体验。对父辈而言，自贡是那个不太远的热闹城市；对我而言，自贡是有滋有味盐帮菜的代名词。至于它的街市，它的一砖一瓦，我从未注意过，直到我为了买锅魁去到了贡井古街。 贡井古街这家名叫徐氏百年锅魁的店，是老街里最热闹的据点，虽然我吃了锅魁店的闭门羹，但我无意间闯进了贡井古街，仿佛是进入一段富有情感、充满生机和欲望的时光隧道。  作为古盐",
+      "url": "https://www.macin.org/2023/08/08/zi-gong/"
+    }
+  },
+  {
+    "id": "64bfd289-b135-4934-8150-d41e503e03fb",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://geekplux.com/newsletters/40 我们接受的信息是被选择的，这个和自身的生活环境和接受的教育有关，这就像是自身的免疫系统，我们能够做到的事通过阅读，可以是 [[rss]] 或者其他的信息源，来提高信息的输入，就像是提高自己的免疫力，接受更多的有效信息。 #3thoughts",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "6500763a-dff8-4f9d-9645-ba8223b10605",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "经验传播的有损压缩 -#40",
+      "desc": "我们为什么不能从他人的经验里吸取教训；AI 与自动化；过去的不一定是真实的",
+      "url": "https://geekplux.com/newsletters/40"
+    }
+  },
+  {
+    "id": "64ff0f72-f9bb-4aa0-8d18-fb28d3f6838e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://nojimikiko.jp/works/2021 别人分享过关于 [[ai/midjourney]] 一个技巧，喜欢某个艺术家那么就可以把艺术家作为参数一部分，但是我想知道的事如何找到这些艺术家的列表可以作为参数呢？",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "65007654-ee03-45bb-8f83-cdb5f68383d9",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "2021 | 野地美樹子",
+      "desc": "2021 | 野地美樹子",
+      "url": "https://nojimikiko.jp/works/2021"
+    }
+  },
+  {
+    "id": "64ff10af-5cb2-446f-9a89-9473fa0e5953",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://18alan.space/posts/how-hard-is-it-to-build-a-frontend-framework.html 分享了如何构建一个前端框架，当然了实现很简单，但是可以从里面看到一个现代的前端框架需要的基本功能有哪些：",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "65007661-abb9-44c3-95e8-9bb36c518222",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "https://18alan.space/posts/how-hard-is-it-to-build-a-frontend-framework.html",
+      "desc": "https://18alan.space/posts/how-hard-is-it-to-build-a-frontend-framework.html",
+      "url": "https://18alan.space/posts/how-hard-is-it-to-build-a-frontend-framework.html"
+    }
+  },
+  {
+    "id": "64ff149d-1ce4-48d1-9dfe-638cf55f5791",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247522767&idx=1&sn=65904d439e6de3c1867eb0398047fea8&chksm=fc7ed794cb095e821e6df78d665f1b8d1f43b80873e4c0f78e477b0ccae6d1c4fdec51ac71fd&token=263092570&lang=zh_CN#rd [[nuxt]] 新版本介绍，比较关心的是其中提到的 capo.js 是如何对 head 进行优化的。",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "65007661-abb9-44c3-95e8-9bb36c518222",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "https://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247522767&idx=1&sn=65904d439e6de3c1867eb0398047fea8&chksm=fc7ed794cb095e821e6df78d665f1b8d1f43b80873e4c0f78e477b0ccae6d1c4fdec51ac71fd&token=263092570&lang=zh_CN#rd",
+      "desc": "https://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247522767&idx=1&sn=65904d439e6de3c1867eb0398047fea8&chksm=fc7ed794cb095e821e6df78d665f1b8d1f43b80873e4c0f78e477b0ccae6d1c4fdec51ac71fd&token=263092570&lang=zh_CN#rd",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247522767&idx=1&sn=65904d439e6de3c1867eb0398047fea8&chksm=fc7ed794cb095e821e6df78d665f1b8d1f43b80873e4c0f78e477b0ccae6d1c4fdec51ac71fd&token=263092570&lang=zh_CN#rd"
+    }
+  },
+  {
+    "id": "64ff1645-41f8-4143-aa51-66ce2bc2db86",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/imgly/background-removal-js 一个可以在 JS 中实现移除背景的库，但是实现方式是通过下载一个 [[ai]] 模型实现的，类似 tfjs 方式类似。",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "65007661-abb9-44c3-95e8-9bb36c518222",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "GitHub - imgly/background-removal-js: Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns. Explore an interactive demo.",
+      "desc": "Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns. Explore an interactive demo. - imgly/background-removal-js",
+      "url": "https://github.com/imgly/background-removal-js"
+    }
+  },
+  {
+    "id": "64ff0fda-c2ba-421c-85cf-8073f5554d17",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://hangzhou.gamemcu.com/ 一个 [[threejs]] 的应用，介绍了杭州西湖十景。太好看了，不知道如何能够实现一个类似的？",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "65007661-abb9-44c3-95e8-9bb36c518222",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "https://hangzhou.gamemcu.com/",
+      "desc": "https://hangzhou.gamemcu.com/",
+      "url": "https://hangzhou.gamemcu.com/"
+    }
+  },
+  {
+    "id": "64ff1540-20cf-451c-b8eb-c43e709652bb",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.stefanjudis.com/a-firefox-only-minimap/ 一个在 firefox 中实现 minimap 的方式，[[css]] 就行。",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "65007661-abb9-44c3-95e8-9bb36c518222",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "https://www.stefanjudis.com/a-firefox-only-minimap/",
+      "desc": "https://www.stefanjudis.com/a-firefox-only-minimap/",
+      "url": "https://www.stefanjudis.com/a-firefox-only-minimap/"
+    }
+  },
+  {
+    "id": "64ce656b-2a07-4a9d-ae31-056a27e1558a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/reactwg/server-components/discussions/5 Dan 写的如何实现 [[RSC]] 的文章，如果你想要通过构建工具实现一个自己的 RSC + SSR 的框架。会很有价值。基本上需要两个功能：",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "65007661-abb9-44c3-95e8-9bb36c518222",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "RSC From Scratch. Part 1: Server Components · reactwg/server-components · Discussion #5",
+      "desc": "RSC From Scratch. Part 1: Server Components In this technical deep dive, we'll implement a very simplified version of React Server Components (RSC) from scratch. This deep dive will be published in...",
+      "url": "https://github.com/reactwg/server-components/discussions/5"
+    }
+  },
+  {
+    "id": "64cdc725-2d7d-45ba-b268-d79998177ad7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.mux.com/blog/what-are-react-server-components#what-if-a-library-doesnt-support-client-components 迁移 [[RSC]] 的一些经验分享",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "65007661-abb9-44c3-95e8-9bb36c518222",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "https://www.mux.com/blog/what-are-react-server-components#what-if-a-library-doesnt-support-client-components",
+      "desc": "https://www.mux.com/blog/what-are-react-server-components#what-if-a-library-doesnt-support-client-components",
+      "url": "https://www.mux.com/blog/what-are-react-server-components#what-if-a-library-doesnt-support-client-components"
+    }
+  },
+  {
+    "id": "64bfd434-a198-4ec5-9ae8-a84116f84574",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://web.dev/yahoo-japan-news-bfcache/ 通过设置头里面的缓存策略，缓存浏览器前进和后退回到开始的位置，文中做了 AB 实验，效果还是不错的。",
+    "page-name": "Sep 11th, 2023",
+    "parentId": "65007661-abb9-44c3-95e8-9bb36c518222",
+    "timestamp": 1694361600000,
+    "meta": {
+      "title": "How Back/forward Cache Helped Yahoo! JAPAN News Increase Revenue by 9% on Mobile  |  web.dev",
+      "desc": "Yahoo! JAPAN News, one of the most popular news platforms in Japan, drove a concerted effort to improve their bfcache hit rate and saw significant user experience and business improvements as a result. Specifically, the results of the A/B test they conducted showed that pages that use bfcache had a 9% increase in ads revenue.",
+      "url": "https://web.dev/yahoo-japan-news-bfcache/"
+    }
+  },
+  {
+    "id": "64bb5612-1189-426b-8b56-a6907376e007",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://freeflo.ai/all 之前收集的 [[ai/prompt]] 大多数要钱，这是免费的，可以学习一下别人是如何给 [[ai/midjourney]] 提问的。",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cca-fd13-4e19-9636-277d410096e9",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "Curated AI image and art gallery with prompts - Freeflo",
+      "desc": "Get inspired by Freeflo's free, curated library of AI images. Find an image you like, grab the Midjourney prompt, and make your own unique variations!",
+      "url": "https://freeflo.ai/all"
+    }
+  },
+  {
+    "id": "64b2ce8f-5714-4cb3-80ae-03f19731cf01",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sspai.com/post/81091 之前也有类似的观点，就是在目前大爆炸的信息数据产生的情况下，用于 [[ai]] **训练的数据还是会被耗尽**，主要是高质量的数据太少了。但是文中提到一个扩充的方式，就是对于 [[gpt]] 来说不要局限于文本，应该关注在音视频上面。这样以来数据量就大了。",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cca-fd13-4e19-9636-277d410096e9",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "https://sspai.com/post/81091",
+      "desc": "https://sspai.com/post/81091",
+      "url": "https://sspai.com/post/81091"
+    }
+  },
+  {
+    "id": "64853b21-e0ec-4bef-99b2-92f80ba99187",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://bjoernkarmann.dk/project/paragraphica 新颖的相机，使用**相机捕获轮廓**（文字），将轮廓交给 [[ai]] 进行绘制，实际照片和真实照片开始还真的差不多。",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cca-fd13-4e19-9636-277d410096e9",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "Paragraphica",
+      "desc": "Add a description for facebook",
+      "url": "https://bjoernkarmann.dk/project/paragraphica"
+    }
+  },
+  {
+    "id": "64853f05-6031-41a2-bac2-42e34ca6dd4e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://platform.openai.com/docs/guides/gpt-best-practices 官方出品的 [[ai/gpt]] 最佳实践。",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cca-fd13-4e19-9636-277d410096e9",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "OpenAI Platform",
+      "desc": "Explore developer resources, tutorials, API docs, and dynamic examples to get the most out of OpenAI's platform.",
+      "url": "https://platform.openai.com/docs/guides/gpt-best-practices"
+    }
+  },
+  {
+    "id": "64bbd315-7ed6-4d77-9906-441b93ce8f26",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://vercel.com/blog/how-react-18-improves-application-performance 在优化 [[react]] 的项目中，一定会被讨论的话题是： #perf",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cef-d196-4dd6-978f-fb00d0383e1f",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "How React 18 Improves Application Performance – Vercel",
+      "desc": "Learn how React 18's concurrent features like Transitions, Suspense, and React Server Components improve application performance.",
+      "url": "https://vercel.com/blog/how-react-18-improves-application-performance"
+    }
+  },
+  {
+    "id": "64b36159-9d64-41f8-82be-f23c7a9168ba",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "关于 [[modulepreload]] 我一直以为这个功能除了请求本身的 URL 地址，还会递归请求对应子模块的 URL。就像是 https://github.com/w3ctag/design-reviews/issues/213 这个 issue 里面讨论的那样。但是实际测试了一下，并不能。和 [[preload]] 区别就像是这里说的 https://developer.chrome.com/blog/modulepreload/#but-what-about-modules-dependencies 除了预先请求缓存起来之外，浏览器还会解析它。 #perf",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cef-d196-4dd6-978f-fb00d0383e1f",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "<link> rel=\"modulepreload\" · Issue #213 · w3ctag/design-reviews",
+      "desc": "Dear Sirs and Madam of TAG! I'm requesting a TAG review of: Name: link rel=modulepreload Specification URL: whatwg/html#2383 (preview) Explainer, Requirements Doc, or Example code: https://docs.goo...",
+      "url": "https://github.com/w3ctag/design-reviews/issues/213"
+    }
+  },
+  {
+    "id": "64aa6e49-fa0a-42c6-9dcb-24f437acf5c5",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://wiringbits.net/blog/github-repository-setup 关于仓库默认设置的建议还是很有价值的。 #developers",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cef-d196-4dd6-978f-fb00d0383e1f",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "Sane defaults for Github repositories",
+      "desc": "While working with multiple customers, we commonly suggest potential improvements to their Github repository setup, there is a chance others can benefit from this which is why I’m sharing the settings we follow while create new repositories.",
+      "url": "https://wiringbits.net/blog/github-repository-setup"
+    }
+  },
+  {
+    "id": "648dc09d-3c62-4a86-a95f-4ee4d34c88f0",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/kaleidawave/ezno 类似 stc 的 tsc 替代，目前为止无论是 swc 和 esbuild 编译 ts 文件到 js 文件都比较快。但是如果进行类库的开发，无论如何都会遇到需要生成类型文件的，这个无论如何都是需要 tsc 进行生成，相对会比较慢一点。所以市面上就会出现 stc 的实现，替换掉 tsc 以及类型检查。 #ts",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cef-d196-4dd6-978f-fb00d0383e1f",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "GitHub - kaleidawave/ezno: A JavaScript compiler and TypeScript checker written in Rust with a focus on static analysis and runtime performance",
+      "desc": "A JavaScript compiler and TypeScript checker written in Rust with a focus on static analysis and runtime performance - kaleidawave/ezno",
+      "url": "https://github.com/kaleidawave/ezno"
+    }
+  },
+  {
+    "id": "64834e75-3bfa-49de-aeed-ec6d3dd9b3d5",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://gomakethings.com/are-javascript-libraries-really-that-bad-for-performance/ 在 [[perf]] 中有一项很重要的优化项目是 **JS 体积**，压缩是有效手段，有效的减少传输体积。文中提到即使你这么做的，并不能较少解析执行的耗时，对于 JS 文件来说它和图片处理不同，图片可以在下载期间就可以开始渲染了。JS 却不行因为其中可能包含 DOM 操作，所以往往等待下载完成之后才会开始执行。这也就带来的了性能的损耗。\n> When a browser downloads an image file, it can start rendering it right away, before it’s even finished downloading the whole thing.\n> With a JavaScript file, the browser waits for the whole thing to download, then it compiles it, *then* it reads through the whole file top-to-bottom to see what’s in it. If there are ES imports, *those* need to get downloaded, compiled, and read, too.\n> While all of that stuff I just described is happening, the browser stops rendering the UI until it’s finished. Because JavaScript often modifies the DOM, browsers stop rendering anything until they know what the JS file is going to do.\n> This helps them avoid painting things that are just going to be removed by JavaScript anyways.",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cef-d196-4dd6-978f-fb00d0383e1f",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "Are JavaScript libraries really that bad for performance?",
+      "desc": "Earlier this week, I posted a video on YouTube about how to create your own personal jQuery, and wrote a text article version of it as well.\nOn YouTube, someone in the comments was very insistent that jQuery has no impact on performance whatsoever.\n What is it, 30kb? Even at 7Mps it still downloads in just a few milliseconds. You don’t need the latest hardware or superfast broadband to handle it.",
+      "url": "https://gomakethings.com/are-javascript-libraries-really-that-bad-for-performance/"
+    }
+  },
+  {
+    "id": "64853a86-8595-4cba-8fd4-bfd1681e5f4a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://web.dev/origin-private-file-system/ 之前在网页上操作文件系统需要通过 `<input /> or <a download />` 实现，现在提供了新的 API，看起来更加简洁了。 #web #fe",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2cef-d196-4dd6-978f-fb00d0383e1f",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "The origin private file system  |  Articles  |  web.dev",
+      "desc": "The origin private file system  |  Articles  |  web.dev",
+      "url": "https://web.dev/origin-private-file-system/"
+    }
+  },
+  {
+    "id": "64aa721a-b2f6-4593-bd50-342dc278fddf",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.figma.com/community/file/1250056962645833804 前段时间疯狂调教 [[ai/midjourney]] 想要实现 [[raycast]] 类似的效果的 [[icon]]，因为有几个 cli-application app 就是想要这种 icon，做过一个类似的。显然这个效果更好一点。 #design",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2e74-aa71-43bf-9baa-448d9e13b0bf",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "Raycast App Icon Template | Figma",
+      "desc": "Some of you have been requesting our app icon as a template to create your own, so here you go! Have fun with it!\n",
+      "url": "https://www.figma.com/community/file/1250056962645833804"
+    }
+  },
+  {
+    "id": "64b95a3d-996c-43cb-b4ec-a9bfe9d9f274",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://geekplux.com/newsletters/39 赞同里面的说到的几个观点",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2d2f-7f43-4682-a3e5-94ee9a930b9f",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "AI 正在杀死网络, 相对失败与成长, 纯文本 -#39",
+      "desc": "AI 让低质量内容充斥网络。失败与成长。",
+      "url": "https://geekplux.com/newsletters/39"
+    }
+  },
+  {
+    "id": "64aa576e-8efe-41e0-9c06-b0a30bdb859d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://staysaasy.com/management/2023/07/03/Achieving-Goals.html 我[[工作]]两年之中，对于我的目标一直感到很痛苦，渐渐意识到这里面说的是真的：",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2d2f-7f43-4682-a3e5-94ee9a930b9f",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "On Achieving Goals",
+      "desc": "Achieving your goals, in its most basic form, can be a very simple process.",
+      "url": "https://staysaasy.com/management/2023/07/03/Achieving-Goals.html"
+    }
+  },
+  {
+    "id": "64aab591-2558-4d04-aa49-7eced66ceed2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sspai.com/post/80509 我目前处于字节的第三年，和他的经历路径几乎是一样的，前两年摆烂和不摆烂反复横跳，偶尔健身培养爱好三分钟热度，近段时间开始在编程这个技能和个人项目上给自己定计划，以两周为维度，在这件事情上体会到了任务完成的快乐。 #life #job",
+    "page-name": "Jul 23rd, 2023",
+    "parentId": "64bd2d2f-7f43-4682-a3e5-94ee9a930b9f",
+    "timestamp": 1690041600000,
+    "meta": {
+      "title": "工作日就只能有工作吗？大厂三年程序员的生活规划心路分享 - 少数派",
+      "desc": "我们是一个个活生生的人，工作只是实现自我生活的过程，而非结果，不要被工作麻木而失去了自我，总结和分享本文希望能帮到你。",
+      "url": "https://sspai.com/post/80509"
+    }
+  },
+  {
+    "id": "647a1e85-1285-4fac-955c-7c7fe3add5fe",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.huxiu.com/article/1600148.html 如果对[[裁员]]比较陌生，感觉可以看看这个文章，很多细节（虽然是国外的）。但是让我比较惊讶的是，法律规定如果裁员的话要有通知同组人的规定（不知道国内有没有）。 #articles/company",
+    "page-name": "Jun 4th, 2023",
+    "parentId": "647c9c56-d68f-4be9-92e6-be75beceb6d6",
+    "timestamp": 1685808000000,
+    "meta": {
+      "title": "Meta万人裁员亲历者自述：小扎尝到了降本的甜头",
+      "desc": "或许能带给你理解这家巨头公司的一块拼图",
+      "url": "https://www.huxiu.com/article/1600148.html"
+    }
+  },
+  {
+    "id": "647bf946-5d44-465e-8ca5-a627a92aec8d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://geekplux.com/newsletters/35 在看 NBA 比赛的时候其实每个城市的球迷表现都是不同的，特别是看到坏小子的纪录片的时候，底特律那种坏小子的气质。结合这个文章中提到的，每个城市自身的特性是否本身就会吸引一些与其气质相符合的人过来呢？我在杭州呆了很多年，大家都说杭州是奋斗者的城市，主要是因为大家都很卷，并不是什么褒义词。所以会不会吸引来的年轻人也是如此呢？",
+    "page-name": "Jun 4th, 2023",
+    "parentId": "647c9c56-d68f-4be9-92e6-be75beceb6d6",
+    "timestamp": 1685808000000,
+    "meta": {
+      "title": "https://geekplux.com/newsletters/35",
+      "desc": "https://geekplux.com/newsletters/35",
+      "url": "https://geekplux.com/newsletters/35"
+    }
+  },
+  {
+    "id": "647311d7-6e55-4b05-81ab-7df7ae43217f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://lutaonan.com/blog/how-do-i-take-note/ 学到一个小技巧，在 [[logseq]] 中如果使用 `namespace/*` 的话，自动向上查找，减少了之前需要手动引用的工作；",
+    "page-name": "Jun 4th, 2023",
+    "parentId": "647c9c56-d68f-4be9-92e6-be75beceb6d6",
+    "timestamp": 1685808000000,
+    "meta": {
+      "title": "我的笔记管理法 | Randy's Blog",
+      "desc": "Randy is blogging about life, tech, coding.",
+      "url": "https://lutaonan.com/blog/how-do-i-take-note/"
+    }
+  },
+  {
+    "id": "646cd8a6-e32d-4ce5-b55d-591285998026",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.latepost.com/news/dj_detail?id=1664 人生训练师我第一次看到这个名词是在 [[chatgpt]] 中，我一直以为它是一个游戏的名词。在这篇文章中提到了大厂大多辞职之后，追求自己喜欢的，而不是被推着走。除了工作之外，关注生活，培养爱好。",
+    "page-name": "Jun 4th, 2023",
+    "parentId": "647c9c56-d68f-4be9-92e6-be75beceb6d6",
+    "timestamp": 1685808000000,
+    "meta": {
+      "title": "https://www.latepost.com/news/dj_detail?id=1664",
+      "desc": "https://www.latepost.com/news/dj_detail?id=1664",
+      "url": "https://www.latepost.com/news/dj_detail?id=1664"
+    }
+  },
+  {
+    "id": "647ac169-bd96-4582-91d7-a1389b5b2fe7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://deno.com/blog/v1.34 [[deno]] 支持将 npm 包编译为二进制文件，文章说可以获得更快的启动速度，如果能够编译 webpack，除了启动速度之外，能够获得更快的运行速度吗？之所以有这样的想法是因为，wasm 因为二进制所以可以有更快的启动速度。",
+    "page-name": "Jun 4th, 2023",
+    "parentId": "647c9ca8-8c40-44c2-a700-a4b8a9ddb5ea",
+    "timestamp": 1685808000000,
+    "meta": {
+      "title": "Deno 1.34: deno compile supports npm packages",
+      "desc": "This update augments compatibility with npm and Node.js, incorporates glob support, and enhances TLS certificates with IP addresses. It also brings forth improvements to the configuration, language server, APIs, and updates to V8 and TypeScript.",
+      "url": "https://deno.com/blog/v1.34"
+    }
+  },
+  {
+    "id": "6472dbef-84d5-4fce-950f-bf24c9baa94f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://addyosmani.com/blog/react-server-components-app-router/ 概述，介绍什么是 [[RSC]]",
+    "page-name": "Jun 4th, 2023",
+    "parentId": "647c9ca8-8c40-44c2-a700-a4b8a9ddb5ea",
+    "timestamp": 1685808000000,
+    "meta": {
+      "title": "React Server Components, Next.js App Router and examples",
+      "desc": "A summary of the state of React Server Components, Next.js App Router, rendering, examples and other related links and thoughts.",
+      "url": "https://addyosmani.com/blog/react-server-components-app-router/"
+    }
+  },
+  {
+    "id": "647bf90b-fa04-4bdd-a830-d8b871cc191f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/raunofreiberg/interfaces 一些设计规范，因为直接告诉你怎么做，最佳实践经验之类的，所以对于开发者也十分友好。 #design",
+    "page-name": "Jun 4th, 2023",
+    "parentId": "647c9d37-781a-44bf-8a40-92323c187926",
+    "timestamp": 1685808000000,
+    "meta": {
+      "title": "GitHub - raunofreiberg/interfaces: A non-exhaustive list of details that make a good web interface.",
+      "desc": "A non-exhaustive list of details that make a good web interface. - raunofreiberg/interfaces",
+      "url": "https://github.com/raunofreiberg/interfaces"
+    }
+  },
+  {
+    "id": "647bfdc2-88db-4ff0-9e37-ca665ffe5ae9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://news.ycombinator.com/item?id=36138224 有人在讨论是否有 [[chatgpt]] 的替代品（本地的），其实你发现市面上有两种，一个是它的前端替代品，这个是有价值的，不然 twitter 的三方客户端为什么会有价值，一个产品的交互习惯可能并不适合另外一群人；另外就是基于 [[chatgpt]] 本身的模型的开源方案，其底层技术是公开的，但是就像是 Meta 也在寻找自己的护城河一样， [[openai]] 的护城河是他的数据，什么样的数据才会让他的模型效果这么好，这一点恐怕很难超越。",
+    "page-name": "Jun 4th, 2023",
+    "parentId": "647c9d69-ba09-4440-bdc6-7e43b34b0981",
+    "timestamp": 1685808000000,
+    "meta": {
+      "title": "https://news.ycombinator.com/item?id=36138224",
+      "desc": "https://news.ycombinator.com/item?id=36138224",
+      "url": "https://news.ycombinator.com/item?id=36138224"
+    }
+  },
+  {
+    "id": "6472d513-a7a3-44d0-8647-e24839497389",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.jim-nielsen.com/2023/well-known-avatar/ 将自己的头像放在 `.well-known` 链接下面很好的践行了博客是自己分身一部分的原则。 #blog",
+    "page-name": "Jun 4th, 2023",
+    "parentId": "647c9d69-ba09-4440-bdc6-7e43b34b0981",
+    "timestamp": 1685808000000,
+    "meta": {
+      "title": "A Well Known URL For Your Personal Avatar",
+      "desc": "Writing about the big beautiful mess that is making things for the world wide web.",
+      "url": "https://blog.jim-nielsen.com/2023/well-known-avatar/"
+    }
+  },
+  {
+    "id": "645e6fb4-24fc-458c-8c0e-03960bfb94ca",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://limboy.me/links/carmack-on-ai-anxiety/ 缓解 [[ai]] 焦虑的方式之一是让它成为你最好的工具，帮助你完成你的日常工作。",
+    "page-name": "May 14th, 2023",
+    "parentId": "6464de61-ad1c-4f79-8f89-74b65fb45f8d",
+    "timestamp": 1683993600000,
+    "meta": {
+      "title": "关于 AI 焦虑，Carmack 是这么回复的",
+      "desc": "关于 AI 焦虑，Carmack 是这么回复的",
+      "url": "https://limboy.me/links/carmack-on-ai-anxiety/"
+    }
+  },
+  {
+    "id": "56f9318a-bea2-4228-b5b9-c1e96e2fbeb9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://news.ycombinator.com/item?id=31055709",
+    "page-name": "May 14th, 2023",
+    "parentId": "6464de61-ad1c-4f79-8f89-74b65fb45f8d",
+    "timestamp": 1683993600000,
+    "meta": {
+      "title": "https://news.ycombinator.com/item?id=31055709",
+      "desc": "https://news.ycombinator.com/item?id=31055709",
+      "url": "https://news.ycombinator.com/item?id=31055709"
+    }
+  },
+  {
+    "id": "6451eac6-729e-4b87-bd22-64363c35e987",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://limboy.me/posts/standards-of-good-tools/ 也挺符合自己对于好产品的标准的，如果你开发自己产品，可以试试有没有满足这些条件。 #product-hunt",
+    "page-name": "May 14th, 2023",
+    "parentId": "6464de61-ad1c-4f79-8f89-74b65fb45f8d",
+    "timestamp": 1683993600000,
+    "meta": {
+      "title": "我心目中好工具的标准",
+      "desc": "我心目中好工具的标准",
+      "url": "https://limboy.me/posts/standards-of-good-tools/"
+    }
+  },
+  {
+    "id": "645f3faa-0de0-4d6a-93db-c58c6a51bb5b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.izzy.co/blogs/robo-boys.html 把我自己的聊天数据训练模型，clone 一个自己，因为是离线的，所以还比较安全（但是最终还是会将权重上传到服务器上，如果你需要构建自己的聊天机器人的话）。不过这种方式还是挺有意思的，我比较好奇的是如何在服务器上运行这个模型，据我所知，这个模型训练和运行的消耗应该不小。 #ai",
+    "page-name": "May 14th, 2023",
+    "parentId": "6464de61-2d4b-4a71-ac0e-1aa59414a2bb",
+    "timestamp": 1683993600000,
+    "meta": {
+      "title": "Replacing my best friends with an LLM trained on 500,000 group chat messages",
+      "desc": "An exploration into customizing LLMs for personal use",
+      "url": "https://www.izzy.co/blogs/robo-boys.html"
+    }
+  },
+  {
+    "id": "6451d58f-44fa-451e-9e2f-3d92536e2a77",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.izzy.co/blogs/robo-boys.html 把我自己的聊天数据训练模型，clone 一个自己，因为是离线的，所以还比较安全（但是最终还是会将权重上传到服务器上，如果你需要构建自己的聊天机器人的话）。不过这种方式还是挺有意思的，我比较好奇的是如何在服务器上运行这个模型，据我所知，这个模型训练和运行的消耗应该不小。 #ai",
+    "page-name": "May 14th, 2023",
+    "parentId": "6464de61-2d4b-4a71-ac0e-1aa59414a2bb",
+    "timestamp": 1683993600000,
+    "meta": {
+      "title": "Replacing my best friends with an LLM trained on 500,000 group chat messages",
+      "desc": "An exploration into customizing LLMs for personal use",
+      "url": "https://www.izzy.co/blogs/robo-boys.html"
+    }
+  },
+  {
+    "id": "645f4660-8bf7-41ee-8337-34626547e0c0",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://snackprompt.com/ 提供了大量实用的 [[ai/prompt]]",
+    "page-name": "May 14th, 2023",
+    "parentId": "6464de61-2d4b-4a71-ac0e-1aa59414a2bb",
+    "timestamp": 1683993600000,
+    "meta": {
+      "title": "Snack Prompt | Discover The Best ChatGPT Prompts",
+      "desc": "Explore a community-driven platform to discover, upvote, and share the best AI prompts for ChatGPT & Gemini. Follow topics, create and organize prompts, and connect with expert prompters. Unlock AI’s full potential with Snack Prompt.",
+      "url": "https://snackprompt.com/"
+    }
+  },
+  {
+    "id": "81cb25c5-fa47-450c-b260-3e2c95dd765f",
+    "content": "https://sspai.com/post/79437 使用 [[chatgpt]] [[过滤]]信息，对抗推荐算法（也有人用来优化推荐算法）大致告诉机器人就是你不想看什么。当然了现在比较慢。",
+    "page-name": "May 14th, 2023",
+    "parentId": "6464de61-2d4b-4a71-ac0e-1aa59414a2bb",
+    "timestamp": 1683993600000,
+    "meta": {
+      "title": "受够了算法推荐，另辟蹊径让 AI 做「过滤」怎么样？ - 少数派",
+      "desc": "恶人会用 AI 来优化推荐算法、让推荐更击中我们的要害。而我们很难用 AI 来帮我们更平静、更有目的、更有耐心、更关注价值。这些对抗推荐算法的基本能力，来自积极的生活态度、合理的价值观、强大的内心、超越常人的耐心。这些都不是哪个工具能解决的。",
+      "url": "https://sspai.com/post/79437"
+    }
+  },
+  {
+    "id": "6451ddee-e706-469b-8d27-f21607f26f9f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.patterns.app/blog/2023/02/27/building-an-algolia-powered-gpt3-slackbot 提供了一个 Algolia  和 OpenAI 结合的思路（可以复制为传统的搜索引擎如何和 OpenAI 结合）。可以在 https://studio.patterns.app/graph/sx5yykfi7u34ut7pvae4/algolia-gpt3-slackbot?node=emxnhuad 这里看到实现方式。",
+    "page-name": "May 14th, 2023",
+    "parentId": "6464de61-491f-448c-8722-e8f921a14067",
+    "timestamp": 1683993600000,
+    "meta": {
+      "title": "https://www.patterns.app/blog/2023/02/27/building-an-algolia-powered-gpt3-slackbot",
+      "desc": "https://www.patterns.app/blog/2023/02/27/building-an-algolia-powered-gpt3-slackbot",
+      "url": "https://www.patterns.app/blog/2023/02/27/building-an-algolia-powered-gpt3-slackbot"
+    }
+  },
+  {
+    "id": "63536231-ec2a-426e-913c-b64045fc03e4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b [[css-in-js]] 发展到了编译阶段的方案，或者说编译大部分内容为静态 css。",
+    "page-name": "Apr 9th, 2023",
+    "parentId": "64338cd0-4982-4c7c-ab4b-85e29ba31b16",
+    "timestamp": 1680969600000,
+    "meta": {
+      "title": "Why We're Breaking Up with CSS-in-JS",
+      "desc": "Hi, I'm Sam — software engineer at Spot and the 2nd most active maintainer of Emotion, a...",
+      "url": "https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b"
+    }
+  },
+  {
+    "id": "643119a1-96b1-4cf1-a05b-f89fd14f0d9f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.promptingguide.ai/zh/techniques/knowledge 这篇文档非常棒，可以帮助遵循一定的原则来写更好的 [[ai/prompt]] #write-better-prompt",
+    "page-name": "Apr 9th, 2023",
+    "parentId": "64338d05-85c0-455f-9260-69febfebad6f",
+    "timestamp": 1680969600000,
+    "meta": {
+      "title": "生成知识提示 – Nextra",
+      "desc": "A Comprehensive Overview of Prompt Engineering",
+      "url": "https://www.promptingguide.ai/zh/techniques/knowledge"
+    }
+  },
+  {
+    "id": "64301806-bbbc-4ebd-8dc0-75d7aad3285e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://simonwillison.net/2023/Mar/27/ai-enhanced-development/ 提到的一个关于 [[chatgpt]] 的需求，大多数情况下我们都会存在检索的问题（之前已经找到答案）其实并不需要再问一遍，我们只要找到之前的缓存就可以了。所以才会有人愿意做分享 [[chatgpt]] 链接。这个人做了一件事情，就是通过劫持 fetch 结果来保存，并且发送到自己的服务器。 相当于构建自己的 [[知识库]]，这和我最初想要做 [[cheatsheet]] 出发点是一样的。 #idea #chrome-web-ext",
+    "page-name": "Apr 9th, 2023",
+    "parentId": "64338d05-85c0-455f-9260-69febfebad6f",
+    "timestamp": 1680969600000,
+    "meta": {
+      "title": "AI-enhanced development makes me more ambitious with my projects",
+      "desc": "The thing I’m most excited about in our weird new AI-enhanced reality is the way it allows me to be more ambitious with my projects. As an experienced developer, ChatGPT …",
+      "url": "https://simonwillison.net/2023/Mar/27/ai-enhanced-development/"
+    }
+  },
+  {
+    "id": "642eecae-d083-4078-b8cf-fa867c2b8ef3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.remove.bg/zh 这个移除背景的工具会比 MacOS 自带的好用一点 #ai",
+    "page-name": "Apr 9th, 2023",
+    "parentId": "64338d31-9af2-4a54-b8ae-6e3e074004de",
+    "timestamp": 1680969600000,
+    "meta": {
+      "title": "在线抠图软件_图片去除背景 | remove.bg – remove.bg",
+      "desc": "remove.bg在线抠图软件轻松实现一键抠图，只需上传图片，无需其他操作，即可100%自动去除图片背景。",
+      "url": "https://www.remove.bg/zh"
+    }
+  },
+  {
+    "id": "64310f6e-912a-4180-8f68-a41f3881dc68",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://geekplux.com/posts/webmention 利用 W3C 提供的 [[评论]] 系统解决方案，只要在社交媒体上评论，就能够被作为对应文章的评论，自然想要这样起作用需要的遵循一定的约定。不过还是很有意思的，完全可以加入到 [[blog]]中。",
+    "page-name": "Apr 9th, 2023",
+    "parentId": "64338d4b-1dba-4d5c-a5c3-f9943021bec6",
+    "timestamp": 1680969600000,
+    "meta": {
+      "title": "Refactor your blog comments system with Webmention.io - GeekPlux",
+      "desc": "Data Visualization & Full-stack programmer @ finance firm, always exploring",
+      "url": "https://geekplux.com/posts/webmention"
+    }
+  },
+  {
+    "id": "63f21fbb-d68a-49b1-873f-ab07aee2ee93",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.frontendundefined.com/posts/summaries/common-react-libraries/ 如果你想构建一个应用，你有太多 NPM 包可以选择了，但是在一个领域常用只有一两个。这个文章分享他所认为的比较好用的工具包，比如 state，form，数据获取。就像是最近一段时间比较热门的 https://www.dockhunt.com/ 展示了大家都在使用的 App，在开发者领域完全可以展示大家都在使用哪些 NPM 包，以及他适合干什么。 #developers #ideas",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a5e5-a4d8-4048-8b72-b322844bc241",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "A summary of libraries that are commonly used with React",
+      "desc": "An overview of the common JS libraries used with React",
+      "url": "https://www.frontendundefined.com/posts/summaries/common-react-libraries/"
+    }
+  },
+  {
+    "id": "64035b00-efa1-452a-b9f8-f96d0ad356c4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sonner.emilkowal.ski/ 有 [[macos]] 通知系统的感觉，多个通知会被折叠为 stacks #mayumi",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a5e5-a4d8-4048-8b72-b322844bc241",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "Sonner",
+      "desc": "An opinionated toast component for React.",
+      "url": "https://sonner.emilkowal.ski/"
+    }
+  },
+  {
+    "id": "63fb7643-c068-474f-bacd-03d1a2cb14d8",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://kofi.sexy/blog/modern-spas 在 [[vite]] 中，会在构建的 html 中生成 modulepreload 标签，这个属性比 preload 更加厉害，因为可以在主线程之外预解析和执行代码。也会利用到文中提到的 importmap，看起来是会更加脚本中依赖关系进行加载 https://developer.chrome.com/blog/modulepreload/#so-is-link-relmodulepreload-just-link-relpreload-for-modules #perf",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a5e5-a4d8-4048-8b72-b322844bc241",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "Modern SPAs without bundlers, CDNs, or NodeJS",
+      "desc": "I typically start new front-end prototypes with a single HTML file that I view using a file:// URL. I enjoy this practice of incrementally growing my projects, so I’ll keep working in that single file for as long as I can. Once it becomes unwieldy, I’ll split out the CSS and JavaScript into dedicated files. Then when manual DOM manipulation gets too complex, I’ll reach for a front-end framework. Until recently though, I wasn’t sure how to make this step feel incremental. Most framework installations recommend npm install, which means my project will now depend on NodeJS. Some frameworks have a hosted CDN option, but I’m similarly uncomfortable accepting that infrastructural dependency. Ideally, I’d just grab the framework files, import them from my JavaScript, and then carry on with my file:// URL.",
+      "url": "https://kofi.sexy/blog/modern-spas"
+    }
+  },
+  {
+    "id": "63fa1d7d-0115-4c76-8a36-d39c79e0041f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://gomakethings.com/react-is-still-absolutely-terrible-for-web-performance/ 目前经验来看，对于 [[react]] 做性能优化还是太难了，但是去使用别的框架成本太高了，无论是它的生态还是价值，目前框架对于我来说可能就是实现价值的工具。",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a5e5-a4d8-4048-8b72-b322844bc241",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "React is still absolutely terrible for web performance",
+      "desc": "One of the oft-repeated myths I hear from framework evangelists is that tools like React are better for performance because “they use a virtual DOM instead of the real DOM.”\nFirst, that’s objectively false.\nIn certain situations (like UIs with comically large amounts of div nesting) moving DOM diffing to a virtual layer can improve the performance of that specific step. But eventually, they have to touch the real DOM. That’s how you manipulate and update elements.",
+      "url": "https://gomakethings.com/react-is-still-absolutely-terrible-for-web-performance/"
+    }
+  },
+  {
+    "id": "64035a87-b4f0-444d-8790-f0156874b817",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://shots.so/ 创建 [[mockup]] 和生成社交分享图片的网站，非常有 [[macos]] 的风格，而且他的交互操作可以算是此类工具的教科书了。非常值得学习。 #design #mayumi #product-hunt",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a44a-0a02-412d-83bd-b3a579033d5d",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "Create Amazing Mockups",
+      "desc": "Create Amazing Mockups",
+      "url": "https://shots.so/"
+    }
+  },
+  {
+    "id": "64034766-4fd5-4d0a-bdbd-a197d122ffbd",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://birdy.so/ 这个 ABTest 的想法非常有趣，会使用 API 去更新你的主页。至于根据什么，什么时候进行更新， [[abtest]] 本身就有比较复杂的算法，应该算是比较公开的算法。 #product-hunt",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a44a-0a02-412d-83bd-b3a579033d5d",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "Twitter Profile A/B Testing - Get more Twitter followers - Birdy",
+      "desc": "Optimize your Twitter profile with automated A/B testing. Create two profile versions and let Birdy determine which one converts more visitors into followers.",
+      "url": "https://birdy.so/"
+    }
+  },
+  {
+    "id": "63fb741f-e069-44f9-85c0-d835925d996f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.spotvirtual.com/ 虚拟办公室，当你加入工作或者进入会议室会有一个虚拟的像素小人代替你。我更加喜欢开源版本的的画风 https://github.com/kevinshen56714/SkyOffice #wfh",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a44a-0a02-412d-83bd-b3a579033d5d",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "Spot | Virtual office for teams",
+      "desc": "Create a free virtual HQ in a few seconds.",
+      "url": "https://www.spotvirtual.com/"
+    }
+  },
+  {
+    "id": "640406f4-f988-4192-b019-98124a2205f0",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://design.google/library/dynapuff/ 适合作为贴纸字体，很可爱。但是不知道文章中贴纸效果是如何实现的？ #fonts",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a54d-3116-4b43-8fa8-f344c382e87c",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "https://design.google/library/dynapuff/",
+      "desc": "https://design.google/library/dynapuff/",
+      "url": "https://design.google/library/dynapuff/"
+    }
+  },
+  {
+    "id": "63fb3b29-bfef-41e3-bebb-3e7f7b0c29d5",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://uinotes.com/ 常见的场景是如果我想要写一个 App，如果不会设计就会去 dribbble 上面找找例子，这个网站直接把各种 App 的截图给你归类好的，十分方便，可惜没有桌面版本的。而且国外的软件也比较缺少。国内的软件过于臃肿，但是可以看看小众的。 #design",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a54d-3116-4b43-8fa8-f344c382e87c",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "https://uinotes.com/",
+      "desc": "https://uinotes.com/",
+      "url": "https://uinotes.com/"
+    }
+  },
+  {
+    "id": "63f98e4d-3ed5-4755-8532-f53c59aedfa3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://karpathy.medium.com/software-2-0-a64152b37c35 现在 [[ai]] 的流行是不是意味着软件进入了 2.0 时代，传统的功能正在使用 [[ai]] 重新实现。这种现象在深度学习很火的时候发生过一次，是在图像处理领域，实用模型替代传统算法速度更快，效果更好。",
+    "page-name": "Mar 5th, 2023",
+    "parentId": "6404a714-b56a-4c65-96fc-5c8974ab3b3a",
+    "timestamp": 1677945600000,
+    "meta": {
+      "title": "Software 2.0",
+      "desc": "I sometimes see people refer to neural networks as just “another tool in your machine learning toolbox”. They have some pros and cons, they…",
+      "url": "https://karpathy.medium.com/software-2-0-a64152b37c35"
+    }
+  },
+  {
+    "id": "63e51884-f68d-4885-92b9-83305f0c86a9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/headllines/producthunt-daily-rss 之前订阅的事每天比较热门的产品，后来发现它十分污染我的 [[rss]]，后来改成了这个将每周排行版进行推送。要是能够有排行榜里的具体内容就更好了。不知道是不是因为这个排行是动态更新的所以就没有做？",
+    "page-name": "Feb 12th, 2023",
+    "parentId": "63e8e7da-f11c-4746-ab85-d3cf48f48fd1",
+    "timestamp": 1676131200000,
+    "meta": {
+      "title": "GitHub - headllines/producthunt-daily-rss: The missing RSS feed for ProductHunt daily top posts",
+      "desc": "The missing RSS feed for ProductHunt daily top posts - headllines/producthunt-daily-rss",
+      "url": "https://github.com/headllines/producthunt-daily-rss"
+    }
+  },
+  {
+    "id": "63e655fc-9d33-4b5d-890f-34781fdf751b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://ui.shadcn.com/docs/primitives/alert-dialog 基于 https://www.radix-ui.com/ 和几乎没有 JS 代码实现的。意味着组件交互逻辑是 radix 提供的（这个库目标就是希望所有组件都可以基于它进行实现，从它的 slogan 就可以知道，为什么要浪费时间又实现组件的交互逻辑呢），它提供了很好的思路，radix 提供组件逻辑， [[tailwindcss]] 进行样式修改。不知道能不能用到我的 [[mayumi]] 中。",
+    "page-name": "Feb 12th, 2023",
+    "parentId": "63e8e7da-f11c-4746-ab85-d3cf48f48fd1",
+    "timestamp": 1676131200000,
+    "meta": {
+      "title": "Alert Dialog",
+      "desc": "A modal dialog that interrupts the user with important content and expects a response.",
+      "url": "https://ui.shadcn.com/docs/primitives/alert-dialog"
+    }
+  },
+  {
+    "id": "63e65912-c493-4a32-b864-1adb3c90d08a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://wope.com/ 非常有 linear 设计风格的网站。 #design",
+    "page-name": "Feb 12th, 2023",
+    "parentId": "63e8e7da-f11c-4746-ab85-d3cf48f48fd1",
+    "timestamp": 1676131200000,
+    "meta": {
+      "title": "Wope: The New Era Of Rank Tracking",
+      "desc": "Find out what's bringing you the most search traffic with amazing features like automated keyword tagging, keyword recommendation, and smart traffic estimation tools. Try it out for 14 days with Wope - no commitment necessary!",
+      "url": "https://wope.com/"
+    }
+  },
+  {
+    "id": "63e65b69-ef91-4630-b407-347a0f8c2163",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://unzip.dev/ 订阅邮件的方式非常有意思，就像是代码编辑器。",
+    "page-name": "Feb 12th, 2023",
+    "parentId": "63e8e7da-f11c-4746-ab85-d3cf48f48fd1",
+    "timestamp": 1676131200000,
+    "meta": {
+      "title": "Unzip.dev - Developer trends newsletter",
+      "desc": "Unpacking developer trends one at a time. Join over 3700+ technical founders, indie hackers, and curious devs. No spam, no hidden ads, and a post every few weeks.",
+      "url": "https://unzip.dev/"
+    }
+  },
+  {
+    "id": "63e66177-10e0-44a7-97fc-1f687903ab2c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "对于我来说，还无法做到错过文章就错过了，所以会有大量的文章想要阅读，但是并不是所有文章都是都时间去看到最后的，所以大多数时候都是草草的扫了几眼，不喜欢看的就跳过了。如果能够和 [[chatgpt]] 结合起来，比如说先帮我提要下文章的摘要，如果感兴趣再去阅读。https://labs.kagi.com/ai/sum 就有一个现成 saas 工具。 #projects",
+    "page-name": "Feb 12th, 2023",
+    "parentId": "63e8e7da-f11c-4746-ab85-d3cf48f48fd1",
+    "timestamp": 1676131200000,
+    "meta": {
+      "title": "https://labs.kagi.com/ai/sum",
+      "desc": "https://labs.kagi.com/ai/sum",
+      "url": "https://labs.kagi.com/ai/sum"
+    }
+  },
+  {
+    "id": "63e66617-4d30-4c39-bb8d-686159e60845",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/LAION-AI/Open-Assistant#do-you-want-to-try-it-out [[chatgpt]] 类似的开源替代，但是目前不知道效果如何。",
+    "page-name": "Feb 12th, 2023",
+    "parentId": "63e8e7da-f11c-4746-ab85-d3cf48f48fd1",
+    "timestamp": 1676131200000,
+    "meta": {
+      "title": "GitHub - LAION-AI/Open-Assistant: OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
+      "desc": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. - LAION-AI/Open-Assistant",
+      "url": "https://github.com/LAION-AI/Open-Assistant#do-you-want-to-try-it-out"
+    }
+  },
+  {
+    "id": "63e663c7-c2bf-40c2-a48b-1b9dc3b071c1",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.smashingmagazine.com/2022/09/data-loading-patterns-improve-frontend-performance/#resumability 这里提到了一个恢复性的概念，代表框架是 [qwik](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/routes/docs/concepts/resumable/index.mdx#introducing-resumability) ，能够实现不完全水合。作者发布的介绍[文章](https://dev.to/builderio/a-first-look-at-qwik-the-html-first-framework-af)。看起来思路应该是交互时采取才去加载代码。有点像 [[nextjs]] aftertointeractive 属性？https://nextjs.org/docs/basic-features/script #javascript #perf",
+    "page-name": "Feb 12th, 2023",
+    "parentId": "63e8e7da-f11c-4746-ab85-d3cf48f48fd1",
+    "timestamp": 1676131200000,
+    "meta": {
+      "title": "Five Data-Loading Patterns To Boost Web Performance — Smashing Magazine",
+      "desc": "You don’t need a framework for everything, but if you use one, this article will help you use it in the most performant way.",
+      "url": "https://www.smashingmagazine.com/2022/09/data-loading-patterns-improve-frontend-performance/#resumability"
+    }
+  },
+  {
+    "id": "63df39be-58de-476a-be44-170364491e9b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://shiftrobotics.io/ 宣传是可以走的更快的鞋子，是在鞋子上安装类似平衡车的效果，所以可以跟着走动带着滑行的效果。看介绍还是很酷的，应该会有很多人喜欢。",
+    "page-name": "Feb 6th, 2023",
+    "parentId": "63e08236-685e-4b15-a003-087ff04f2548",
+    "timestamp": 1675612800000,
+    "meta": {
+      "title": "Shift Moonwalkers | The World's Fastest Shoes",
+      "desc": "Introducing the first ever wearable mobility device. With an instinctive AI drivetrain, you’re able to walk faster without having to change a thing.",
+      "url": "https://shiftrobotics.io/"
+    }
+  },
+  {
+    "id": "63df695d-5be6-4215-be74-a3f8c764bdb0",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://maroofy.com/?hn=v3 一个相似音乐的推荐工具，据作者来说是训练了一个神经网络模型进行训练。#music",
+    "page-name": "Feb 6th, 2023",
+    "parentId": "63e08236-685e-4b15-a003-087ff04f2548",
+    "timestamp": 1675612800000,
+    "meta": {
+      "title": "https://maroofy.com/?hn=v3",
+      "desc": "https://maroofy.com/?hn=v3",
+      "url": "https://maroofy.com/?hn=v3"
+    }
+  },
+  {
+    "id": "63df6aa6-81f0-4cb5-b901-a7cc71d091d2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "http://www.ruanyifeng.com/blog/2023/02/weekly-issue-240.html 看到本期的封面图突然想起一个想法，因为之前遇到过想去一个地方玩，但是并不是太确定",
+    "page-name": "Feb 6th, 2023",
+    "parentId": "63e08236-685e-4b15-a003-087ff04f2548",
+    "timestamp": 1675612800000,
+    "meta": {
+      "title": "http://www.ruanyifeng.com/blog/2023/02/weekly-issue-240.html",
+      "desc": "http://www.ruanyifeng.com/blog/2023/02/weekly-issue-240.html",
+      "url": "http://www.ruanyifeng.com/blog/2023/02/weekly-issue-240.html"
+    }
+  },
+  {
+    "id": "63df6a67-5b12-4523-b31a-0def41ce0d37",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://css-tricks.com/the-great-divide/ 挺有意思的观点，当我们在用前端开发来概括一类的开发人员的时候，其实其中存在巨大的分歧，因为其中有些人更加关注 JS 另外一些人可能关注 UX。公司招人虽然都是招聘前端开发，但是大多数情况下，他们都是招聘使用 JS 的后端或者全能开发者，即使不是后端，也有人更关注框架，编译，性能等。这给我的启发是，就像之前的又个有名的 roadmap 项目，它给出的是不同职业需要掌握什么技能的规划图，由于现在爆发的工具包的发展，才会有这么多分歧。 #developers",
+    "page-name": "Feb 6th, 2023",
+    "parentId": "63e08236-685e-4b15-a003-087ff04f2548",
+    "timestamp": 1675612800000,
+    "meta": {
+      "title": "The Great Divide | CSS-Tricks",
+      "desc": "Let’s say there is a divide happening in front-end development. I feel it, but it's not just in my bones. Based on an awful lot of written developer",
+      "url": "https://css-tricks.com/the-great-divide/"
+    }
+  },
+  {
+    "id": "63dfc7dd-7a60-41e9-98de-4039dc545008",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://open-props.style/ 我是用 [[tailwindcss]] 大多数情况下是因为它可以帮助我弥补我设计规范稿的问题（当然了有的时候一些抽象的 CSS 还是很有用的）。这个库看起来是将所有的设计 tokens 比如颜色之后的注入到 variables 当中去了。同时它解决了一个 css 变量在 js 代码中如何方便使用的问题。",
+    "page-name": "Feb 6th, 2023",
+    "parentId": "63e08236-685e-4b15-a003-087ff04f2548",
+    "timestamp": 1675612800000,
+    "meta": {
+      "title": "Open Props: sub-atomic styles",
+      "desc": "Open source CSS custom properties to help accelerate adaptive and consistent design. Available from a CDN or NPM, as CSS or Javascript.",
+      "url": "https://open-props.style/"
+    }
+  },
+  {
+    "id": "63dfcc5a-d6a2-4b6c-8eea-f6d12153c84f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://summer-afternoon.vlucendo.com/ 光影和人物，物体都很舒服，动漫风格。并不是很高清，看起来并没有使用那种很酷炫的 [[shaders]] ，但是可惜的是并没有开放源码。 #threejs",
+    "page-name": "Feb 6th, 2023",
+    "parentId": "63e08236-685e-4b15-a003-087ff04f2548",
+    "timestamp": 1675612800000,
+    "meta": {
+      "title": "Summer Afternoon",
+      "desc": "A WebGL experiment by Vicente Lucendo.",
+      "url": "https://summer-afternoon.vlucendo.com/"
+    }
+  },
+  {
+    "id": "63dfce08-206c-48aa-af4b-c62cc6367574",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.happyhues.co/palettes/13 配色方案网站，但是很新颖的是它提供了在线预览的例子，而且告诉你什么颜色应该用在哪些元素上。 #color-palettes",
+    "page-name": "Feb 6th, 2023",
+    "parentId": "63e08236-685e-4b15-a003-087ff04f2548",
+    "timestamp": 1675612800000,
+    "meta": {
+      "title": "Happy Hues - Curated colors in context.",
+      "desc": "See color palette inspiration on a real example website. As you click on different palettes every color on this site updates to give you context of how that color could be used for your design or illustration projects.",
+      "url": "https://www.happyhues.co/palettes/13"
+    }
+  },
+  {
+    "id": "63dd3683-4299-4a5d-8fc5-5e3c849d7746",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://developer.mozilla.org/zh-CN/docs/Web/MathML 支持渲染数学表达式的语法。",
+    "page-name": "Feb 6th, 2023",
+    "parentId": "63e08236-685e-4b15-a003-087ff04f2548",
+    "timestamp": 1675612800000,
+    "meta": {
+      "title": "MathML | MDN",
+      "desc": "Mathematical Markup Language (MathML) 是一个用于描述数学公式、符号的一种 XML (en-US) 标记语言。",
+      "url": "https://developer.mozilla.org/zh-CN/docs/Web/MathML"
+    }
+  },
+  {
+    "id": "63dfcb8e-b5c2-4afe-bd22-745d469d1ac4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://noahpinion.substack.com/p/the-big-tech-layoffs-are-a-turning",
+    "page-name": "Feb 6th, 2023",
+    "parentId": "63e08236-685e-4b15-a003-087ff04f2548",
+    "timestamp": 1675612800000,
+    "meta": {
+      "title": "The Big Tech layoffs are a turning point",
+      "desc": "Google, Amazon, etc. will still be big, but they won't be an automatic career exit.",
+      "url": "https://noahpinion.substack.com/p/the-big-tech-layoffs-are-a-turning"
+    }
+  }
+]
