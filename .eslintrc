@@ -1,7 +1,0 @@
-{
-  "extends": ["@aiou"],
-  "rules": {
-    // console is ok, used in getStatic*
-    "no-console": "off"
-  }
-}

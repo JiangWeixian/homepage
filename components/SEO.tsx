@@ -8,10 +8,10 @@ Hi, I'am JiangWeixian, a front-end developer, on the road to be a full-time open
 // refs: https://github.com/joshbuchea/HEAD#recommended-minimum
 const meta = {
   url: 'https://jwx.ink',
-  title: "JiangWeixian's blog",
+  title: 'JiangWeixian\'s blog',
   image: 'https://jwx.ink/hacking-room.png',
   // A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters.
-  alt: "Display 80's hacking room, contains loved Macintosh, Arcade etc...Everything is artwork, I hope I can create tools with love like that.",
+  alt: 'Display 80\'s hacking room, contains loved Macintosh, Arcade etc...Everything is artwork, I hope I can create tools with love like that.',
   description: intro,
   twitter: '@JiangWeixian',
 }
@@ -38,7 +38,7 @@ export const SEO = (props: SEOProps = meta) => {
       <meta name="twitter:description" content={p.description} />
       <meta name="twitter:image" content={p.image} />
       <meta name="twitter:image:alt" content={p.description} />
-      {/* @ts-ignore */}
+      {/* @ts-expect-error -- ignore description */}
       <meta name="pinterest" content="nopin" description={p.description} />
       {/* wechat */}
       <meta itemProp="name" content={p.title} />

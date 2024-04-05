@@ -1,18 +1,23 @@
-import type { GetStaticProps, NextPage } from 'next'
-import { Text } from 'mayumi/text'
 import { Separator } from 'mayumi/separator'
+import { Text } from 'mayumi/text'
 import { useRouter } from 'next/router'
 
+import { Image, ImageContainer } from '~/components/ImageContainer'
+import {
+  Footer,
+  Layout,
+  Nav,
+} from '~/components/Layout'
 import { SEO } from '~/components/SEO'
-import { Issue, IssueMeta } from '~/types'
-import { Layout, Footer, Nav } from '~/components/Layout'
-import { ImageContainer, Image } from '~/components/ImageContainer'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 import { parseMeta } from '~/lib/matter'
 import { format } from '~/lib/time'
 
+import type { Issue, IssueMeta } from '~/types'
+import type { GetStaticProps, NextPage } from 'next'
+
 export const getStaticProps: GetStaticProps = async () => {
-  console.log(`[Next.js] Running getStaticProps for issue list`)
+  console.log('[Next.js] Running getStaticProps for issue list')
   const client = createGithubAPIClient()
 
   const issues = await fetchAllIssues(client)
@@ -29,13 +34,16 @@ export const getStaticProps: GetStaticProps = async () => {
   }
 }
 
-type ListItem = { issue: Issue; meta: IssueMeta }
+interface ListItem {
+  issue: Issue
+  meta: IssueMeta
+}
 
-type PageProps = {
+interface PageProps {
   issues: ListItem[]
 }
 
-type CardProps = {
+interface CardProps {
   issue: ListItem
 }
 
@@ -68,9 +76,9 @@ const Page: NextPage<PageProps> = ({ issues }) => {
       {/* TODO: add subscribe */}
       <SEO title="JiangWeixian's Blog" />
       <Nav />
-      <div className="container max-w-screen-xl min-h-screen h-fit">
-        <div className="pt-8 px-8 h-full md:px-36">
-          <div className="flex items-center mb-8">
+      <div className="container h-fit min-h-screen max-w-screen-xl">
+        <div className="h-full px-8 pt-8 md:px-36">
+          <div className="mb-8 flex items-center">
             <Text h4={true} size="sm" weight="bold">
               Issues
             </Text>

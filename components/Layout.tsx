@@ -1,12 +1,12 @@
-import { styled } from 'mayumi/theme'
-import { Layout as MayumiLayout } from 'mayumi/layout'
-import { Text } from 'mayumi/text'
 import { Icon } from 'mayumi/icons'
+import { Layout as MayumiLayout } from 'mayumi/layout'
 import { Link as MayumiLink } from 'mayumi/link'
-
-import Twitter from '~/components/Icons/Twitter.svg'
-import Github from '~/components/Icons/Github.svg'
+import { Text } from 'mayumi/text'
+import { styled } from 'mayumi/theme'
 import Link from 'next/link'
+
+import Github from '~/components/Icons/Github.svg'
+import Twitter from '~/components/Icons/Twitter.svg'
 
 export const Layout = styled(MayumiLayout.Main, {
   p: '$0',

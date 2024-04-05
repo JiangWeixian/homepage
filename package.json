@@ -67,7 +67,7 @@
     "unist-util-visit": "^4.1.1"
   },
   "devDependencies": {
-    "@aiou/eslint-config": "0.8.0",
+    "@aiou/eslint-config": "1.2.3",
     "@changesets/cli": "latest",
     "@svgr/webpack": "6.2.1",
     "@tailwindcss/typography": "^0.5.2",
@@ -82,7 +82,7 @@
     "cz-emoji": "1.3.1",
     "dotenv": "16.0.3",
     "dotenv-cli": "7.1.0",
-    "eslint": "8.16.0",
+    "eslint": "8.57.0",
     "esno": "^4.7.0",
     "husky": "8.0.0",
     "lint-staged": "12.4.1",

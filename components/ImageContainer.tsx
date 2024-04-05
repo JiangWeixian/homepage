@@ -1,9 +1,10 @@
 import { styled } from 'mayumi/theme'
-import type React from 'react'
-import useMeasure from 'react-use-measure'
-import type { ImageProps } from 'next/image'
 import NextImage from 'next/image'
+import useMeasure from 'react-use-measure'
 import { withQuery } from 'ufo'
+
+import type { ImageProps } from 'next/image'
+import type React from 'react'
 
 export const ImageContainer = styled('div', {
   '&': {
@@ -28,6 +29,7 @@ const RealmeSvgImage = (props: React.ImgHTMLAttributes<HTMLImageElement> & { img
   const [ref, bounds] = useMeasure()
   return (
     <div ref={ref} style={{ ...styles, ...props.style }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         {...props}
         style={props.imgStyle}
@@ -54,14 +56,15 @@ export const Image = (
         ? (
             fallbackImgElement === 'next'
               ? (
-          <NextImage style={style} src={props.src} alt={props.alt} objectFit="cover" layout="fill" />
+                <NextImage style={style} src={props.src} alt={props.alt} objectFit="cover" layout="fill" />
                 )
               : (
-          <img {...props} style={style} />
+                // eslint-disable-next-line @next/next/no-img-element
+                <img {...props} style={style} />
                 )
           )
         : (
-        <RealmeSvgImage {...props} src={props.src as string} alt={props.alt} imgStyle={style} className="w-full object-fill" />
+          <RealmeSvgImage {...props} src={props.src as string} alt={props.alt} imgStyle={style} className="w-full object-fill" />
           )}
     </>
   )

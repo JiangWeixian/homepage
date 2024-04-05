@@ -1,4 +1,4 @@
-export type Issue = {
+export interface Issue {
   id: string
   number: string
   title: string
@@ -12,7 +12,7 @@ export type Issue = {
   source: any
 }
 
-export type Label = {
+export interface Label {
   id: string
   color: string
   description: string
@@ -29,7 +29,7 @@ export type Label = {
  * ---
  * content
  */
-export type IssueMeta = {
+export interface IssueMeta {
   // issue short description
   description: string
   // issue cover image

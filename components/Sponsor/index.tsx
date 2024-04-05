@@ -1,5 +1,5 @@
-import { Text } from 'mayumi/text'
 import { Link } from 'mayumi/link'
+import { Text } from 'mayumi/text'
 
 import { social } from '~/utils/constants'
 

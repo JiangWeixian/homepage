@@ -1,26 +1,37 @@
-import type { NextPage } from 'next'
-import { Text } from 'mayumi/text'
-import { useSpring, useSprings, a, config, to as interpolate } from '@react-spring/web'
-import { useInView } from 'react-intersection-observer'
-import { Icon } from 'mayumi/icons'
-import { useEffect, useState } from 'react'
+import {
+  a,
+  config,
+  to as interpolate,
+  useSpring,
+  useSprings,
+} from '@react-spring/web'
 import { Box as MayumiBox } from 'mayumi/box'
+import { Icon } from 'mayumi/icons'
+import { Text } from 'mayumi/text'
+import { useEffect, useState } from 'react'
+import { useInView } from 'react-intersection-observer'
 
-import { Image, ImageContainer } from '~/components/ImageContainer'
-import { SEO } from '~/components/SEO'
-import { Nav, Layout, Footer } from '~/components/Layout'
-import Vite from '~/components/Icons/Vite.svg'
-import Webpack from '~/components/Icons/Webpack.svg'
+import Babel from '~/components/Icons/Babel.svg'
 import Node from '~/components/Icons/Node.svg'
 import Rollup from '~/components/Icons/Rollup.svg'
-import Babel from '~/components/Icons/Babel.svg'
-import VSCode from '~/components/Icons/VSCode.svg'
 import Typescript from '~/components/Icons/Typescript.svg'
+import Vite from '~/components/Icons/Vite.svg'
+import VSCode from '~/components/Icons/VSCode.svg'
+import Webpack from '~/components/Icons/Webpack.svg'
+import { Image, ImageContainer } from '~/components/ImageContainer'
+import {
+  Footer,
+  Layout,
+  Nav,
+} from '~/components/Layout'
+import { SEO } from '~/components/SEO'
 import { SponsorLink } from '~/components/Sponsor'
+
+import type { NextPage } from 'next'
 
 const Box = a(MayumiBox)
 
-type Item = {
+interface Item {
   name: string
   type: 'major' | 'tiny'
   url: string
@@ -41,12 +52,12 @@ const icons = {
 }
 
 export const getStaticProps = async () => {
-  const projects = (await import('~/assets/projects.json').then((res) => res.default)) as Record<
+  const projects = (await import('~/assets/projects.json').then(res => res.default)) as Record<
     string,
     Item[]
   >
   const pins = Object.values(projects).reduce((acc, cur) => {
-    return acc.concat(cur.filter((v) => v.pin))
+    return acc.concat(cur.filter(v => v.pin))
   }, [])
   return {
     props: {
@@ -90,7 +101,7 @@ const Card = ({ item }: { item: Item }) => {
       <Box
         bordered={false}
         css={{ glass: '$4' }}
-        style={{ transform: ty.to((v) => `translateY(${v})`) }}
+        style={{ transform: ty.to(v => `translateY(${v})`) }}
         className="absolute bottom-0 left-0 w-full rounded-none"
       >
         <Text p={true} weight="bold" type="secondary" size="xs" className="line-clamp-2">
@@ -102,23 +113,23 @@ const Card = ({ item }: { item: Item }) => {
 }
 
 const Pins = ({ items }: { items: Item[] }) => {
-  const [pins] = useSprings(items.length, (i) => ({
+  const [pins] = useSprings(items.length, i => ({
     ...to(i),
     from: from(i),
   }))
   return (
     // TODO: w, h for debug
-    <div className="flex px-4 md:mt-12 items-center justify-center w-full h-40 md:h-80">
-      <div className="relative container mx-auto h-full rounded-lg shadow">
+    <div className="flex h-40 w-full items-center justify-center px-4 md:mt-12 md:h-80">
+      <div className="container relative mx-auto h-full rounded-lg shadow">
         {pins.map(({ x, y, rot, scale, opacity }, i) => (
           <a.div
-            className="absolute will-change-transform flex items-center justify-center w-[100px] md:w-[200px]"
+            className="absolute flex w-[100px] items-center justify-center will-change-transform md:w-[200px]"
             key={i}
             style={{ x, y, opacity }}
           >
             {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
             <a.div
-              className="rounded-lg shadow-lg relative overflow-hidden w-full h-full cursor-pointer hover:shadow-2xl"
+              className="relative h-full w-full cursor-pointer overflow-hidden rounded-lg shadow-lg hover:shadow-2xl"
               style={{
                 transform: interpolate([rot, scale], trans),
               }}
@@ -133,7 +144,7 @@ const Pins = ({ items }: { items: Item[] }) => {
   )
 }
 
-type SectionProps = {
+interface SectionProps {
   year: number | string
   items: Item[]
 }
@@ -145,11 +156,11 @@ const Section = ({ year, items }: SectionProps) => {
     if (inView) {
       api.start({ opacity: 1, top: 0, delay: 200 })
     }
-  }, [inView, year])
+  }, [inView, year, api])
   return (
     <a.div
       style={styles}
-      className="flex flex-col md:grid md:grid-cols-12 justify-between relative"
+      className="relative flex flex-col justify-between md:grid md:grid-cols-12"
       ref={ref}
     >
       <Text className="font-eb md:col-start-1 md:col-end-3" type="secondary" h2={true} size="lg">
@@ -157,7 +168,7 @@ const Section = ({ year, items }: SectionProps) => {
       </Text>
       <div className="flex flex-col gap-4 md:col-start-6 md:col-end-13">
         {items
-          .filter((v) => v.type === 'major')
+          .filter(v => v.type === 'major')
           .map((v) => {
             return (
               <div key={v.name}>
@@ -174,26 +185,26 @@ const Section = ({ year, items }: SectionProps) => {
                   {v.description}
                 </Text>
                 {v.image && (
-                  <ImageContainer className="rounded-md shadow overflow-hidden w-full">
+                  <ImageContainer className="w-full overflow-hidden rounded-md shadow">
                     <Image alt={v.name} src={v.image} />
                   </ImageContainer>
                 )}
               </div>
             )
           })}
-        {items.filter((v) => v.type === 'tiny').length !== 0 && (
+        {items.filter(v => v.type === 'tiny').length !== 0 && (
           <Text type="quaternary" h3={true} weight="semibold" size="sm">
             Tiny Projects
           </Text>
         )}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {items
-            .filter((v) => v.type === 'tiny')
+            .filter(v => v.type === 'tiny')
             .map((v) => {
               return (
                 <div
                   key={v.name}
-                  className="inline-flex items-center gap-8 cursor-pointer rounded p-2 opacity-60 hover:opacity-90"
+                  className="inline-flex cursor-pointer items-center gap-8 rounded p-2 opacity-60 hover:opacity-90"
                   onClick={() => window.open(v.url)}
                 >
                   {v.icon && (
@@ -204,14 +215,14 @@ const Section = ({ year, items }: SectionProps) => {
                       {icons[v.icon as keyof typeof icons]()}
                     </Icon>
                   )}
-                  <div className="flex-1 basis-0 w-0">
+                  <div className="w-0 flex-1 basis-0">
                     <Text p={true} type="quaternary" weight="semibold">
                       {v.name}
                     </Text>
                     <Text
                       p={true}
                       weight="medium"
-                      className="w-full my-3 text-gray-900 dark:text-gray-100 line-clamp-2"
+                      className="my-3 line-clamp-2 w-full text-gray-900 dark:text-gray-100"
                     >
                       {v.description}
                     </Text>
@@ -225,7 +236,7 @@ const Section = ({ year, items }: SectionProps) => {
   )
 }
 
-type Props = {
+interface Props {
   projects: Record<string, Item[]>
   pins: Item[]
 }
@@ -236,10 +247,10 @@ const Page: NextPage<Props> = (props: Props) => {
       <SEO title="JiangWeixian's Projects" />
       <Nav />
       <Pins items={props.pins} />
-      <div className="w-full md:container my-6 px-8 md:my-12">
+      <div className="my-6 w-full px-8 md:container md:my-12">
         <SponsorLink />
       </div>
-      <div className="flex flex-col gap-4 px-8 w-full md:container relative">
+      <div className="relative flex w-full flex-col gap-4 px-8 md:container">
         {Object.entries(props.projects).map(([year, items]) => {
           return <Section key={year} year={year} items={items} />
         })}

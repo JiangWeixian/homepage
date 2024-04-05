@@ -1,12 +1,17 @@
-import type { NextPage } from 'next'
-import { Text } from 'mayumi/text'
+import clsx from 'clsx'
 import dayjs from 'dayjs'
 import advancedFormat from 'dayjs/plugin/advancedFormat'
-import clsx from 'clsx'
+import { Text } from 'mayumi/text'
 
-import { Footer, Layout, Nav } from '~/components/Layout'
-import { SponsorLink } from '~/components/Sponsor'
+import {
+  Footer,
+  Layout,
+  Nav,
+} from '~/components/Layout'
 import { SEO } from '~/components/SEO'
+import { SponsorLink } from '~/components/Sponsor'
+
+import type { NextPage } from 'next'
 
 dayjs.extend(advancedFormat)
 
@@ -35,7 +40,7 @@ const ReadList: NextPage<ReadListProps> = (props) => {
       <Nav />
       <SEO
         url="https://jwx.ink/readlist"
-        title={`Readlists`}
+        title="Readlists"
         description="Personal reading list of articles, podcast, and other things from the internet. Keep track of what I read and what I think about it. Hope this page will be useful for me and others."
       />
       {/* descriptions */}
@@ -45,14 +50,14 @@ const ReadList: NextPage<ReadListProps> = (props) => {
         </Text>
         <SponsorLink />
       </div>
-      <div className="mt-8 min-h-screen w-full auto-rows-max flex flex-col gap-4 px-8 md:container md:px-48">
+      <div className="mt-8 flex min-h-screen w-full auto-rows-max flex-col gap-4 px-8 md:container md:px-48">
         {props.articles.map((article) => {
           const m = dayjs(article.timestamp).format('YYYY MMM')
-          const display = records[m] ? false : true
+          const display = !records[m]
           records[m] = true
           return (
             // yyyy-mm
-            <div key={article.meta.url} className={clsx('relative w-full flex flex-row cursor-pointer pr-12 md:pr-16', `year-${dayjs(article.timestamp).format('YYYY-MMMM').toLowerCase()}`)}>
+            <div key={article.meta.url} className={clsx('relative flex w-full cursor-pointer flex-row pr-12 md:pr-16', `year-${dayjs(article.timestamp).format('YYYY-MMMM').toLowerCase()}`)}>
               <div className="relative box-border flex w-full items-center justify-between text-left">
                 <div className="absolute top-1/2 z-0 box-border h-[1px] w-full translate-y-1/2 bg-mayumi-gray-900"></div>
                 <Text className="relative z-10 max-w-[80%] truncate bg-black pr-2 leading-8 text-mayumi-gray-1100 transition-colors hover:text-mayumi-gray-1200">
@@ -62,9 +67,11 @@ const ReadList: NextPage<ReadListProps> = (props) => {
               </div>
               {/* Only first element will be display, css wroten in globals.css */}
               <div className={clsx(
-                'month font-normal z-10 w-[100px] h-0 absolute top-16 -right-8 -my-1 translate-1/2 rotate-90 text-mayumi-gray-1100',
-                { hidden: !display }
-              )}>{m}</div>
+                'month translate-1/2 absolute -right-8 top-16 z-10 -my-1 h-0 w-[100px] rotate-90 font-normal text-mayumi-gray-1100',
+                { hidden: !display },
+              )}
+              >{m}
+              </div>
             </div>
           )
         })}
