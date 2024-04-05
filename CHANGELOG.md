@@ -1,5 +1,11 @@
 # homepage
 
+## 0.9.4
+
+### Patch Changes
+
+- disable default view-transition animation
+
 ## 0.9.3
 
 ### Patch Changes

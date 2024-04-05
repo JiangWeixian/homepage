@@ -44,6 +44,17 @@ a {
   view-transition-name: issue;
 }
 
+/* Disable default transition animation */
+::view-transition-new(root),
+::view-transition-new(issue) {
+  /* Prevent the default animation,
+  so both views remain opacity:1 throughout the transition */
+  animation: none;
+  /* Use normal blending,
+  so the new view sits on top and obscures the old view */
+  mix-blend-mode: normal;
+}
+
 /* Enter */
 ::view-transition-new(issue) {
   animation: 300ms ease both fade-in;
