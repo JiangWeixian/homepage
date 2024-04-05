@@ -2,7 +2,6 @@
   "name": "homepage",
   "version": "0.9.2",
   "description": "JiangWeixian's homepage",
-  "packageManager": "pnpm@7.29.3",
   "keywords": [
     "nextjs",
     "tailwind",
