@@ -1,5 +1,11 @@
 # homepage
 
+## 0.9.3
+
+### Patch Changes
+
+- export readlist from logseq
+
 ## 0.9.2
 
 ### Patch Changes
