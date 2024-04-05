@@ -1,5 +1,11 @@
 # homepage
 
+## 0.9.5
+
+### Patch Changes
+
+- a5448e0: flat eslint
+
 ## 0.9.4
 
 ### Patch Changes

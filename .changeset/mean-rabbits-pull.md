@@ -1,5 +1,0 @@
----
-"homepage": patch
----
-
-flat eslint
