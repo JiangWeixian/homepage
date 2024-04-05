@@ -47,7 +47,7 @@ const ReadList: NextPage<ReadListProps> = (props) => {
       </div>
       <div className="mt-8 min-h-screen w-full auto-rows-max flex flex-col gap-4 px-8 md:container md:px-48">
         {props.articles.map((article) => {
-          const m = dayjs(article.timestamp).format('MMM')
+          const m = dayjs(article.timestamp).format('YYYY MMM')
           const display = records[m] ? false : true
           records[m] = true
           return (
@@ -62,7 +62,7 @@ const ReadList: NextPage<ReadListProps> = (props) => {
               </div>
               {/* Only first element will be display, css wroten in globals.css */}
               <div className={clsx(
-                'month font-normal z-10 w-0 h-0 relative top-2 -right-8 translate-1/2 rotate-90 text-mayumi-gray-1100',
+                'month font-normal z-10 w-[100px] h-0 absolute top-16 -right-8 -my-1 translate-1/2 rotate-90 text-mayumi-gray-1100',
                 { hidden: !display }
               )}>{m}</div>
             </div>

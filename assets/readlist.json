@@ -339,8 +339,8 @@
     "parentId": "6545ec4b-6809-47bc-9438-e2e3e90e6466",
     "timestamp": 1699027200000,
     "meta": {
-      "title": "React (@reactjs) on X",
-      "desc": "Server Actions are now in React Canary, ready for frameworks and libraries to adopt! Server Actions are functions created alongside your components that run on the server for tasks like data mutations",
+      "title": "https://twitter.com/reactjs/status/1716573234160967762",
+      "desc": "https://twitter.com/reactjs/status/1716573234160967762",
       "url": "https://twitter.com/reactjs/status/1716573234160967762"
     }
   },
@@ -531,8 +531,8 @@
     "parentId": "65225dcc-15d7-401d-890d-98f2958629ee",
     "timestamp": 1696694400000,
     "meta": {
-      "title": "https://tonsky.me/",
-      "desc": "https://tonsky.me/",
+      "title": "Blog",
+      "desc": "Blog",
       "url": "https://tonsky.me/"
     }
   },
@@ -861,8 +861,8 @@
     "parentId": "65007661-abb9-44c3-95e8-9bb36c518222",
     "timestamp": 1694361600000,
     "meta": {
-      "title": "https://www.mux.com/blog/what-are-react-server-components#what-if-a-library-doesnt-support-client-components",
-      "desc": "https://www.mux.com/blog/what-are-react-server-components#what-if-a-library-doesnt-support-client-components",
+      "title": "We migrated 50,000 lines of code to React Server Components",
+      "desc": "Server Components run on the server instead of the client, giving you control over your bundle size and data fetching. Here’s everything we learned about them.",
       "url": "https://www.mux.com/blog/what-are-react-server-components#what-if-a-library-doesnt-support-client-components"
     }
   },
@@ -906,8 +906,8 @@
     "parentId": "64bd2cca-fd13-4e19-9636-277d410096e9",
     "timestamp": 1690041600000,
     "meta": {
-      "title": "https://sspai.com/post/81091",
-      "desc": "https://sspai.com/post/81091",
+      "title": "OpenAI「打死都不说」的 GPT-4 训练细节被传出，这是我的解读 - 少数派",
+      "desc": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...",
       "url": "https://sspai.com/post/81091"
     }
   },
@@ -936,8 +936,8 @@
     "parentId": "64bd2cca-fd13-4e19-9636-277d410096e9",
     "timestamp": 1690041600000,
     "meta": {
-      "title": "OpenAI Platform",
-      "desc": "Explore developer resources, tutorials, API docs, and dynamic examples to get the most out of OpenAI's platform.",
+      "title": "https://platform.openai.com/docs/guides/gpt-best-practices",
+      "desc": "https://platform.openai.com/docs/guides/gpt-best-practices",
       "url": "https://platform.openai.com/docs/guides/gpt-best-practices"
     }
   },
@@ -1116,8 +1116,8 @@
     "parentId": "647c9c56-d68f-4be9-92e6-be75beceb6d6",
     "timestamp": 1685808000000,
     "meta": {
-      "title": "https://geekplux.com/newsletters/35",
-      "desc": "https://geekplux.com/newsletters/35",
+      "title": "“移民”是第一生产力 -#35",
+      "desc": "只要是脱离已熟悉的环境而步入陌生环境的人，我们都暂时统称“移民”。",
       "url": "https://geekplux.com/newsletters/35"
     }
   },
@@ -1806,6 +1806,3783 @@
       "title": "The Big Tech layoffs are a turning point",
       "desc": "Google, Amazon, etc. will still be big, but they won't be an automatic career exit.",
       "url": "https://noahpinion.substack.com/p/the-big-tech-layoffs-are-a-turning"
+    }
+  },
+  {
+    "id": "639d2e72-d02c-443f-91a5-e383b49d5a71",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://mp.weixin.qq.com/s/ixMp0Jqc_sfNMPDrCYnPPw 使用 CSS Houdini 可以在 CSS 中使用 JS 代码，类似在 CSS 中使用 canvas 画一些图案，但是是在 CSS 的生命周期中实现，所以可以获取到全局状态变量等。这个文章是实现了一种波浪的效果。 #css/houdini #css",
+    "page-name": "Dec 19th, 2022",
+    "parentId": "639f39fc-0c57-4774-9456-000d31d8971e",
+    "timestamp": 1671379200000,
+    "meta": {
+      "title": "现代 CSS 高阶技巧，完美的波浪进度条效果！",
+      "desc": "哦豁，这技巧，收不住了。",
+      "url": "https://mp.weixin.qq.com/s/ixMp0Jqc_sfNMPDrCYnPPw"
+    }
+  },
+  {
+    "id": "639d313a-d43c-4b9a-8c3f-b296e04eeb37",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://chrome.google.com/webstore/detail/swiftread-read-faster-lea/ipikiaejjblmdopojhpejjmbedhlibno 阅读网页上的文章 #chrome-web-ext",
+    "page-name": "Dec 19th, 2022",
+    "parentId": "639f39fc-0c57-4774-9456-000d31d8971e",
+    "timestamp": 1671379200000,
+    "meta": {
+      "title": "SwiftRead - read faster, learn more",
+      "desc": "Read two or three times faster, with SwiftRead. Absorb knowledge and learn more.",
+      "url": "https://chrome.google.com/webstore/detail/swiftread-read-faster-lea/ipikiaejjblmdopojhpejjmbedhlibno"
+    }
+  },
+  {
+    "id": "639d3484-5690-48ef-9abb-e369e3863f55",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.readmargins.com/p/doordash-and-pizza-arbitrage 之前听说类似的故事，餐厅没有加入外卖平台，但是用户却可以下单，这是平台私人行为，如果数据很好，它会拿着这个数据去餐厅要求加入，抽取费用。它们甚至会赔钱做这个测试，就是为了拿到更好的数据。 #fun #refs",
+    "page-name": "Dec 19th, 2022",
+    "parentId": "639f39fc-0c57-4774-9456-000d31d8971e",
+    "timestamp": 1671379200000,
+    "meta": {
+      "title": "Doordash and Pizza Arbitrage",
+      "desc": "There is such a thing as a free lunch",
+      "url": "https://www.readmargins.com/p/doordash-and-pizza-arbitrage"
+    }
+  },
+  {
+    "id": "639d331a-e810-452f-8043-1ac0af6c49a1",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://twitter.com/akella/status/1601169580055203846 简单介绍了下如何实现下面这种网站的方案。很酷的是，它的翻页效果是 [[WebGL]] 的视频，内容则全是 html",
+    "page-name": "Dec 19th, 2022",
+    "parentId": "639f39fc-0c57-4774-9456-000d31d8971e",
+    "timestamp": 1671379200000,
+    "meta": {
+      "title": "akella (@akella) on X",
+      "desc": "1/14, here is a short thread with coding techniques you can learn from recent beautiful @awwwards #SOTD by @makemepulse:  https://t.co/UubbI5fZRz, CSS, WebGL, KTX2, Shaders, Image formats",
+      "url": "https://twitter.com/akella/status/1601169580055203846"
+    }
+  },
+  {
+    "id": "639d3f6e-5fe2-4b6e-ba2a-f679315697b8",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://emiozaki.com/works?type=grid 做的很好看的个人网站，风格像是手机上的漫画，切换做的十分丝滑。",
+    "page-name": "Dec 19th, 2022",
+    "parentId": "639f39fc-0c57-4774-9456-000d31d8971e",
+    "timestamp": 1671379200000,
+    "meta": {
+      "title": "WORKS | EMIOZAKI WEB",
+      "desc": "オザキエミ／Emi Ozaki　東京を拠点にするイラストレーター&アーティスト。1991年生まれ。広島県出身。ポップなキャラクターたちが織りなす、ユーモアのある世界観を描く。表現方法は絵画を始め漫画やアニメーション、陶芸など多岐にわたる。広告や雑誌、商品デザイン、企業やブランドとのコラボレーションなど様々なジャンルと媒体で国内外を問わず活動の幅を広げている。",
+      "url": "https://emiozaki.com/works?type=grid"
+    }
+  },
+  {
+    "id": "639d42f2-fb66-4b85-b41a-3c3e3fb07ab1",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://calendar.perfplanet.com/2022/lcpfe/ [[perf/LCP]] 会搜到网络因素影响，如果要优化 [[perf/LCP]] 为什么不直接优化减去网络因素的时间呢。",
+    "page-name": "Dec 19th, 2022",
+    "parentId": "639f39fc-0c57-4774-9456-000d31d8971e",
+    "timestamp": 1671379200000,
+    "meta": {
+      "title": "LCP(FE)",
+      "desc": "Largest Contentful Paint (LCP) is one of my favorite KPI's to focus on when improving user experience.\n\nFor technical teams I advise to additionally track LCP(FE), or the Front End Component of LCP.\n\nA very simple formula:\nLCP = TTFB + LCP(FE)\n\n\nThis suggestion is applicable for both RUM (Real User",
+      "url": "https://calendar.perfplanet.com/2022/lcpfe/"
+    }
+  },
+  {
+    "id": "639d48b9-d500-4dbe-b791-634470a37957",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.lydiahallie.io/blog/optimizing-webfonts-in-nextjs-13 字体的性能优化方案，手段主要是两个方面 #perf",
+    "page-name": "Dec 19th, 2022",
+    "parentId": "639f39fc-0c57-4774-9456-000d31d8971e",
+    "timestamp": 1671379200000,
+    "meta": {
+      "title": "Optimizing Web Fonts in Next.js 13",
+      "desc": "Learn more about optimizing web fonts and the next/font module in Next.js 13",
+      "url": "https://www.lydiahallie.io/blog/optimizing-webfonts-in-nextjs-13"
+    }
+  },
+  {
+    "id": "639362aa-aecd-4981-a5bf-31c363d584b2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.kive.ai/canvas [[ai]] 新玩法，可以多人在房间内一起作画。",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "Kive — Shape visions with AI. Your craft, amplified.",
+      "desc": "Build and expand your creative library. Harness AI to refine, reimagine, and represent your unique vision. Then elevate your projects with collaborative tools — no tech barriers, just pure creativity.",
+      "url": "https://www.kive.ai/canvas"
+    }
+  },
+  {
+    "id": "63940ac3-b92d-4b49-9623-c166e2cbe8d2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://elai.io/ [[ai]] 能够换脸之后，像这种文本生成视频，同时让一个 [[ai]] 生成的人物来念出来，看起来也是一个比较有趣的思路 #product-hunt",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "Elai.io - The Most Advanced and Intuitive AI Video Generator",
+      "desc": "Discover Elai: The leading AI video generation platform. Effortlessly create professional-grade videos with real people in minutes, no editing skills needed.",
+      "url": "https://elai.io/"
+    }
+  },
+  {
+    "id": "63940e4d-5b09-49b4-b0b8-9639ebfecc56",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://addyosmani.com/blog/first-principles-thinking-software-engineers/ 解决问题关键在于分解问题 #developers",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "First Principles for Software Engineers",
+      "desc": "First principles thinking can be helpful for solving complex problems because it allows you to break down a problem into its core elements and then systemati...",
+      "url": "https://addyosmani.com/blog/first-principles-thinking-software-engineers/"
+    }
+  },
+  {
+    "id": "63941616-2a00-4748-8e21-8b5dd844d6dd",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sspai.com/post/77144 知识库存在三种 [[笔记]] 类型，分别是闪念笔记，文献笔记，以及最后的文章。",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "找笔记方便、写作又给力的知识库，我是这么搭建出来的 - 少数派",
+      "desc": "好在经过一年多的摸索，我已经愈发感觉到自己的知识库在接近期望的形态了，能让我写出那么多精选文章，已经能从某种程度体现这套知识库的实用性。",
+      "url": "https://sspai.com/post/77144"
+    }
+  },
+  {
+    "id": "e91b3d4d-95fb-4c9d-914f-abb4e2ceb07a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://twitter.com/pwang/status/1599520310466080771 按照 [[chatgpt]] 回答问题的能力，完全有能力作为老师使用 #refs",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "Peter Wang 🦋 (@pwang) on X",
+      "desc": "Um... I just had like a 20 minute conversation with ChatGPT about the history of modern physics. If I had this shit as a tutor during high school and college.... OMG.\n\nI think we can basically re-invent the concept of education at scale. College as we know it will cease to exist.",
+      "url": "https://twitter.com/pwang/status/1599520310466080771"
+    }
+  },
+  {
+    "id": "63941bd7-34cf-4417-9ed4-b9c246e4edda",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://ideaclarity.co/ 最为独立开发者来说，比较难的是如何确定你的 idea 是否是有效的，所以当你有机会和这个领域的从业者聊天之后，或许可以快速的验证的你需求是否有市场。 #solo",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "Idea Clarity",
+      "desc": "Get high-quality feedback & insight on your startup ideas from user groups with IdeaClarity",
+      "url": "https://ideaclarity.co/"
+    }
+  },
+  {
+    "id": "639425ad-f4f3-4516-8dd9-3e2cf61f43c9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://stackdiary.com/css-media-queries [[css/media-query]] 文章 #css #refs",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "A Practical Guide to CSS Media Queries",
+      "desc": "CSS Media queries - @media - allow you to style multiple versions of a single site depending on the type of device on which the layout/site is being",
+      "url": "https://stackdiary.com/css-media-queries"
+    }
+  },
+  {
+    "id": "63941cd8-0207-491a-9eaa-d1a8b61e3141",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/Kaiyiwing/qwerty-learner 通过打字的方式学习英语 #learn #refs",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "GitHub - RealKai42/qwerty-learner: 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 / Words learning and English muscle memory training software designed for keyboard workers",
+      "desc": "为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 / Words learning and English muscle memory training software designed for keyboard workers - RealKai42/qwerty-learner",
+      "url": "https://github.com/Kaiyiwing/qwerty-learner"
+    }
+  },
+  {
+    "id": "63942624-e6dc-4329-996e-569371c0fb38",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://calendar.perfplanet.com/2022/reduce-image-sizes-by-removing-metadata/ 移除了图片的 meta 信息居然可以减少图片体积。 #perf",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "Reduce Image Sizes by Removing Metadata",
+      "desc": "According to httparchive.org images represent about 43% of the page weight for the median desktop and mobile page. There are many things to consider with images such as using the proper type, serving the appropriate image for the device and situation (srcset or <picture>), and lossless or loss",
+      "url": "https://calendar.perfplanet.com/2022/reduce-image-sizes-by-removing-metadata/"
+    }
+  },
+  {
+    "id": "63941f78-66c0-48b7-9f6c-0178708990eb",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/oceanlvr/ChatGPT-ProBot [[chatgpt]] 来 review 你的代码 #refs",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "GitHub - oceanlvr/ChatGPT-ProBot: 🤖️ A ChatGPT based GitHub robot. dialogue/CR/etc..",
+      "desc": "🤖️ A ChatGPT based GitHub robot. dialogue/CR/etc.. - oceanlvr/ChatGPT-ProBot",
+      "url": "https://github.com/oceanlvr/ChatGPT-ProBot"
+    }
+  },
+  {
+    "id": "63941d60-6cfa-4b74-95b0-0f2b1b1d302d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/ggerganov/whisper.cpp/tree/master/examples/talk.wasm 两个 [[chatgpt]] 机器人如何聊天。",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "whisper.cpp/examples/talk.wasm at master · ggerganov/whisper.cpp",
+      "desc": "Port of OpenAI's Whisper model in C/C++. Contribute to ggerganov/whisper.cpp development by creating an account on GitHub.",
+      "url": "https://github.com/ggerganov/whisper.cpp/tree/master/examples/talk.wasm"
+    }
+  },
+  {
+    "id": "639422c2-603f-4cf8-a2b1-df2f19fd5e4d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/FilipePS/Traduzir-paginas-web 不知道为什么在 arc 中翻译网页（到中文）功能一直是不能用的，这个插件可以解决这个问题。",
+    "page-name": "Dec 11th, 2022",
+    "parentId": "6395f70d-fc45-4757-ba62-7e4019e974cf",
+    "timestamp": 1670688000000,
+    "meta": {
+      "title": "GitHub - FilipePS/Traduzir-paginas-web: Translate your page in real time using Google or Yandex",
+      "desc": "Translate your page in real time using Google or Yandex - FilipePS/Traduzir-paginas-web",
+      "url": "https://github.com/FilipePS/Traduzir-paginas-web"
+    }
+  },
+  {
+    "id": "638aab3c-2b56-4648-b3ab-76971b5af0d2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://twitter.com/jesper_vos/status/1595075494831357952 [[threejs]] 看起来是很简单的代码，实现了 [[portal]] 的效果。 #threejs/tutorials",
+    "page-name": "Dec 4th, 2022",
+    "parentId": "638b75b3-b969-41cf-9107-098cf3244c73",
+    "timestamp": 1670083200000,
+    "meta": {
+      "title": "Jesper Vos (@jesper_vos) on X",
+      "desc": "Here's a quick explanation of how I created this effect.",
+      "url": "https://twitter.com/jesper_vos/status/1595075494831357952"
+    }
+  },
+  {
+    "id": "638ac8eb-6dc2-4c2c-aed1-01123141e674",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.tremor.so/ 图表库，构建在 tailwindcss 之上",
+    "page-name": "Dec 4th, 2022",
+    "parentId": "638b75b3-b969-41cf-9107-098cf3244c73",
+    "timestamp": 1670083200000,
+    "meta": {
+      "title": "Tremor",
+      "desc": "The open-source library for dashboards built on top of Tailwind CSS.",
+      "url": "https://www.tremor.so/"
+    }
+  },
+  {
+    "id": "638acf9e-9aea-44cf-99b0-aa104405d337",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://shopify.engineering/what-we-learned-from-open-sourcing-flashlist 介绍了对于开源工作来说，如果想要获得成功，不仅仅需要将代码作为产品来思考，它需要解决一个问题（无论多小），还需要在社交媒体上作为宣传。同时你的身份也是可以帮助你更好的冷启动 #open-source",
+    "page-name": "Dec 4th, 2022",
+    "parentId": "638b75b3-b969-41cf-9107-098cf3244c73",
+    "timestamp": 1670083200000,
+    "meta": {
+      "title": "What We Learned from Open-Sourcing FlashList",
+      "desc": "Here's how we launched the React Native List library FlashList as an open-source project, and how you can make your next open-source project a success.",
+      "url": "https://shopify.engineering/what-we-learned-from-open-sourcing-flashlist"
+    }
+  },
+  {
+    "id": "638ad312-545f-4377-9603-685f8be01a26",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "http://savethesounds.info/ 一些现在不常听到的声音，比如诺基亚开机。",
+    "page-name": "Dec 4th, 2022",
+    "parentId": "638b75b3-b969-41cf-9107-098cf3244c73",
+    "timestamp": 1670083200000,
+    "meta": {
+      "title": "http://savethesounds.info/",
+      "desc": "http://savethesounds.info/",
+      "url": "http://savethesounds.info/"
+    }
+  },
+  {
+    "id": "63876e31-baed-4691-9699-dbd51861b2c1",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://adinunz.io/spellcaster/ 还是 [[threejs]] ，看过奇异博士的电影的话，肯定不会对里面的传送门陌生，它实现了一个类似的。实在是太酷了。",
+    "page-name": "Dec 4th, 2022",
+    "parentId": "638b75b3-b969-41cf-9107-098cf3244c73",
+    "timestamp": 1670083200000,
+    "meta": {
+      "title": "The Spellcaster by Arno Di Nunzio",
+      "desc": "The Spellcaster",
+      "url": "https://adinunz.io/spellcaster/"
+    }
+  },
+  {
+    "id": "63877d9a-37b2-4adc-863a-e85b63f52c56",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://tylercipriani.com/blog/2022/11/19/git-notes-gits-coolest-most-unloved-feature/ 使用 [[git]] notes 可以在 commit 信息中粘贴一些 MR 信息，比如说它是来自于谁提交的，谁 review 的等等",
+    "page-name": "Dec 4th, 2022",
+    "parentId": "638b75b3-b969-41cf-9107-098cf3244c73",
+    "timestamp": 1670083200000,
+    "meta": {
+      "title": "https://tylercipriani.com/blog/2022/11/19/git-notes-gits-coolest-most-unloved-feature/",
+      "desc": "https://tylercipriani.com/blog/2022/11/19/git-notes-gits-coolest-most-unloved-feature/",
+      "url": "https://tylercipriani.com/blog/2022/11/19/git-notes-gits-coolest-most-unloved-feature/"
+    }
+  },
+  {
+    "id": "638ad47d-1291-4623-9d9f-314062cee636",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/steven-tey/dub 部署自己的短链服务",
+    "page-name": "Dec 4th, 2022",
+    "parentId": "638b75b3-b969-41cf-9107-098cf3244c73",
+    "timestamp": 1670083200000,
+    "meta": {
+      "title": "GitHub - dubinc/dub: Open-source link management infrastructure.",
+      "desc": "Open-source link management infrastructure. Contribute to dubinc/dub development by creating an account on GitHub.",
+      "url": "https://github.com/steven-tey/dub"
+    }
+  },
+  {
+    "id": "638770a8-3624-4c30-aace-86d1abeabe17",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.jim-nielsen.com/2022/css-for-urls-and-http-headers/ 一个新的 [[css]] 选择规则，在样式文件中匹配 url 地址，应用不同的样式。",
+    "page-name": "Dec 4th, 2022",
+    "parentId": "638b75b3-b969-41cf-9107-098cf3244c73",
+    "timestamp": 1670083200000,
+    "meta": {
+      "title": "CSS For URLs and HTTP Headers",
+      "desc": "Writing about the big beautiful mess that is making things for the world wide web.",
+      "url": "https://blog.jim-nielsen.com/2022/css-for-urls-and-http-headers/"
+    }
+  },
+  {
+    "id": "63876f7e-6bef-4aaf-9662-07bdc476882b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://codepen.io/ykadosh/pen/bGKgxbe 这个 [[keyboard]] 样式也太好了 #css",
+    "page-name": "Dec 4th, 2022",
+    "parentId": "638b75b3-b969-41cf-9107-098cf3244c73",
+    "timestamp": 1670083200000,
+    "meta": {
+      "title": "CSS Mechanical Keyboard",
+      "desc": "...",
+      "url": "https://codepen.io/ykadosh/pen/bGKgxbe"
+    }
+  },
+  {
+    "id": "63819571-5640-4f1d-be50-0209cd418ca0",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://deno.com/blog/the-future-of-web-is-on-the-edge [[边缘计算]] 为什么是未来。边缘计算类似于把内容放到了更靠近用户的服务器上，所以网络性能会更好。这种性能优化，框架能够实现吗？",
+    "page-name": "Nov 27th, 2022",
+    "parentId": "638369a8-3c39-45ba-9c81-c8f42940d6b2",
+    "timestamp": 1669478400000,
+    "meta": {
+      "title": "The Future of the Web is on the Edge",
+      "desc": "A brief history of the internet explaining why building for the edge is faster, more secure, and easier than ever.",
+      "url": "https://deno.com/blog/the-future-of-web-is-on-the-edge"
+    }
+  },
+  {
+    "id": "631c067b-4151-4a39-868f-4cc2868bf4ca",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://d2-lang.com/tour/containers 看起来可以在 [[markdown]] 中使用的流程图语法。",
+    "page-name": "Nov 27th, 2022",
+    "parentId": "638369a8-3c39-45ba-9c81-c8f42940d6b2",
+    "timestamp": 1669478400000,
+    "meta": {
+      "title": "Home | D2 Documentation",
+      "desc": "D2 is a modern DSL that turns text to diagrams.",
+      "url": "https://d2-lang.com/tour/containers"
+    }
+  },
+  {
+    "id": "63819caa-4aca-4720-8d75-e04557fd60d5",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ 和 [[flexbox]] 相关的很有趣的文章，解决之前很多 flex 使用上遇到的奇奇怪怪的问题 #css",
+    "page-name": "Nov 27th, 2022",
+    "parentId": "638369a8-3c39-45ba-9c81-c8f42940d6b2",
+    "timestamp": 1669478400000,
+    "meta": {
+      "title": "An Interactive Guide to Flexbox",
+      "desc": "When we truly learn the secrets of the Flexbox layout mode, we can build absolutely incredible things. Fluid layouts that stretch and shrink without arbitrary breakpoints. In this action-packed interactive tutorial, we'll pop the hood on the Flexbox algorithm and learn how to do remarkable things with it. ✨",
+      "url": "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/"
+    }
+  },
+  {
+    "id": "637e3a54-5d37-4c10-a6a4-1b2c5ccc053f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.kite.com/blog/product/kite-is-saying-farewell/ 一个使用 AI 写代码的公司的离场，提到一个很让人思考的问题：",
+    "page-name": "Nov 27th, 2022",
+    "parentId": "638369a8-3c39-45ba-9c81-c8f42940d6b2",
+    "timestamp": 1669478400000,
+    "meta": {
+      "title": "Kite is saying farewell - Code Faster with Kite",
+      "desc": "From 2014 to 2021, Kite was a startup using AI to help developers write code. We have stopped working on Kite, and are no longer supporting the Kite software. Thank you to everyone who used our product, and thank you to our team members and investors who made this journey possible.",
+      "url": "https://www.kite.com/blog/product/kite-is-saying-farewell/"
+    }
+  },
+  {
+    "id": "637e3fb5-cefc-4a80-ba60-00526ca0d4e3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://iamkate.com/code/tree-views/ 纯 [[css]] 实现 treeview 的效果，利用了 summary 的特性",
+    "page-name": "Nov 27th, 2022",
+    "parentId": "638369a8-3c39-45ba-9c81-c8f42940d6b2",
+    "timestamp": 1669478400000,
+    "meta": {
+      "title": "https://iamkate.com/code/tree-views/",
+      "desc": "https://iamkate.com/code/tree-views/",
+      "url": "https://iamkate.com/code/tree-views/"
+    }
+  },
+  {
+    "id": "637e3ecb-17f8-458f-a1cd-fcd5138ceb76",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.screen.studio/ 一个屏幕录制的软件，有种 focus 的效果，好奇这种跟随鼠标进行不断放大缩小是如何实现的呢。是根据焦点的文字大小吗？ #product-hunt",
+    "page-name": "Nov 27th, 2022",
+    "parentId": "638369a8-3c39-45ba-9c81-c8f42940d6b2",
+    "timestamp": 1669478400000,
+    "meta": {
+      "title": "Screen Recorder for macOS. Beautiful videos in minutes | Screen Studio",
+      "desc": "Screen Studio is a professional and simple to use screen recorder for macOS that lets you create professionally looking screen recordings & tutorial videos in minutes, without video editing skills needed. With Screen Studio, you can create professional-looking screencasts that are on par with those created by experienced video editors. Start recording your screen now and make your videos stand out with Screen Studio.",
+      "url": "https://www.screen.studio/"
+    }
+  },
+  {
+    "id": "6377ba3d-490c-44d0-ada3-b0f8e8602d32",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.latepost.com/news/dj_detail?id=1390 介绍了为什么特斯拉最近事故的原因，说到底还是驾车习惯的原因，如果车企能够远程升级控制一些驾驶细节，确实有点令人担忧 #articles",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "https://www.latepost.com/news/dj_detail?id=1390",
+      "desc": "https://www.latepost.com/news/dj_detail?id=1390",
+      "url": "https://www.latepost.com/news/dj_detail?id=1390"
+    }
+  },
+  {
+    "id": "637849b4-2036-4896-8dfa-8f650ed6e19e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://css-tricks.com/making-static-noise-from-a-weird-css-gradient-bug/ 实现小时候电视不能看的雪花图 #css",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "Making Static Noise From a Weird CSS Gradient Bug | CSS-Tricks",
+      "desc": "What I will be doing here is kind of an experiment to explore tricks that leverage a bug with the way CSS gradients handle sub-pixel rendering to create a static noise effect — like you might see on a TV with no signal.",
+      "url": "https://css-tricks.com/making-static-noise-from-a-weird-css-gradient-bug/"
+    }
+  },
+  {
+    "id": "6377960b-c017-43f8-ab37-c0f083cc7c8a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://news.ycombinator.com/item?id=33613862 完美的工作室 5-7小时专注的有趣的工作，而不是2个小时无聊的工作 #3thoughts #job",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "https://news.ycombinator.com/item?id=33613862",
+      "desc": "https://news.ycombinator.com/item?id=33613862",
+      "url": "https://news.ycombinator.com/item?id=33613862"
+    }
+  },
+  {
+    "id": "6377a46b-9a8a-41f8-8323-13df5d822511",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.opensourcealternative.to/ 开源的 [[SaaS]] 产品选择 #solo",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "Open Source Alternatives To Proprietary Software",
+      "desc": "The world's largest directory for open source software. Discover 500+ popular open source alternatives to proprietary software products. 100% free.",
+      "url": "https://www.opensourcealternative.to/"
+    }
+  },
+  {
+    "id": "6377a64f-5cc0-4961-8242-29779aaa246f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://listening.io/ 之前就很想写的功能，将文章转换为语音，因为有的时候不方便看，但是方便听。 #idea #product-hunt",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "Listening: Transform Academic Papers into Audio",
+      "desc": "Create a new study experience by listening to academic research on the go. Try it free!",
+      "url": "https://listening.io/"
+    }
+  },
+  {
+    "id": "6374f26f-1d96-4714-8254-b98b4605d757",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://codepen.io/toshiya-marukubo/pen/gOKMvPZ [[3d]] 实现了闪烁的效果，类似 [[cyperpunk]]，使用时 canvas 并不是 [[threejs]]",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "Gallery Example",
+      "desc": "...",
+      "url": "https://codepen.io/toshiya-marukubo/pen/gOKMvPZ"
+    }
+  },
+  {
+    "id": "6374f89c-9ec5-49fa-9527-598c5a300d9c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f 如何写错误信息，感觉挺有价值的的。 #design",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "When life gives you lemons, write better error messages",
+      "desc": "When it comes to error handling, it truly is a team sport",
+      "url": "https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f"
+    }
+  },
+  {
+    "id": "6374fac1-9238-4b18-b17e-1e2bee9e0dda",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.patterns.dev/posts/rendering-introduction/ 介绍了各种渲染模式的[[性能]]指标优缺点，这个网站还有其他前端关键术语介绍，可以深入看看",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "https://www.patterns.dev/posts/rendering-introduction/",
+      "desc": "https://www.patterns.dev/posts/rendering-introduction/",
+      "url": "https://www.patterns.dev/posts/rendering-introduction/"
+    }
+  },
+  {
+    "id": "6374f549-e578-4cd9-830b-c86b518e8023",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://larsenwork.com/easing-gradients/ 一个在线创建平滑 [[gradients]] [[css]] 工具。",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "Easing Gradients",
+      "desc": "Supercharge your gradients with non-linear color mix and custom color spaces.",
+      "url": "https://larsenwork.com/easing-gradients/"
+    }
+  },
+  {
+    "id": "6374fb0b-3bf2-4af1-9db2-5a4cf4ca11d5",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://zh.m.wikipedia.org/zh-hans/%E8%AA%98%E9%A4%8C%E6%95%88%E6%87%89 什么是诱饵效应，当存在三个选项，其实你只要第一个价格便宜的，但是会用第二个看起来不实惠（更贵）的选项诱导你选择另外第三个价格一样，但是看起来更加实惠的选项。往往这时候就会去选择这个价格更贵的。",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "诱饵效应 - 维基百科，自由的百科全书",
+      "desc": "诱饵效应 - 维基百科，自由的百科全书",
+      "url": "https://zh.m.wikipedia.org/zh-hans/%E8%AA%98%E9%A4%8C%E6%95%88%E6%87%89"
+    }
+  },
+  {
+    "id": "6374fd7f-2d38-4f65-a3fb-9b4c7e4b3166",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://growing-products.paralect.com/a-development-process-startup-founders-should-use-to-ship-features-weirdly-fast 介绍如何在早期迭代产品，对于非技术和技术都有价值",
+    "page-name": "Nov 20th, 2022",
+    "parentId": "637a3892-be70-4d28-a91f-d615c3a6493e",
+    "timestamp": 1668873600000,
+    "meta": {
+      "title": "A development process startup founders should use to ship features weirdly fast | Particles by Paralect",
+      "desc": "Here are 9 specific steps founders can use to ship features faster, keep their product team aligned and build what their users really want.",
+      "url": "https://growing-products.paralect.com/a-development-process-startup-founders-should-use-to-ship-features-weirdly-fast"
+    }
+  },
+  {
+    "id": "63656388-ab68-44e8-b3ed-99e29f9cd7e8",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://mp.weixin.qq.com/s/RhRaMFmkEf4kxgFgcvr_4w [[turpopack]] 是否真的比 [[vite]] 更快？在相同环境下，真的没有 vercel 说的那么快。或许在开发环境下不明显，如果是构建阶段，可能大量依赖 babel，这取决于项目。因此还是有可能更快。",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "尤雨溪：Turbopack真的比Vite快10倍吗？",
+      "desc": "Turbopack vs Vite",
+      "url": "https://mp.weixin.qq.com/s/RhRaMFmkEf4kxgFgcvr_4w"
+    }
+  },
+  {
+    "id": "6365d9df-8f28-4a70-a495-d932b9180cd3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://remix.run/blog/remixing-shopify 这是 Remix 和 Hydrogen 打算合并成一个框架的意思吗？",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "Remixing Shopify",
+      "desc": "Remix is joining Shopify",
+      "url": "https://remix.run/blog/remixing-shopify"
+    }
+  },
+  {
+    "id": "6365dd71-fdb2-4b2d-a713-532e587468f7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://preply.com/en/d/laughing-around-the-world-map--lp 世界各地在网络上如何表达笑 #fun",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "Mapping How to Laugh Online in Different Languages",
+      "desc": "In this map of laughter around the world you will be able to see how haha is written in different countries depending on their languages.",
+      "url": "https://preply.com/en/d/laughing-around-the-world-map--lp"
+    }
+  },
+  {
+    "id": "6365deb5-8ed4-45e7-bbc2-cad8dbb3c145",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://osxdaily.com/2022/11/03/how-remove-search-button-home-screen-iphone/ 如何移除 [[iphone]] 主屏幕上的搜索",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "How to Remove the Search Button from Home Screen on iPhone",
+      "desc": "Apple has included a visible ‘Search’ button on the Home Screen of modern versions of iOS 16 and newer, that when tapped will bring up the devices search function. You can also still pu…",
+      "url": "https://osxdaily.com/2022/11/03/how-remove-search-button-home-screen-iphone/"
+    }
+  },
+  {
+    "id": "6361c2b9-a91c-49d9-bc69-c09d0607d6cb",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.rewind.ai/ 搜索你在电脑上面的使用记录，可以跨越多个 App，甚至 OCR。有个时间轴可以回溯你在电脑上面的所有记录，就像是时间机器。 #product-hunt #mac",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "Rewind",
+      "desc": "Rewind is a personalized AI powered by everything you’ve seen, said, or heard.",
+      "url": "https://www.rewind.ai/"
+    }
+  },
+  {
+    "id": "6361c7b9-fc16-436f-9a4d-a941f01e07c2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://css-tricks.com/the-new-css-media-query-range-syntax/ media query 支持了新的语法，不需要通过 min-width 和 max-width 来选择访问了，而是通过 >= #css",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "The New CSS Media Query Range Syntax | CSS-Tricks",
+      "desc": "The Media Queries Level 4 specification has introduced a new syntax for targeting a range of viewport widths using common mathematical comparison operators, like , and =, that make more sense syntactically while writing less code for responsive web design.",
+      "url": "https://css-tricks.com/the-new-css-media-query-range-syntax/"
+    }
+  },
+  {
+    "id": "6361f291-07bf-4392-a88a-8233bb0c6b68",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://musicforprogramming.net/about [[music]]编程歌单。界面十分硬核，但是我还是推荐小宇宙上面的 [[mixtype]]",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "https://musicforprogramming.net/about",
+      "desc": "https://musicforprogramming.net/about",
+      "url": "https://musicforprogramming.net/about"
+    }
+  },
+  {
+    "id": "636276b9-f23b-43b8-8fd2-48aef58f72ea",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://codesandbox.io/s/inter-epoxy-resin-lxvqek?file=/src/index.js 非常好看的 [[3D 字体]] 能这么好看主要也是因为 [[shaders]]",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "Inter, epoxy resin - CodeSandbox",
+      "desc": "Inter, epoxy resin by drcmda using @pmndrs/branding, @react-three/drei, @react-three/fiber, @react-three/postprocessing, @types/three, leva, react, react-dom, react-scripts",
+      "url": "https://codesandbox.io/s/inter-epoxy-resin-lxvqek?file=/src/index.js"
+    }
+  },
+  {
+    "id": "63627a8a-1ce4-4d57-bdb8-7e0416bd59df",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://typefully.com/DanHollick/KrBa0JP 解释了 [[color]] [[blending]] 方案 #css",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "Blending Modes | Dan Hollick",
+      "desc": "Do you just click different blending modes until it sort of looks right?\n\nWell, that probably won't change after you read this but at least you probably won't use Lighten or Darken again.\n\n(you should bookmark this thread and use it as a reference)",
+      "url": "https://typefully.com/DanHollick/KrBa0JP"
+    }
+  },
+  {
+    "id": "63613267-899f-4f1e-9a71-a33eaaf5d5aa",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://darkmodes.com/ [[黑暗]]模式设计参考 #design",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "DarkModes | The best dark mode implementations on the Internet",
+      "desc": "Interactive examples of great dark mode implementations on the internet, including from many well-known companies.",
+      "url": "https://darkmodes.com/"
+    }
+  },
+  {
+    "id": "6361f2e8-d326-489f-911e-159ab6645ffd",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://replay.software/sleeve 是否可以实现一个编程版本的？  #product-hunt #ideas",
+    "page-name": "Nov 6th, 2022",
+    "parentId": "6367b281-2eb3-461e-b93a-3c4a01d28e05",
+    "timestamp": 1667664000000,
+    "meta": {
+      "title": "Sleeve",
+      "desc": "The ultimate music accessory for your Mac.",
+      "url": "https://replay.software/sleeve"
+    }
+  },
+  {
+    "id": "635c816c-fc61-44cd-b554-2658f83a413a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.radix-ui.com/docs/colors/tests/balance 提供了多个色版，目的是解决网站色彩方案选择的问题。看起来还挺有用的，因为它还提供了思路。第一个知道色版的每个颜色都应该用在什么位置，比如 1/2 是属于背景。 #design",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "Radix Colors",
+      "desc": "An open-source color system for designing beautiful, accessible websites and apps.",
+      "url": "https://www.radix-ui.com/docs/colors/tests/balance"
+    }
+  },
+  {
+    "id": "635c8632-8a4e-4873-a546-70608a88df32",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.figma.com/community/file/1163373380971425118 [[插画]] #design",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "Free People Illustrations | Figma",
+      "desc": "Pack of 12 free standing illustrations with different poses for your personal and commercial projects.\n",
+      "url": "https://www.figma.com/community/file/1163373380971425118"
+    }
+  },
+  {
+    "id": "635c870a-44d2-42c1-8a27-be713986da6e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://docs.qq.com/doc/DWHl3am5Zb05QbGVs 之前分享过的 AI 工具用于生成动漫角色，有人整理了可以生成很好效果的 [[ai/prompt]] 例子。",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "元素法典——Novel AI 元素魔法全收录",
+      "desc": "腾讯文档-在线文档",
+      "url": "https://docs.qq.com/doc/DWHl3am5Zb05QbGVs"
+    }
+  },
+  {
+    "id": "635ce8c5-0d37-418f-9956-414f68dff114",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://deck-24abcd.netlify.app/ pokemon 的卡片，更加让我在意的是居然可以模拟出来那种金卡的效果(不只一种金色花纹)，他也给出如何实现的关键技术 #css #3d",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "https://deck-24abcd.netlify.app/",
+      "desc": "https://deck-24abcd.netlify.app/",
+      "url": "https://deck-24abcd.netlify.app/"
+    }
+  },
+  {
+    "id": "635ce99e-87c4-46ef-8c79-fb66b122a27e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://overreacted.io/goodbye-clean-code/ 代码抽象并不永远是一件好事。我个人呢理解是在不同作用域下虽然做一件事情（代码上类似），但是有些重复代码可以表明它正在做不同事情。粗暴的来说，在 x - 1 可以代表速度，但是在另外的地方可能代表距离。 #developers",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "https://overreacted.io/goodbye-clean-code/",
+      "desc": "https://overreacted.io/goodbye-clean-code/",
+      "url": "https://overreacted.io/goodbye-clean-code/"
+    }
+  },
+  {
+    "id": "635ceecd-73d8-40c4-98b2-05f931b9b776",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://wangchujiang.com/reference/index.html 有几个类似的，比如",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "https://wangchujiang.com/reference/index.html",
+      "desc": "https://wangchujiang.com/reference/index.html",
+      "url": "https://wangchujiang.com/reference/index.html"
+    }
+  },
+  {
+    "id": "635d2965-7a87-477d-b407-bda5b6bd9675",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://height.app/blog/guide-to-build-context-menus 如何设计一个右键 [[menu]] ，很多时候借鉴了 [[mac]] 设计思路。有几个设计的很好",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "Building like it's 1984: A comprehensive guide to creating intuitive context menus - Height",
+      "desc": "Building like it's 1984: A comprehensive guide to creating intuitive context menus - Height",
+      "url": "https://height.app/blog/guide-to-build-context-menus"
+    }
+  },
+  {
+    "id": "635d347d-6c2b-497c-bcf1-12e5c9545510",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://beta.nextjs.org/docs/routing/fundamentals [[nextjs]] 13 改动非常大，有我比较好的地方，也有不好的地方。但是确实，借鉴了许多 remix 的东西。借鉴的理由和自己设计目的也有关系。",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "Building Your Application: Routing | Next.js",
+      "desc": "Learn the fundamentals of routing for front-end applications.",
+      "url": "https://beta.nextjs.org/docs/routing/fundamentals"
+    }
+  },
+  {
+    "id": "635d2d1a-1988-434c-a4a0-63e2fbd35f19",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "LATER https://mp.weixin.qq.com/s/B1RZokLQRqiki2Iqq4Mpdg 工程化你的生活。有点类似用 [[OKR]] 来管理你的生活。 #productivity",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "工程化你的习惯",
+      "desc": "找到你不为之焦虑的路，或许可以试试从你的习惯开始。",
+      "url": "https://mp.weixin.qq.com/s/B1RZokLQRqiki2Iqq4Mpdg"
+    }
+  },
+  {
+    "id": "635aab1d-44b9-4174-8d0a-e263e5240bad",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://web.dev/state-of-css-2022/ 2022 [[CSS]] 新增特性",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "State of CSS 2022  |  Blog  |  web.dev",
+      "desc": "Web styling features of today and tomorrow, as seen at Google IO 2022, plus some extras.",
+      "url": "https://web.dev/state-of-css-2022/"
+    }
+  },
+  {
+    "id": "6359e12b-e34b-4fff-8700-b8749653f808",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://vercel.com/blog/turbopack 招了一些 webpack 的人，感觉可以期待一波它的生态。",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "Introducing Turbopack: Rust-based successor to Webpack – Vercel",
+      "desc": "Introducing Turbopack, the Rust-based successor to Webpack.",
+      "url": "https://vercel.com/blog/turbopack"
+    }
+  },
+  {
+    "id": "635a9629-af3e-4020-b8b6-8621eef1034b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.jim-nielsen.com/2022/scroll-to-text-fragments/ 支持在[[分享]]链接中如何[[跳转]]到复制的内容。比之前调整到标题力度要更小一点。",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "Scroll to Text Fragments",
+      "desc": "Writing about the big beautiful mess that is making things for the world wide web.",
+      "url": "https://blog.jim-nielsen.com/2022/scroll-to-text-fragments/"
+    }
+  },
+  {
+    "id": "6357336f-9939-46e7-a73f-92b3324b43ca",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sparkmailapp.com/ spark 主要是用于管理[[邮箱]]的，在这个网站下载软件之后，会出现一个箭头，指示下载的文件现在在哪。感觉体验还是不错的 #product-hunt",
+    "page-name": "Oct 30th, 2022",
+    "parentId": "635d5871-a4bc-4c71-99ac-6ccd674957e6",
+    "timestamp": 1667059200000,
+    "meta": {
+      "title": "Spark Mail — Smart. Focused. Email.",
+      "desc": "Spark helps you take your inbox under control. Instantly see what’s important and quickly clean up the rest.",
+      "url": "https://sparkmailapp.com/"
+    }
+  },
+  {
+    "id": "63535456-20e5-4409-96db-83772672267a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://limboy.me/index.xml 推荐一个 [[rss]] 分享的文章非常高质量，被种草。",
+    "page-name": "Oct 23rd, 2022",
+    "parentId": "63545d2d-fa48-46c3-9c7f-5ec4d0e1dd0c",
+    "timestamp": 1666454400000,
+    "meta": {
+      "title": "https://limboy.me/index.xml",
+      "desc": "https://limboy.me/index.xml",
+      "url": "https://limboy.me/index.xml"
+    }
+  },
+  {
+    "id": "63535524-7e32-4e01-8773-0214d94f5ee5",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://mypiday.com/results/?date=22-02-20&ck=5fe8fc4d 和数学相关的产品总是有种异样的美，比如常客 PI 这个数字。 #product-hunt",
+    "page-name": "Oct 23rd, 2022",
+    "parentId": "63545d2d-fa48-46c3-9c7f-5ec4d0e1dd0c",
+    "timestamp": 1666454400000,
+    "meta": {
+      "title": "MyPiDay.com",
+      "desc": "I found my Pi Day at mypiday.com. Share yours?",
+      "url": "https://mypiday.com/results/?date=22-02-20&ck=5fe8fc4d"
+    }
+  },
+  {
+    "id": "63535ae7-5fa5-4aef-a0dc-fd4178017daf",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://staysaasy.com/career/2022/09/11/Dirty-Work.html 感觉是一个很有意思的观点。职业选择在哪些肮脏的工作上，原因是那些工作往往需求很大，意味着客户很多，只要你做得好就会有收入。个人认为，这不适合公司内部，因为文章提到 on-call 在我的体验中，并不能带来任何职业上（职位，政治）提升。",
+    "page-name": "Oct 23rd, 2022",
+    "parentId": "63545d2d-fa48-46c3-9c7f-5ec4d0e1dd0c",
+    "timestamp": 1666454400000,
+    "meta": {
+      "title": "Build Your Career on Dirty Work",
+      "desc": "The Dirty Work Theory: The lamentable work that many people avoid are great places to look for high impact, low hanging fruit.",
+      "url": "https://staysaasy.com/career/2022/09/11/Dirty-Work.html"
+    }
+  },
+  {
+    "id": "63535e76-8e74-423b-a0e9-fdedf0cf9160",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://ciechanow.ski/sound/ 没有看文章的具体内容，比较吸引我的是这人为了这个文章提供了非常棒的 JS 交互组件。另外这个 [[keyboard]] 设计的真好看 #design",
+    "page-name": "Oct 23rd, 2022",
+    "parentId": "63545d2d-fa48-46c3-9c7f-5ec4d0e1dd0c",
+    "timestamp": 1666454400000,
+    "meta": {
+      "title": "Sound – Bartosz Ciechanowski",
+      "desc": "Interactive article explaining how sound works.",
+      "url": "https://ciechanow.ski/sound/"
+    }
+  },
+  {
+    "id": "63536349-325b-46b9-8005-3cef69a6f745",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://rauchg.com/2020/books-people-reread [[books]] 推荐。",
+    "page-name": "Oct 23rd, 2022",
+    "parentId": "63545d2d-fa48-46c3-9c7f-5ec4d0e1dd0c",
+    "timestamp": 1666454400000,
+    "meta": {
+      "title": "Books people re-read",
+      "desc": "A list of books people re-read, sorted by how frequently they were suggested on Twitter.",
+      "url": "https://rauchg.com/2020/books-people-reread"
+    }
+  },
+  {
+    "id": "6353680d-bff8-40b6-a173-421116626487",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://shud.in/posts/ssr-streaming-and-css-in-js [[css-in-js]] 在 [[ssr]] [[stream]] 无法在服务端收集全部的样式，也就没有办法插入到 head 内。解决办法是在渲染阶段动态的收集 style，然后动态的返回并插入到 html 结构中，此时需要一段 js 脚本辅助它。某种意义上实现了 css 的懒加载；或者完全抛弃 css-in-js 方案，纯 css 方案或者 tailwindcss 可以在编译阶段就搜集好 css 了。",
+    "page-name": "Oct 23rd, 2022",
+    "parentId": "63545d2d-fa48-46c3-9c7f-5ec4d0e1dd0c",
+    "timestamp": 1666454400000,
+    "meta": {
+      "title": "SSR, Streaming, and CSS-in-JS",
+      "desc": "How does CSS-in-JS work with SSR, and streaming SSR?",
+      "url": "https://shud.in/posts/ssr-streaming-and-css-in-js"
+    }
+  },
+  {
+    "id": "63517247-3746-4d19-ab2d-aee83afd1a13",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://zhuanlan.zhihu.com/p/561215012 现在文字到图片很火，这个介绍了如何把这段话说给 AI。这个名字为 [[ai/prompt]] #ai",
+    "page-name": "Oct 23rd, 2022",
+    "parentId": "63545d2d-fa48-46c3-9c7f-5ec4d0e1dd0c",
+    "timestamp": 1666454400000,
+    "meta": {
+      "title": "【AI绘画】研究_关于Prompt的探索",
+      "desc": "前言最近关于AI绘画的内容热度越来越高，已经逐渐从一个早期的研究课题走向了公众，并且有逐渐运用到工作流程之中的趋势。 这边也一直在持续的对其进行学习和研究。目前对于AI绘画之中的主流方式Text to Image来进…",
+      "url": "https://zhuanlan.zhihu.com/p/561215012"
+    }
+  },
+  {
+    "id": "6351742d-4fcc-4a5e-a05e-c3d21bbd83c6",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.jim-nielsen.com/2022/website-fidelity/ 很有意思的一次尝试，将网站分为三个等级，比如丰富的交互和只有 CSS + HTML。而最近似乎有种趋势，大家正在追求回到最开始的前端开发状态，因为追求性能，放弃 React，而选择简单的 state + html 的轻量实现。对于没有强依赖 React 辅助交互的站点，抛弃 React 会变的更快。这也是目前为什么 qwik，svelte 最近变得更火的原因。 #perf #articles #fe-back-to-old-school",
+    "page-name": "Oct 23rd, 2022",
+    "parentId": "63545d2d-fa48-46c3-9c7f-5ec4d0e1dd0c",
+    "timestamp": 1666454400000,
+    "meta": {
+      "title": "Website Fidelity",
+      "desc": "Writing about the big beautiful mess that is making things for the world wide web.",
+      "url": "https://blog.jim-nielsen.com/2022/website-fidelity/"
+    }
+  },
+  {
+    "id": "6354fc2a-ac44-487f-960f-d7ec77167056",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://geekplux.com/posts/2019-summary 推荐一个 [[rss]] 源，因为它谈论自己对于自己在阿里心路历程觉得有点感同身受。",
+    "page-name": "Oct 23rd, 2022",
+    "parentId": "63545d2d-fa48-46c3-9c7f-5ec4d0e1dd0c",
+    "timestamp": 1666454400000,
+    "meta": {
+      "title": "2019 柳暗花明 - GeekPlux",
+      "desc": "Data Visualization & Full-stack programmer @ finance firm, always exploring",
+      "url": "https://geekplux.com/posts/2019-summary"
+    }
+  },
+  {
+    "id": "634a336d-c595-497c-8ef3-f522f2340639",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.briantimar.com/notes/mimetic/mimetic/ #articles",
+    "page-name": "Oct 16th, 2022",
+    "parentId": "634c0303-d875-481b-8b07-c440842ea1c2",
+    "timestamp": 1665849600000,
+    "meta": {
+      "title": "https://www.briantimar.com/notes/mimetic/mimetic/",
+      "desc": "https://www.briantimar.com/notes/mimetic/mimetic/",
+      "url": "https://www.briantimar.com/notes/mimetic/mimetic/"
+    }
+  },
+  {
+    "id": "634a6d45-3eed-4e9a-9b37-0dd5b1a3c54d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/semver/semver/issues/221#issuecomment-54581879 对于 Major Zero 的版本来说，第二个版本号是 Breaking Change。这一点是和以非零版本号不同的。 #developers",
+    "page-name": "Oct 16th, 2022",
+    "parentId": "634c0303-d875-481b-8b07-c440842ea1c2",
+    "timestamp": 1665849600000,
+    "meta": {
+      "title": "Problems with the Magic Zero · Issue #221 · semver/semver",
+      "desc": "The \"anything may change at any time\" nature of a leading zero major version is somewhat disruptive for authors who may feel intimidated at the perceived commitment involved in a 1.0.0 release. We ...",
+      "url": "https://github.com/semver/semver/issues/221#issuecomment-54581879"
+    }
+  },
+  {
+    "id": "63481306-9626-4614-a49e-4dc7bcf0ff2a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.smashingmagazine.com/2022/10/ui-animations-shared-element-transitions-api-part2/ [[createDocumentTransition]] 纯 CSS 实现的动画效果，之前可能需要复杂的动画库才能实现的效果。",
+    "page-name": "Oct 16th, 2022",
+    "parentId": "634c0303-d875-481b-8b07-c440842ea1c2",
+    "timestamp": 1665849600000,
+    "meta": {
+      "title": "Delightful UI Animations With Shared Element Transitions API (Part 2) — Smashing Magazine",
+      "desc": "In this article, Adrian Bece will show how to create same-document page transitions for Single Page Apps using Shared Element Transitions API and check out its future implementation and potential for creating cross-document transitions in Multi-Page Apps.",
+      "url": "https://www.smashingmagazine.com/2022/10/ui-animations-shared-element-transitions-api-part2/"
+    }
+  },
+  {
+    "id": "634813d3-6d7c-4b2d-8915-35cd65acd8b8",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.w3schools.com/colors/colors_names.asp 好家伙，我终于知道这些[[颜色]]叫什么名字了。 #css #fe",
+    "page-name": "Oct 16th, 2022",
+    "parentId": "634c0303-d875-481b-8b07-c440842ea1c2",
+    "timestamp": 1665849600000,
+    "meta": {
+      "title": "HTML Color Names",
+      "desc": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+      "url": "https://www.w3schools.com/colors/colors_names.asp"
+    }
+  },
+  {
+    "id": "63481664-9a01-4ee0-b479-069ba40af8f9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.joshwcomeau.com/react/next-level-playground/ 分享了 https://sandpack.codesandbox.io/ 开源的代码 liveeditor 工具。如果你有开发组件库或者其他 [[React]] 库的需求，可能会需要这个做代码演示。",
+    "page-name": "Oct 16th, 2022",
+    "parentId": "634c0303-d875-481b-8b07-c440842ea1c2",
+    "timestamp": 1665849600000,
+    "meta": {
+      "title": "A World-Class Code Playground with Sandpack",
+      "desc": "No developer blog or technical documentation site is complete without an interactive code playground. The CodeSandbox team recently released a wonderful tool called Sandpack, to help us create these live-updating code editors. In this tutorial, I'll show you how I use it on this blog.",
+      "url": "https://www.joshwcomeau.com/react/next-level-playground/"
+    }
+  },
+  {
+    "id": "6348192e-78b0-4377-8ca1-38cf743a4a4e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://web.dev/new-patterns-for-amazing-apps/ 一些代码片段，比如如何操作剪贴板，比如分享 [[twitter]] #javascript #fe",
+    "page-name": "Oct 16th, 2022",
+    "parentId": "634c0303-d875-481b-8b07-c440842ea1c2",
+    "timestamp": 1665849600000,
+    "meta": {
+      "title": "https://web.dev/new-patterns-for-amazing-apps/",
+      "desc": "https://web.dev/new-patterns-for-amazing-apps/",
+      "url": "https://web.dev/new-patterns-for-amazing-apps/"
+    }
+  },
+  {
+    "id": "634819ed-3bbe-4fb3-84c3-f7b647f8e7cd",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.figma.com/blog/behind-the-feature-find-and-replace/ 在[[无限画布]]中如何思考查找和替换，还有聚焦。对于 [[2022-review]] 项目还挺有用的。",
+    "page-name": "Oct 16th, 2022",
+    "parentId": "634c0303-d875-481b-8b07-c440842ea1c2",
+    "timestamp": 1665849600000,
+    "meta": {
+      "title": "Behind the feature: find and replace | Figma Blog",
+      "desc": "Designer Jackie Chui on how we translated learnings from a plugin to build a native functionality",
+      "url": "https://www.figma.com/blog/behind-the-feature-find-and-replace/"
+    }
+  },
+  {
+    "id": "63481a49-f24a-4da9-b3cb-f5c372482b9c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously 如何不使用第三方库异步加载 [[CSS]] 文件。 #perf #fe",
+    "page-name": "Oct 16th, 2022",
+    "parentId": "634c0303-d875-481b-8b07-c440842ea1c2",
+    "timestamp": 1665849600000,
+    "meta": {
+      "title": "How to load CSS Asynchronously",
+      "desc": "I'm trying to eliminate 2 CSS files that are render blocking on my site - they appear on Google Page Speed Insights. I have followed different methods, none of which were a success. But, recently, I ",
+      "url": "https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously"
+    }
+  },
+  {
+    "id": "634ad9af-bb7f-4ff7-9a8e-b2bf9d53f612",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://tympanus.net/codrops/2016/09/29/transition-effect-with-css-masks/ 使用 [[mask-image]] 实现的类似墨水一样的渐变 [[动画]] #css",
+    "page-name": "Oct 16th, 2022",
+    "parentId": "634c0303-d875-481b-8b07-c440842ea1c2",
+    "timestamp": 1665849600000,
+    "meta": {
+      "title": "Transition Effect with CSS Masks | Codrops",
+      "desc": "A tutorial on how to use CSS Masks to create some interesting looking slide transitions. Highly experimental!",
+      "url": "https://tympanus.net/codrops/2016/09/29/transition-effect-with-css-masks/"
+    }
+  },
+  {
+    "id": "6340d0e2-eca0-40a3-a8ef-b5e08ffd0b1b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://moonvy.notion.site/zeroG-92ce7f09ce9a4f238d665fc4ca0aac2c 类似 Arc [[浏览器]]，体验一下我之前的想要把一些搜索结果放在一个屏幕算不算是伪需求。 #[[product-hunt]]",
+    "page-name": "Oct 9th, 2022",
+    "parentId": "63419e82-3f46-4863-815b-3aa52f4000c1",
+    "timestamp": 1665244800000,
+    "meta": {
+      "title": "zeroG 零重力浏览器 - 内测信息整合 | Notion",
+      "desc": " ",
+      "url": "https://moonvy.notion.site/zeroG-92ce7f09ce9a4f238d665fc4ca0aac2c"
+    }
+  },
+  {
+    "id": "6340d10e-1cc6-4e6d-8a4e-9cf7905d20c9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://infinitecanvas.tools/gallery/ 一些无限画布 App 的集合 #product-hunt",
+    "page-name": "Oct 9th, 2022",
+    "parentId": "63419e82-3f46-4863-815b-3aa52f4000c1",
+    "timestamp": 1665244800000,
+    "meta": {
+      "title": "Infinite Canvas app gallery",
+      "desc": "Explore infinite canvas tools that work the way we think",
+      "url": "https://infinitecanvas.tools/gallery/"
+    }
+  },
+  {
+    "id": "634194bd-79d7-4018-885f-c00241dac77e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "按照 https://github.com/mdx-js/mdx/discussions/2114 这里的说法，[[JSX]] 或者 HTML 元素在 [[Github]] [[Markdown]] 其实是不会被渲染的。",
+    "page-name": "Oct 9th, 2022",
+    "parentId": "63419e82-3f46-4863-815b-3aa52f4000c1",
+    "timestamp": 1665244800000,
+    "meta": {
+      "title": "[mdx-loader] How to use HTML in markdown (original: how to bypass web components in markdown files?) · mdx-js · Discussion #2114",
+      "desc": "There is only document about Web components in MDX: https://johno.com/web-components-in-mdx When I developed a web component named onii-quil, I want to use it in markdown: <onii-quil></onii-quil> I...",
+      "url": "https://github.com/mdx-js/mdx/discussions/2114"
+    }
+  },
+  {
+    "id": "633c65b7-248b-4d9a-b8d9-2a4610115ebc",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://pqina.nl/pintura/pricing/ 图片剪辑库，更为好奇的是这种库的收费方式。明显他是 pro code 方式使用的。如何做到对使用者人数和域名进行限制，除非在使用时候必须进行联网？",
+    "page-name": "Oct 9th, 2022",
+    "parentId": "63419e82-3f46-4863-815b-3aa52f4000c1",
+    "timestamp": 1665244800000,
+    "meta": {
+      "title": "Pricing | JavaScript Image Editor SDK | Pintura Image Editor",
+      "desc": "A powerful JavaScript Image Editor that integrates with every stack. Fully configurable and works intuitively on every device.",
+      "url": "https://pqina.nl/pintura/pricing/"
+    }
+  },
+  {
+    "id": "633d6378-b77a-4b73-9b23-bed3de799d02",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.gaficat.com/posts/2dbf7b11.html 感受到了平平凡凡的感动。",
+    "page-name": "Oct 9th, 2022",
+    "parentId": "63419e82-3f46-4863-815b-3aa52f4000c1",
+    "timestamp": 1665244800000,
+    "meta": {
+      "title": "https://www.gaficat.com/posts/2dbf7b11.html",
+      "desc": "https://www.gaficat.com/posts/2dbf7b11.html",
+      "url": "https://www.gaficat.com/posts/2dbf7b11.html"
+    }
+  },
+  {
+    "id": "633d6652-e5dd-4618-a2aa-65147b3f2f47",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://hyva.io/blog/news/page-transition-api-at-the-hyvacamp-2022-hackathon.html 原先支持页面级别 [[transition]] 动画的 API，之前常见的希望切换时候，同一个图片在两个页面之前动画（比如放大）就可以很方便的实现了。 #css #chrome",
+    "page-name": "Oct 9th, 2022",
+    "parentId": "63419e82-3f46-4863-815b-3aa52f4000c1",
+    "timestamp": 1665244800000,
+    "meta": {
+      "title": "Experimenting new API proposal for page transitions to be simple to build in multi page websites.",
+      "desc": "On 12. May a new Page Transition API was released in Chrome Canary. A day later, at the HyväCamp 2022 Hackathon, Sean and Ruud van Zuidam and Vinai Kopp integrated it into the Product Listing Page. This post shares the experience. ...",
+      "url": "https://hyva.io/blog/news/page-transition-api-at-the-hyvacamp-2022-hackathon.html"
+    }
+  },
+  {
+    "id": "633d6a9a-e34f-4766-afb2-c3819937c7db",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.jim-nielsen.com/2022/remix-react-and-state/ [[remix]] 处理数据的逻辑有点像是 react + useSWR，帮你处理了部分页面和服务器的同步任务。",
+    "page-name": "Oct 9th, 2022",
+    "parentId": "63419e82-3f46-4863-815b-3aa52f4000c1",
+    "timestamp": 1665244800000,
+    "meta": {
+      "title": "Remix, React, and State",
+      "desc": "Writing about the big beautiful mess that is making things for the world wide web.",
+      "url": "https://blog.jim-nielsen.com/2022/remix-react-and-state/"
+    }
+  },
+  {
+    "id": "633d6ac1-debf-4b0c-91c3-00c0e7e4a474",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "推荐我常用的代码提升效率的方式 https://grep.app/，直接搜索代码关键词，可能是 npm 包，有的时候看到别人是如何使用的，比 google 更快。",
+    "page-name": "Oct 9th, 2022",
+    "parentId": "63419e82-3f46-4863-815b-3aa52f4000c1",
+    "timestamp": 1665244800000,
+    "meta": {
+      "title": "https://grep.app/，直接搜索代码关键词，可能是",
+      "desc": "https://grep.app/，直接搜索代码关键词，可能是",
+      "url": "https://grep.app/，直接搜索代码关键词，可能是"
+    }
+  },
+  {
+    "id": "6335a7cd-d1fe-491a-9293-91c830495315",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/Rezmason/matrix 类似黑客帝国的效果，之前一直想要实现一个类似的。",
+    "page-name": "Oct 2nd, 2022",
+    "parentId": "6338af91-39e8-41cf-a365-ca30c26e1198",
+    "timestamp": 1664640000000,
+    "meta": {
+      "title": "GitHub - Rezmason/matrix: matrix (web-based green code rain, made with love)",
+      "desc": "matrix (web-based green code rain, made with love) - Rezmason/matrix",
+      "url": "https://github.com/Rezmason/matrix"
+    }
+  },
+  {
+    "id": "6335ab5f-8b3d-42d1-938e-4fd76cbf1116",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://kvyder.app/ 用这个调试 [[blender]] 的[[模型]]是不是方便一点。 #threejs",
+    "page-name": "Oct 2nd, 2022",
+    "parentId": "6338af91-39e8-41cf-a365-ca30c26e1198",
+    "timestamp": 1664640000000,
+    "meta": {
+      "title": "Kvyder - Free 3D Desktop Viewer",
+      "desc": "\nIts free crossplatform desktop app to be able view 3D file swithout any professional soft.\nMacOS x64(Intel), MacOS M1/M2 (Apple Silicon), Windows, Linux. \nPowered by Electron.js and Three.js",
+      "url": "https://kvyder.app/"
+    }
+  },
+  {
+    "id": "6335b913-62df-486a-a880-096b34272e12",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://whoisinspace.com/ 就像是标题写的那样，谁在太空中。",
+    "page-name": "Oct 2nd, 2022",
+    "parentId": "6338af91-39e8-41cf-a365-ca30c26e1198",
+    "timestamp": 1664640000000,
+    "meta": {
+      "title": "Who Is In Space - Live Updates",
+      "desc": "Who Is In Space is constantly updated to make sure you can easily find out how many people are in space.",
+      "url": "https://whoisinspace.com/"
+    }
+  },
+  {
+    "id": "6335b84c-c3fa-4774-96e4-5dcdb417dcf2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://connortumbleson.com/2022/09/19/someone-is-pretending-to-be-me/ 冒充别人进行面试？",
+    "page-name": "Oct 2nd, 2022",
+    "parentId": "6338af91-39e8-41cf-a365-ca30c26e1198",
+    "timestamp": 1664640000000,
+    "meta": {
+      "title": "Someone is pretending to be me.",
+      "desc": "One random day - someone spills the beans. They were picked to impersonate me and get a job using my information.",
+      "url": "https://connortumbleson.com/2022/09/19/someone-is-pretending-to-be-me/"
+    }
+  },
+  {
+    "id": "6335b9e9-4b5e-4298-bf98-c1d177aafcd5",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/t-mart/kill-sticky 作用是可以实现点击移除所有弹窗等效果。但是让我更加觉得神奇的是它的实现效果，只要点击收藏的书签就可以实现。因为书签的地址是一段 [[JS]] 代码，点击书签就会执行。 #chrome-web-ext",
+    "page-name": "Oct 2nd, 2022",
+    "parentId": "6338af91-39e8-41cf-a365-ca30c26e1198",
+    "timestamp": 1664640000000,
+    "meta": {
+      "title": "GitHub - t-mart/kill-sticky: Bookmarklet to remove sticky elements and restore scrolling to web pages!",
+      "desc": "Bookmarklet to remove sticky elements and restore scrolling to web pages! - t-mart/kill-sticky",
+      "url": "https://github.com/t-mart/kill-sticky"
+    }
+  },
+  {
+    "id": "6335c0bc-467b-43fd-a572-d31e5094296f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.smashingmagazine.com/2022/09/data-loading-patterns-improve-frontend-performance/#resumability 这里提到了一个恢复性的概念，代表框架是 [qwik](https://github.com/BuilderIO/qwik/blob/main/packages/docs/src/routes/docs/concepts/resumable/index.mdx#introducing-resumability) ，能够实现不完全水合。作者发布的介绍[文章](https://dev.to/builderio/a-first-look-at-qwik-the-html-first-framework-af)。看起来思路应该是交互时采取才去加载代码。有点像 [[nextjs]] aftertointeractive 属性？https://nextjs.org/docs/basic-features/script #javascript #perf",
+    "page-name": "Oct 2nd, 2022",
+    "parentId": "6338af91-39e8-41cf-a365-ca30c26e1198",
+    "timestamp": 1664640000000,
+    "meta": {
+      "title": "Five Data-Loading Patterns To Boost Web Performance — Smashing Magazine",
+      "desc": "You don’t need a framework for everything, but if you use one, this article will help you use it in the most performant way.",
+      "url": "https://www.smashingmagazine.com/2022/09/data-loading-patterns-improve-frontend-performance/#resumability"
+    }
+  },
+  {
+    "id": "632de978-d550-447d-a8fa-2e071bcf57f9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://devblogs.microsoft.com/typescript/announcing-typescript-4-9-beta/ [[ts]] 4.9 增加了一个 satisfies 属性用于",
+    "page-name": "Sep 25th, 2022",
+    "parentId": "63306917-3b16-4bcc-bcd2-69f8319d9d67",
+    "timestamp": 1664035200000,
+    "meta": {
+      "title": "Announcing TypeScript 4.9 Beta - TypeScript",
+      "desc": "Today we’re announcing our beta release of TypeScript 4.9! To get started using the beta, you can get it through NuGet, or- use npm with the following command: npm install -D typescript@beta  You can also get editor support by Downloading for Visual Studio 2022/2019 Following directions for Visual Studio Code.",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-4-9-beta/"
+    }
+  },
+  {
+    "id": "632e6808-37a7-4fa8-9d2d-5a0a3bab4d41",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/ronami/HypeScript 既然他可以通过纯文本的方式知道 [[ts]] 哪里报错了，那么是否可以通过这种方式知道一个类型的推导过程。",
+    "page-name": "Sep 25th, 2022",
+    "parentId": "63306917-3b16-4bcc-bcd2-69f8319d9d67",
+    "timestamp": 1664035200000,
+    "meta": {
+      "title": "GitHub - ronami/HypeScript: 🐬 A simplified implementation of TypeScript's type system written in TypeScript's type system",
+      "desc": "🐬 A simplified implementation of TypeScript's type system written in TypeScript's type system - ronami/HypeScript",
+      "url": "https://github.com/ronami/HypeScript"
+    }
+  },
+  {
+    "id": "632e6f6f-1a51-4d99-8aef-dcf2dce53283",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://portfolio2022.michalzalobny.com/projects/image-transitions [[WebGL]] 实现的[[动画]]效果",
+    "page-name": "Sep 25th, 2022",
+    "parentId": "63306917-3b16-4bcc-bcd2-69f8319d9d67",
+    "timestamp": 1664035200000,
+    "meta": {
+      "title": "Michal Zalobny - GLSL Image Transitions",
+      "desc": "Michal Zalobny portfolio 2022 WebGL & GLSL",
+      "url": "https://portfolio2022.michalzalobny.com/projects/image-transitions"
+    }
+  },
+  {
+    "id": "632e72bc-4b1a-4a57-944c-f4c531f3ba51",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://lmy.medium.com/7-tools-for-visualizing-a-codebase-41b7cddb1a14 一些代码[[可视化工具]]介绍，比如说调用关系等。如果你正在[[重构]]你的代码，或许会很有用。 #javascript #developers",
+    "page-name": "Sep 25th, 2022",
+    "parentId": "63306917-3b16-4bcc-bcd2-69f8319d9d67",
+    "timestamp": 1664035200000,
+    "meta": {
+      "title": "7 tools for visualizing a codebase",
+      "desc": "Need to write a README, but running blank on words? If that bothers you frequently, consider generating diagrams.",
+      "url": "https://lmy.medium.com/7-tools-for-visualizing-a-codebase-41b7cddb1a14"
+    }
+  },
+  {
+    "id": "632e73af-c444-4cc2-bd48-113332b48d14",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.thelocal.dk/20220804/danish-ai-driven-political-party-eyes-parliament/ [[ai]] 成为政党",
+    "page-name": "Sep 25th, 2022",
+    "parentId": "63306917-3b16-4bcc-bcd2-69f8319d9d67",
+    "timestamp": 1664035200000,
+    "meta": {
+      "title": "Could next party in Danish parliament be led by AI?",
+      "desc": "A new political party in Denmark whose\r\npolicies are derived entirely from artificial intelligence (AI) hopes to stand\r\nin the country's next general election in June 2023.",
+      "url": "https://www.thelocal.dk/20220804/danish-ai-driven-political-party-eyes-parliament/"
+    }
+  },
+  {
+    "id": "632b3839-bae0-4f51-a76c-d703a7be9465",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/hakimel/reveal.js 和 slidev 做一样事情的框架，主要目的就是对开发友好的 PPT。",
+    "page-name": "Sep 25th, 2022",
+    "parentId": "63306917-3b16-4bcc-bcd2-69f8319d9d67",
+    "timestamp": 1664035200000,
+    "meta": {
+      "title": "GitHub - hakimel/reveal.js: The HTML Presentation Framework",
+      "desc": "The HTML Presentation Framework. Contribute to hakimel/reveal.js development by creating an account on GitHub.",
+      "url": "https://github.com/hakimel/reveal.js"
+    }
+  },
+  {
+    "id": "6329eef7-a2dd-43f5-b7f4-bc1524e24d1c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://marmelab.com/blog/2022/09/20/react-i-love-you.html 和我的感觉一样，在 React 新的版本更新中。他变得越来越复杂了，增加了很多 API，但是其实提供另外一种方式修复之前的问题。",
+    "page-name": "Sep 25th, 2022",
+    "parentId": "63306917-3b16-4bcc-bcd2-69f8319d9d67",
+    "timestamp": 1664035200000,
+    "meta": {
+      "title": "React I Love You, But You're Bringing Me Down",
+      "desc": "We've come a long, long way together. You changed. Where do we go from here?",
+      "url": "https://marmelab.com/blog/2022/09/20/react-i-love-you.html"
+    }
+  },
+  {
+    "id": "632b0d14-b5be-4b79-870d-41dafc1a56ba",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://twitter.com/ChristianSelig/status/1570863225234923520 灵动岛可以养宠物了。 #iphone",
+    "page-name": "Sep 25th, 2022",
+    "parentId": "63306917-3b16-4bcc-bcd2-69f8319d9d67",
+    "timestamp": 1664035200000,
+    "meta": {
+      "title": "Christian Selig (@ChristianSelig) on X",
+      "desc": "Okay y'all, I think I found the best idea for the Dynamic Island on the iPhone 14 Pro. I added a cat that lives up there like a tamagotchi and just hangs out and does cute stuff as you browse Reddit in my app (Apollo).",
+      "url": "https://twitter.com/ChristianSelig/status/1570863225234923520"
+    }
+  },
+  {
+    "id": "632b0df3-7d3b-4dd1-b9f9-cb166a326224",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/carson-katri/dream-textures 使用 [[ai/stable-diffusion]] 生成 [[blender]] 纹理， [[ai]] 生图比较实际的应用。",
+    "page-name": "Sep 25th, 2022",
+    "parentId": "63306917-3b16-4bcc-bcd2-69f8319d9d67",
+    "timestamp": 1664035200000,
+    "meta": {
+      "title": "GitHub - carson-katri/dream-textures: Stable Diffusion built-in to Blender",
+      "desc": "Stable Diffusion built-in to Blender. Contribute to carson-katri/dream-textures development by creating an account on GitHub.",
+      "url": "https://github.com/carson-katri/dream-textures"
+    }
+  },
+  {
+    "id": "6324a3de-5039-44e4-8b85-6bbce5bc1f25",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/IdreesInc/Monocraft #fonts 像素风格的字体，为编程字符做了很多适配。",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "GitHub - IdreesInc/Monocraft: A monospaced programming font inspired by the Minecraft typeface",
+      "desc": "A monospaced programming font inspired by the Minecraft typeface - IdreesInc/Monocraft",
+      "url": "https://github.com/IdreesInc/Monocraft"
+    }
+  },
+  {
+    "id": "63254239-d662-4cd8-ac2d-fe3d671a6602",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://lenciel.com/2022/09/what-could-happen-after-ism/ #ai AI 是否会导致失业。作者认为这是同步进化的，AI 会进化，人也会。会逐渐适应。",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": " AI 会抢人类的饭碗吗？",
+      "desc": "摘要",
+      "url": "https://lenciel.com/2022/09/what-could-happen-after-ism/"
+    }
+  },
+  {
+    "id": "632543d2-a413-4612-a2e5-cb36a725ccee",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://drawkit.com/product/animal-pets-illustrations 好看的动物占位图。",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "Animal & Pets Illustrations | DrawKit",
+      "desc": "25 vector illustrations of dogs, cats, hamsters, guinea pigs, birds, rabbits, goldfish and more",
+      "url": "https://drawkit.com/product/animal-pets-illustrations"
+    }
+  },
+  {
+    "id": "63254485-2c95-4da3-a0e2-f378bd6eae09",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui [[ai/stable-diffusion]] 本地版本。",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "GitHub - divamgupta/diffusionbee-stable-diffusion-ui: Diffusion Bee is the easiest way to run Stable Diffusion locally on your M1 Mac. Comes with a one-click installer. No dependencies or technical knowledge needed.",
+      "desc": "Diffusion Bee is the easiest way to run Stable Diffusion locally on your M1 Mac. Comes with a one-click installer. No dependencies or technical knowledge needed. - divamgupta/diffusionbee-stable-di...",
+      "url": "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui"
+    }
+  },
+  {
+    "id": "632552e7-5052-4864-bed8-0b3f79d7fe0c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://effectivetypescript.com/2022/07/30/treemap-for-source-files/ 使用原生的 tsc 看看什么让你的项目变慢。 #JS",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "Effective TypeScript › What's TypeScript compiling? Use a treemap to find out.",
+      "desc": "Has TypeScript gotten slow for you? Run this one magic command to visualize what TypeScript is compiling, and maybe get to the root of the issue.\n",
+      "url": "https://effectivetypescript.com/2022/07/30/treemap-for-source-files/"
+    }
+  },
+  {
+    "id": "6320a911-d532-4e4c-b31c-eb689315bf3e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://css-tricks.com/the-basics-of-remix/ 介绍关于 [[Remix]] 特性，其中提到的如何设置每个路由的 headers 还挺有想法的，甚至可以设置数据预取的数据的 headers （展示还不知道如何实现这一部分）",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "The Basics of Remix | CSS-Tricks",
+      "desc": "You’ve probably heard a lot of hype around one of the newest kids on the framework block, Remix. It may be surprising that it got its start back in 2019, but",
+      "url": "https://css-tricks.com/the-basics-of-remix/"
+    }
+  },
+  {
+    "id": "6321ce4f-cfe7-47e9-868f-844b70077b4b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://literature-clock.jenevoldsen.com/ 使用文字作品里面的时间描写描述当前的[[时间]]，比如九点前多少时间。非常有趣。",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "https://literature-clock.jenevoldsen.com/",
+      "desc": "https://literature-clock.jenevoldsen.com/",
+      "url": "https://literature-clock.jenevoldsen.com/"
+    }
+  },
+  {
+    "id": "6321d402-1492-459b-a431-675e98e3956c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://news.ycombinator.com/item?id=32801359 最短的 URL，试试在浏览器输入 http://ai",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "https://news.ycombinator.com/item?id=32801359",
+      "desc": "https://news.ycombinator.com/item?id=32801359",
+      "url": "https://news.ycombinator.com/item?id=32801359"
+    }
+  },
+  {
+    "id": "6321cecc-ecbd-4c06-80ea-29ffa403dd4f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "http://www.effectgames.com/demos/worlds/ [[像素]]动画，可以根据时间变化颜色。",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "http://www.effectgames.com/demos/worlds/",
+      "desc": "http://www.effectgames.com/demos/worlds/",
+      "url": "http://www.effectgames.com/demos/worlds/"
+    }
+  },
+  {
+    "id": "631f387f-d945-4718-a482-f7b9977768dc",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://mp.weixin.qq.com/s/t2VjwrewFuE0DHo_HeJ2zw [[realm]] 与 iframe 不同的 [[JS]] 沙盒实现方式。特点是更加的灵活（不需要 iframe 元素）。 #nodejs",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "比 eval 和 iframe 更强的新一代 JavaScript 沙箱！",
+      "desc": "最新提案！",
+      "url": "https://mp.weixin.qq.com/s/t2VjwrewFuE0DHo_HeJ2zw"
+    }
+  },
+  {
+    "id": "6321d41b-45a9-4516-bbf4-eae412238b2e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/facebookincubator/memlab 检查内存泄露的 E2E [[测试]]库",
+    "page-name": "Sep 18th, 2022",
+    "parentId": "63263163-e4c6-441b-b65f-ea50f82374cb",
+    "timestamp": 1663430400000,
+    "meta": {
+      "title": "GitHub - facebook/memlab: A framework for finding JavaScript memory leaks and analyzing heap snapshots",
+      "desc": "A framework for finding JavaScript memory leaks and analyzing heap snapshots - facebook/memlab",
+      "url": "https://github.com/facebookincubator/memlab"
+    }
+  },
+  {
+    "id": "631b8720-d063-4256-8580-178ab36b78b2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/mantou132/nesbox 红白机在线 #game",
+    "page-name": "Sep 11th, 2022",
+    "parentId": "631f38f1-e14e-401d-a634-3ef9380ebaa0",
+    "timestamp": 1662825600000,
+    "meta": {
+      "title": "GitHub - mantou132/nesbox: Online multiplayer games platform",
+      "desc": "Online multiplayer games platform. Contribute to mantou132/nesbox development by creating an account on GitHub.",
+      "url": "https://github.com/mantou132/nesbox"
+    }
+  },
+  {
+    "id": "631c04c9-ea33-4b0e-8b62-d9769589fab9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/dlvhdr/gh-dash [[Github]] 官方 CLI 插件，可视化 Issue PR 等。",
+    "page-name": "Sep 11th, 2022",
+    "parentId": "631f38f1-e14e-401d-a634-3ef9380ebaa0",
+    "timestamp": 1662825600000,
+    "meta": {
+      "title": "GitHub - dlvhdr/gh-dash: A beautiful CLI dashboard for GitHub 🚀",
+      "desc": "A beautiful CLI dashboard for GitHub 🚀 . Contribute to dlvhdr/gh-dash development by creating an account on GitHub.",
+      "url": "https://github.com/dlvhdr/gh-dash"
+    }
+  },
+  {
+    "id": "631c055f-572e-45fe-92ac-32c17b576fa3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://rectangles.app/ 将每天分为小方格，挺有趣的注意力工具。 #side-project",
+    "page-name": "Sep 11th, 2022",
+    "parentId": "631f38f1-e14e-401d-a634-3ef9380ebaa0",
+    "timestamp": 1662825600000,
+    "meta": {
+      "title": "https://rectangles.app/",
+      "desc": "https://rectangles.app/",
+      "url": "https://rectangles.app/"
+    }
+  },
+  {
+    "id": "631c0640-bd2f-4c0a-9393-c264b0945f06",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/facebookresearch/shumai 已经有基于 [[Bun]] 的神经网络库了。",
+    "page-name": "Sep 11th, 2022",
+    "parentId": "631f38f1-e14e-401d-a634-3ef9380ebaa0",
+    "timestamp": 1662825600000,
+    "meta": {
+      "title": "GitHub - facebookresearch/shumai: Fast Differentiable Tensor Library in JavaScript and TypeScript with Bun + Flashlight",
+      "desc": "Fast Differentiable Tensor Library in JavaScript and TypeScript with Bun + Flashlight - facebookresearch/shumai",
+      "url": "https://github.com/facebookresearch/shumai"
+    }
+  },
+  {
+    "id": "631c0a9c-4a20-4eda-a02b-3e3a411e81f9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://thealgorithmicbridge.substack.com/p/stable-diffusion-is-the-most-important #ai [[ai/stable-diffusion]] 介绍文章",
+    "page-name": "Sep 11th, 2022",
+    "parentId": "631f38f1-e14e-401d-a634-3ef9380ebaa0",
+    "timestamp": 1662825600000,
+    "meta": {
+      "title": "Stable Diffusion Is the Most Important AI Art Model Ever",
+      "desc": "A state-of-the-art AI model available for everyone through a safety-centric open-source license is unheard of.",
+      "url": "https://thealgorithmicbridge.substack.com/p/stable-diffusion-is-the-most-important"
+    }
+  },
+  {
+    "id": "631c0b59-30e1-4eba-a554-4427304d5a5c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.latepost.com/news/dj_detail?id=1305 #ai 人工智能正在成为老师（成为棋手的老师），让人感觉非常恐怖。",
+    "page-name": "Sep 11th, 2022",
+    "parentId": "631f38f1-e14e-401d-a634-3ef9380ebaa0",
+    "timestamp": 1662825600000,
+    "meta": {
+      "title": "https://www.latepost.com/news/dj_detail?id=1305",
+      "desc": "https://www.latepost.com/news/dj_detail?id=1305",
+      "url": "https://www.latepost.com/news/dj_detail?id=1305"
+    }
+  },
+  {
+    "id": "631c1227-07dd-4d04-b2c2-a41801c4818a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://kentcdodds.com/blog/a-review-of-my-time-at-remix 在前端领域一个很喜欢的作者，在 [[Remix]] 工作过一段时间，现在离开要开始新的路程了。可以很清楚介绍了作为他这种角色，在公司需要承担什么工作。和大多数国内公司一致。",
+    "page-name": "Sep 11th, 2022",
+    "parentId": "631f38f1-e14e-401d-a634-3ef9380ebaa0",
+    "timestamp": 1662825600000,
+    "meta": {
+      "title": "A review of my time at Remix",
+      "desc": "As I move on to my next adventure, I want to take this opportunity to review what I accomplished while at Remix.",
+      "url": "https://kentcdodds.com/blog/a-review-of-my-time-at-remix"
+    }
+  },
+  {
+    "id": "631c1487-1edb-4afe-8dc0-102080a9a702",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/ 可以说是关于独立开发者宝藏级别的文章了，统一分析了做了独立开发者能够实现独立的方式，以及在这个领域比较出名的人。并给予了一定的建议（在文章的论述条件下是成立的）。万变不离其宗，让别人为你的专业付费，当然你可能需要尝试更多东西找到你的专业。 #rss/solo-rss #solo",
+    "page-name": "Sep 11th, 2022",
+    "parentId": "631f38f1-e14e-401d-a634-3ef9380ebaa0",
+    "timestamp": 1662825600000,
+    "meta": {
+      "title": "Becoming a Full-Time Creator as a Software Engineer: Controversial Advice",
+      "desc": "I'm a full-time creator. With remote work becoming more common in tech, I get more messages from people asking: how can they do what I do?",
+      "url": "https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/"
+    }
+  },
+  {
+    "id": "6318881f-b9ad-489d-877c-5d97f0414960",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://mutant.tech/demo/ 一组设计的很好看 [[emoji]]",
+    "page-name": "Sep 11th, 2022",
+    "parentId": "631f38f1-e14e-401d-a634-3ef9380ebaa0",
+    "timestamp": 1662825600000,
+    "meta": {
+      "title": "https://mutant.tech/demo/",
+      "desc": "An experimental emoji set with new twists.",
+      "url": "https://mutant.tech/demo/"
+    }
+  },
+  {
+    "id": "63129b3d-afb1-4dae-88c3-855eaadf6a1f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://dronexl.co/2022/08/22/dji-mavic-3-flies-over-mount-everest/ 无人机飞越珠穆拉玛，太美了。",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "DJI Mavic 3 Flies Over The Top Of Mount Everest At 30,292 Ft",
+      "desc": "Not the first time that we've seen DJI drones utilized at great altitudes, but this footage of the DJI Mavic 3 flying above the peak of Mount Everest...",
+      "url": "https://dronexl.co/2022/08/22/dji-mavic-3-flies-over-mount-everest/"
+    }
+  },
+  {
+    "id": "63129f0c-162c-42ad-acf9-406bffd7e6e9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.ghacks.net/2022/07/17/facebook-has-started-to-encrypt-links-to-counter-privacy-improving-url-stripping/ 加密 URL 无法剥离跟踪参数。",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "Facebook has started to encrypt links to counter privacy-improving URL Stripping - gHacks Tech News",
+      "desc": "Facebook has started to use a different URL scheme for site links to combat URL stripping technologies that browsers use to improve privacy and prevent user tracking.",
+      "url": "https://www.ghacks.net/2022/07/17/facebook-has-started-to-encrypt-links-to-counter-privacy-improving-url-stripping/"
+    }
+  },
+  {
+    "id": "6312a044-7f0c-45b8-b713-299790acfe15",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "http://www.jsfuck.com/ 好离谱，JS 代码为什么可以被编码为一堆括号。",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "JSFuck - Write any JavaScript with 6 Characters: []()!+",
+      "desc": "JSFuck is an esoteric and educational programming style based on the atomic parts of JavaScript. It uses only six different characters to execute code.",
+      "url": "http://www.jsfuck.com/"
+    }
+  },
+  {
+    "id": "6312a296-4ba5-4365-b240-36488d039934",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://atelier.net/social-mobility/a-promise-broken/ #design 滚动之后箱子被分解为卡片。十分好奇这种动画效果是如何实现的。",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "A Promise Broken | Social Mobility in the Digital Age | L'Atelier",
+      "desc": "How the average person plays The Game of Life with loaded dice",
+      "url": "https://atelier.net/social-mobility/a-promise-broken/"
+    }
+  },
+  {
+    "id": "6312a236-9d2c-49dd-9d5e-d0bfa69bd924",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.lloydatkinson.net/posts/2022/default-exports-in-javascript-modules-are-terrible/ 为什么在 [[JS]] 中 export default 是不友好的。",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "Default Exports in JavaScript Modules Are Terrible",
+      "desc": "Default exports lead to mismatched and confusing names. Named exports should be used instead.",
+      "url": "https://www.lloydatkinson.net/posts/2022/default-exports-in-javascript-modules-are-terrible/"
+    }
+  },
+  {
+    "id": "6312a2fd-8aab-4285-b047-ae962c7b9259",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://openai.com/blog/dall-e-introducing-outpainting/ #ai 在原先的画上补充缺失的部分。比如在一些世界名画上想象它的画外的背景是什么，它会帮你画出来。",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "https://openai.com/blog/dall-e-introducing-outpainting/",
+      "desc": "https://openai.com/blog/dall-e-introducing-outpainting/",
+      "url": "https://openai.com/blog/dall-e-introducing-outpainting/"
+    }
+  },
+  {
+    "id": "630e3438-3fd1-40ae-8d93-6ea021f0a3ed",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.pointer.gg/learn/building-a-product-demo #css 介绍利用 [[clip-path]] 的动画效果，通过滚动改变主要图片的部分位置。但是我觉得滚动之后，阅读时间会动态变化这个功能还挺有意思的，可以加到 [[blog]] 中。",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "An animated product demo in 34 lines of code.",
+      "desc": "We'll build a cool product demo using some simple techniques and hardly any code.",
+      "url": "https://blog.pointer.gg/learn/building-a-product-demo"
+    }
+  },
+  {
+    "id": "630f75e7-97d7-47e3-9e7d-d8693b6b522d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://atelier-anchor.com/luohei-variable/#/ripple 可变[[字体]]的特殊[[动画]]效果看起来还不错。#typical",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "络黑 LuoHei Variable",
+      "desc": "可变字体「络黑」源自刘育黎的毕业设计项目「面向动态图形的中文可变字体」，由两个变量作用于笔画粗细，产生不同的对比样式。",
+      "url": "https://atelier-anchor.com/luohei-variable/#/ripple"
+    }
+  },
+  {
+    "id": "630f7a5b-fa37-4611-962c-85d0c6dbd3d4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.jacopocolo.com/hexclock/ 每个时间点转换为 hex 是什么颜色，很有意思。 #fun #side-project",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "Hex clock",
+      "desc": "A precise hexadecimal color clock that goes the whole 24 hours color range, from #000000 to #235959.",
+      "url": "https://www.jacopocolo.com/hexclock/"
+    }
+  },
+  {
+    "id": "630f7af2-b96f-4ec7-8329-04f4541412f4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://tympanus.net/codrops/2022/08/24/custom-svg-cursors-with-an-interactive-emitter-effect/ #design 这个 [[鼠标]] 的效果太酷了",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "Custom SVG Cursors with an Interactive Emitter Effect | Codrops",
+      "desc": "Several interactive cursor effects made with JavaScript and SVG.",
+      "url": "https://tympanus.net/codrops/2022/08/24/custom-svg-cursors-with-an-interactive-emitter-effect/"
+    }
+  },
+  {
+    "id": "630f830b-537a-4bdb-acfb-e9adf6cca315",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://tjukanovt.github.io/notable-people?utm_source=densediscovery&utm_medium=email&utm_campaign=newsletter-issue-203 名人地图 [[threejs]] 的应用，非常有意思",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "https://tjukanovt.github.io/notable-people?utm_source=densediscovery&utm_medium=email&utm_campaign=newsletter-issue-203",
+      "desc": "https://tjukanovt.github.io/notable-people?utm_source=densediscovery&utm_medium=email&utm_campaign=newsletter-issue-203",
+      "url": "https://tjukanovt.github.io/notable-people?utm_source=densediscovery&utm_medium=email&utm_campaign=newsletter-issue-203"
+    }
+  },
+  {
+    "id": "630f7cca-1d7f-4742-b74a-6f1545208cd0",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://news.ycombinator.com/item?id=32628511 #3thoughts 经常有的一个焦虑，为什么觉得想做的事情很多，但是时间很少。或许你是因为想证明什么？",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "https://news.ycombinator.com/item?id=32628511",
+      "desc": "https://news.ycombinator.com/item?id=32628511",
+      "url": "https://news.ycombinator.com/item?id=32628511"
+    }
+  },
+  {
+    "id": "630f7681-d95b-4bdf-952c-f7d68857c157",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://huggingface.co/spaces/stabilityai/stable-diffusion 文字转图片的 [[ai]] 工具",
+    "page-name": "Sep 4th, 2022",
+    "parentId": "6314ae73-d1be-43e1-807c-90dee923ac4d",
+    "timestamp": 1662220800000,
+    "meta": {
+      "title": "Stable Diffusion 2-1 - a Hugging Face Space by stabilityai",
+      "desc": "Discover amazing ML apps made by the community",
+      "url": "https://huggingface.co/spaces/stabilityai/stable-diffusion"
+    }
+  },
+  {
+    "id": "63096bf8-44e2-4066-be36-f8ceb4c8c2c9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/ 为什么数组索引从 0 开始。",
+    "page-name": "Aug 28th, 2022",
+    "parentId": "630b8bc8-db05-4ea8-8fbd-0590af90af2e",
+    "timestamp": 1661616000000,
+    "meta": {
+      "title": "Why do arrays start at 0?",
+      "desc": "It's not the reason you think. No, it's not that reason either.",
+      "url": "https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/"
+    }
+  },
+  {
+    "id": "630903d2-698a-4673-8c7c-2eb5ba0b4a04",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://pornpen.ai/ #NSFW #ai",
+    "page-name": "Aug 28th, 2022",
+    "parentId": "630b8bc8-db05-4ea8-8fbd-0590af90af2e",
+    "timestamp": 1661616000000,
+    "meta": {
+      "title": "https://pornpen.ai/",
+      "desc": "https://pornpen.ai/",
+      "url": "https://pornpen.ai/"
+    }
+  },
+  {
+    "id": "63097ab2-dfc7-4d08-90c1-b8e0890254b4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://englishrussia.com/2022/04/01/rare-natural-phenomenon-observed-in-saint-petersburg/ 雪泥效果有点震撼。",
+    "page-name": "Aug 28th, 2022",
+    "parentId": "630b8bc8-db05-4ea8-8fbd-0590af90af2e",
+    "timestamp": 1661616000000,
+    "meta": {
+      "title": "Rare Natural Phenomenon Observed in Saint Petersburg - English Russia",
+      "desc": "Rare Natural Phenomenon Observed in Saint Petersburg - English Russia",
+      "url": "https://englishrussia.com/2022/04/01/rare-natural-phenomenon-observed-in-saint-petersburg/"
+    }
+  },
+  {
+    "id": "63097e96-b9de-47f0-9136-738b62f30393",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://dodov.dev/blog/dont-build-your-own-framework 这个文章很好的解释了 [[build-in-public]] 以及 [[open-source]] 好处。也验证了之前我尝试在工作中使用自己实现的库的一些错误做法，在之前一段时间内想想之前的决定也有点后悔。总之，如果你有好的想法，特别是类似库的代码。请在社区发布他，这样好与不好都有人验证。可以及早的杀死一个项目。但是这一点似乎在公司内很难做到，基础工具也是闭源的这一点就不是很合理。",
+    "page-name": "Aug 28th, 2022",
+    "parentId": "630b8bc8-db05-4ea8-8fbd-0590af90af2e",
+    "timestamp": 1661616000000,
+    "meta": {
+      "title": "Don't Build Your Own Framework",
+      "desc": "Delusions of having the ability to solve something once and for all.",
+      "url": "https://dodov.dev/blog/dont-build-your-own-framework"
+    }
+  },
+  {
+    "id": "63060e44-0d46-4509-8395-8f687c078890",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://stickerlife.org/ 一些很好看的贴纸。这种东西就像是球鞋爱好者讲球鞋的故事一样。主要是因为青春和回忆。",
+    "page-name": "Aug 28th, 2022",
+    "parentId": "630b8bc8-db05-4ea8-8fbd-0590af90af2e",
+    "timestamp": 1661616000000,
+    "meta": {
+      "title": "stickerlife.org",
+      "desc": "Web archive of stickers in and around #infosec | Project by @koronkowy | Friends of @dcstickerswap |...",
+      "url": "https://stickerlife.org/"
+    }
+  },
+  {
+    "id": "63097b36-c44d-4579-8823-4be9fdb67b3e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://mp.weixin.qq.com/s/Uis2iLFCExuvulW5goi-MA 原来特殊[[字体]]是这么设计出来的。",
+    "page-name": "Aug 28th, 2022",
+    "parentId": "630b8bc8-db05-4ea8-8fbd-0590af90af2e",
+    "timestamp": 1661616000000,
+    "meta": {
+      "title": "一次教你16种宋体字的变化！",
+      "desc": "收藏夹+1",
+      "url": "https://mp.weixin.qq.com/s/Uis2iLFCExuvulW5goi-MA"
+    }
+  },
+  {
+    "id": "63003dad-a98a-425c-a53b-7e3656174287",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://kottke.org/22/03/pixel-birds-and-other-animals #design  [[pixel]] 风格设计资源。",
+    "page-name": "Aug 21st, 2022",
+    "parentId": "630246af-49bf-4785-8b9d-22473770afda",
+    "timestamp": 1661011200000,
+    "meta": {
+      "title": "Pixel Birds (and Other Animals)",
+      "desc": "Pixel artist Syosa (Twitter) has been drawing all sorts of pixel animals, including mammals, birds, and dogs.\n\n\n\nI also liked th",
+      "url": "https://kottke.org/22/03/pixel-birds-and-other-animals"
+    }
+  },
+  {
+    "id": "63003e18-01e9-4d63-89d3-eff4165406da",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://gamma.app/?ref=producthunt 之前看到 slidev 这个工具时候就想过为什么写 PPT 不是像 notion 那种方式，提供一些内置的布局组件，让你可以通过 nocode 的方式写 PPT。现在这个工具做了类似的事情，而且关注度很高。",
+    "page-name": "Aug 21st, 2022",
+    "parentId": "630246af-49bf-4785-8b9d-22473770afda",
+    "timestamp": 1661011200000,
+    "meta": {
+      "title": "https://gamma.app/?ref=producthunt",
+      "desc": "https://gamma.app/?ref=producthunt",
+      "url": "https://gamma.app/?ref=producthunt"
+    }
+  },
+  {
+    "id": "6300400b-d33a-432f-91d1-d4925c8b6f93",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://css-tricks.com/how-i-added-scroll-snapping-to-my-twitter-timeline/ 原来 [[scroll-snap-type]] 可以自动让滚动行为定位到下个你需要定位的元素（需要在下一个元素做标记）。很适合 tweet 这种场景。 #css",
+    "page-name": "Aug 21st, 2022",
+    "parentId": "630246af-49bf-4785-8b9d-22473770afda",
+    "timestamp": 1661011200000,
+    "meta": {
+      "title": "How I Added Scroll Snapping To My Twitter Timeline | CSS-Tricks",
+      "desc": "CSS Scroll Snap allows websites to snap the web page or any other scroll container to a specific scroll position when the user performs a scrolling operation.",
+      "url": "https://css-tricks.com/how-i-added-scroll-snapping-to-my-twitter-timeline/"
+    }
+  },
+  {
+    "id": "630040c1-c66d-477d-8ca6-3f52dbf3ebe2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.google/products/chrome/how-the-chrome-team-uses-chrome/ chrome 教你如何使用 chrome。其中有几个问题我在使用中一直无法解决",
+    "page-name": "Aug 21st, 2022",
+    "parentId": "630246af-49bf-4785-8b9d-22473770afda",
+    "timestamp": 1661011200000,
+    "meta": {
+      "title": "How the Chrome team uses Chrome",
+      "desc": "Our product managers, engineers and UX leads share how they use some of their favorite Chrome features every day, from tab groups to site search.",
+      "url": "https://blog.google/products/chrome/how-the-chrome-team-uses-chrome/"
+    }
+  },
+  {
+    "id": "62fc3fc9-dafd-4513-a5a9-c4b4185ed2b6",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://codesandbox.io/s/spider-2-t5nqfy?file=/src/index.js 不依靠 [[threejs]] 框架实现的 3d 效果。一个在页面上的小蜘蛛，火柴人风格。但是效果非常不错。#threejs-tutorials",
+    "page-name": "Aug 21st, 2022",
+    "parentId": "630246af-49bf-4785-8b9d-22473770afda",
+    "timestamp": 1661011200000,
+    "meta": {
+      "title": "spider 2 - CodeSandbox",
+      "desc": "spider 2 by supahfunk using gsap, lil-gui, parcel-bundler",
+      "url": "https://codesandbox.io/s/spider-2-t5nqfy?file=/src/index.js"
+    }
+  },
+  {
+    "id": "62fc430a-7b72-48e2-a48d-55848a15ba0d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://deno.com/blog/changes 虽然说支持 npm 包，但是好奇 [[deno]] 是如何处理依赖问题的。",
+    "page-name": "Aug 21st, 2022",
+    "parentId": "630246af-49bf-4785-8b9d-22473770afda",
+    "timestamp": 1661011200000,
+    "meta": {
+      "title": "Big Changes Ahead for Deno",
+      "desc": "Learnings from our recent survey and feedback from across our community. We'll discuss how we're addressing this feedback and the features to expect from Deno in the coming months.",
+      "url": "https://deno.com/blog/changes"
+    }
+  },
+  {
+    "id": "62fce194-2ac4-4d31-8863-0e3e1ed3cce3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://japan-dev.com/blog/how-and-why-i-built-japan-dev 分享了在日本做工作机会发布的网站的经历，里面的心路历程非常真实。本身是全职，空余时间来实现功能。并没有那种做出了网站之后立马火的经历，最开始也是一个小项目，长期没有收入。但是靠自己去推广，公司发布职业招聘来投钱，才一点点有收入。但是有几点铁律是不变的：#solo",
+    "page-name": "Aug 21st, 2022",
+    "parentId": "630246af-49bf-4785-8b9d-22473770afda",
+    "timestamp": 1661011200000,
+    "meta": {
+      "title": "How and why I built Japan Dev",
+      "desc": "Japan Dev started as a list of companies I wanted to work for back in 2014.  Here's the story of how that idea morphed into a job board showcasing hundreds of Japan's best tech companies.",
+      "url": "https://japan-dev.com/blog/how-and-why-i-built-japan-dev"
+    }
+  },
+  {
+    "id": "62f6f07c-5893-4f47-bd87-e2f91730979a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://threadreaderapp.com/thread/1554667451203276801.html #blog 因为今年比较重要的事情是[[写作]]。写作技巧可以看看。",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "Thread by @coolXiao on Thread Reader App",
+      "desc": "@coolXiao: 写作是可以改变人生的超级技能 但学校从没有好好教过我如何写作 于是我花了数百小时学习大师的写作方法 这里是我觉得最实用的10个技巧👇 1. 删掉“我认为”、“我觉得”、“我相信”等 为什么？ 你写的本来就代表你的观点，不需要再重申，另外这些词会弱化你文章的可信度 • 我觉得你会喜欢这些技巧 • 你会喜欢这些技巧 第二句比第一句好100倍 我从 Nat Eliason 那里学到这个技巧 nateliason...…",
+      "url": "https://threadreaderapp.com/thread/1554667451203276801.html"
+    }
+  },
+  {
+    "id": "62f72c11-7f57-4b7e-8289-64832955d07c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://cmdk.paco.me/ 目前看起来最好看的搜索 Modal，常用于在网站上通过 Command + K 触发。提供了 Raycast，Linear 等 App 的搜索样式。",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "⌘K",
+      "desc": "Fast, composable, unstyled command menu for React.",
+      "url": "https://cmdk.paco.me/"
+    }
+  },
+  {
+    "id": "62f6efa0-7559-4d46-bb83-aedadfbdfbc4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://medium.com/@maximetopolov/drupal-is-dying-6129b4bd3d22 文中虽然并不是在讨论前端框架，最近在思考插件体系对于[[框架]]来说到底是好事还是坏事。一个是插件不能太复杂；另外就是插件必须要好用意味着不能完全依赖社区；插件又要独立。这件事非常难。",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "Drupal is dying!",
+      "desc": "I was running Adyax for 10 years, a digital agency that quickly became one of the top 10 worldwide Drupal experts. I gave talks and…",
+      "url": "https://medium.com/@maximetopolov/drupal-is-dying-6129b4bd3d22"
+    }
+  },
+  {
+    "id": "62f705fb-3b84-4b7c-ad60-71aa31bd921a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://mp.weixin.qq.com/s/rZ96wy8xUrx4T1qG5OKS0w [[ts]] any unknown never 区别。学到了很多。any unknown 是 top type，比如 never 是最小类型单元(bottom type)，所以任何类型和它的交际是空，联合集合是和它联合的那个类型。",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "【TypeScript】never 和 unknown 的优雅之道",
+      "desc": "TypeScript 在版本 2.0 和 3.0 分别引入了 “never” 和 “unknown” 两个基本类型，在引入这两个类型之后，TypeScript 的类型系统得到了极大的完善。",
+      "url": "https://mp.weixin.qq.com/s/rZ96wy8xUrx4T1qG5OKS0w"
+    }
+  },
+  {
+    "id": "62f6eec3-c99c-4b80-b677-f3e152b78dc7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://indexstorm.com/?ref=producthunt 在 Github 上推荐类似仓库的 [[插件]] ，会在某个仓库主页右边显示，感觉挺有用的。",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "indexStorm - Storm the index",
+      "desc": "indexStorm - Most wanted projects made by the most talented team.",
+      "url": "https://indexstorm.com/?ref=producthunt"
+    }
+  },
+  {
+    "id": "62f72c24-ce00-4888-bb6f-312044c112e1",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://diff.intrinsic.com/mini-css-extract-plugin/0.4.5/0.6.0 有时候想知道使用的包升级之后修改了什么（出现 BUG，debug 时候使用）可以使用这个看看 diff",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "Package Diff: mini-css-extract-plugin @  0.4.5 .. 0.6.0",
+      "desc": "Visual diff of the npm package 'mini-css-extract-plugin' comparing 0.4.5 with 0.6.0.",
+      "url": "https://diff.intrinsic.com/mini-css-extract-plugin/0.4.5/0.6.0"
+    }
+  },
+  {
+    "id": "62f6f226-7d6c-4aac-934d-010c40765c32",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://levelup.gitconnected.com/are-web-components-dead-12e404e0f4b0 关于 [[Web-Components]] 讨论，虽然目前 React 类似框架是主流，但是还是给了它很高的预期，主要是现阶段的 [[SSR]] 等问题都有大公司在推出框架解决，比如 https://github.com/github/catalyst 因为这样对这些公司来说演进的幅度更小一些。不过按照 W3C 的速度，一些 API 支持可能没有那么快。",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "Are Web Components Dead?",
+      "desc": "Recently, I published an article with a different question on a similar topic: Will Web Components Replace Frontend Frameworks? Most of us…",
+      "url": "https://levelup.gitconnected.com/are-web-components-dead-12e404e0f4b0"
+    }
+  },
+  {
+    "id": "62f30c37-bf18-444e-a7c3-d848222f948e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://txtmoji.com/?ref=producthunt emoji 和文字的加解码",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "Txtmoji | Encrypt Text to Emojis",
+      "desc": "Txtmoji lets you encrypt your Text into Emojis and decrypt if you know the Password.",
+      "url": "https://txtmoji.com/?ref=producthunt"
+    }
+  },
+  {
+    "id": "62f30cd9-ba12-4ee1-bc54-e8b1232796b8",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/ 使用 AI 生成 Icon 的思路，一些个人项目的 Logo 或许有思路了 #ai #side-project",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "How I Used DALL·E 2 to Generate The Logo for OctoSQL",
+      "desc": "Everybody has heard about the latest cool thing™, which is DALL·E 2 (henceforth called Dall-e). A few months ago, when the first previews started, it was basically everywhere. Now, a few weeks ago, the floodgates have been opened and lots of people on the waitlist got access - that group included me.\nI’ve spent a day playing around with it, learned some basics (like the fact that adding “artstation” to the end of your phrase automatically makes the output much better…), and generated a bunch of (even a few nice-looking) images.",
+      "url": "https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/"
+    }
+  },
+  {
+    "id": "62f30c94-3243-4a5f-8fce-be655c3d6e50",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/keycastr/keycastr keystar 可以在屏幕上显示按键 [[keyboard]] 。对于录制视频教程十分有用。而且是开源免费的，其他类似的软件在按键样式上比较好看，但是收费。 #solo",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "GitHub - keycastr/keycastr: KeyCastr, an open-source keystroke visualizer",
+      "desc": "KeyCastr, an open-source keystroke visualizer. Contribute to keycastr/keycastr development by creating an account on GitHub.",
+      "url": "https://github.com/keycastr/keycastr"
+    }
+  },
+  {
+    "id": "62f34104-2013-4d76-955c-3b677f06a497",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.instagram.com/gregabandoned/ [[openeye]] [[ins]] 上的一个账户，主题是哪些废弃的地方的照片，感觉十分的废土。看起来大多数拍的是国内的建筑。",
+    "page-name": "Aug 14th, 2022",
+    "parentId": "62f8fa3a-e9b7-4998-ac9f-4c161db7e123",
+    "timestamp": 1660406400000,
+    "meta": {
+      "title": "https://www.instagram.com/gregabandoned/",
+      "desc": "https://www.instagram.com/gregabandoned/",
+      "url": "https://www.instagram.com/gregabandoned/"
+    }
+  },
+  {
+    "id": "62eca02f-3412-4ef1-b672-72dfb017742e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://chrome.google.com/webstore/detail/css-scan/gieabiemggnpnminflinemaickipbebg/related?hl=en 直接复制元素样式的浏览器[[插件]]",
+    "page-name": "Aug 7th, 2022",
+    "parentId": "62efbceb-d031-4a99-a432-7959bf4e866a",
+    "timestamp": 1659801600000,
+    "meta": {
+      "title": "CSS Scan",
+      "desc": "The fastest and easiest way to check, copy and edit CSS.",
+      "url": "https://chrome.google.com/webstore/detail/css-scan/gieabiemggnpnminflinemaickipbebg/related?hl=en"
+    }
+  },
+  {
+    "id": "62ecac0a-8adf-44db-aa14-0ec488ec1fc0",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://vytal.io/ 一个浏览器[[插件]]，用于修改和模拟浏览器数据。",
+    "page-name": "Aug 7th, 2022",
+    "parentId": "62efbceb-d031-4a99-a432-7959bf4e866a",
+    "timestamp": 1659801600000,
+    "meta": {
+      "title": "Vytal - Spoof Timezone, Geolocation, Locale and User Agent",
+      "desc": "Check if your location is actually hidden.",
+      "url": "https://vytal.io/"
+    }
+  },
+  {
+    "id": "62eca078-06b7-4e74-85d2-93681c20fef2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.blog/changelog/2022-08-03-introducing-the-new-npm-dependency-selector-syntax/ [[npm]] 支持了 query 的命令，语法有点像是 CSS query",
+    "page-name": "Aug 7th, 2022",
+    "parentId": "62efbceb-d031-4a99-a432-7959bf4e866a",
+    "timestamp": 1659801600000,
+    "meta": {
+      "title": "Introducing the new npm Dependency Selector Syntax",
+      "desc": "Introducing the new npm Dependency Selector Syntax",
+      "url": "https://github.blog/changelog/2022-08-03-introducing-the-new-npm-dependency-selector-syntax/"
+    }
+  },
+  {
+    "id": "62eca00f-962d-4164-a705-54d8235cb3d2",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.figma.com/community/file/1134039006128510775 [[Figma]] 插画生成。是我比较喜欢的 Notion 风格 #design",
+    "page-name": "Aug 7th, 2022",
+    "parentId": "62efbceb-d031-4a99-a432-7959bf4e866a",
+    "timestamp": 1659801600000,
+    "meta": {
+      "title": "Humation instrucations | Figma",
+      "desc": "Hand Drawn Human Illustration System plugin instructions.\n",
+      "url": "https://www.figma.com/community/file/1134039006128510775"
+    }
+  },
+  {
+    "id": "62edb51d-8148-467e-8f6b-dfac385a5c44",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://voussoir.net/writing/browser_in_the_dark CSS 实现的手电筒效果，关键是它可以和图片交互 #css",
+    "page-name": "Aug 7th, 2022",
+    "parentId": "62efbceb-d031-4a99-a432-7959bf4e866a",
+    "timestamp": 1659801600000,
+    "meta": {
+      "title": "https://voussoir.net/writing/browser_in_the_dark",
+      "desc": "https://voussoir.net/writing/browser_in_the_dark",
+      "url": "https://voussoir.net/writing/browser_in_the_dark"
+    }
+  },
+  {
+    "id": "62ed43a9-9fbb-41b0-9df4-e285b4b82ed5",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.bilibili.com/video/BV19V4y1J7Hx?vd_source=748fb6e9639d321021d6dffca9302648 看完求量产！ #keyboard #openeye",
+    "page-name": "Aug 7th, 2022",
+    "parentId": "62efbceb-d031-4a99-a432-7959bf4e866a",
+    "timestamp": 1659801600000,
+    "meta": {
+      "title": "【自制】我做了一把 模 块 化 机 械 键 盘 !【软核】_哔哩哔哩_bilibili",
+      "desc": "这次做的是一个我一直很想要的理想键盘，项目资料都开源：https://github.com/peng-zhihui/HelloWord-KeyboardBGM：Summer、WE SURVIVED、Octopus视频中用到的矩阵键盘解释片段来源：https://www.youtube.com/watch?v=vLGklanzQIc视频中关于一些客制化键盘展示的片段来源：https://space., 视频播放量 5233098、弹幕量 16035、点赞数 403619、投硬币枚数 368976、收藏人数 121293、转发人数 114432, 视频作者 稚晖君, 作者简介 保持热爱，奔赴星海。，相关视频：我复刻了稚晖君的瀚文75键盘，完全体！，B站首个真正零基础客制化机械键盘教程——第一部分，回答一些大家最关心的关于瀚文键盘的问题，自制机械键盘全过程，【客制化键盘】我把屏幕塞进了键帽 DIY一款键帽带屏幕的非标自定义键盘，【自制】我做了个能动的迷你电脑配件！【软核】，稚晖君的机器人又融资了，最新估值70亿，魔改稚晖君的瀚文键盘（进度70%）又肝了一个晚上，再水一个视频~，[稚晖君同款]瀚文复刻之物料采买!猜猜瀚文能有多贵!，来自国内最顶级团队，经典仍在延续！ / Matrix Lab - 8xv 3.0 客制化键盘 沉浸式组装 午夜轴",
+      "url": "https://www.bilibili.com/video/BV19V4y1J7Hx?vd_source=748fb6e9639d321021d6dffca9302648"
+    }
+  },
+  {
+    "id": "62edb61e-86c3-43d0-a25c-b46bf8941c26",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/ 使用 AI 生成 Icon 的思路，一些个人项目的 Logo 或许有思路了 #ai #side-project",
+    "page-name": "Aug 7th, 2022",
+    "parentId": "62efbceb-d031-4a99-a432-7959bf4e866a",
+    "timestamp": 1659801600000,
+    "meta": {
+      "title": "How I Used DALL·E 2 to Generate The Logo for OctoSQL",
+      "desc": "Everybody has heard about the latest cool thing™, which is DALL·E 2 (henceforth called Dall-e). A few months ago, when the first previews started, it was basically everywhere. Now, a few weeks ago, the floodgates have been opened and lots of people on the waitlist got access - that group included me.\nI’ve spent a day playing around with it, learned some basics (like the fact that adding “artstation” to the end of your phrase automatically makes the output much better…), and generated a bunch of (even a few nice-looking) images.",
+      "url": "https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/"
+    }
+  },
+  {
+    "id": "62e5e025-ce7c-4c91-b251-9f05885dda86",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins HTML 居然有标签可以显示 diff 的效果。 #html #web",
+    "page-name": "Jul 31st, 2022",
+    "parentId": "62e680bb-1457-4e7c-bb2c-5d94c2d0da55",
+    "timestamp": 1659196800000,
+    "meta": {
+      "title": "<ins>: The Inserted Text element - HTML: HyperText Markup Language | MDN",
+      "desc": "The <ins> HTML element represents a range of text that has been added to a document. You can use the <del> element to similarly represent a range of text that has been deleted from the document.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins"
+    }
+  },
+  {
+    "id": "62e5d083-701a-421b-868d-557f136090ec",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://wooshy.app/?ref=producthunt 如果你在 chrome 浏览器用过 vimium [[插件]]，这个软件就是 Mac 版的，通过快捷键触发输入框，输入文字之后，高亮屏幕上的包含文字的控件，回车之后点击。之前用过 vimium 就十分想有 Mac，奈何自己不会写 Mac 应用。现在终于有人写了。但是他不支持中文。 #app",
+    "page-name": "Jul 31st, 2022",
+    "parentId": "62e680bb-1457-4e7c-bb2c-5d94c2d0da55",
+    "timestamp": 1659196800000,
+    "meta": {
+      "title": "https://wooshy.app/?ref=producthunt",
+      "desc": "https://wooshy.app/?ref=producthunt",
+      "url": "https://wooshy.app/?ref=producthunt"
+    }
+  },
+  {
+    "id": "62e17997-9318-41f5-acad-3373929a582b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://mtlynch.io/tinypilot-redesign/ 原来一些外包机构是这么工作的。可以向他们购买时间开发（比如 40 小时），他们会评估开发工作所需要的时间。之后就是拆解任务，可能会在固定时间汇报任务的情况，以及开发进度。",
+    "page-name": "Jul 31st, 2022",
+    "parentId": "62e680bb-1457-4e7c-bb2c-5d94c2d0da55",
+    "timestamp": 1659196800000,
+    "meta": {
+      "title": "I Regret My $46k Website Redesign",
+      "desc": "\n    Mistakes I made working with my first design agency.\n  ",
+      "url": "https://mtlynch.io/tinypilot-redesign/"
+    }
+  },
+  {
+    "id": "62e1739e-6885-4686-8401-e1337ed905a3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.bmpi.dev/dev/software-engineering-at-google/culture/ 谷歌工程师文化，目前我面临的主要问题是知识共享问题（或者说是[[知识孤岛]]问题），就是开发维护别人的代码总是很困难。 #wiki",
+    "page-name": "Jul 31st, 2022",
+    "parentId": "62e680bb-1457-4e7c-bb2c-5d94c2d0da55",
+    "timestamp": 1659196800000,
+    "meta": {
+      "title": "Google软件工程之文化篇",
+      "desc": "本文是《Software Engineering at Google》的读书笔记，同时会穿插分享我对软件工程的理解。本文主要介绍软件工程中人的因素，也就是文化部分。",
+      "url": "https://www.bmpi.dev/dev/software-engineering-at-google/culture/"
+    }
+  },
+  {
+    "id": "62e5ced3-e8ac-494e-81d5-26763f53349a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://emoji.supply/kitchen/ [[emoji]] 生成工具。",
+    "page-name": "Jul 31st, 2022",
+    "parentId": "62e680bb-1457-4e7c-bb2c-5d94c2d0da55",
+    "timestamp": 1659196800000,
+    "meta": {
+      "title": "Emoji Kitchen Browser",
+      "desc": "Browse thousands of delightful Emoji Kitchen combinations, available in Gboard for Android.",
+      "url": "https://emoji.supply/kitchen/"
+    }
+  },
+  {
+    "id": "62db5c5d-fe73-4118-9a2c-60eecf3d3462",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://tinyprojects.dev/posts/i_spent_two_years_launching_tiny_projects #solo 独立开发的个人项目总结，看到了一些不错的 idea，项目价值与否与它是否帮助到了别人有关；另外，在你写项目的同时，你可以很好的提升你的编程技能。 #rss/solo-rss",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "I Spent 2 years Launching Tiny Projects | Tiny Projects",
+      "desc": "Two years ago, frustrated with a long list of unfulfilled project ideas in my phone notes, I decided to give myself one week to try each idea out in its tiniest form.",
+      "url": "https://tinyprojects.dev/posts/i_spent_two_years_launching_tiny_projects"
+    }
+  },
+  {
+    "id": "62db3830-68bf-4436-8e6a-3fb852a88850",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://news.ycombinator.com/item?id=32137336 写[[博客]]是否是一件有价值的事情。有人通过它获得了工作；现在视频是主流，本来应该在 30s 获得的知识，现在可能需要看 30s 的广告；但是个人认为不能一概而论，视频还是有好处的，对于一些软件教程（比如 blender）来说，一个视频或许能够讲的更加清楚。 #blog",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "https://news.ycombinator.com/item?id=32137336",
+      "desc": "https://news.ycombinator.com/item?id=32137336",
+      "url": "https://news.ycombinator.com/item?id=32137336"
+    }
+  },
+  {
+    "id": "62d9fb78-f03e-45f3-adcd-ade5ee43a01b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.smashingmagazine.com/2022/07/look-remix-differences-next/ nextjs 和 remix 的对比。",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "A Look At Remix And The Differences With Next.js — Smashing Magazine",
+      "desc": "Let’s talk about Remix, the framework to create JavaScript projects using server-side rendering. Let’s go through its main features and concepts and see the similarities and differences with Next.js.",
+      "url": "https://www.smashingmagazine.com/2022/07/look-remix-differences-next/"
+    }
+  },
+  {
+    "id": "62da92fb-5e29-440d-a0ec-f2926ebeaf88",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.zhangxinxu.com/wordpress/2022/07/css-font-palette/ 彩色字体，确实很酷。#fonts #css",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "https://www.zhangxinxu.com/wordpress/2022/07/css-font-palette/",
+      "desc": "https://www.zhangxinxu.com/wordpress/2022/07/css-font-palette/",
+      "url": "https://www.zhangxinxu.com/wordpress/2022/07/css-font-palette/"
+    }
+  },
+  {
+    "id": "62d9fc1e-872d-444b-8fa0-beb93c041e65",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.paperoad.com/en?ref=producthunt 之前有人做过类似的事情，就是将 git commit 记录也做成可打印的漂亮照片。",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "Paperoad - Imprimeur de souvenirs",
+      "desc": "Créez des posters personnalisés à partir de vos plus beaux voyages.",
+      "url": "https://www.paperoad.com/en?ref=producthunt"
+    }
+  },
+  {
+    "id": "62d6ce09-1d88-469d-b782-e13e5921f9fb",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://revenuewatcher.com/ 可以看到一些项目的收入情况，也适合来找点子 #solo #rss/solo-rss",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "https://revenuewatcher.com/",
+      "desc": "https://revenuewatcher.com/",
+      "url": "https://revenuewatcher.com/"
+    }
+  },
+  {
+    "id": "62d6ca37-81ea-4f96-82f1-582798d975c4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://ieftimov.com/posts/how-to-make-reviewers-love-your-big-pull-requests/ 如何提交 PR 的建议，有几个比较有用，因为最近我发现有不好的习惯，在一个 PR 中可能会带上其他功能的修复或者实现。带上的原因也很简单",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "How to Make Reviewers Love Your Big Pull Requests",
+      "desc": "In this article, I will share my philosophy of making large pull requests palatable for reviewers.",
+      "url": "https://ieftimov.com/posts/how-to-make-reviewers-love-your-big-pull-requests/"
+    }
+  },
+  {
+    "id": "62d6ccf5-dc28-4dda-8b0c-063246957e07",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.uifiller.com/ 集合随机返回图片，文字的功能。终于找到了之前看到过却没有收藏的工具。相关的有",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "https://www.uifiller.com/",
+      "desc": "https://www.uifiller.com/",
+      "url": "https://www.uifiller.com/"
+    }
+  },
+  {
+    "id": "62d60485-f8cf-4e86-bd73-81fa30c71ffa",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.endpoint.space/?ref=producthunt 生成一个 [[mock]] 接口。可以做一些简单的测试。好处是不需要本地下载软件。",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "https://www.endpoint.space/?ref=producthunt",
+      "desc": "https://www.endpoint.space/?ref=producthunt",
+      "url": "https://www.endpoint.space/?ref=producthunt"
+    }
+  },
+  {
+    "id": "62d6c2e7-9a2c-422b-bffe-77ed8e6defed",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blog.google/products/chrome/our-favorite-chrome-extensions-2021/ 浏览器[[插件]]推荐。个人觉得 [tab-manager-plus](https://chrome.google.com/webstore/detail/tab-manager-plus-for-chro/cnkdjjdmfiffagllbiiilooaoofcoeff) 对我这个长期有大量 tab 没关的人来说十分有用。 #chrome-web-ext",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "Our favorite Chrome extensions of 2021",
+      "desc": "Check out Chrome’s favorite extensions of 2021.",
+      "url": "https://blog.google/products/chrome/our-favorite-chrome-extensions-2021/"
+    }
+  },
+  {
+    "id": "62d6c573-9e7b-42c8-bfb5-465b1e6a880e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://cohost.org/blackle/post/42994-contraption 试着拉那根绳子，效果惊人 #css",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "talkative fishy on cohost",
+      "desc": "contraption",
+      "url": "https://cohost.org/blackle/post/42994-contraption"
+    }
+  },
+  {
+    "id": "62d60623-65b5-4fcc-a4f1-387b28968a21",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2 各种纸飞机。",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "Fold 'N Fly » Paper Airplane Folding Instructions",
+      "desc": "A database of paper airplanes with easy to follow folding instructions, video tutorials and printable folding plans. Find the best paper airplanes!",
+      "url": "https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2"
+    }
+  },
+  {
+    "id": "62d6cc89-1f0b-446c-bc0e-26faba03a62b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://w2solo.com/topics/3422 它对于社交截图美化工具的解释算是解答了我的疑惑，因为我一直认为这些功能很简单，为什么那么多人做，而且真的有人能够赚到钱。这类工具真的适合哪些有粉丝的人去做。",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "https://w2solo.com/topics/3422",
+      "desc": "https://w2solo.com/topics/3422",
+      "url": "https://w2solo.com/topics/3422"
+    }
+  },
+  {
+    "id": "62d6c77e-1229-4f4d-b213-2954167d8b63",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.kawabangga.com/posts/4718 个人项目的建议，减少成本以及快乐最好。成本最少（指钱）的个人项目就是开发一个包了。之前也看到一个类似的对于项目的区别，能够赚钱的是产品，不能够赚钱就是[[慈善项目]] #solo #side-project",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "https://www.kawabangga.com/posts/4718",
+      "desc": "https://www.kawabangga.com/posts/4718",
+      "url": "https://www.kawabangga.com/posts/4718"
+    }
+  },
+  {
+    "id": "62d6c678-3776-4265-8dfb-3566cba54d08",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://news.ycombinator.com/item?id=32136733 一个喜欢[[编程]]但是讨厌自己[[工作]]的讨论。但是我不认同评论说的小公司不尊重你的技术。因为如果你写个人项目的话，可以发现你其实很容易提高你的编程技能。",
+    "page-name": "Jul 25th, 2022",
+    "parentId": "62ddd49a-a5fc-4292-b534-3e6d398f3ca2",
+    "timestamp": 1658678400000,
+    "meta": {
+      "title": "https://news.ycombinator.com/item?id=32136733",
+      "desc": "https://news.ycombinator.com/item?id=32136733",
+      "url": "https://news.ycombinator.com/item?id=32136733"
+    }
+  },
+  {
+    "id": "62d19ca2-16ee-4080-a967-146da4f82afa",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://konstantinlebedev.com/solid-in-react/ SOLID 原则在 React 中应用和解释（第一次知道这几个单词代表什么意思） #developers",
+    "page-name": "Jul 17th, 2022",
+    "parentId": "62d2fb66-af1a-4118-9291-7590f6541f7f",
+    "timestamp": 1657987200000,
+    "meta": {
+      "title": "Applying SOLID principles in React",
+      "desc": "As the software industry grows and makes mistakes, the best practices and good software design principles emerge and conceptualize to avoid repeating the same…",
+      "url": "https://konstantinlebedev.com/solid-in-react/"
+    }
+  },
+  {
+    "id": "62d0c4de-2ac3-425c-a9c3-fad2a60b3d17",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://lorem.space/categories 在线的 lorem，随机返回一个图片，比如人脸 #components #image",
+    "page-name": "Jul 17th, 2022",
+    "parentId": "62d2fb66-af1a-4118-9291-7590f6541f7f",
+    "timestamp": 1657987200000,
+    "meta": {
+      "title": "https://lorem.space/categories",
+      "desc": "https://lorem.space/categories",
+      "url": "https://lorem.space/categories"
+    }
+  },
+  {
+    "id": "62d0f737-356c-43c2-8326-ff5e3ac0c450",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/ashok-khanna/react-snippets/blob/main/Router.js 不依赖 react-router 的路由实现",
+    "page-name": "Jul 17th, 2022",
+    "parentId": "62d2fb66-af1a-4118-9291-7590f6541f7f",
+    "timestamp": 1657987200000,
+    "meta": {
+      "title": "react-snippets/Router.js at main · ashok-khanna/react-snippets",
+      "desc": "A sample of useful snippets in React. Contribute to ashok-khanna/react-snippets development by creating an account on GitHub.",
+      "url": "https://github.com/ashok-khanna/react-snippets/blob/main/Router.js"
+    }
+  },
+  {
+    "id": "62d0c066-3606-42a5-a580-de163a76d3e3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end 十分有用的 CSS 属性，下面是 figma 的使用例子",
+    "page-name": "Jul 17th, 2022",
+    "parentId": "62d2fb66-af1a-4118-9291-7590f6541f7f",
+    "timestamp": 1657987200000,
+    "meta": {
+      "title": "grid-column-end - CSS: Cascading Style Sheets | MDN",
+      "desc": "The grid-column-end CSS property specifies a grid item's end position within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the block-end edge of its grid area.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end"
+    }
+  },
+  {
+    "id": "62cccafc-cf7c-4f59-b2b3-0c2998a223e4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.youtube.com/devaslife 推荐一个 youtuber，最近比较喜欢看他写代码。",
+    "page-name": "Jul 17th, 2022",
+    "parentId": "62d2fb66-af1a-4118-9291-7590f6541f7f",
+    "timestamp": 1657987200000,
+    "meta": {
+      "title": "devaslife",
+      "desc": "I'm an indie app developer based in Osaka, Japan.\nI'm currently living off of my own product called Inkdrop - a Markdown note-taking app (https://www.inkdrop.app/ ).\nI would like to publish my videos about: how to build good apps, how to attract users, my hobbies, etc.\n\nNOTE: I don't answer any personal questions - Please don't send me emails.\n",
+      "url": "https://www.youtube.com/devaslife"
+    }
+  },
+  {
+    "id": "62cc4911-c2de-4f53-b539-f49a0e0548be",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://remix.run/docs/en/v1/guides/errors 每个页面都支持 Error Boundary 还是挺实用的（当然个人认为你手写也是可以的）",
+    "page-name": "Jul 17th, 2022",
+    "parentId": "62d2fb66-af1a-4118-9291-7590f6541f7f",
+    "timestamp": 1657987200000,
+    "meta": {
+      "title": "Error Handling (v1.19.3) | Remix",
+      "desc": "Error Handling (v1.19.3) | Remix",
+      "url": "https://remix.run/docs/en/v1/guides/errors"
+    }
+  },
+  {
+    "id": "62ccca4a-16fb-4a46-adca-3edf90f8e4a9",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/keycastr/keycastr keystar 可以在屏幕上显示按键 [[keyboard]] 。对于录制视频教程十分有用。而且是开源免费的，其他类似的软件在按键样式上比较好看，但是收费。 #solo",
+    "page-name": "Jul 17th, 2022",
+    "parentId": "62d2fb66-af1a-4118-9291-7590f6541f7f",
+    "timestamp": 1657987200000,
+    "meta": {
+      "title": "GitHub - keycastr/keycastr: KeyCastr, an open-source keystroke visualizer",
+      "desc": "KeyCastr, an open-source keystroke visualizer. Contribute to keycastr/keycastr development by creating an account on GitHub.",
+      "url": "https://github.com/keycastr/keycastr"
+    }
+  },
+  {
+    "id": "62c89b26-8094-49f4-a4c8-1fa6ed4a8d71",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.raycast.com/blog/we-hack-every-friday/ 这个 Hack 的团队文化可以说是非常喜欢了。因为很喜欢这种毫无意义（可能），但是很有诚意的小惊喜。",
+    "page-name": "Jul 10th, 2022",
+    "parentId": "62c9f06f-c6db-495a-858a-d427eaa8ea03",
+    "timestamp": 1657382400000,
+    "meta": {
+      "title": "We hack every Friday - Raycast Blog",
+      "desc": "How it works, why it matters and what we’ve done so far. ",
+      "url": "https://www.raycast.com/blog/we-hack-every-friday/"
+    }
+  },
+  {
+    "id": "62c7c07e-6161-4aa4-ae8b-d424177b330e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://qiangmzsx.github.io/Software-Engineering-at-Google/#/zh-cn/Chapter-12_Unit_Testing/Chapter-12_Unit_Testing #books #test",
+    "page-name": "Jul 10th, 2022",
+    "parentId": "62c9f06f-c6db-495a-858a-d427eaa8ea03",
+    "timestamp": 1657382400000,
+    "meta": {
+      "title": "https://qiangmzsx.github.io/Software-Engineering-at-Google/#/zh-cn/Chapter-12_Unit_Testing/Chapter-12_Unit_Testing",
+      "desc": "https://qiangmzsx.github.io/Software-Engineering-at-Google/#/zh-cn/Chapter-12_Unit_Testing/Chapter-12_Unit_Testing",
+      "url": "https://qiangmzsx.github.io/Software-Engineering-at-Google/#/zh-cn/Chapter-12_Unit_Testing/Chapter-12_Unit_Testing"
+    }
+  },
+  {
+    "id": "62c7c09a-f5ce-453a-9fc2-3f4c32d2628b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://defensivecss.dev/tip/bg-repeat/ 进行防御性 CSS 编程的一些代码片段。 #css",
+    "page-name": "Jul 10th, 2022",
+    "parentId": "62c9f06f-c6db-495a-858a-d427eaa8ea03",
+    "timestamp": 1657382400000,
+    "meta": {
+      "title": "Defensive CSS - Background repeat",
+      "desc": "Practical CSS and design tips that helps in building future-proof user interfaces.",
+      "url": "https://defensivecss.dev/tip/bg-repeat/"
+    }
+  },
+  {
+    "id": "62c7bd5e-ba8e-4227-a9a4-d5a08a9975be",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://css-irl.info/masonry-in-css/ [[grid]] 的 [[marsonry]] 布局，目前应该是一个 draft 阶段。 #css",
+    "page-name": "Jul 10th, 2022",
+    "parentId": "62c9f06f-c6db-495a-858a-d427eaa8ea03",
+    "timestamp": 1657382400000,
+    "meta": {
+      "title": "CSS { In Real Life } | Masonry? In CSS?!",
+      "desc": "CSS { In Real Life } | Masonry? In CSS?!",
+      "url": "https://css-irl.info/masonry-in-css/"
+    }
+  },
+  {
+    "id": "62bfbe46-d272-4479-b729-f10364409b40",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/jonmbake/react-terminal-ui 我一直有个比较强烈的需求就是[[终端]]的录屏演示我的 CLI App，一方面很难录屏到好看的，另一方面放到网页上如何能够呈现打字的效果的话会比较酷炫（视频很难满足）这个组件做了之前一直想做的事情。",
+    "page-name": "Jul 3rd, 2022",
+    "parentId": "62c19f51-be98-498d-87f8-3feb2dd4e569",
+    "timestamp": 1656777600000,
+    "meta": {
+      "title": "GitHub - jonmbake/react-terminal-ui: A terminal react component with support for light and dark modes.",
+      "desc": "A terminal react component with support for light and dark modes. - jonmbake/react-terminal-ui",
+      "url": "https://github.com/jonmbake/react-terminal-ui"
+    }
+  },
+  {
+    "id": "62b66290-2048-4c67-b7b7-87f78c2706e7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "http://earthclock.cwandt.com/ 有点酷，在地球(地图)上显示[[时间]]，比如09:18，会在地球上找到五张图片分别代表 0 9 : 1 8",
+    "page-name": "Jun 25th, 2022",
+    "parentId": "62b6608b-a0b7-4db2-a192-9fb417980f11",
+    "timestamp": 1656086400000,
+    "meta": {
+      "title": "Earth Clock",
+      "desc": "Earth Clock is a digital clock assembled from views of Earth from above that resemble numbers.",
+      "url": "http://earthclock.cwandt.com/"
+    }
+  },
+  {
+    "id": "62b48e0d-490b-4fff-85e6-b0c083b11633",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022.html  这是 React Team 最近在做的事情。",
+    "page-name": "Jun 25th, 2022",
+    "parentId": "62b6608b-a0b7-4db2-a192-9fb417980f11",
+    "timestamp": 1656086400000,
+    "meta": {
+      "title": "React Labs: What We've Been Working On – June 2022 – React",
+      "desc": "The library for web and native user interfaces",
+      "url": "https://reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022.html"
+    }
+  },
+  {
+    "id": "62b32d4e-56c7-45dc-ac00-b6971af278c7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://gimli.app/tailwinddx.html?ref=producthunt Tailwindcss 插件，可以在 devtools 增加一个面板，直接修改 tailwindcss classname。 #tailwindcss",
+    "page-name": "Jun 25th, 2022",
+    "parentId": "62b6608b-a0b7-4db2-a192-9fb417980f11",
+    "timestamp": 1656086400000,
+    "meta": {
+      "title": "https://gimli.app/tailwinddx.html?ref=producthunt",
+      "desc": "https://gimli.app/tailwinddx.html?ref=producthunt",
+      "url": "https://gimli.app/tailwinddx.html?ref=producthunt"
+    }
+  },
+  {
+    "id": "62b32d4e-5fec-46e4-91a4-671fd1e0ddd7",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.addevent.com/calendar/Yo445433?utm_source=densediscovery&utm_medium=email&utm_campaign=newsletter-issue-193 还挺有意思的，每天一个小问题关于你身边的人。目的也是为了让你更加关心他人。 #2022-collections",
+    "page-name": "Jun 25th, 2022",
+    "parentId": "62b6608b-a0b7-4db2-a192-9fb417980f11",
+    "timestamp": 1656086400000,
+    "meta": {
+      "title": "One Question A Day",
+      "desc": "This free calendar schedules one thought-provoking question per day to help in all areas of your life from your career to your own personal growth.",
+      "url": "https://www.addevent.com/calendar/Yo445433?utm_source=densediscovery&utm_medium=email&utm_campaign=newsletter-issue-193"
+    }
+  },
+  {
+    "id": "62b32d4e-e9a2-48e7-ba32-b93a06056456",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://sspai.com/post/72993  关于好奇心的解释，我觉得写的非常好。人需要好奇心，但是其中剥夺类的好奇心是那种即可以满足你的需求，又可以满足的喜欢的好奇心。如果是工作的话，就是那种爱好正好是工作那种。另外工作大多数情况下都是那种病态的，它的作用是你不让你对它好奇，达到厌恶；你需要改变自己，同时也要改变环境。 #3thoughts",
+    "page-name": "Jun 25th, 2022",
+    "parentId": "62b6608b-a0b7-4db2-a192-9fb417980f11",
+    "timestamp": 1656086400000,
+    "meta": {
+      "title": "重新理解「好奇心」：学习动机的自救指南 - 少数派",
+      "desc": "我们应该保持对技术的警惕，保护好「认知好奇心」。",
+      "url": "https://sspai.com/post/72993"
+    }
+  },
+  {
+    "id": "62b32d4e-6b60-4831-984c-5e9a33819497",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.nngroup.com/articles/pairing-typefaces/ 字体搭配建议，比较简单，但是在之后选择正文，或者标题等字体配合的时候。多少有点依据了。 #design",
+    "page-name": "Jun 25th, 2022",
+    "parentId": "62b6608b-a0b7-4db2-a192-9fb417980f11",
+    "timestamp": 1656086400000,
+    "meta": {
+      "title": "The Dos and Don’ts of Pairing Typefaces",
+      "desc": "When choosing typography to use in designs, narrow down your options by understanding the most common classifications, looking for typefaces with multiple variations and distinct characters, and pairing typefaces together with consistency and readability in mind.",
+      "url": "https://www.nngroup.com/articles/pairing-typefaces/"
+    }
+  },
+  {
+    "id": "62882bf2-0e31-47bb-8e45-aae92ece5660",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://refactoring.guru/design-patterns/abstract-factory 设计模式可视化 #2022-collections #javascript #developers",
+    "page-name": "Jun 25th, 2022",
+    "parentId": "62b6608b-a0b7-4db2-a192-9fb417980f11",
+    "timestamp": 1656086400000,
+    "meta": {
+      "title": "Abstract Factory",
+      "desc": "Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.",
+      "url": "https://refactoring.guru/design-patterns/abstract-factory"
+    }
+  },
+  {
+    "id": "62b32d4e-42e9-4206-87d7-57ab433cd4dd",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.patterns.dev/posts/ JS 设计模式。配合可视化的交互，好理解很多。 #javascript #developers",
+    "page-name": "Jun 25th, 2022",
+    "parentId": "62b6608b-a0b7-4db2-a192-9fb417980f11",
+    "timestamp": 1656086400000,
+    "meta": {
+      "title": "https://www.patterns.dev/posts/",
+      "desc": "https://www.patterns.dev/posts/",
+      "url": "https://www.patterns.dev/posts/"
+    }
+  },
+  {
+    "id": "62aca7a1-9bfa-4f92-9ee4-44373ee86094",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://whistlr.info/2022/abortcontroller-is-your-friend/ 现在才知道，原来 addEventListener 有第三个参数，用文中的 AbortContoller 可以控制是否移除监听事件。 #mdn #web",
+    "page-name": "Jun 19th, 2022",
+    "parentId": "62b32d4e-b848-4f56-bc30-15bdc99a71ec",
+    "timestamp": 1655568000000,
+    "meta": {
+      "title": "AbortController is your friend",
+      "desc": "The AbortController is ostensibly for fetch, but it has some other ways we can use it too.",
+      "url": "https://whistlr.info/2022/abortcontroller-is-your-friend/"
+    }
+  },
+  {
+    "id": "62ab5380-89b4-4f0b-95c3-fcc6903c71a5",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/pissang/little-big-city 实时显示 3D 的街景版本。",
+    "page-name": "Jun 19th, 2022",
+    "parentId": "62b32d4e-b848-4f56-bc30-15bdc99a71ec",
+    "timestamp": 1655568000000,
+    "meta": {
+      "title": "GitHub - pissang/little-big-city",
+      "desc": "Contribute to pissang/little-big-city development by creating an account on GitHub.",
+      "url": "https://github.com/pissang/little-big-city"
+    }
+  },
+  {
+    "id": "62a8b08d-8a0a-4321-a53c-1c7813964cd4",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/mxgmn/MarkovJunior 生成迷宫的语言还是第一次见。",
+    "page-name": "Jun 19th, 2022",
+    "parentId": "62b32d4e-b848-4f56-bc30-15bdc99a71ec",
+    "timestamp": 1655568000000,
+    "meta": {
+      "title": "GitHub - mxgmn/MarkovJunior: Probabilistic language based on pattern matching and constraint propagation, 153 examples",
+      "desc": "Probabilistic language based on pattern matching and constraint propagation, 153 examples - mxgmn/MarkovJunior",
+      "url": "https://github.com/mxgmn/MarkovJunior"
+    }
+  },
+  {
+    "id": "62addd87-bd65-4c2c-985a-7a9f0e08c01a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://linear.app/readme 闪烁的动画好棒！ #design",
+    "page-name": "Jun 19th, 2022",
+    "parentId": "62b32d4e-b848-4f56-bc30-15bdc99a71ec",
+    "timestamp": 1655568000000,
+    "meta": {
+      "title": "README – Linear",
+      "desc": "This is not a manifesto. This is not a codex, not a whitepaper, and not a secret master plan.",
+      "url": "https://linear.app/readme"
+    }
+  },
+  {
+    "id": "62ac915a-e6ba-4683-86be-40c9e8d08dfc",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://evilmartians.com/chronicles/how-to-make-absolutely-any-app-look-like-a-macos-app 居然有人真的在认真研究如何让应用看起来像是真的 macOS App #mayumi",
+    "page-name": "Jun 19th, 2022",
+    "parentId": "62b32d4e-b848-4f56-bc30-15bdc99a71ec",
+    "timestamp": 1655568000000,
+    "meta": {
+      "title": "How to make absolutely any app look like a macOS app—Martian Chronicles, Evil Martians’ team blog",
+      "desc": "This quick article explains a few key UI features to keep in mind if you want to mimic the feel and look of a macOS desktop app.",
+      "url": "https://evilmartians.com/chronicles/how-to-make-absolutely-any-app-look-like-a-macos-app"
+    }
+  },
+  {
+    "id": "62a4384b-44ab-49b1-87a1-ee2629b0043b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://danylpo.com/skware/  像素 Icon #design",
+    "page-name": "Jun 12th, 2022",
+    "parentId": "62a5f7b8-fc6f-48f7-8e38-15bc00f1b294",
+    "timestamp": 1654963200000,
+    "meta": {
+      "title": "https://danylpo.com/skware/",
+      "desc": "https://danylpo.com/skware/",
+      "url": "https://danylpo.com/skware/"
+    }
+  },
+  {
+    "id": "62a36c2c-0bc0-4207-88ff-34ced0cec67d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://journalisticapp.com/  PWA 的应用，已经看起来和真的没有什么区别了。#pwa",
+    "page-name": "Jun 12th, 2022",
+    "parentId": "62a5f7b8-fc6f-48f7-8e38-15bc00f1b294",
+    "timestamp": 1654963200000,
+    "meta": {
+      "title": "Journalistic – Micro Journal",
+      "desc": "A micro journaling app with minimalistic design, pristine writing experience, and powerful insights. Write and reflect about the happenings in your life.",
+      "url": "https://journalisticapp.com/"
+    }
+  },
+  {
+    "id": "62a42ace-4e17-4e38-8fb9-c40590cd0701",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "http://savethesounds.info/ 一些现在不常听到的声音，比如诺基亚开机。",
+    "page-name": "Jun 12th, 2022",
+    "parentId": "62a5f7b8-fc6f-48f7-8e38-15bc00f1b294",
+    "timestamp": 1654963200000,
+    "meta": {
+      "title": "http://savethesounds.info/",
+      "desc": "http://savethesounds.info/",
+      "url": "http://savethesounds.info/"
+    }
+  },
+  {
+    "id": "62a4293c-c03b-49d2-b673-fd045fb94840",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.cartoonbrew.com/tech/artists-uses-ai-to-create-photorealistic-versions-of-disney-and-simpsons-characters-213045.html [[AI]] 生成动画真人效果，效果非常好。",
+    "page-name": "Jun 12th, 2022",
+    "parentId": "62a5f7b8-fc6f-48f7-8e38-15bc00f1b294",
+    "timestamp": 1654963200000,
+    "meta": {
+      "title": "Artist Uses AI To Create Photorealistic Versions Of Disney And 'Simpsons' Characters",
+      "desc": "If Disney ever decides to do a live-action \"Simpsons\" spin-off, it may look something like this.",
+      "url": "https://www.cartoonbrew.com/tech/artists-uses-ai-to-create-photorealistic-versions-of-disney-and-simpsons-characters-213045.html"
+    }
+  },
+  {
+    "id": "629b41c3-9996-4eae-8aed-7c7a89c07082",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "DONE https://github.com/denoland/dnt deno 似乎有个新玩具，可以试试看。将 deno 代码转化为了 node 代码",
+    "page-name": "Jun 5th, 2022",
+    "parentId": "629cb14f-3d77-4949-a91a-39b34fc8e3c4",
+    "timestamp": 1654358400000,
+    "meta": {
+      "title": "GitHub - denoland/dnt: Deno to npm package build tool.",
+      "desc": "Deno to npm package build tool. Contribute to denoland/dnt development by creating an account on GitHub.",
+      "url": "https://github.com/denoland/dnt"
+    }
+  },
+  {
+    "id": "629b53c7-e501-408e-a53b-85ba9fcd5e7e",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://4ark.me/post/weekly-30.html",
+    "page-name": "Jun 5th, 2022",
+    "parentId": "629cb14f-3d77-4949-a91a-39b34fc8e3c4",
+    "timestamp": 1654358400000,
+    "meta": {
+      "title": "https://4ark.me/post/weekly-30.html",
+      "desc": "https://4ark.me/post/weekly-30.html",
+      "url": "https://4ark.me/post/weekly-30.html"
+    }
+  },
+  {
+    "id": "629b543a-48da-44cb-a6ca-b4dfc337335a",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://henryheffernan.com/ 这个就是我想要给我的播客增加的首页效果！！！ #blog",
+    "page-name": "Jun 5th, 2022",
+    "parentId": "629cb14f-3d77-4949-a91a-39b34fc8e3c4",
+    "timestamp": 1654358400000,
+    "meta": {
+      "title": "Henry Heffernan - Software Engineer",
+      "desc": "I'm Henry, a Software Engineer based in NY. Rensselaer Polytechnic Institute Graduate with my B.S. in Computer Science, currently looking for a full time role.",
+      "url": "https://henryheffernan.com/"
+    }
+  },
+  {
+    "id": "6294ece0-e89b-41ab-90d0-f631d6e66033",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.youtube.com/watch?v=kMN-Xd_dcR4 用 CSS 画漫画",
+    "page-name": "Jun 5th, 2022",
+    "parentId": "629cb14f-3d77-4949-a91a-39b34fc8e3c4",
+    "timestamp": 1654358400000,
+    "meta": {
+      "title": "Drawing a manga character with CSS... from scratch!",
+      "desc": "The process of drawing a manga character from scratch with HTML and CSS.Source code and live demo: https://codepen.io/alvaromontoro/full/ExQbYbwIn this video...",
+      "url": "https://www.youtube.com/watch?v=kMN-Xd_dcR4"
+    }
+  },
+  {
+    "id": "62962fed-6503-4729-90d0-b124888bfc51",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://contexts.co/ 比默认的 cmd + tab 更加舒服一点。试用之后还是用了默认的工具，因为使用习惯以及收费的问题。",
+    "page-name": "Jun 5th, 2022",
+    "parentId": "629cb14f-3d77-4949-a91a-39b34fc8e3c4",
+    "timestamp": 1654358400000,
+    "meta": {
+      "title": "Contexts - Radically simpler & faster window switcher for Mac",
+      "desc": "Switch between application windows effortlessly — with Fast Search, a better Command-Tab, a Sidebar or even a quick gesture. Free trial available.",
+      "url": "https://contexts.co/"
+    }
+  },
+  {
+    "id": "6291eebf-1e82-4252-9d05-7d2cafe6cf32",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "DONE https://videomentions.com/search 根据官网的介绍是可以搜索 YouTube 上视频内或者视频简介的关键词搜索，但是试用了下，并没有得到预期的结果。",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "VideoMentions",
+      "desc": "Find out what's being said about your brand in the spoken words of YouTube videos",
+      "url": "https://videomentions.com/search"
+    }
+  },
+  {
+    "id": "6291cdfb-ed7a-47e2-ae59-cce01dfe5e2c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/breakfast-studio/lunchboxjs 类似 threejs-fiber 的 vue 版本",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "GitHub - breakfast-studio/lunchboxjs: Custom Vue 3 renderer for ThreeJS - https://docs.lunchboxjs.com/",
+      "desc": "Custom Vue 3 renderer for ThreeJS - https://docs.lunchboxjs.com/ - breakfast-studio/lunchboxjs",
+      "url": "https://github.com/breakfast-studio/lunchboxjs"
+    }
+  },
+  {
+    "id": "6290f580-1fdc-420e-beba-f65d6148166c",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://matthewpalmer.net/rocket/ #product-hunt 用起来更加舒服的 [[emoji]] 选择工具。",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "https://matthewpalmer.net/rocket/",
+      "desc": "https://matthewpalmer.net/rocket/",
+      "url": "https://matthewpalmer.net/rocket/"
+    }
+  },
+  {
+    "id": "6291c2fb-847c-4c1a-86d6-808d8ebade6b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe #product-hunt 网上有人推荐了个搜索结果过滤的，配合别人收集的[黑名单](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist)列表，打算试用一段时间。",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "uBlacklist",
+      "desc": "Blocks sites you specify from appearing in Google search results",
+      "url": "https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe"
+    }
+  },
+  {
+    "id": "6290f09f-6409-4fbf-a05a-5cf65fc092ee",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/round/Twitter-Links-beta 在 twitter 上找是否有人分享过了当前页面的链接。 #product-hunt",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "GitHub - round/Twitter-Links-beta: A browser extension to show the latest tweets that link to the current page.",
+      "desc": "A browser extension to show the latest tweets that link to the current page. - round/Twitter-Links-beta",
+      "url": "https://github.com/round/Twitter-Links-beta"
+    }
+  },
+  {
+    "id": "6290f06f-1319-4695-ab32-5f0876dfd5f6",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk/related?hl=en #product-hunt 快捷键控制网页上视频的播放速度。可惜和我的 vim 快捷键有些冲突。",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "Video Speed Controller",
+      "desc": "Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts",
+      "url": "https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk/related?hl=en"
+    }
+  },
+  {
+    "id": "628a48d8-c912-4b75-93a5-4ebfe907d7e8",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "DONE https://readmake.com/?hash=fd02919800128f07016afa111ee107cd 买了一份独立开发者的指南 #solo",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "MAKE",
+      "desc": "Learn to build startups the indie way",
+      "url": "https://readmake.com/?hash=fd02919800128f07016afa111ee107cd"
+    }
+  },
+  {
+    "id": "6290f286-398d-4a6d-90d8-b1753c7e1783",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://css-tricks.com/a-css-slinky-in-3d/ #css 跪了，如何做到没有一行 JS 代码就实现这么酷的功能(弹簧跳动的效果)。",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "How to Make a CSS Slinky in 3D | CSS-Tricks",
+      "desc": "You know Slinkys, right? That classic toy you knock down the stairs and it travels with its own momentum. Let's make one with pure CSS!",
+      "url": "https://css-tricks.com/a-css-slinky-in-3d/"
+    }
+  },
+  {
+    "id": "6291cc12-a3db-4861-8911-fcabe9fc38e8",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "Modern JS  的定义之前一直不太清楚，https://web.dev/publish-modern-javascript/ 这篇文章讲的对我来说很有启发的一点是，Modern 其实是一个动态的词，并不是 ES2019（or ES2017） 就一定是 Modern，因为 JS 世界一直在发展，所以现在 ES2019 的高级语法在未来也会变为 legacy，所以 Modern 是动态。文章中因此定义个一个阈值来简单判断是否是 Modern 的代码，即你写的代码的浏览器的覆盖率是不是 >= 95%。就目前 2022 来说， ES2017 是 95% 支持率，所以是最接近的。 #nodejs",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "Publish, ship, and install modern JavaScript for faster applications  |  Articles  |  web.dev",
+      "desc": "Modern JavaScript offers size and performance improvements over transpiled ES5, and is supported in 95% of web browsers. Enabling modern JavaScript output brings these benefits to your application, but the impact is limited by dependencies that are already transpiled to ES5. This guide demonstrates how to publish modern packages to npm, and how to install and optimally bundle modern JavaScript packages.",
+      "url": "https://web.dev/publish-modern-javascript/"
+    }
+  },
+  {
+    "id": "6291c48d-1ee8-4090-b6b2-d2f624c1f937",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://content.nuxtjs.org/blog/announcing-v2/ Nuxt 的 content 功能，Nuxt 本身就是支持文件结构的路由的（pages），Nextjs 也是。但是如果想要支持以 .mdx 文件作为页面的话，在 Nextjs 中一般是通过插件来配置哪些文件后缀在 pages 下也是可以作为路由的。但是 Nuxt 似乎更加激进一点，直接指定个一个新的文件夹（虽然也要通过插件来支持框架之外的能力）。但是在新的文件夹 conten 中可以直接使用 mdx 文件，且独立 pages。\n```\n// content dir\n// support all mdx feature in md file\n- content\n  - index.md\n  \n  \n// pages\n// <content /> is root component of content dir\n<template>\n  <content />\n</template>\n\n\n```",
+    "page-name": "May 29th, 2022",
+    "parentId": "6292528b-9115-481e-85b7-af702573664b",
+    "timestamp": 1653753600000,
+    "meta": {
+      "title": "https://content.nuxtjs.org/blog/announcing-v2/",
+      "desc": "https://content.nuxtjs.org/blog/announcing-v2/",
+      "url": "https://content.nuxtjs.org/blog/announcing-v2/"
+    }
+  },
+  {
+    "id": "627bddc3-5425-4643-a9b0-ba8fa182e0e8",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://github.com/reactjs/rfcs/blob/useevent/text/0000-useevent.md 新的 RFC 只能希望快点加上这个属性。",
+    "page-name": "May 14th, 2022",
+    "parentId": "627f5aea-2640-4332-8f82-88982cb46b14",
+    "timestamp": 1652457600000,
+    "meta": {
+      "title": "rfcs/text/0000-useevent.md at useevent · reactjs/rfcs",
+      "desc": "RFCs for changes to React. Contribute to reactjs/rfcs development by creating an account on GitHub.",
+      "url": "https://github.com/reactjs/rfcs/blob/useevent/text/0000-useevent.md"
+    }
+  },
+  {
+    "id": "627a7a54-6e20-45c7-955d-da96b9d1ebbf",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://relingo.net/zh/guide 学习英文的插件，看起来好像还不错。",
+    "page-name": "May 14th, 2022",
+    "parentId": "627f5aea-2640-4332-8f82-88982cb46b14",
+    "timestamp": 1652457600000,
+    "meta": {
+      "title": "https://relingo.net/zh/guide",
+      "desc": "https://relingo.net/zh/guide",
+      "url": "https://relingo.net/zh/guide"
+    }
+  },
+  {
+    "id": "6279c5ab-5a18-4c8f-a008-998ade2cf799",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://missiveapp.com/open/emoji-mart emoji 选择器，很有 mac 的风格",
+    "page-name": "May 14th, 2022",
+    "parentId": "627f5aea-2640-4332-8f82-88982cb46b14",
+    "timestamp": 1652457600000,
+    "meta": {
+      "title": "Emoji Mart • One component to pick them all",
+      "desc": "One component to pick them all",
+      "url": "https://missiveapp.com/open/emoji-mart"
+    }
+  },
+  {
+    "id": "62792aba-7526-4928-acd1-0080ff1a081d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://lorem.space/categories 在线的 lorem，随机返回一个图片，比如人脸 #components #image",
+    "page-name": "May 14th, 2022",
+    "parentId": "627f5aea-2640-4332-8f82-88982cb46b14",
+    "timestamp": 1652457600000,
+    "meta": {
+      "title": "https://lorem.space/categories",
+      "desc": "https://lorem.space/categories",
+      "url": "https://lorem.space/categories"
+    }
+  },
+  {
+    "id": "6189c300-5fe7-4f59-a709-330c03706480",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://greatdk.com/1835.html 诗词生成的效果实在是太好了 #ai",
+    "page-name": "May 14th, 2022",
+    "parentId": "627f5aea-2640-4332-8f82-88982cb46b14",
+    "timestamp": 1652457600000,
+    "meta": {
+      "title": "https://greatdk.com/1835.html",
+      "desc": "https://greatdk.com/1835.html",
+      "url": "https://greatdk.com/1835.html"
+    }
+  },
+  {
+    "id": "62772854-0846-4d37-8d48-af7f395fb79d",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://unit520.net/deadtrees/ 俄罗斯方块的游戏，不同于之前版本，落下来的方块是会变散的。",
+    "page-name": "May 8th, 2022",
+    "parentId": "627f5aea-eb96-4e8b-a7ba-edfa45b0c004",
+    "timestamp": 1651939200000,
+    "meta": {
+      "title": "https://unit520.net/deadtrees/",
+      "desc": "https://unit520.net/deadtrees/",
+      "url": "https://unit520.net/deadtrees/"
+    }
+  },
+  {
+    "id": "6272876d-cfb0-4498-becd-33c530852230",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://docs.github.com/en/rest/issues/labels github 不知道什么时候上线了 API 以及对应的 schema 预览。对于长期住在 github 上来说还是挺有用的。",
+    "page-name": "May 8th, 2022",
+    "parentId": "627f5aea-eb96-4e8b-a7ba-edfa45b0c004",
+    "timestamp": 1651939200000,
+    "meta": {
+      "title": "REST API endpoints for labels - GitHub Docs",
+      "desc": "Use the REST API to manage labels for repositories, issues and pull requests.",
+      "url": "https://docs.github.com/en/rest/issues/labels"
+    }
+  },
+  {
+    "id": "62720f55-a1c9-4937-b35d-07744b5c50b3",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/ 使用 UI   组件库，比如说 ant design，前期或许可以加速开发，但是随着项目推进会拖累项目进度，原因是组件库并不能覆盖全部的需求，可能这个组件库有 select，但是却没有 modal（这两个组件一般都会有，只是举例）。自定义组件又往往无法符合原先框架的风格。",
+    "page-name": "May 8th, 2022",
+    "parentId": "627f5aea-eb96-4e8b-a7ba-edfa45b0c004",
+    "timestamp": 1651939200000,
+    "meta": {
+      "title": "You Don’t Need A UI Framework — Smashing Magazine",
+      "desc": "Developers often reach for UI frameworks like Bootstrap or Material UI, hoping that they’ll save a bunch of time and quickly build a professional-looking app. Unfortunately, things rarely work out this way. Let’s talk about it.",
+      "url": "https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/"
+    }
+  },
+  {
+    "id": "626f7e4c-4294-4cd6-a390-75312416bfbb",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "[noto emoji](https://fonts.google.com/noto/specimen/Noto+Emoji?query=noto+emoji) 黑白的 emoji #design",
+    "page-name": "May 8th, 2022",
+    "parentId": "627f5aea-eb96-4e8b-a7ba-edfa45b0c004",
+    "timestamp": 1651939200000,
+    "meta": {
+      "title": "Noto Emoji - Google Fonts",
+      "desc": "Noto Emoji is an open source font that has you covered for all your emoji needs, including support for the latest Unicode emoji specification. It has multiple w",
+      "url": "https://fonts.google.com/noto/specimen/Noto+Emoji?query=noto+emoji)"
+    }
+  },
+  {
+    "id": "625847c5-79f5-465a-a8d2-e97c9c08d40f",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "DONE https://blog.jim-nielsen.com/2022/inspecting-web-views-in-macos/ [[debug]] macos ui, 或许对 mayumi 这个项目很有用。 #mayumi",
+    "page-name": "Apr 16th, 2022",
+    "parentId": "62599694-0594-42ff-a228-105412726fc7",
+    "timestamp": 1650038400000,
+    "meta": {
+      "title": "Inspecting Web Views in macOS",
+      "desc": "Writing about the big beautiful mess that is making things for the world wide web.",
+      "url": "https://blog.jim-nielsen.com/2022/inspecting-web-views-in-macos/"
+    }
+  },
+  {
+    "id": "6255a202-21a4-4ab8-b130-ea66f5540318",
+    "content": "https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-zh-CN.md #2022-collections",
+    "page-name": "Apr 16th, 2022",
+    "parentId": "62599694-0594-42ff-a228-105412726fc7",
+    "timestamp": 1650038400000,
+    "meta": {
+      "title": "javascript-testing-best-practices/readme-zh-CN.md at master · goldbergyoni/javascript-testing-best-practices",
+      "desc": "📗🌐 🚢 Comprehensive and exhaustive JavaScript & Node.js testing best practices (July 2023) - goldbergyoni/javascript-testing-best-practices",
+      "url": "https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-zh-CN.md"
+    }
+  },
+  {
+    "id": "6259844d-aa9d-46df-a9f0-297f056d4f81",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "[BAYC](https://mirror.xyz/0xb6C61A1DeDDfAaFe7ef9B26ae74Fb71afd5e9E4B/QNvuUMGI03LPHS1DKTcPEMH5w2nmEpc5ii-Fv_Xtvok), [BAYC](https://www.theblockbeats.info/news/24681) 为什么成功的文章，但是越来越觉得，NFT 很注重营销以及有一点很酷的游戏结合。但是营销概念真的要吵的，我突然对他有点担心。 #nft",
+    "page-name": "Apr 16th, 2022",
+    "parentId": "62599694-0594-42ff-a228-105412726fc7",
+    "timestamp": 1650038400000,
+    "meta": {
+      "title": "一文拆解BAYC成功之路",
+      "desc": "$APE 的大热，让我想要迫切的了解这个项目是如何发家的。希望经过了解，能够对于自己的项目有一些启发，并借此和大家一起分享。要了解APE，先要了解 BoredApeYC;要了解BoredApeYC,我们又要追溯到它的母公司。追本溯源，找出隐藏在信息背后的真相。\n",
+      "url": "https://mirror.xyz/0xb6C61A1DeDDfAaFe7ef9B26ae74Fb71afd5e9E4B/QNvuUMGI03LPHS1DKTcPEMH5w2nmEpc5ii-Fv_Xtvok),"
+    }
+  },
+  {
+    "id": "62583840-4d74-4fde-9c93-57a166f6b039",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://uicolors.app/create tailwindcss 配色工具 #design #tailwindcss",
+    "page-name": "Apr 16th, 2022",
+    "parentId": "62599694-0594-42ff-a228-105412726fc7",
+    "timestamp": 1650038400000,
+    "meta": {
+      "title": "Tailwind CSS Color Generator | UI Colors",
+      "desc": "Generate, edit, save and share Tailwind CSS color shades based on a given hexcode or HSL color.",
+      "url": "https://uicolors.app/create"
+    }
+  },
+  {
+    "id": "625979c0-400c-4935-8f29-46b42933838b",
+    "properties": null,
+    "format": "markdown",
+    "children": [],
+    "content": "https://blogsurf.io/ 收集好多[[博客]]，感觉可以日常看看 #2022-collections #rss",
+    "page-name": "Apr 16th, 2022",
+    "parentId": "62599694-0594-42ff-a228-105412726fc7",
+    "timestamp": 1650038400000,
+    "meta": {
+      "title": "https://blogsurf.io/",
+      "desc": "https://blogsurf.io/",
+      "url": "https://blogsurf.io/"
     }
   }
 ]
