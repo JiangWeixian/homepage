@@ -55,32 +55,12 @@ a {
   mix-blend-mode: normal;
 }
 
-/* Enter */
+::view-transition-old(issue),
 ::view-transition-new(issue) {
-  animation: 300ms ease both fade-in;
-}
-
-/* Exit */
-::view-transition-old(issue){
-  animation: 150ms ease both fade-out;
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 1
-  }
-}
-
-@keyframes fade-out {
-  0% {
-    opacity: 1
-  }
-
-  100% {
-    opacity: 0
-  }
+  /* Prevent the default animation,
+  so both views remain opacity:1 throughout the transition */
+  animation: none;
+  /* Use normal blending,
+  so the new view sits on top and obscures the old view */
+  mix-blend-mode: normal;
 }
