@@ -1,6 +1,7 @@
 {
   "name": "homepage",
   "version": "0.9.5",
+  "packageManager": "pnpm@6.35.0",
   "description": "JiangWeixian's homepage",
   "keywords": [
     "nextjs",

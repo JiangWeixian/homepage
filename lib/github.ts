@@ -114,17 +114,22 @@ export const createGithubAPIClient = () => {
 export const fetchAllIssues = async (client: ReturnType<typeof createGithubAPIClient>) => {
   // only issue with label `issues` is a valid blog
   // label `issues` is top level category of issues
-  let ISSUE_LABELS = ['issues']
-  if (process.env.__DEV__ || process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview' || process.env.NEXT_PUBLIC_VERCEL_ENV === 'development') {
-    ISSUE_LABELS.push('issues-dev')
-  }
-  let { issues, pageInfo } = await client.issues()
-  let after
-  for (; ; after = pageInfo.endCursor) {
-    ;({ issues, pageInfo } = await client.issues(after, ISSUE_LABELS))
+  const ISSUE_LABELS = ['issues']
+  // if (process.env.__DEV__ || process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview' || process.env.NEXT_PUBLIC_VERCEL_ENV === 'development') {
+  //   ISSUE_LABELS.push('issues-dev')
+  // }
+  
+  let allIssues: Issue[] = []
+  let after: string | undefined = undefined
+  while (true) {
+    const { issues, pageInfo }: { issues: Issue[]; pageInfo: { hasNextPage: boolean; endCursor?: string } } = await client.issues(after, ISSUE_LABELS)
+    allIssues = allIssues.concat(issues)
+    
     if (!pageInfo.hasNextPage) {
       break
     }
+    after = pageInfo.endCursor
   }
-  return issues
+  
+  return allIssues
 }

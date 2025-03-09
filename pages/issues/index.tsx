@@ -19,8 +19,8 @@ import type { GetStaticProps, NextPage } from 'next'
 export const getStaticProps: GetStaticProps = async () => {
   console.log('[Next.js] Running getStaticProps for issue list')
   const client = createGithubAPIClient()
-
   const issues = await fetchAllIssues(client)
+  console.log(issues)
 
   return {
     props: {
