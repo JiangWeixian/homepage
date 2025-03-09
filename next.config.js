@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('node:path')
 // servalize date from prisma
 const { withSuperjson } = require('next-superjson')
 // mayumi depend on @radix-ui/* elements, not provide valid esm exports in package.json
@@ -41,6 +41,7 @@ const nextConfig = withTM(withSuperjson()({
   images: {
     // realme-ten.vercel.app is website provide svg images build with svg foreignObject
     domains: [
+      'github.com',
       'images.unsplash.com',
       'user-images.githubusercontent.com',
       'realme-ten.vercel.app',
