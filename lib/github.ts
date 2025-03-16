@@ -111,7 +111,7 @@ export const createGithubAPIClient = () => {
   }
 }}
 
-export const fetchAllIssues = async (client: ReturnType<typeof createGithubAPIClient>, labels: ('issues' | 'issue-dev')[] = ['issues']) => {
+export const fetchAllIssues = async (client: ReturnType<typeof createGithubAPIClient>, labels: ('issues' | 'issues-dev')[] = ['issues']) => {
   // only issue with label `issues` is a valid blog
   // label `issues` is top level category of issues
   const ISSUE_LABELS = labels
