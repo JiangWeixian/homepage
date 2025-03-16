@@ -31,7 +31,7 @@ import type { MDXRemoteProps } from 'next-mdx-remote'
 export async function getStaticPaths() {
   console.log('[Next.js] Running getStaticPaths for issue page')
   const client = createGithubAPIClient()
-  const issues = await fetchAllIssues(client)
+  const issues = await fetchAllIssues(client, ['issues', 'issue-dev'])
   return {
     paths: issues.map(item => ({ params: { id: item.number.toString() } })),
     fallback: 'blocking',

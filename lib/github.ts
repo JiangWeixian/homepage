@@ -111,10 +111,12 @@ export const createGithubAPIClient = () => {
   }
 }}
 
-export const fetchAllIssues = async (client: ReturnType<typeof createGithubAPIClient>) => {
+export const fetchAllIssues = async (client: ReturnType<typeof createGithubAPIClient>, labels: ('issues' | 'issue-dev')[] = ['issues']) => {
   // only issue with label `issues` is a valid blog
   // label `issues` is top level category of issues
-  const ISSUE_LABELS = ['issues']
+  const ISSUE_LABELS = labels
+  // only fetch issues with label `issues` on list page
+  // fetch all issues with label `issue` and `issue_dev`
   // if (process.env.__DEV__ || process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview' || process.env.NEXT_PUBLIC_VERCEL_ENV === 'development') {
   //   ISSUE_LABELS.push('issues-dev')
   // }
