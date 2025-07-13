@@ -1,23 +1,23 @@
-import { Link } from 'mayumi/link'
-import { Text } from 'mayumi/text'
+import { Typography } from '~/components/ui/typography'
+import { Link as UILink } from '~/components/ui/link'
 
 import { social } from '~/utils/constants'
 
 export const SponsorLink = () => {
   return (
-    <Text
+    <Typography
       p={true}
       type="quaternary"
       size="sm"
       className="w-fit underline decoration-dotted underline-offset-4"
     >
       💖 Sponsoring me on{' '}
-      <Text weight="semibold" span={true}>
-        <Link href={social.sponsor} title="sponsor">
+      <Typography weight="semibold" span={true}>
+        <UILink href={social.sponsor} title="sponsor">
           Github Sponsor
-        </Link>
-      </Text>
+        </UILink>
+      </Typography>
       .
-    </Text>
+    </Typography>
   )
 }

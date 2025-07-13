@@ -3,9 +3,6 @@ import 'atropos/css'
 
 import { Atropos } from 'atropos/react'
 import cx from 'clsx'
-import { Link } from 'mayumi/link'
-import { Text } from 'mayumi/text'
-import { styled } from 'mayumi/theme'
 import Head from 'next/head'
 import NextImage from 'next/image'
 import {
@@ -21,15 +18,18 @@ import {
   Nav,
 } from '~/components/Layout'
 import { SEO } from '~/components/SEO'
+import { Link as UILink } from '~/components/ui/link'
+import { Typography } from '~/components/ui/typography'
+import { cn } from '~/lib/utils'
 import { social } from '~/utils/constants'
 
 import type { NextPage } from 'next'
 
-const SelfIntroduction = styled('section', {
-  '.mayumi-text:not(.signature)': {
-    mb: '$4',
-  },
-})
+const SelfIntroduction = ({ children, className, ...props }: React.HTMLAttributes<HTMLElement>) => (
+  <section className={cn('[&>div>p:not(.signature)]:mb-4', className)} {...props}>
+    {children}
+  </section>
+)
 
 const hackingRoomSrc = '/atrops/2x/hacking-room.png'
 const tubeSrc = '/atrops/2x/tube.png'
@@ -41,10 +41,8 @@ const Hacking = () => {
   useEffect(() => {
     const hacking = new Image()
     const tube = new Image()
-    // @ts-expect-error -- fetchPriority is exit
     hacking.fetchPriority = 'high'
     hacking.src = hackingRoomSrc
-    // @ts-expect-error -- fetchPriority is exit
     tube.fetchPriority = 'high'
     tube.src = tubeSrc
     hacking.onload = function (this) {
@@ -126,41 +124,41 @@ const Home: NextPage = () => {
           <div>
             <div className="mb-8 flex items-center gap-4">
               <NextImage src="/avatar.png" width="36" height="36" alt="JiangWeixian" />
-              <Text h1={true} className="signature" size="sm">
+              <Typography p={true} className="signature" size="sm">
                 JiangWeixian
-              </Text>
+              </Typography>
             </div>
             <div>
-              <Text p={true}>
+              <Typography p={true} className="mb-4">
                 Hi, I&apos;m JiangWeixian. A Front-end developer, dreaming to be a full-time
                 opensource developer.
-              </Text>
-              <Text p={true}>
+              </Typography>
+              <Typography p={true} className="mb-4">
                 Execting to make my ideas come true, You can found my projects list{' '}
-                <Link href="/projects" title="project">
+                <UILink href="/projects" title="project" animation="reverse">
                   here
-                </Link>
+                </UILink>
                 . Glad to hear these tools to improve your develop experience and make your life
                 easier.
-              </Text>
-              <Text p={true}>
+              </Typography>
+              <Typography p={true} className="mb-4">
                 Find me on{' '}
-                <Link href={social.github} title="github">
+                <UILink href={social.github} animation="reverse" title="github">
                   Github
-                </Link>
+                </UILink>
                 ,{' '}
-                <Link href={social.jike} title="jike">
+                <UILink href={social.jike} animation="reverse" title="jike">
                   JIKE
-                </Link>
+                </UILink>
                 .
-              </Text>
-              <Text p={true}>
+              </Typography>
+              <Typography p={true} className="mb-4">
                 If you like my works, consider 💖 sponsoring me on{' '}
-                <Link href={social.sponsor} title="sponsor">
+                <UILink href={social.sponsor} animation="reverse" title="sponsor">
                   Github Sponsor
-                </Link>
+                </UILink>
                 .
-              </Text>
+              </Typography>
             </div>
           </div>
         </SelfIntroduction>

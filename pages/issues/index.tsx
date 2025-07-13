@@ -1,5 +1,3 @@
-import { Separator } from 'mayumi/separator'
-import { Text } from 'mayumi/text'
 import { useRouter } from 'next/router'
 
 import { Image, ImageContainer } from '~/components/ImageContainer'
@@ -9,6 +7,8 @@ import {
   Nav,
 } from '~/components/Layout'
 import { SEO } from '~/components/SEO'
+import { Separator } from '~/components/ui/separator'
+import { Typography } from '~/components/ui/typography'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 import { parseMeta } from '~/lib/matter'
 import { format } from '~/lib/time'
@@ -57,15 +57,15 @@ const Card = (props: CardProps) => {
       <ImageContainer>
         <Image number={props.issue.issue.number} src={props.issue.meta.cover} alt={props.issue.issue.title} />
       </ImageContainer>
-      <Text className="my-4" h3={true}>
+      <Typography className="my-4" variant="h3">
         {props.issue.issue.title}
-      </Text>
-      <Text className="my-2" p={true}>
+      </Typography>
+      <Typography className="my-2" variant="p">
         {props.issue.meta.description}
-      </Text>
-      <Text size="sm" type="quaternary">
+      </Typography>
+      <Typography className="text-sm text-muted-foreground opacity-80">
         <time>{format(props.issue.issue.createdAt)}</time>
-      </Text>
+      </Typography>
     </div>
   )
 }
@@ -79,13 +79,13 @@ const Page: NextPage<PageProps> = ({ issues }) => {
       <div className="container h-fit min-h-screen max-w-screen-xl">
         <div className="h-full px-8 pt-8 md:px-36">
           <div className="mb-8 flex items-center">
-            <Text h4={true} size="sm" weight="bold">
+            <Typography variant="h4" className="text-sm font-bold">
               Issues
-            </Text>
-            <Separator css={{ h: '$4' }} type="vertical" />
-            <Text p={true} size="sm" type="quaternary">
+            </Typography>
+            <Separator orientation="vertical" className="mx-2 h-4" />
+            <Typography weight="thin" variant="p" className="text-sm text-muted-foreground">
               Create something with love ♥️
-            </Text>
+            </Typography>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
             {issues.map((issue) => {

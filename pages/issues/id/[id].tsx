@@ -1,10 +1,8 @@
-import { TOC } from '@mayumi-org/toc'
 import rehypeShiki from '@stefanprobst/rehype-shiki'
-import { Link } from 'mayumi/link'
-import { Text } from 'mayumi/text'
 import { useRouter } from 'next/router'
 import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
+import React from 'react'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
 import remarkGFM from 'remark-gfm'
@@ -18,6 +16,8 @@ import {
   Nav,
 } from '~/components/Layout'
 import { SEO } from '~/components/SEO'
+import { Link as UILink } from '~/components/ui/link'
+import { Typography } from '~/components/ui/typography'
 import { createGithubAPIClient, fetchAllIssues } from '~/lib/github'
 import { parseMeta } from '~/lib/matter'
 import { rehypePluginHeadings } from '~/lib/rehype-plugin-headings'
@@ -53,14 +53,17 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   const headings: Headings = []
 
+  // Get highlighter before passing to rehype plugin
+  const highlighter = await getHighlighter()
+
   const mdxSource = await serialize(meta.content, {
     mdxOptions: {
-      format: 'mdx',
+      development: false,
       rehypePlugins: [
         rehypeSlug,
         rehypeAutolinkHeadings,
         [rehypePluginHeadings, { rank: 2, headings }],
-        [rehypeShiki, { highlighter: await getHighlighter() }],
+        [rehypeShiki, { highlighter }],
       ],
       remarkPlugins: [remarkGFM, remarkRefinedGithub],
     },
@@ -84,16 +87,14 @@ interface StackblitzProps {
 
 const components: MDXRemoteProps['components'] = {
   Stackblitz(props: StackblitzProps) {
-    return (
-      <iframe
-        data-testid="stackblitz"
-        height={500}
-        width="100%"
-        scrolling="no"
-        src={props.src}
-        frameBorder="no"
-      />
-    )
+    return React.createElement('iframe', {
+      'data-testid': 'stackblitz',
+      height: 500,
+      width: '100%',
+      scrolling: 'no',
+      src: props.src,
+      frameBorder: 'no',
+    })
   },
   img(props) {
     // next/image src staticimport not compatiable
@@ -121,24 +122,24 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
       <div className="grid w-full p-8 md:grid-cols-12 md:gap-8 md:p-0">
         {/* back */}
         <div className="flex items-start md:col-start-2 md:col-end-3 md:justify-end">
-          <Link
+          <UILink
             animation="reverse"
             onClick={() => router.back()}
             className="mt-1 flex items-center justify-start gap-1 pb-8 md:pb-0 md:pt-24"
           >
             <ArrowLeft />
             <span>Back</span>
-          </Link>
+          </UILink>
         </div>
         {/* main */}
         <div className="w-full md:col-start-4 md:col-end-10">
           <div className="pb-8 md:pt-24">
-            <Text className="pb-2" h2={true}>
+            <Typography className="pb-2" h2={true}>
               {issue.title}
-            </Text>
-            <Text size="sm" className="pb-16" type="quaternary" p={true}>
+            </Typography>
+            <Typography size="sm" className="pb-16" type="quaternary" p={true}>
               <time>{format(issue.createdAt)}</time>
-            </Text>
+            </Typography>
             <ImageContainer className="blog-cover relative my-8 block aspect-video w-full">
               <Image number={issue.number} src={meta.cover} alt={issue.title} />
             </ImageContainer>
@@ -148,9 +149,9 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
           </div>
         </div>
         {/* toc */}
-        <div className="col-start-10 col-end-13 mt-1 hidden pt-24 md:block">
+        {/* <div className="col-start-10 col-end-13 mt-1 hidden pt-24 md:block">
           <TOC type="dot" className="sticky top-20" headings={headings} />
-        </div>
+        </div> */}
       </div>
       <Footer />
     </Layout>
