@@ -83,7 +83,7 @@ const Page: NextPage<PageProps> = ({ issues }) => {
               Issues
             </Typography>
             <Separator orientation="vertical" className="mx-2 h-4" />
-            <Typography weight="thin" variant="p" className="text-sm text-muted-foreground">
+            <Typography variant="p" className="text-sm text-muted-foreground">
               Create something with love ♥️
             </Typography>
           </div>
