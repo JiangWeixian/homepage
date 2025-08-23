@@ -43,7 +43,7 @@ const RealmeSvgImage = (props: React.ImgHTMLAttributes<HTMLImageElement> & { img
 
 export const Image = (
   { fallbackImgElement = 'next', number, ...props }: ImageProps &
-  React.ImgHTMLAttributes<HTMLImageElement> & { fallbackImgElement?: 'next' | 'raw'; number: number | string },
+  React.ImgHTMLAttributes<HTMLImageElement> & { fallbackImgElement?: 'next' | 'raw'; number?: number | string },
 ) => {
   const useViewTransition = typeof number !== 'undefined'
   const style = useViewTransition

@@ -1,3 +1,4 @@
+import { TOC } from '@mayumi-org/toc'
 import rehypeShiki from '@stefanprobst/rehype-shiki'
 import { useRouter } from 'next/router'
 import { MDXRemote } from 'next-mdx-remote'
@@ -149,9 +150,9 @@ const Page: NextPage<PageProps> = ({ issue, meta, headings = [] }) => {
           </div>
         </div>
         {/* toc */}
-        {/* <div className="col-start-10 col-end-13 mt-1 hidden pt-24 md:block">
+        <div className="col-start-10 col-end-13 mt-1 hidden pt-24 md:block">
           <TOC type="dot" className="sticky top-20" headings={headings} />
-        </div> */}
+        </div>
       </div>
       <Footer />
     </Layout>

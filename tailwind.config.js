@@ -5,6 +5,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
     './app/**/*.{js,ts,jsx,tsx}',
     './src/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@mayumi-org/toc/dist/**/*.{cjs,mjs}',
   ],
   prefix: '',
   theme: {

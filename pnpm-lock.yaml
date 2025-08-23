@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@mayumi-org/toc':
+        specifier: 0.1.0
+        version: 0.1.0
       '@mdx-js/react':
         specifier: 2.1.1
         version: 2.1.1(react@18.1.0)
@@ -1175,6 +1178,9 @@ packages:
 
   '@manypkg/get-packages@1.1.3':
     resolution: {integrity: sha512-fo+QhuU3qE/2TQMQmbVMqaQ6EWbMhi4ABWP+O4AM1NqPBuy0OrApV5LO6BrrgnhtAHS2NH6RrVk9OL181tTi8A==}
+
+  '@mayumi-org/toc@0.1.0':
+    resolution: {integrity: sha512-qqd/niVaWEyB0I7wjpXK44Do6n6CQrCSNa7PhqiK+ddEymzCet4JuLWgsksdhKUS8hnq4Axa48OmS04gEtENow==}
 
   '@mdx-js/mdx@2.3.0':
     resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
@@ -6192,6 +6198,11 @@ snapshots:
       fs-extra: 8.1.0
       globby: 11.1.0
       read-yaml-file: 1.1.0
+
+  '@mayumi-org/toc@0.1.0':
+    dependencies:
+      class-variance-authority: 0.7.1
+      clsx: 1.2.1
 
   '@mdx-js/mdx@2.3.0':
     dependencies:
