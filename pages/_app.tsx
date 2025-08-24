@@ -4,7 +4,6 @@ import '~/styles/prose-style.css'
 import '~/styles/atropos.css'
 
 import { Analytics } from '@vercel/analytics/react'
-import { ThemeProvider } from 'mayumi/theme'
 import App from 'next/app'
 import Router from 'next/router'
 import Progress from 'nprogress'
@@ -19,12 +18,12 @@ class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
     return (
-      <ThemeProvider>
+      <div className="dark">
         <ViewTransition>
           <Component {...pageProps} />
         </ViewTransition>
         <Analytics />
-      </ThemeProvider>
+      </div>
     )
   }
 }

@@ -1,4 +1,3 @@
-import { getCssText } from 'mayumi/theme'
 import Document, {
   Head,
   Html,
@@ -22,7 +21,6 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap"
             rel="stylesheet"
           />
-          <style id="stitches" dangerouslySetInnerHTML={{ __html: getCssText() }} />
         </Head>
         <body>
           <Main />

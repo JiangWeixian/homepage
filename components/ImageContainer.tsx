@@ -1,24 +1,23 @@
-import { styled } from 'mayumi/theme'
 import NextImage from 'next/image'
 import useMeasure from 'react-use-measure'
 import { withQuery } from 'ufo'
 
+import { cn } from '~/lib/utils'
+
 import type { ImageProps } from 'next/image'
 import type React from 'react'
 
-export const ImageContainer = styled('div', {
-  '&': {
-    my: '$2',
-    position: 'relative',
-    display: 'block',
-    w: '$full',
-    aspect: 'video',
-    img: {
-      rounded: '$lg',
-      boxShadow: '$lg',
-    },
-  },
-})
+export const ImageContainer = ({ children, className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+  <div
+    className={cn(
+      'my-2 relative block w-full aspect-video [&_img]:rounded-lg [&_img]:shadow-lg',
+      className,
+    )}
+    {...props}
+  >
+    {children}
+  </div>
+)
 
 const styles: React.CSSProperties = {
   width: '100%',
@@ -44,7 +43,7 @@ const RealmeSvgImage = (props: React.ImgHTMLAttributes<HTMLImageElement> & { img
 
 export const Image = (
   { fallbackImgElement = 'next', number, ...props }: ImageProps &
-  React.ImgHTMLAttributes<HTMLImageElement> & { fallbackImgElement?: 'next' | 'raw'; number: number | string },
+  React.ImgHTMLAttributes<HTMLImageElement> & { fallbackImgElement?: 'next' | 'raw'; number?: number | string },
 ) => {
   const useViewTransition = typeof number !== 'undefined'
   const style = useViewTransition

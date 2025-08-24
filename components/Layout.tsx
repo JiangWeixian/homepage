@@ -1,146 +1,121 @@
-import { Icon } from 'mayumi/icons'
-import { Layout as MayumiLayout } from 'mayumi/layout'
-import { Link as MayumiLink } from 'mayumi/link'
-import { Text } from 'mayumi/text'
-import { styled } from 'mayumi/theme'
+import { cva } from 'class-variance-authority'
 import Link from 'next/link'
 
 import Github from '~/components/Icons/Github.svg'
 import Twitter from '~/components/Icons/Twitter.svg'
+import { Link as UILink } from '~/components/ui/link'
+import { Typography } from '~/components/ui/typography'
+import { cn } from '~/lib/utils'
 
-export const Layout = styled(MayumiLayout.Main, {
-  p: '$0',
-  alignItems: 'center',
-  backgroundColor: '$black',
-  overflow: 'visible',
-  '.blog-nav': {
-    position: 'sticky',
-    top: '0',
-    glass: '8px',
-    zIndex: '$20',
-    w: '$full',
-    fontWeight: '$semibold',
-    backgroundColor: 'rgba(6, 6, 6, 0.6)',
-  },
-  '.mayumi-link': {
-    fontWeight: '$normal',
-  },
-  '.issue-content': {
-    maxWidth: '$screenXL',
-  },
-})
+export const Layout = ({ children, className, ...props }: React.HTMLAttributes<HTMLElement>) => {
+  return (
+    <main
+      className={cn(
+        'min-h-screen bg-black text-foreground flex flex-col items-center p-0 overflow-visible',
+        className,
+      )}
+      {...props}
+    >
+      {children}
+    </main>
+  )
+}
 
 interface NavProps {
   displayTabs?: boolean
   ghost?: boolean
 }
 
-const StyledNav = styled('nav', {
-  variants: {
-    ghost: {
-      true: {
-        borderBottom: 'none',
+const navVariants = cva(
+  'blog-nav sticky top-0 z-20 flex w-full items-center gap-8 px-8 py-4 font-semibold backdrop-blur-md md:px-36',
+  {
+    variants: {
+      ghost: {
+        true: '',
+        false: 'border-b border-muted-foreground/20',
       },
-      false: {
-        borderBottom: '1px solid $quaternaryLabelColor',
-      },
-    },
-    // display issue tabs
-    displayTabs: {
-      true: {
-        justifyContent: 'end',
-        '.signature': {
-          display: 'none',
-        },
+      displayTabs: {
+        true: 'justify-end [&_.signature]:hidden',
+        false: '',
       },
     },
+    defaultVariants: {
+      ghost: false,
+      displayTabs: false,
+    },
   },
-  defaultVariants: {
-    ghost: false,
-  },
-})
+)
 
 export const Nav = (props: NavProps) => {
   return (
-    <StyledNav
-      className="blog-nav flex items-center gap-8 px-8 py-4 md:px-36"
-      ghost={props.ghost}
-      displayTabs={props.displayTabs}
+    <nav
+      className={cn(
+        navVariants({ ghost: props.ghost, displayTabs: props.displayTabs }),
+        'bg-black/60',
+      )}
     >
-      {/* <Image src="/avatar.png" width="24" height="24" alt="JiangWeixian" /> */}
-      <Text className="signature" h6={true}>
+      <Typography className="signature" h6={true}>
         <Link href="/">JiangWeixian</Link>
-      </Text>
+      </Typography>
       {props.displayTabs && (
         <>
           <Link href="/issues">
-            <MayumiLink>
-              <Text weight="semibold" type="quaternary">
+            <UILink animation="reverse">
+              <Typography weight="semibold" type="quaternary">
                 Issues
-              </Text>
-            </MayumiLink>
+              </Typography>
+            </UILink>
           </Link>
           <Link href="/projects">
-            <MayumiLink>
-              <Text weight="semibold" type="quaternary">
+            <UILink animation="reverse">
+              <Typography weight="semibold" type="quaternary">
                 Projects
-              </Text>
-            </MayumiLink>
+              </Typography>
+            </UILink>
           </Link>
           <Link href="/readlist">
-            <MayumiLink>
-              <Text weight="semibold" type="quaternary">
+            <UILink animation="reverse">
+              <Typography weight="semibold" type="quaternary">
                 Readlist
-              </Text>
-            </MayumiLink>
+              </Typography>
+            </UILink>
           </Link>
         </>
       )}
-    </StyledNav>
+    </nav>
   )
 }
 
-const StyledFooter = styled('footer', {
-  w: '$full',
-  mt: '$8',
-  background: '$gridColor',
-  borderStyle: 'solid',
-  borderColor: '$quaternaryLabelColor',
-  borderTopWidth: '$px',
-  position: 'relative',
-  zIndex: 1,
-})
-
 export const Footer = () => {
   return (
-    <StyledFooter className="p-8 md:px-36 md:py-8">
+    <footer className="relative z-10 mt-8 w-full border-t border-muted-foreground/20 bg-muted/20 p-8 md:px-36 md:py-8">
       <div className="grid grid-cols-1 2xl:grid-cols-4">
         <div className="flex flex-col gap-12">
           <div className="relative flex flex-col items-start md:flex-row md:items-center">
-            <Text className="signature font-thin" h6={true}>
+            <Typography className="signature font-thin" h6={true}>
               JiangWeixian
-            </Text>
-            <Text className="relative top-1 hidden italic md:block" p={true} type="tertiary">
+            </Typography>
+            <Typography className="relative top-1 hidden italic md:block" p={true} type="tertiary">
               &nbsp;•&nbsp;
-            </Text>
-            <Text className="relative top-1 italic" p={true} type="tertiary">
+            </Typography>
+            <Typography className="relative top-1 italic" p={true} type="tertiary">
               A Frontend Developer
-            </Text>
+            </Typography>
           </div>
           <div className="flex gap-4">
             <Link href="https://github.com/JiangWeixian">
-              <Icon css={{ w: '$4', h: '$4', fill: '$secondaryLabelColor', cursor: 'pointer' }}>
+              <div className="h-4 w-4 cursor-pointer fill-muted-foreground transition-colors hover:fill-foreground">
                 <Twitter />
-              </Icon>
+              </div>
             </Link>
             <Link href="https://twitter.com/JiangWeixian">
-              <Icon css={{ w: '$4', h: '$4', fill: '$secondaryLabelColor', cursor: 'pointer' }}>
+              <div className="h-4 w-4 cursor-pointer fill-muted-foreground transition-colors hover:fill-foreground">
                 <Github />
-              </Icon>
+              </div>
             </Link>
           </div>
         </div>
       </div>
-    </StyledFooter>
+    </footer>
   )
 }

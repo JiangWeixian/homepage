@@ -1,9 +1,6 @@
 const path = require('node:path')
 // servalize date from prisma
 const { withSuperjson } = require('next-superjson')
-// mayumi depend on @radix-ui/* elements, not provide valid esm exports in package.json
-// issue: https://github.com/radix-ui/primitives/issues/1848
-const withTM = require('next-transpile-modules')(['mayumi'])
 
 if (process.env.NODE_ENV === 'development') {
   console.log('info  - lanUrl:', `http://${require('address').ip()}:3000`)
@@ -29,7 +26,7 @@ const define = () => {
 }
 
 /** @type {import('next').NextConfig} */
-const nextConfig = withTM(withSuperjson()({
+const nextConfig = withSuperjson()({
   swcMinify: false,
   reactStrictMode: false,
   eslint: {
@@ -62,6 +59,6 @@ const nextConfig = withTM(withSuperjson()({
     })
     return config
   },
-}))
+})
 
 module.exports = nextConfig
