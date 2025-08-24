@@ -34,6 +34,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@mayumi-org/mayumi-theme": "0.0.2",
     "@mayumi-org/toc": "0.1.0",
     "@mdx-js/react": "2.1.1",
     "@octokit/graphql": "4.8.0",

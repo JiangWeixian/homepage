@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@mayumi-org/mayumi-theme':
+        specifier: 0.0.2
+        version: 0.0.2(tailwindcss@3.3.1(postcss@8.4.5))
       '@mayumi-org/toc':
         specifier: 0.1.0
         version: 0.1.0
@@ -1178,6 +1181,11 @@ packages:
 
   '@manypkg/get-packages@1.1.3':
     resolution: {integrity: sha512-fo+QhuU3qE/2TQMQmbVMqaQ6EWbMhi4ABWP+O4AM1NqPBuy0OrApV5LO6BrrgnhtAHS2NH6RrVk9OL181tTi8A==}
+
+  '@mayumi-org/mayumi-theme@0.0.2':
+    resolution: {integrity: sha512-tkiuiRv7o45lUePa1dUyLV1oQew+Uhzmecd2CJp/n00R0dN8WZIWPsHygeqLEzUijvX6T5htW5lt5GXcHgPO2w==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0'
 
   '@mayumi-org/toc@0.1.0':
     resolution: {integrity: sha512-qqd/niVaWEyB0I7wjpXK44Do6n6CQrCSNa7PhqiK+ddEymzCet4JuLWgsksdhKUS8hnq4Axa48OmS04gEtENow==}
@@ -6198,6 +6206,10 @@ snapshots:
       fs-extra: 8.1.0
       globby: 11.1.0
       read-yaml-file: 1.1.0
+
+  '@mayumi-org/mayumi-theme@0.0.2(tailwindcss@3.3.1(postcss@8.4.5))':
+    dependencies:
+      tailwindcss: 3.3.1(postcss@8.4.5)
 
   '@mayumi-org/toc@0.1.0':
     dependencies:
