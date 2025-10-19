@@ -1,5 +1,12 @@
 # homepage
 
+## 0.10.0
+
+### Minor Changes
+
+- c4a8901: use shadcn
+- latest createadt has higher pority
+
 ## 0.9.5
 
 ### Patch Changes

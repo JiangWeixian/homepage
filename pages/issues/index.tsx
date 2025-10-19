@@ -24,7 +24,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      issues: issues.map((issue) => {
+      issues: issues.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()).map((issue) => {
         return {
           meta: parseMeta(issue.body).data,
           issue,
